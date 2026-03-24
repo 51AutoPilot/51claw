@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cex",
+    "name": "CEX Official",
+    "nameZh": "CEX 官方",
+    "count": 5
+  },
+  {
+    "id": "news",
+    "name": "News Feed",
+    "nameZh": "信息流",
+    "count": 4
+  },
+  {
+    "id": "onchain",
+    "name": "On-chain Tools",
+    "nameZh": "鏈上工具",
+    "count": 10
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "nameZh": "數據分析",
+    "count": 3
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "nameZh": "安全",
+    "count": 3
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "nameZh": "其他",
+    "count": 2
+  }
+]
