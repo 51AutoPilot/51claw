@@ -95,7 +95,46 @@
     },
     "openClaw": {
       "heading": "What is OpenClaw?",
-      "description": "OpenClaw is an open-source collection of AI Skills — MCP tools organized into a ready-to-use arsenal. No digging through docs, no writing configs. Install and go."
+      "description": "OpenClaw is an open-source AI command-line tool for interacting with on-chain worlds using natural language. Built on Claude Code's MCP ecosystem, it turns scattered tools into a ready-to-use arsenal."
+    },
+    "targetUsers": {
+      "heading": "Who is it for?",
+      "explore": {
+        "title": "Curious Explorer",
+        "description": "New to AI x Web3 and want to see what's possible"
+      },
+      "efficiency": {
+        "title": "Efficiency Seeker",
+        "description": "Traders looking to automate on-chain operations with AI"
+      },
+      "develop": {
+        "title": "Skill Builder",
+        "description": "Developers who want to create their own Skills"
+      },
+      "business": {
+        "title": "Business Builder",
+        "description": "Teams building products with AI Agents"
+      }
+    },
+    "transforms": {
+      "heading": "The Shift We Enable",
+      "item1": { "from": "Awareness", "to": "Mastery" },
+      "item2": { "from": "Trial & Error", "to": "Precision Match" },
+      "item3": { "from": "Single Tool", "to": "Ecosystem" }
+    },
+    "projects": {
+      "heading": "Brand Projects",
+      "hunterAssociation": {
+        "title": "Hunter Association",
+        "description": "Crypto trading community with VIP tier system and strong brand identity. Pixel dragons and flame-red-orange hunter culture."
+      },
+      "dexless": {
+        "title": "Dexless",
+        "description": "AI-driven Perp DEX with a scoring system based on trading behavior quality. It's not just about volume — it's about how you trade."
+      }
+    },
+    "contributors": {
+      "heading": "Core Contributors"
     },
     "community": {
       "heading": "Join the Community",
@@ -108,14 +147,41 @@
     "title": "Blog",
     "subtitle": "AI Skills Field Notes — skip the theory, here's how to actually use them",
     "tags": {
+      "all": "All",
       "tutorial": "Tutorial",
       "review": "Review",
       "update": "Update",
-      "tips": "Tips"
-    }
+      "tips": "Tips",
+      "deepDive": "Deep Dive"
+    },
+    "readTime": "min read",
+    "noResults": "No articles match your criteria",
+    "backToList": "Back to articles"
   },
   "bundles": {
     "title": "Bundles",
-    "subtitle": "Curated Skills packages for specific use cases — skip the guesswork"
+    "subtitle": "Curated Skills packages for specific use cases — skip the guesswork",
+    "bestFor": "Best for",
+    "includes": "Included Skills",
+    "highlight": "Highlight",
+    "viewSkills": "View These Skills",
+    "starter": {
+      "title": "Starter Pack",
+      "description": "New to AI Skills? Start here. Essential tools plus security coverage to get you going safely.",
+      "bestFor": "Users new to AI Skills",
+      "highlight": "Essential tools + security coverage"
+    },
+    "analytics": {
+      "title": "On-chain Analytics",
+      "description": "Data-driven decisions. The must-have toolkit for on-chain researchers and Alpha Hunters.",
+      "bestFor": "On-chain researchers, Alpha Hunters",
+      "highlight": "Data-driven decisions"
+    },
+    "security": {
+      "title": "Security Suite",
+      "description": "Full-spectrum security. Contract auditing, risk detection, and Skills safety checks all in one.",
+      "bestFor": "Security-conscious traders",
+      "highlight": "Full-spectrum security"
+    }
   }
 }

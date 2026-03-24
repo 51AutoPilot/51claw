@@ -95,7 +95,46 @@
     },
     "openClaw": {
       "heading": "什麼是 OpenClaw？",
-      "description": "OpenClaw 是開源的 AI Skills 集合，把散落各處的 MCP 工具整理成可直接使用的武器庫。不用自己爬文件、不用自己寫設定，裝了就能用。"
+      "description": "OpenClaw 是開源的 AI 命令列工具，用自然語言與鏈上世界對話。基於 Claude Code 的 MCP 生態，把散落各處的工具整理成可直接使用的武器庫。"
+    },
+    "targetUsers": {
+      "heading": "誰適合用？",
+      "explore": {
+        "title": "興趣探索",
+        "description": "想了解 AI x Web3 能做什麼的新手"
+      },
+      "efficiency": {
+        "title": "效率提升",
+        "description": "想用 AI 自動化鏈上操作的交易者"
+      },
+      "develop": {
+        "title": "技術開發",
+        "description": "想開發 Skills 的開發者"
+      },
+      "business": {
+        "title": "商業落地",
+        "description": "想用 AI Agent 做產品的團隊"
+      }
+    },
+    "transforms": {
+      "heading": "我們帶來的改變",
+      "item1": { "from": "了解", "to": "掌握" },
+      "item2": { "from": "盲目試錯", "to": "精準匹配" },
+      "item3": { "from": "單一工具", "to": "生態構建" }
+    },
+    "projects": {
+      "heading": "品牌專案",
+      "hunterAssociation": {
+        "title": "Hunter Association",
+        "description": "加密貨幣交易社群，VIP 分級制度，強烈品牌識別。用像素龍和火焰紅橘打造獵人文化。"
+      },
+      "dexless": {
+        "title": "Dexless",
+        "description": "AI 驅動的 Perp DEX，積分系統根據交易行為品質計分。不只算量，更看你怎麼交易。"
+      }
+    },
+    "contributors": {
+      "heading": "核心貢獻者"
     },
     "community": {
       "heading": "加入社群",
@@ -108,14 +147,41 @@
     "title": "Blog",
     "subtitle": "AI Skills 實戰筆記 — 不講理論，只講怎麼用",
     "tags": {
+      "all": "全部",
       "tutorial": "教學",
       "review": "評測",
       "update": "更新",
-      "tips": "技巧"
-    }
+      "tips": "技巧",
+      "deepDive": "深度解析"
+    },
+    "readTime": "分鐘閱讀",
+    "noResults": "沒有符合條件的文章",
+    "backToList": "返回文章列表"
   },
   "bundles": {
     "title": "推薦組合",
-    "subtitle": "依場景精選的 Skills 套餐，省去你自己挑選的時間"
+    "subtitle": "依場景精選的 Skills 套餐，省去你自己挑選的時間",
+    "bestFor": "適合",
+    "includes": "包含 Skills",
+    "highlight": "特色",
+    "viewSkills": "查看這些 Skills",
+    "starter": {
+      "title": "新手入門包",
+      "description": "剛接觸 AI Skills？從這裡開始。基礎工具加安全防護，穩穩起步。",
+      "bestFor": "剛接觸 AI Skills 的用戶",
+      "highlight": "基礎工具 + 安全防護"
+    },
+    "analytics": {
+      "title": "鏈上分析包",
+      "description": "數據驅動決策。鏈上研究員和 Alpha Hunter 的必備工具組。",
+      "bestFor": "鏈上研究員、Alpha Hunter",
+      "highlight": "數據驅動決策"
+    },
+    "security": {
+      "title": "安全防護包",
+      "description": "全方位安全防護。合約審計、風險偵測、Skills 安全性檢查一次搞定。",
+      "bestFor": "注重安全的交易者",
+      "highlight": "全方位安全防護"
+    }
   }
 }

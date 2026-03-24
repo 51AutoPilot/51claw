@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "what-are-ai-skills",
+    "title": {
+      "zh": "什麼是 AI Skills？5 分鐘搞懂 Claude MCP",
+      "en": "What Are AI Skills? Understand Claude MCP in 5 Minutes"
+    },
+    "excerpt": {
+      "zh": "MCP 不是又一個 buzzword。它讓 Claude 從「只會聊天」變成「能動手做事」的 AI。這篇用白話解釋 MCP 是什麼、Skills 怎麼用、為什麼你該在意。",
+      "en": "MCP isn't just another buzzword. It transforms Claude from a chatbot into an AI that can actually do things. This post explains MCP in plain language — what it is, how Skills work, and why you should care."
+    },
+    "content": {
+      "zh": "（完整文章內容即將更新）",
+      "en": "(Full article content coming soon)"
+    },
+    "date": "2025-12-15",
+    "author": "51",
+    "tags": ["tutorial", "deepDive"],
+    "readTime": 5,
+    "coverImage": ""
+  },
+  {
+    "slug": "top-3-onchain-analysis-skills",
+    "title": {
+      "zh": "51Claw 精選：鏈上分析必備 3 個 Skills",
+      "en": "51Claw Picks: 3 Must-Have On-Chain Analysis Skills"
+    },
+    "excerpt": {
+      "zh": "Dune、Nansen、CoinAnk — 三個工具各有什麼強項？實測比較，告訴你什麼場景該用哪個。附上我的日常使用組合。",
+      "en": "Dune, Nansen, CoinAnk — what's each one best at? Real-world comparison with use-case recommendations. Plus my daily combo setup."
+    },
+    "content": {
+      "zh": "（完整文章內容即將更新）",
+      "en": "(Full article content coming soon)"
+    },
+    "date": "2025-12-20",
+    "author": "51",
+    "tags": ["review", "tips"],
+    "readTime": 8,
+    "coverImage": ""
+  },
+  {
+    "slug": "install-first-ai-skill",
+    "title": {
+      "zh": "從零開始：安裝你的第一個 AI Skill",
+      "en": "From Zero: Install Your First AI Skill"
+    },
+    "excerpt": {
+      "zh": "完全不懂技術也沒關係。這篇手把手帶你從安裝 Claude Code 到跑起第一個 Skill，每一步都有截圖。卡住的話，文末有 FAQ。",
+      "en": "No technical background? No problem. This step-by-step guide walks you through installing Claude Code and running your first Skill, with screenshots for every step. FAQ at the bottom if you get stuck."
+    },
+    "content": {
+      "zh": "（完整文章內容即將更新）",
+      "en": "(Full article content coming soon)"
+    },
+    "date": "2025-12-25",
+    "author": "51",
+    "tags": ["tutorial"],
+    "readTime": 6,
+    "coverImage": ""
+  }
+]

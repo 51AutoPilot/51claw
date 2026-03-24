@@ -1,0 +1,17 @@
+[
+  {
+    "id": "starter",
+    "icon": "🚀",
+    "skillIds": ["coinbase", "coinmarketcap", "phantom-connect", "goplus-agentguard"]
+  },
+  {
+    "id": "analytics",
+    "icon": "📊",
+    "skillIds": ["dune", "nansen", "coinank-api", "almanak", "bnb-chain-mcp"]
+  },
+  {
+    "id": "security",
+    "icon": "🛡️",
+    "skillIds": ["goplus-agentguard", "slowmist", "skill-vetter", "bitget-wallet"]
+  }
+]
