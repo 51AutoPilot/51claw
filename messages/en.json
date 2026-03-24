@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "51Claw — AI Skills Hub",
+    "description": "AI Skills / MCP / Claude practical guides and navigation"
+  },
   "nav": {
     "home": "Home",
     "install": "Install",
