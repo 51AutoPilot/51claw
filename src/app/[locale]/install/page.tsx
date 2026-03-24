@@ -8,59 +8,172 @@ import Accordion from "@/components/ui/Accordion";
 import installGuide from "@/data/install-guide.json";
 
 type Platform = "macos" | "windows" | "linux";
+type LangKey = "zh" | "en";
 
-function StepTimeline({ platform }: { platform: Platform }) {
+function useL() {
   const locale = useLocale();
-  const steps = installGuide.platforms[platform].steps;
+  return (locale === "zh-TW" ? "zh" : "en") as LangKey;
+}
+
+/* ─── Install Methods Sub-tabs ─── */
+function InstallMethods({
+  methods,
+  lang,
+}: {
+  methods: Record<string, { label: Record<LangKey, string>; code: string }>;
+  lang: LangKey;
+}) {
+  const keys = Object.keys(methods);
+  const [active, setActive] = useState(keys[0]);
 
   return (
-    <div className="relative ml-4 space-y-8 border-l border-card-border pl-8">
-      {steps.map((step, i) => (
-        <div key={i} className="relative">
-          {/* 步驟圓圈 */}
-          <div className="absolute -left-[calc(2rem+12px)] flex h-6 w-6 items-center justify-center rounded-full bg-primary/20 text-xs font-bold text-primary-light ring-4 ring-background">
-            {i + 1}
-          </div>
+    <div className="mt-3 space-y-3">
+      <div className="flex gap-2">
+        {keys.map((key) => (
+          <button
+            key={key}
+            onClick={() => setActive(key)}
+            className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-all duration-200 ${
+              active === key
+                ? "bg-primary/20 text-primary-light"
+                : "bg-white/5 text-text-muted hover:text-foreground"
+            }`}
+          >
+            {methods[key].label[lang]}
+          </button>
+        ))}
+      </div>
+      <CodeBlock code={methods[active].code} language="bash" />
+    </div>
+  );
+}
 
-          <h3 className="font-heading text-lg font-semibold text-foreground">
-            {locale === "zh-TW" ? step.titleZh : step.titleEn}
-          </h3>
-          <p className="mt-1 text-sm leading-relaxed text-text-muted">
-            {locale === "zh-TW" ? step.descZh : step.descEn}
-          </p>
-
-          <div className="mt-3">
-            <CodeBlock code={step.code} language="bash" />
-          </div>
-
-          {((locale === "zh-TW" && step.noteZh) ||
-            (locale !== "zh-TW" && step.noteEn)) && (
-            <p className="mt-2 text-xs text-secondary">
-              💡 {locale === "zh-TW" ? step.noteZh : step.noteEn}
-            </p>
-          )}
+/* ─── AI Providers ─── */
+function AIProviders({
+  providers,
+}: {
+  providers: Array<{ name: string; envVar: string; url: string }>;
+}) {
+  return (
+    <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
+      {providers.map((p) => (
+        <div
+          key={p.envVar}
+          className="rounded-lg bg-white/5 px-3 py-2 text-xs"
+        >
+          <span className="font-medium text-foreground">{p.name}</span>
+          <br />
+          <code className="font-mono text-primary-light">{p.envVar}</code>
+          <br />
+          <span className="text-text-muted">{p.url}</span>
         </div>
       ))}
     </div>
   );
 }
 
+/* ─── Step Timeline ─── */
+function StepTimeline({ platform }: { platform: Platform }) {
+  const lang = useL();
+  const steps = installGuide.platforms[platform].steps;
+
+  return (
+    <div className="relative ml-4 space-y-8 border-l border-card-border pl-8">
+      {steps.map((step, i) => {
+        const hasInstallMethods = "installMethods" in step && step.installMethods;
+        const hasAIProviders = "aiProviders" in step && step.aiProviders;
+        const noteText =
+          step.note && typeof step.note === "object"
+            ? (step.note as Record<LangKey, string>)[lang]
+            : null;
+
+        return (
+          <div key={i} className="relative">
+            {/* 步驟圓圈 */}
+            <div className="absolute -left-[calc(2rem+12px)] flex h-6 w-6 items-center justify-center rounded-full bg-primary/20 text-xs font-bold text-primary-light ring-4 ring-background">
+              {step.stepNumber}
+            </div>
+
+            <h3 className="font-heading text-lg font-semibold text-foreground">
+              {step.title[lang]}
+            </h3>
+            <p className="mt-1 text-sm leading-relaxed text-text-muted">
+              {step.description[lang]}
+            </p>
+
+            {/* AI Providers（步驟 3 特殊） */}
+            {hasAIProviders && (
+              <AIProviders
+                providers={
+                  step.aiProviders as Array<{
+                    name: string;
+                    envVar: string;
+                    url: string;
+                  }>
+                }
+              />
+            )}
+
+            {/* Install Methods（步驟 2 特殊） */}
+            {hasInstallMethods ? (
+              <InstallMethods
+                methods={
+                  step.installMethods as Record<
+                    string,
+                    { label: Record<LangKey, string>; code: string }
+                  >
+                }
+                lang={lang}
+              />
+            ) : (
+              step.code && (
+                <div className="mt-3">
+                  <CodeBlock code={step.code} language="bash" />
+                </div>
+              )
+            )}
+
+            {noteText && (
+              <p className="mt-2 text-xs text-secondary">💡 {noteText}</p>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+/* ─── Page ─── */
 export default function InstallPage() {
   const t = useTranslations("install");
-  const locale = useLocale();
+  const lang = useL();
   const [activePlatform, setActivePlatform] = useState<string>("macos");
 
   const platformTabs = [
-    { key: "macos", label: "macOS", content: <StepTimeline platform="macos" /> },
-    { key: "windows", label: "Windows", content: <StepTimeline platform="windows" /> },
-    { key: "linux", label: "Linux", content: <StepTimeline platform="linux" /> },
+    {
+      key: "macos",
+      label: "macOS",
+      content: <StepTimeline platform="macos" />,
+    },
+    {
+      key: "windows",
+      label: "Windows",
+      content: <StepTimeline platform="windows" />,
+    },
+    {
+      key: "linux",
+      label: "Linux",
+      content: <StepTimeline platform="linux" />,
+    },
   ];
 
   const faqItems = installGuide.faq.map((item, i) => ({
     key: `faq-${i}`,
-    title: locale === "zh-TW" ? item.qZh : item.qEn,
-    content: locale === "zh-TW" ? item.aZh : item.aEn,
+    title: item.question[lang],
+    content: item.answer[lang],
   }));
+
+  const sysReq = installGuide.systemRequirements;
 
   return (
     <div className="px-4 py-20">
@@ -78,16 +191,15 @@ export default function InstallPage() {
         {/* System Requirements */}
         <div className="mt-12 rounded-xl border border-card-border bg-card-bg p-6">
           <h2 className="font-heading text-lg font-semibold text-foreground">
-            {t("systemReq.title")}
+            {sysReq.title[lang]}
           </h2>
-          <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
-            {["nodeVersion", "claudeDesktop", "os"].map((key) => (
+          <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {sysReq.items.map((item, i) => (
               <div
-                key={key}
+                key={i}
                 className="rounded-lg bg-white/5 px-4 py-3 text-sm text-text-muted"
               >
-                <span className="text-primary-light">●</span>{" "}
-                {t(`systemReq.${key}`)}
+                <span className="text-primary-light">●</span> {item[lang]}
               </div>
             ))}
           </div>
