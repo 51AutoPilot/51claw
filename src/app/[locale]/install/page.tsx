@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import Tabs from "@/components/ui/Tabs";
 import CodeBlock from "@/components/ui/CodeBlock";
 import Accordion from "@/components/ui/Accordion";
+import Breadcrumb from "@/components/ui/Breadcrumb";
 import installGuide from "@/data/install-guide.json";
 
 type Platform = "macos" | "windows" | "linux";
@@ -178,6 +179,7 @@ export default function InstallPage() {
   return (
     <div className="px-4 py-20">
       <div className="mx-auto max-w-3xl">
+        <Breadcrumb currentPage={t("title")} />
         {/* Header */}
         <div className="text-center">
           <h1 className="text-gradient-purple font-heading text-4xl font-bold sm:text-5xl">

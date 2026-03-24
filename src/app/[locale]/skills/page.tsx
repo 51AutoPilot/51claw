@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
+import Breadcrumb from "@/components/ui/Breadcrumb";
 import skills from "@/data/skills.json";
 import categories from "@/data/categories.json";
 
@@ -67,6 +68,7 @@ export default function SkillsPage() {
   return (
     <div className="px-4 py-20">
       <div className="mx-auto max-w-7xl">
+        <Breadcrumb currentPage={t("title")} />
         {/* Header */}
         <div className="text-center">
           <h1 className="text-gradient-purple font-heading text-4xl font-bold sm:text-5xl">
