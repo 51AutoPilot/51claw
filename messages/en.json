@@ -1,7 +1,27 @@
 {
   "metadata": {
     "title": "51Claw — AI Skills Hub",
-    "description": "AI Skills / MCP / Claude practical guides and navigation"
+    "description": "AI Skills / MCP / Claude practical guides and navigation",
+    "skills": {
+      "title": "Skills Directory | 51Claw",
+      "description": "Explore 27 curated AI Skills — CEX tools, on-chain ops, analytics, and security"
+    },
+    "install": {
+      "title": "Installation Guide | 51Claw",
+      "description": "Set up your AI Skills environment in 3 steps — macOS, Windows, Linux"
+    },
+    "about": {
+      "title": "About 51Claw | AI Skills Hub",
+      "description": "51 (0x515151)'s AI Skills Hub — Founder of Hunter Association, co-founder of Dexless"
+    },
+    "blog": {
+      "title": "Blog | 51Claw",
+      "description": "AI Skills field notes — skip the theory, here's how to actually use them"
+    },
+    "bundles": {
+      "title": "Bundles | 51Claw",
+      "description": "Curated Skills packages — Starter Pack, Analytics Suite, Security Suite"
+    }
   },
   "nav": {
     "home": "Home",

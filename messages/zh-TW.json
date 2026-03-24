@@ -1,7 +1,27 @@
 {
   "metadata": {
     "title": "51Claw — AI Skills Hub",
-    "description": "AI Skills / MCP / Claude 實戰指南與導航站"
+    "description": "AI Skills / MCP / Claude 實戰指南與導航站",
+    "skills": {
+      "title": "Skills 目錄 | 51Claw",
+      "description": "探索 27 個精選 AI Skills — CEX 工具、鏈上操作、數據分析、安全審計"
+    },
+    "install": {
+      "title": "安裝指南 | 51Claw",
+      "description": "三步搞定 AI Skills 環境 — 支援 macOS、Windows、Linux"
+    },
+    "about": {
+      "title": "關於 51Claw | AI Skills Hub",
+      "description": "51（0x515151）的個人品牌 AI Skills Hub — Hunter Association 創辦人、Dexless 共同創辦人"
+    },
+    "blog": {
+      "title": "Blog | 51Claw",
+      "description": "AI Skills 實戰筆記 — 不講理論，只講怎麼用"
+    },
+    "bundles": {
+      "title": "推薦組合 | 51Claw",
+      "description": "依場景精選的 Skills 套餐 — 新手包、分析包、安全套餐"
+    }
   },
   "nav": {
     "home": "首頁",

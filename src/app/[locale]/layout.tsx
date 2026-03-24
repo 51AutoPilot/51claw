@@ -6,6 +6,7 @@ import { Space_Grotesk, Noto_Sans_TC, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
+import JsonLd from "@/components/JsonLd";
 import "../globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -35,9 +36,30 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
 
+  const url = `https://51claw.xyz/${locale}`;
+
   return {
     title: t("title"),
     description: t("description"),
+    metadataBase: new URL("https://51claw.xyz"),
+    alternates: {
+      canonical: url,
+      languages: { "zh-TW": "https://51claw.xyz/zh-TW", en: "https://51claw.xyz/en" },
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url,
+      siteName: "51Claw",
+      type: "website",
+      locale: locale === "zh-TW" ? "zh_TW" : "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      creator: "@0x515151",
+    },
   };
 }
 
@@ -62,6 +84,21 @@ export default async function LocaleLayout({
       className={`h-full antialiased ${spaceGrotesk.variable} ${notoSansTC.variable} ${jetbrainsMono.variable}`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground bg-grid">
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "51Claw",
+            url: "https://51claw.xyz",
+            description: "AI Skills Hub — MCP / Claude practical guides",
+            inLanguage: [locale === "zh-TW" ? "zh-TW" : "en"],
+            potentialAction: {
+              "@type": "SearchAction",
+              target: `https://51claw.xyz/${locale}/skills?q={search_term_string}`,
+              "query-input": "required name=search_term_string",
+            },
+          }}
+        />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Nav />
           <main className="flex-1 pt-16 animate-page-enter">{children}</main>
