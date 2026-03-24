@@ -1,29 +1,489 @@
 [
-  {"id":"bitget-wallet","name":"Bitget Wallet","nameZh":"Bitget Wallet","description":"Multi-chain wallet with built-in swap and DApp browser","descriptionZh":"多鏈錢包，內建 Swap 與 DApp 瀏覽器","category":"cex","tags":["wallet","multi-chain","swap"],"icon":"🔐","url":"","isFree":true},
-  {"id":"coinbase","name":"Coinbase","nameZh":"Coinbase","description":"Access Coinbase exchange data and trading features via AI","descriptionZh":"透過 AI 存取 Coinbase 交易所數據與交易功能","category":"cex","tags":["exchange","trading","api"],"icon":"💰","url":"","isFree":true},
-  {"id":"binance","name":"Binance","nameZh":"Binance","description":"Binance exchange integration for market data and trading","descriptionZh":"Binance 交易所整合，市場數據與交易功能","category":"cex","tags":["exchange","trading","market-data"],"icon":"🟡","url":"","isFree":true},
-  {"id":"htx","name":"HTX","nameZh":"HTX","description":"HTX (Huobi) exchange tools for AI-powered trading","descriptionZh":"HTX（火幣）交易所 AI 交易工具","category":"cex","tags":["exchange","trading"],"icon":"🔵","url":"","isFree":true},
-  {"id":"okx","name":"OKX","nameZh":"OKX","description":"OKX exchange integration for comprehensive crypto trading","descriptionZh":"OKX 交易所整合，全面加密貨幣交易","category":"cex","tags":["exchange","trading","defi"],"icon":"⚫","url":"","isFree":true},
-  {"id":"blockbeats","name":"BlockBeats","nameZh":"律動 BlockBeats","description":"Real-time crypto news feed from BlockBeats","descriptionZh":"律動即時加密貨幣新聞推送","category":"news","tags":["news","chinese","real-time"],"icon":"📰","url":"","isFree":true},
-  {"id":"6551-news","name":"6551 News","nameZh":"6551 新聞源","description":"Curated crypto news aggregation from 6551","descriptionZh":"6551 精選加密貨幣新聞聚合","category":"news","tags":["news","aggregator"],"icon":"📋","url":"","isFree":true},
-  {"id":"coinmarketcap","name":"CoinMarketCap","nameZh":"CoinMarketCap","description":"Market data, rankings, and price tracking via CMC","descriptionZh":"透過 CMC 獲取市場數據、排名與價格追蹤","category":"news","tags":["market-data","prices","rankings"],"icon":"📈","url":"","isFree":true},
-  {"id":"xclaw","name":"XClaw","nameZh":"XClaw","description":"X (Twitter) crypto sentiment and alpha signal tracking","descriptionZh":"X (Twitter) 加密貨幣輿情與 Alpha 信號追蹤","category":"news","tags":["social","sentiment","alpha"],"icon":"🐦","url":"","isFree":true},
-  {"id":"almanak","name":"Almanak","nameZh":"Almanak","description":"DeFi strategy simulation and portfolio optimization","descriptionZh":"DeFi 策略模擬與投資組合優化","category":"onchain","tags":["defi","simulation","portfolio"],"icon":"🧮","url":"","isFree":true},
-  {"id":"bankr","name":"Bankr","nameZh":"Bankr","description":"On-chain banking and DeFi yield aggregation","descriptionZh":"鏈上銀行與 DeFi 收益聚合","category":"onchain","tags":["defi","yield","banking"],"icon":"🏛️","url":"","isFree":true},
-  {"id":"bnb-chain-mcp","name":"BNB Chain MCP","nameZh":"BNB Chain MCP","description":"MCP integration for BNB Chain ecosystem operations","descriptionZh":"BNB Chain 生態系 MCP 整合操作","category":"onchain","tags":["bnb","mcp","ecosystem"],"icon":"🟨","url":"","isFree":true},
-  {"id":"bnb-chain","name":"BNB Chain","nameZh":"BNB Chain","description":"Direct BNB Chain interaction for transactions and queries","descriptionZh":"直接與 BNB Chain 互動，執行交易與查詢","category":"onchain","tags":["bnb","transactions","queries"],"icon":"⛓️","url":"","isFree":true},
-  {"id":"byreal-cli","name":"Byreal CLI","nameZh":"Byreal CLI","description":"Command-line tool for on-chain operations and automation","descriptionZh":"鏈上操作與自動化命令列工具","category":"onchain","tags":["cli","automation"],"icon":"💻","url":"","isFree":true},
-  {"id":"four-meme","name":"Four Meme","nameZh":"Four Meme","description":"Meme token launch and management on BNB Chain","descriptionZh":"BNB Chain 上的 Meme 代幣發射與管理","category":"onchain","tags":["meme","token-launch","bnb"],"icon":"🐸","url":"","isFree":true},
-  {"id":"lista-dao","name":"Lista DAO","nameZh":"Lista DAO","description":"Liquid staking and stablecoin protocol on BNB Chain","descriptionZh":"BNB Chain 上的流動性質押與穩定幣協議","category":"onchain","tags":["staking","stablecoin","dao"],"icon":"🏗️","url":"","isFree":true},
-  {"id":"minara-ai-v2","name":"Minara AI v2","nameZh":"Minara AI v2","description":"AI-powered on-chain analysis and trading assistant","descriptionZh":"AI 驅動的鏈上分析與交易助手","category":"onchain","tags":["ai","analysis","trading"],"icon":"🤖","url":"","isFree":true},
-  {"id":"phantom-connect","name":"Phantom Connect","nameZh":"Phantom Connect","description":"Phantom wallet integration for Solana and multi-chain","descriptionZh":"Phantom 錢包整合，支援 Solana 與多鏈","category":"onchain","tags":["wallet","solana","multi-chain"],"icon":"👻","url":"","isFree":true},
-  {"id":"uniswap-ai","name":"Uniswap AI","nameZh":"Uniswap AI","description":"AI-assisted token swaps and liquidity management on Uniswap","descriptionZh":"AI 輔助的 Uniswap 代幣交換與流動性管理","category":"onchain","tags":["dex","swap","liquidity"],"icon":"🦄","url":"","isFree":true},
-  {"id":"coinank-api","name":"CoinAnk API","nameZh":"CoinAnk API","description":"Comprehensive crypto data API for derivatives and spot markets","descriptionZh":"全面的加密貨幣數據 API，涵蓋衍生品與現貨市場","category":"analytics","tags":["api","derivatives","market-data"],"icon":"📊","url":"","isFree":true},
-  {"id":"dune","name":"Dune","nameZh":"Dune","description":"Query and visualize on-chain data with Dune Analytics","descriptionZh":"使用 Dune Analytics 查詢與視覺化鏈上數據","category":"analytics","tags":["analytics","sql","dashboards"],"icon":"🔍","url":"","isFree":true},
-  {"id":"nansen","name":"Nansen","nameZh":"Nansen","description":"Smart money tracking and on-chain analytics","descriptionZh":"聰明錢追蹤與鏈上數據分析","category":"analytics","tags":["smart-money","analytics","tracking"],"icon":"🎯","url":"","isFree":true},
-  {"id":"goplus-agentguard","name":"GoPlus AgentGuard","nameZh":"GoPlus AgentGuard","description":"AI agent security guard — detect malicious tokens and contracts","descriptionZh":"AI Agent 安全守衛 — 偵測惡意代幣與合約","category":"security","tags":["security","detection","audit"],"icon":"🛡️","url":"","isFree":true},
-  {"id":"slowmist","name":"SlowMist","nameZh":"SlowMist 慢霧","description":"Blockchain security audit and threat intelligence","descriptionZh":"區塊鏈安全審計與威脅情報","category":"security","tags":["security","audit","intelligence"],"icon":"🔒","url":"","isFree":true},
-  {"id":"skill-vetter","name":"Skill Vetter","nameZh":"Skill Vetter","description":"Verify and audit MCP Skills before installation","descriptionZh":"安裝前驗證與審計 MCP Skills","category":"security","tags":["verification","audit","mcp"],"icon":"✅","url":"","isFree":true},
-  {"id":"day1global","name":"Day1Global","nameZh":"Day1Global","description":"Web3 project discovery and early-stage opportunity finder","descriptionZh":"Web3 專案探索與早期機會發現","category":"other","tags":["discovery","web3","early-stage"],"icon":"🌐","url":"","isFree":true},
-  {"id":"x-research","name":"X Research","nameZh":"X Research","description":"Deep research and analysis tool powered by X data","descriptionZh":"基於 X 數據的深度研究與分析工具","category":"other","tags":["research","social","analysis"],"icon":"🔬","url":"","isFree":true}
+  {
+    "id": "bitget-wallet",
+    "name": "Bitget Wallet",
+    "nameZh": "Bitget Wallet",
+    "description": "Multi-chain asset queries, whale monitoring, and K-line technical analysis.",
+    "descriptionZh": "多鏈資產查詢、巨鯨監測、K 線技術分析。",
+    "category": "cex",
+    "tags": [
+      "trading",
+      "data"
+    ],
+    "tagsZh": [
+      "交易",
+      "數據"
+    ],
+    "icon": "💼",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase Agentic Wallets",
+    "nameZh": "Coinbase Agentic Wallets",
+    "description": "Autonomous agent wallet infrastructure for DeFi operations.",
+    "descriptionZh": "自主代理錢包基礎設施。",
+    "category": "cex",
+    "tags": [
+      "defi",
+      "wallet"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "錢包"
+    ],
+    "icon": "🪙",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "binance",
+    "name": "Binance Skills Hub",
+    "nameZh": "Binance Skills Hub",
+    "description": "7 Skills in one: spot market data, meme discovery, contract auditing, and more.",
+    "descriptionZh": "7 個 Skill 合一：現貨行情、Meme 發現、合約審計等。",
+    "category": "cex",
+    "tags": [
+      "trading",
+      "security"
+    ],
+    "tagsZh": [
+      "交易",
+      "安全"
+    ],
+    "icon": "🔶",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "htx",
+    "name": "HTX Skills Hub",
+    "nameZh": "HTX Skills Hub",
+    "description": "HTX market queries, trade execution, and account management.",
+    "descriptionZh": "火幣行情查詢、交易執行、帳戶管理。",
+    "category": "cex",
+    "tags": [
+      "trading"
+    ],
+    "tagsZh": [
+      "交易"
+    ],
+    "icon": "🔥",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "okx",
+    "name": "OKX OnchainOS",
+    "nameZh": "OKX OnchainOS",
+    "description": "Multi-chain asset management, DEX trading, and cross-chain bridge.",
+    "descriptionZh": "多鏈資產管理、DEX 交易、跨鏈橋。",
+    "category": "cex",
+    "tags": [
+      "defi",
+      "trading"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "交易"
+    ],
+    "icon": "⚡",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "blockbeats",
+    "name": "BlockBeats",
+    "nameZh": "律動 BlockBeats",
+    "description": "In-depth research reports + real-time news from 1500+ sources.",
+    "descriptionZh": "深度研報 + 1500+ 信源即時新聞。",
+    "category": "news",
+    "tags": [
+      "reading",
+      "info"
+    ],
+    "tagsZh": [
+      "閱讀",
+      "資訊"
+    ],
+    "icon": "📰",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "6551-news",
+    "name": "6551 News Feed",
+    "nameZh": "6551 新聞源",
+    "description": "X data + 50+ real-time news sources + Telegram alerts.",
+    "descriptionZh": "X 數據 + 50+ 實時新聞源 + Telegram 提醒。",
+    "category": "news",
+    "tags": [
+      "reading",
+      "info"
+    ],
+    "tagsZh": [
+      "閱讀",
+      "資訊"
+    ],
+    "icon": "📡",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "coinmarketcap",
+    "name": "CoinMarketCap",
+    "nameZh": "CoinMarketCap",
+    "description": "Token prices, market cap rankings, and trading volume queries.",
+    "descriptionZh": "代幣價格、市值排名、交易量查詢。",
+    "category": "news",
+    "tags": [
+      "data"
+    ],
+    "tagsZh": [
+      "數據"
+    ],
+    "icon": "📊",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "xclaw",
+    "name": "XClaw",
+    "nameZh": "XClaw",
+    "description": "X platform intelligence gathering — saves 95%+ token consumption.",
+    "descriptionZh": "X 平台情報收集，節省 95%+ Token 消耗。",
+    "category": "news",
+    "tags": [
+      "info"
+    ],
+    "tagsZh": [
+      "資訊"
+    ],
+    "icon": "🐦",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "almanak",
+    "name": "Almanak",
+    "nameZh": "Almanak",
+    "description": "DeFi strategy automation with intelligent fund allocation.",
+    "descriptionZh": "DeFi 策略自動化，智能資金配置。",
+    "category": "onchain",
+    "tags": [
+      "defi"
+    ],
+    "tagsZh": [
+      "DeFi"
+    ],
+    "icon": "🧪",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "bankr",
+    "name": "Bankr",
+    "nameZh": "Bankr",
+    "description": "ENS domain management and wallet operations.",
+    "descriptionZh": "ENS 域名管理、錢包操作。",
+    "category": "onchain",
+    "tags": [
+      "tools"
+    ],
+    "tagsZh": [
+      "工具"
+    ],
+    "icon": "🏦",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "bnb-chain-mcp",
+    "name": "BNB Chain MCP",
+    "nameZh": "BNB Chain MCP",
+    "description": "Native MCP integration for BNB Chain ecosystem.",
+    "descriptionZh": "BNB Chain 原生 MCP 整合。",
+    "category": "onchain",
+    "tags": [
+      "tools",
+      "defi"
+    ],
+    "tagsZh": [
+      "工具",
+      "DeFi"
+    ],
+    "icon": "⛓️",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "bnb-chain",
+    "name": "BNB Chain",
+    "nameZh": "BNB Chain",
+    "description": "BNB Chain ecosystem resources and toolset.",
+    "descriptionZh": "BNB Chain 生態資源和工具集。",
+    "category": "onchain",
+    "tags": [
+      "tools"
+    ],
+    "tagsZh": [
+      "工具"
+    ],
+    "icon": "🔗",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "byreal-cli",
+    "name": "Byreal CLI",
+    "nameZh": "Byreal CLI",
+    "description": "Command-line DeFi operations tool.",
+    "descriptionZh": "命令列 DeFi 操作工具。",
+    "category": "onchain",
+    "tags": [
+      "defi",
+      "tools"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "工具"
+    ],
+    "icon": "⌨️",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "four-meme",
+    "name": "Four Meme",
+    "nameZh": "Four Meme",
+    "description": "BNB Chain meme token discovery and analysis.",
+    "descriptionZh": "BNB Chain Meme 代幣發現與分析。",
+    "category": "onchain",
+    "tags": [
+      "meme"
+    ],
+    "tagsZh": [
+      "Meme"
+    ],
+    "icon": "🐸",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "lista-dao",
+    "name": "Lista DAO",
+    "nameZh": "Lista DAO",
+    "description": "BNB Chain staking and liquidity protocol.",
+    "descriptionZh": "BNB Chain 質押與流動性協議。",
+    "category": "onchain",
+    "tags": [
+      "defi"
+    ],
+    "tagsZh": [
+      "DeFi"
+    ],
+    "icon": "🏛️",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "minara-ai-v2",
+    "name": "Minara AI v2",
+    "nameZh": "Minara AI v2",
+    "description": "AI-driven CLMM (Concentrated Liquidity) strategy management.",
+    "descriptionZh": "AI 驅動的 CLMM 策略管理。",
+    "category": "onchain",
+    "tags": [
+      "defi",
+      "ai"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "AI"
+    ],
+    "icon": "🤖",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "phantom-connect",
+    "name": "Phantom Connect",
+    "nameZh": "Phantom Connect",
+    "description": "Solana wallet connection and operations.",
+    "descriptionZh": "Solana 錢包連接與操作。",
+    "category": "onchain",
+    "tags": [
+      "wallet",
+      "solana"
+    ],
+    "tagsZh": [
+      "錢包",
+      "Solana"
+    ],
+    "icon": "👻",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "uniswap-ai",
+    "name": "Uniswap AI",
+    "nameZh": "Uniswap AI",
+    "description": "Uniswap DEX intelligent trading.",
+    "descriptionZh": "Uniswap DEX 智能交易。",
+    "category": "onchain",
+    "tags": [
+      "defi",
+      "trading"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "交易"
+    ],
+    "icon": "🦄",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "coinank-api",
+    "name": "CoinAnk API",
+    "nameZh": "CoinAnk API",
+    "description": "K-line charts, ETF data, and smart money tracking.",
+    "descriptionZh": "K 線圖表、ETF 數據、聯明錢追蹤。",
+    "category": "analytics",
+    "tags": [
+      "data"
+    ],
+    "tagsZh": [
+      "數據"
+    ],
+    "icon": "📈",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "dune",
+    "name": "Dune",
+    "nameZh": "Dune",
+    "description": "On-chain SQL queries and custom dashboards.",
+    "descriptionZh": "鏈上 SQL 查詢、自訂儀表板。",
+    "category": "analytics",
+    "tags": [
+      "data",
+      "analytics"
+    ],
+    "tagsZh": [
+      "數據",
+      "分析"
+    ],
+    "icon": "🔍",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "nansen",
+    "name": "Nansen",
+    "nameZh": "Nansen",
+    "description": "Smart money address tracking and on-chain behavior analysis.",
+    "descriptionZh": "聯明錢地址追蹤、鏈上行為分析。",
+    "category": "analytics",
+    "tags": [
+      "data",
+      "analytics"
+    ],
+    "tagsZh": [
+      "數據",
+      "分析"
+    ],
+    "icon": "🧠",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "goplus-agentguard",
+    "name": "GoPlus AgentGuard",
+    "nameZh": "GoPlus AgentGuard",
+    "description": "Contract security auditing and malicious address detection.",
+    "descriptionZh": "合約安全審計、惡意地址偵測。",
+    "category": "security",
+    "tags": [
+      "security"
+    ],
+    "tagsZh": [
+      "安全"
+    ],
+    "icon": "🛡️",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "slowmist",
+    "name": "SlowMist",
+    "nameZh": "SlowMist 慢霧",
+    "description": "Poisoning risk detection and contract vulnerability scanning.",
+    "descriptionZh": "投毒風險檢測、合約漏洞掃描。",
+    "category": "security",
+    "tags": [
+      "security"
+    ],
+    "tagsZh": [
+      "安全"
+    ],
+    "icon": "🔒",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "skill-vetter",
+    "name": "Skill Vetter",
+    "nameZh": "Skill Vetter",
+    "description": "Security auditing tool for MCP Skills themselves.",
+    "descriptionZh": "Skills 本身的安全性審計工具。",
+    "category": "security",
+    "tags": [
+      "security"
+    ],
+    "tagsZh": [
+      "安全"
+    ],
+    "icon": "✅",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "day1global",
+    "name": "Day1Global",
+    "nameZh": "Day1Global",
+    "description": "US stock earnings analysis and financial data queries.",
+    "descriptionZh": "美股財報分析與數據查詢。",
+    "category": "other",
+    "tags": [
+      "data",
+      "us-stocks"
+    ],
+    "tagsZh": [
+      "數據",
+      "美股"
+    ],
+    "icon": "🌍",
+    "url": "",
+    "isFree": true
+  },
+  {
+    "id": "x-research",
+    "name": "X Research",
+    "nameZh": "X Research",
+    "description": "Twitter/X account monitoring and data analysis.",
+    "descriptionZh": "Twitter/X 帳號監控與數據分析。",
+    "category": "other",
+    "tags": [
+      "info"
+    ],
+    "tagsZh": [
+      "資訊"
+    ],
+    "icon": "🔬",
+    "url": "",
+    "isFree": true
+  }
 ]

@@ -6,20 +6,24 @@
     },
     "items": [
       {
-        "zh": "Node.js 18 以上",
-        "en": "Node.js 18+"
+        "zh": "macOS 12+ / Windows 10/11 / Linux",
+        "en": "macOS 12+ / Windows 10/11 / Linux",
+        "icon": "computer"
       },
       {
-        "zh": "npm 或 yarn 套件管理器",
-        "en": "npm or yarn package manager"
+        "zh": "Node.js v20+",
+        "en": "Node.js v20+",
+        "icon": "nodejs"
       },
       {
-        "zh": "Anthropic API Key（免費註冊取得）",
-        "en": "Anthropic API Key (free to register)"
+        "zh": "npm v9+",
+        "en": "npm v9+",
+        "icon": "npm"
       },
       {
-        "zh": "終端機 / 命令列工具",
-        "en": "Terminal / Command Line"
+        "zh": "500MB 可用磁碟空間",
+        "en": "500MB available disk space",
+        "icon": "storage"
       }
     ]
   },
@@ -34,89 +38,136 @@
             "en": "Install Node.js"
           },
           "description": {
-            "zh": "用 Homebrew 是最簡單的方式。如果你還沒有 Homebrew，先裝它再裝 Node.js。",
-            "en": "Homebrew is the easiest way. If you don't have Homebrew yet, install it first, then install Node.js."
+            "zh": "下載安裝 Node.js v20 以上版本，裝完跑一下驗證指令確認成功。",
+            "en": "Download and install Node.js v20+, then run the verify command to confirm."
           },
-          "code": "# 安裝 Homebrew（如果還沒有）\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# 安裝 Node.js\nbrew install node\n\n# 或用 nvm（推薦，可管理多版本）\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\nnvm install --lts",
+          "code": "# 用 Homebrew 安裝（推薦）\nbrew install node\n\n# 或用 nvm（可管理多版本）\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\nnvm install 20\n\n# 驗證安裝\nnode -v\nnpm -v",
           "note": {
-            "zh": "建議用 nvm，之後切換 Node 版本比較方便。",
-            "en": "We recommend nvm for easy Node.js version management."
+            "zh": "需要 Node.js v20 以上，建議用 nvm 管理版本。",
+            "en": "Requires Node.js v20+. We recommend nvm for version management."
           }
         },
         {
           "stepNumber": 2,
           "title": {
-            "zh": "安裝 Claude Code CLI",
-            "en": "Install Claude Code CLI"
+            "zh": "安裝 OpenClaw",
+            "en": "Install OpenClaw"
           },
           "description": {
-            "zh": "一行指令搞定。這會把 Claude Code 裝成全域指令。",
-            "en": "One command does it. This installs Claude Code as a global CLI tool."
+            "zh": "三種安裝方式任選一種。新手建議用一鍵安裝。",
+            "en": "Choose one of three installation methods. One-click install is recommended for beginners."
           },
-          "code": "npm install -g @anthropic-ai/claude-code",
+          "installMethods": {
+            "oneClick": {
+              "label": {
+                "zh": "一鍵安裝",
+                "en": "One-Click"
+              },
+              "code": "curl -fsSL https://raw.githubusercontent.com/anthropics/claude-code/main/install.sh | bash"
+            },
+            "npm": {
+              "label": {
+                "zh": "npm 安裝",
+                "en": "npm"
+              },
+              "code": "npm install -g @anthropic-ai/claude-code"
+            },
+            "docker": {
+              "label": {
+                "zh": "Docker",
+                "en": "Docker"
+              },
+              "code": "docker pull anthropic/claude-code\ndocker run -it anthropic/claude-code"
+            }
+          },
           "note": {
-            "zh": "如果遇到權限問題，前面加 sudo。",
-            "en": "If you get a permission error, prefix with sudo."
+            "zh": "npm 方式遇到權限問題可用 sudo，或改用 nvm 避免權限問題。",
+            "en": "If npm gives permission errors, use sudo or switch to nvm to avoid permission issues."
           }
         },
         {
           "stepNumber": 3,
           "title": {
-            "zh": "設定 API Key",
-            "en": "Set Up API Key"
+            "zh": "初始化配置",
+            "en": "Initialize Configuration"
           },
           "description": {
-            "zh": "到 Anthropic 官網註冊帳號，拿到 API Key 後設定為環境變數。",
-            "en": "Register at Anthropic's website, get your API Key, then set it as an environment variable."
+            "zh": "設定你的 AI 提供者和 API Key。支援多家 AI 服務。",
+            "en": "Configure your AI provider and API Key. Multiple AI services are supported."
           },
-          "code": "# 設定環境變數（加到 ~/.zshrc 讓它永久生效）\necho 'export ANTHROPIC_API_KEY=\"your-api-key-here\"' >> ~/.zshrc\nsource ~/.zshrc",
+          "aiProviders": [
+            {
+              "name": "Anthropic Claude",
+              "envVar": "ANTHROPIC_API_KEY",
+              "url": "console.anthropic.com"
+            },
+            {
+              "name": "OpenAI",
+              "envVar": "OPENAI_API_KEY",
+              "url": "platform.openai.com"
+            },
+            {
+              "name": "智譜 AI (Zhipu)",
+              "envVar": "ZHIPU_API_KEY",
+              "url": "open.bigmodel.cn"
+            },
+            {
+              "name": "DeepSeek",
+              "envVar": "DEEPSEEK_API_KEY",
+              "url": "platform.deepseek.com"
+            }
+          ],
+          "code": "# 以 Anthropic Claude 為例\nexport ANTHROPIC_API_KEY=\"your-api-key-here\"\n\n# 永久生效（加到 shell 設定檔）\necho 'export ANTHROPIC_API_KEY=\"your-api-key-here\"' >> ~/.zshrc\nsource ~/.zshrc",
           "note": {
-            "zh": "把 your-api-key-here 換成你自己的 Key。不要把 Key 分享給別人。",
-            "en": "Replace your-api-key-here with your actual key. Never share your API Key."
+            "zh": "把 your-api-key-here 換成你的 Key。不同提供者的環境變數名稱不同。",
+            "en": "Replace your-api-key-here with your key. Different providers use different env var names."
           }
         },
         {
           "stepNumber": 4,
           "title": {
-            "zh": "驗證安裝",
-            "en": "Verify Installation"
+            "zh": "初始化專案",
+            "en": "Initialize Project"
           },
           "description": {
-            "zh": "跑一下版本指令，確認裝好了。",
-            "en": "Run the version command to confirm everything is installed."
+            "zh": "進到專案目錄，讓 Claude 掃描你的程式碼結構，自動生成 CLAUDE.md 設定檔。",
+            "en": "Enter your project directory. Claude will scan your code and auto-generate a CLAUDE.md config file."
           },
-          "code": "claude --version",
-          "note": null
+          "code": "cd your-project-folder\nclaude\n\n# Claude 會自動生成 CLAUDE.md",
+          "note": {
+            "zh": "這步可選，但建議做。CLAUDE.md 讓 Claude 更了解你的專案。",
+            "en": "Optional but recommended. CLAUDE.md helps Claude understand your project better."
+          }
         },
         {
           "stepNumber": 5,
           "title": {
-            "zh": "初始化專案",
-            "en": "Initialize a Project"
+            "zh": "安裝 Skills",
+            "en": "Install Skills"
           },
           "description": {
-            "zh": "進到你的專案資料夾，執行 init 讓 Claude 了解你的 codebase。",
-            "en": "Navigate to your project folder and run init so Claude understands your codebase."
+            "zh": "從 Skills 目錄挑選你需要的工具，一行指令安裝。",
+            "en": "Pick the tools you need from the Skills directory and install with one command."
           },
-          "code": "cd your-project-folder\nclaude",
+          "code": "# 安裝單個 Skill\nclaude mcp add skill-name\n\n# 範例：安裝 Binance Skills Hub\nclaude mcp add binance-skills-hub",
           "note": {
-            "zh": "Claude 會自動掃描專案結構，第一次可能需要幾秒鐘。",
-            "en": "Claude will auto-scan your project structure. First run may take a few seconds."
+            "zh": "可以到 Skills 目錄頁查看所有可用的 Skills。",
+            "en": "Check the Skills directory page for all available Skills."
           }
         },
         {
           "stepNumber": 6,
           "title": {
-            "zh": "開始使用",
-            "en": "Start Using"
+            "zh": "啟動使用",
+            "en": "Launch & Use"
           },
           "description": {
-            "zh": "直接在終端機跟 Claude 對話，它可以讀寫你的程式碼、跑指令、修 bug。",
-            "en": "Chat with Claude directly in your terminal. It can read/write your code, run commands, and fix bugs."
+            "zh": "兩種使用方式：終端機 CLI 或 Web 控制台。",
+            "en": "Two ways to use: terminal CLI or Web console."
           },
-          "code": "# 在專案目錄中啟動 Claude\nclaude\n\n# 或直接給它一個任務\nclaude \"幫我檢查這個專案有沒有 bug\"",
+          "code": "# 終端機 CLI（直接對話）\nclaude\n\n# 帶任務啟動\nclaude \"幫我查一下 BTC 現在的價格\"",
           "note": {
-            "zh": "輸入 /help 可以看所有可用指令。",
+            "zh": "輸入 /help 查看所有可用指令。",
             "en": "Type /help to see all available commands."
           }
         }
@@ -132,90 +183,134 @@
             "en": "Install Node.js"
           },
           "description": {
-            "zh": "從 Node.js 官網下載安裝檔，或用 winget 一行搞定。",
-            "en": "Download from the Node.js website, or use winget for a one-liner install."
+            "zh": "從官網下載安裝檔，或用 winget 一行搞定。",
+            "en": "Download from the official website, or use winget for a one-liner."
           },
-          "code": "# 用 winget 安裝（推薦）\nwinget install OpenJS.NodeJS.LTS\n\n# 或從官網下載：https://nodejs.org",
+          "code": "# 用 winget 安裝（推薦）\nwinget install OpenJS.NodeJS.LTS\n\n# 或從官網下載：https://nodejs.org\n\n# 重新開啟終端機後驗證\nnode -v\nnpm -v",
           "note": {
-            "zh": "安裝完後重新開啟終端機，讓 PATH 生效。",
-            "en": "Restart your terminal after installation so PATH takes effect."
+            "zh": "安裝完後必須重新開啟終端機，讓 PATH 生效。",
+            "en": "You must restart your terminal after installation for PATH to take effect."
           }
         },
         {
           "stepNumber": 2,
           "title": {
-            "zh": "安裝 Claude Code CLI",
-            "en": "Install Claude Code CLI"
+            "zh": "安裝 OpenClaw",
+            "en": "Install OpenClaw"
           },
           "description": {
-            "zh": "打開 PowerShell 或 Windows Terminal，執行安裝指令。",
-            "en": "Open PowerShell or Windows Terminal and run the install command."
+            "zh": "打開 PowerShell 或 Windows Terminal，三種方式任選。",
+            "en": "Open PowerShell or Windows Terminal, choose one of three methods."
           },
-          "code": "npm install -g @anthropic-ai/claude-code",
+          "installMethods": {
+            "oneClick": {
+              "label": {
+                "zh": "一鍵安裝",
+                "en": "One-Click"
+              },
+              "code": "irm https://raw.githubusercontent.com/anthropics/claude-code/main/install.ps1 | iex"
+            },
+            "npm": {
+              "label": {
+                "zh": "npm 安裝",
+                "en": "npm"
+              },
+              "code": "npm install -g @anthropic-ai/claude-code"
+            },
+            "docker": {
+              "label": {
+                "zh": "Docker",
+                "en": "Docker"
+              },
+              "code": "docker pull anthropic/claude-code\ndocker run -it anthropic/claude-code"
+            }
+          },
           "note": {
-            "zh": "如果遇到權限問題，用系統管理員身分開啟終端機。",
-            "en": "If you get a permission error, run the terminal as Administrator."
+            "zh": "遇到權限問題，用系統管理員身分開啟終端機。",
+            "en": "If you get permission errors, run the terminal as Administrator."
           }
         },
         {
           "stepNumber": 3,
           "title": {
-            "zh": "設定 API Key",
-            "en": "Set Up API Key"
+            "zh": "初始化配置",
+            "en": "Initialize Configuration"
           },
           "description": {
-            "zh": "到 Anthropic 官網拿 API Key，然後設定為系統環境變數。",
-            "en": "Get your API Key from Anthropic's website and set it as a system environment variable."
+            "zh": "設定 AI 提供者的 API Key 為環境變數。",
+            "en": "Set your AI provider's API Key as an environment variable."
           },
-          "code": "# PowerShell（當前 session）\n$env:ANTHROPIC_API_KEY = \"your-api-key-here\"\n\n# 永久設定（需要系統管理員）\n[System.Environment]::SetEnvironmentVariable('ANTHROPIC_API_KEY', 'your-api-key-here', 'User')",
+          "aiProviders": [
+            {
+              "name": "Anthropic Claude",
+              "envVar": "ANTHROPIC_API_KEY",
+              "url": "console.anthropic.com"
+            },
+            {
+              "name": "OpenAI",
+              "envVar": "OPENAI_API_KEY",
+              "url": "platform.openai.com"
+            },
+            {
+              "name": "智譜 AI (Zhipu)",
+              "envVar": "ZHIPU_API_KEY",
+              "url": "open.bigmodel.cn"
+            },
+            {
+              "name": "DeepSeek",
+              "envVar": "DEEPSEEK_API_KEY",
+              "url": "platform.deepseek.com"
+            }
+          ],
+          "code": "# PowerShell（當前 session）\n$env:ANTHROPIC_API_KEY = \"your-api-key-here\"\n\n# 永久設定\n[System.Environment]::SetEnvironmentVariable('ANTHROPIC_API_KEY', 'your-api-key-here', 'User')",
           "note": {
-            "zh": "永久設定後需要重新開啟終端機才會生效。",
-            "en": "After setting permanently, restart your terminal for it to take effect."
+            "zh": "永久設定後需重新開啟終端機。",
+            "en": "Restart terminal after setting permanently."
           }
         },
         {
           "stepNumber": 4,
           "title": {
-            "zh": "驗證安裝",
-            "en": "Verify Installation"
+            "zh": "初始化專案",
+            "en": "Initialize Project"
           },
           "description": {
-            "zh": "確認 Claude Code 安裝成功。",
-            "en": "Confirm Claude Code is installed successfully."
+            "zh": "進到專案目錄，啟動 Claude 自動掃描程式碼。",
+            "en": "Navigate to your project directory and let Claude auto-scan your code."
           },
-          "code": "claude --version",
-          "note": null
+          "code": "cd your-project-folder\nclaude",
+          "note": {
+            "zh": "建議用 Windows Terminal 或 VS Code 內建終端機。",
+            "en": "We recommend Windows Terminal or VS Code's built-in terminal."
+          }
         },
         {
           "stepNumber": 5,
           "title": {
-            "zh": "初始化專案",
-            "en": "Initialize a Project"
+            "zh": "安裝 Skills",
+            "en": "Install Skills"
           },
           "description": {
-            "zh": "切到你的專案資料夾，讓 Claude 開始了解你的程式碼。",
-            "en": "Navigate to your project folder and let Claude learn your codebase."
+            "zh": "挑選你需要的 Skills 安裝。",
+            "en": "Pick and install the Skills you need."
           },
-          "code": "cd your-project-folder\nclaude",
-          "note": {
-            "zh": "Windows 上建議用 Windows Terminal 或 VS Code 內建終端機。",
-            "en": "On Windows, we recommend Windows Terminal or VS Code's built-in terminal."
-          }
+          "code": "claude mcp add skill-name\n\n# 範例\nclaude mcp add binance-skills-hub",
+          "note": null
         },
         {
           "stepNumber": 6,
           "title": {
-            "zh": "開始使用",
-            "en": "Start Using"
+            "zh": "啟動使用",
+            "en": "Launch & Use"
           },
           "description": {
-            "zh": "在終端機裡直接跟 Claude 互動，開始寫 code。",
-            "en": "Interact with Claude directly in your terminal and start coding."
+            "zh": "在終端機裡直接跟 Claude 對話。",
+            "en": "Chat with Claude directly in your terminal."
           },
-          "code": "# 在專案目錄中啟動\nclaude\n\n# 直接下指令\nclaude \"review this project for security issues\"",
+          "code": "claude\n\n# 或帶任務啟動\nclaude \"review this project for security issues\"",
           "note": {
             "zh": "輸入 /help 查看所有指令。",
-            "en": "Type /help to see all commands."
+            "en": "Type /help for all commands."
           }
         }
       ]
@@ -231,86 +326,127 @@
           },
           "description": {
             "zh": "用 nvm 安裝最彈性，也可以用系統套件管理器。",
-            "en": "nvm is the most flexible option. You can also use your system package manager."
+            "en": "nvm is the most flexible. You can also use your system package manager."
           },
-          "code": "# 用 nvm 安裝（推薦）\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\nsource ~/.bashrc\nnvm install --lts\n\n# 或用 apt（Ubuntu/Debian）\nsudo apt update && sudo apt install -y nodejs npm",
+          "code": "# 用 nvm（推薦）\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\nsource ~/.bashrc\nnvm install 20\n\n# 或用 apt（Ubuntu/Debian）\nsudo apt update && sudo apt install -y nodejs npm\n\n# 驗證\nnode -v\nnpm -v",
           "note": {
-            "zh": "apt 裝的版本可能比較舊，建議用 nvm。",
-            "en": "apt may install an older version. nvm is recommended for the latest LTS."
+            "zh": "apt 裝的版本可能太舊，建議用 nvm 確保 v20+。",
+            "en": "apt may install an older version. Use nvm to ensure v20+."
           }
         },
         {
           "stepNumber": 2,
           "title": {
-            "zh": "安裝 Claude Code CLI",
-            "en": "Install Claude Code CLI"
+            "zh": "安裝 OpenClaw",
+            "en": "Install OpenClaw"
           },
           "description": {
-            "zh": "用 npm 全域安裝 Claude Code。",
-            "en": "Install Claude Code globally via npm."
+            "zh": "三種安裝方式，新手建議一鍵安裝。",
+            "en": "Three installation methods. One-click is recommended for beginners."
           },
-          "code": "npm install -g @anthropic-ai/claude-code",
+          "installMethods": {
+            "oneClick": {
+              "label": {
+                "zh": "一鍵安裝",
+                "en": "One-Click"
+              },
+              "code": "curl -fsSL https://raw.githubusercontent.com/anthropics/claude-code/main/install.sh | bash"
+            },
+            "npm": {
+              "label": {
+                "zh": "npm 安裝",
+                "en": "npm"
+              },
+              "code": "npm install -g @anthropic-ai/claude-code"
+            },
+            "docker": {
+              "label": {
+                "zh": "Docker",
+                "en": "Docker"
+              },
+              "code": "docker pull anthropic/claude-code\ndocker run -it anthropic/claude-code"
+            }
+          },
           "note": {
-            "zh": "如果遇到 EACCES 權限錯誤，不要用 sudo npm。改用 nvm 或修正 npm 權限。",
+            "zh": "遇到 EACCES 權限錯誤，不要用 sudo npm。改用 nvm 或修正 npm 權限。",
             "en": "If you get EACCES errors, don't use sudo npm. Use nvm or fix npm permissions instead."
           }
         },
         {
           "stepNumber": 3,
           "title": {
-            "zh": "設定 API Key",
-            "en": "Set Up API Key"
+            "zh": "初始化配置",
+            "en": "Initialize Configuration"
           },
           "description": {
-            "zh": "把 API Key 加到你的 shell 設定檔，這樣每次開終端機都會自動載入。",
-            "en": "Add your API Key to your shell config so it loads automatically on every terminal session."
+            "zh": "設定 API Key 到 shell 設定檔，支援多家 AI 提供者。",
+            "en": "Set your API Key in your shell config. Multiple AI providers supported."
           },
+          "aiProviders": [
+            {
+              "name": "Anthropic Claude",
+              "envVar": "ANTHROPIC_API_KEY",
+              "url": "console.anthropic.com"
+            },
+            {
+              "name": "OpenAI",
+              "envVar": "OPENAI_API_KEY",
+              "url": "platform.openai.com"
+            },
+            {
+              "name": "智譜 AI (Zhipu)",
+              "envVar": "ZHIPU_API_KEY",
+              "url": "open.bigmodel.cn"
+            },
+            {
+              "name": "DeepSeek",
+              "envVar": "DEEPSEEK_API_KEY",
+              "url": "platform.deepseek.com"
+            }
+          ],
           "code": "# Bash\necho 'export ANTHROPIC_API_KEY=\"your-api-key-here\"' >> ~/.bashrc\nsource ~/.bashrc\n\n# Zsh\necho 'export ANTHROPIC_API_KEY=\"your-api-key-here\"' >> ~/.zshrc\nsource ~/.zshrc",
           "note": {
-            "zh": "確認你用的是哪個 shell：echo $SHELL",
-            "en": "Check which shell you're using: echo $SHELL"
+            "zh": "先確認你用的 shell：echo $SHELL",
+            "en": "Check your shell first: echo $SHELL"
           }
         },
         {
           "stepNumber": 4,
           "title": {
-            "zh": "驗證安裝",
-            "en": "Verify Installation"
+            "zh": "初始化專案",
+            "en": "Initialize Project"
           },
           "description": {
-            "zh": "確認一切正常。",
-            "en": "Make sure everything is working."
+            "zh": "進到專案目錄，Claude 會自動掃描並生成 CLAUDE.md。",
+            "en": "Enter your project directory. Claude auto-scans and generates CLAUDE.md."
           },
-          "code": "claude --version",
+          "code": "cd your-project-folder\nclaude",
           "note": null
         },
         {
           "stepNumber": 5,
           "title": {
-            "zh": "初始化專案",
-            "en": "Initialize a Project"
+            "zh": "安裝 Skills",
+            "en": "Install Skills"
           },
           "description": {
-            "zh": "進到專案目錄，讓 Claude 掃描你的程式碼結構。",
-            "en": "Enter your project directory and let Claude scan your code structure."
+            "zh": "從目錄挑選 Skills 安裝。",
+            "en": "Pick and install Skills from the directory."
           },
-          "code": "cd your-project-folder\nclaude",
-          "note": {
-            "zh": "Claude 會自動分析專案，給你最相關的建議。",
-            "en": "Claude will auto-analyze your project and provide relevant suggestions."
-          }
+          "code": "claude mcp add skill-name\n\n# 範例\nclaude mcp add binance-skills-hub",
+          "note": null
         },
         {
           "stepNumber": 6,
           "title": {
-            "zh": "開始使用",
-            "en": "Start Using"
+            "zh": "啟動使用",
+            "en": "Launch & Use"
           },
           "description": {
-            "zh": "開始跟 Claude 協作寫 code。",
-            "en": "Start collaborating with Claude on your code."
+            "zh": "開始跟 Claude 協作。",
+            "en": "Start collaborating with Claude."
           },
-          "code": "# 啟動 Claude\nclaude\n\n# 帶任務啟動\nclaude \"explain the architecture of this project\"",
+          "code": "claude\n\nclaude \"explain the architecture of this project\"",
           "note": {
             "zh": "輸入 /help 查看完整指令列表。",
             "en": "Type /help for the full command list."
@@ -322,72 +458,62 @@
   "faq": [
     {
       "question": {
+        "zh": "遇到權限問題怎麼解決？",
+        "en": "How to fix permission errors?"
+      },
+      "answer": {
+        "zh": "macOS/Linux：用 nvm 安裝 Node.js 可以避免大部分權限問題。絕對不要用 sudo npm install -g。Windows：用系統管理員身分開啟終端機。",
+        "en": "macOS/Linux: Install Node.js via nvm to avoid most permission issues. Never use sudo npm install -g. Windows: Run terminal as Administrator."
+      }
+    },
+    {
+      "question": {
+        "zh": "npm 安裝卡住怎麼辦？",
+        "en": "npm install is stuck, what do I do?"
+      },
+      "answer": {
+        "zh": "先試切換 npm 鏡像源：npm config set registry https://registry.npmmirror.com。如果還是卡住，清除快取再重試：npm cache clean --force && npm install -g @anthropic-ai/claude-code",
+        "en": "Try switching npm registry: npm config set registry https://registry.npmmirror.com. If still stuck, clear cache and retry: npm cache clean --force && npm install -g @anthropic-ai/claude-code"
+      }
+    },
+    {
+      "question": {
+        "zh": "sharp 安裝失敗怎麼辦？",
+        "en": "sharp installation failed?"
+      },
+      "answer": {
+        "zh": "sharp 是圖片處理套件，有時需要系統級依賴。macOS：brew install vips。Ubuntu：sudo apt install libvips-dev。或直接跳過：npm install -g @anthropic-ai/claude-code --ignore-scripts",
+        "en": "sharp is an image processing package that sometimes needs system dependencies. macOS: brew install vips. Ubuntu: sudo apt install libvips-dev. Or skip it: npm install -g @anthropic-ai/claude-code --ignore-scripts"
+      }
+    },
+    {
+      "question": {
         "zh": "API Key 怎麼取得？",
         "en": "How do I get an API Key?"
       },
       "answer": {
-        "zh": "到 console.anthropic.com 註冊帳號，進入 API Keys 頁面就能建立。新帳號有免費額度可以試用。",
-        "en": "Sign up at console.anthropic.com, go to the API Keys page and create one. New accounts come with free credits to get started."
+        "zh": "到你選擇的 AI 提供者官網註冊：Anthropic → console.anthropic.com、OpenAI → platform.openai.com、DeepSeek → platform.deepseek.com。註冊後到 API Keys 頁面建立。大部分有免費額度可以試用。",
+        "en": "Register at your chosen AI provider: Anthropic → console.anthropic.com, OpenAI → platform.openai.com, DeepSeek → platform.deepseek.com. After registration, go to the API Keys page to create one. Most offer free credits to get started."
       }
     },
     {
       "question": {
-        "zh": "Claude Code 支援哪些 IDE？",
-        "en": "Which IDEs does Claude Code support?"
+        "zh": "Windows 腳本執行被攔截？",
+        "en": "Windows script execution is blocked?"
       },
       "answer": {
-        "zh": "Claude Code 是 CLI 工具，在任何終端機都能用。它也有 VS Code 和 JetBrains 的擴充套件，可以直接在 IDE 裡面使用。",
-        "en": "Claude Code is a CLI tool that works in any terminal. It also has extensions for VS Code and JetBrains IDEs for in-editor usage."
+        "zh": "PowerShell 預設會攔截腳本執行。用系統管理員身分開啟 PowerShell，執行：Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser。這樣就能正常跑安裝腳本了。",
+        "en": "PowerShell blocks script execution by default. Open PowerShell as Administrator and run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser. This allows installation scripts to run."
       }
     },
     {
       "question": {
-        "zh": "免費嗎？",
-        "en": "Is it free?"
+        "zh": "端口被占用怎麼辦？",
+        "en": "Port is already in use?"
       },
       "answer": {
-        "zh": "Claude Code CLI 本身免費安裝。使用時會消耗 API 額度，新帳號有免費額度。之後按用量計費，一般開發用量每月幾美元。",
-        "en": "The Claude Code CLI is free to install. Usage consumes API credits — new accounts get free credits. After that, it's pay-as-you-go, typically a few dollars per month for normal development use."
-      }
-    },
-    {
-      "question": {
-        "zh": "遇到權限問題怎麼辦？",
-        "en": "What if I get permission errors?"
-      },
-      "answer": {
-        "zh": "macOS/Linux：用 nvm 安裝 Node.js 可以避免大部分權限問題。不要用 sudo npm install。Windows：用系統管理員身分開啟終端機。",
-        "en": "macOS/Linux: Using nvm to install Node.js avoids most permission issues. Don't use sudo npm install. Windows: Run terminal as Administrator."
-      }
-    },
-    {
-      "question": {
-        "zh": "可以用在現有專案嗎？",
-        "en": "Can I use it with existing projects?"
-      },
-      "answer": {
-        "zh": "可以。進到任何專案資料夾執行 claude，它會自動讀取專案結構。支援幾乎所有程式語言和框架。",
-        "en": "Yes. Navigate to any project folder and run claude — it will auto-detect your project structure. Supports virtually all languages and frameworks."
-      }
-    },
-    {
-      "question": {
-        "zh": "MCP Skills 怎麼安裝？",
-        "en": "How do I install MCP Skills?"
-      },
-      "answer": {
-        "zh": "在 Skills 目錄頁找到你要的 Skill，點進詳情頁會有安裝指令。通常就是在 Claude 的設定檔加上對應的 MCP server 設定。",
-        "en": "Find the Skill you want in the Skills Directory, click into its detail page for install instructions. Usually it's just adding the MCP server config to your Claude settings."
-      }
-    },
-    {
-      "question": {
-        "zh": "Claude Code 和 Claude Desktop 有什麼不同？",
-        "en": "What's the difference between Claude Code and Claude Desktop?"
-      },
-      "answer": {
-        "zh": "Claude Desktop 是圖形介面的聊天 app。Claude Code 是命令列工具，專門為開發者設計，可以直接讀寫你的程式碼、執行指令、操作檔案系統。",
-        "en": "Claude Desktop is a GUI chat app. Claude Code is a CLI tool designed for developers — it can directly read/write your code, execute commands, and interact with your file system."
+        "zh": "如果 Web 控制台啟動時端口被占用，可以指定其他端口：claude --port 3001。或先找出占用端口的程序：macOS/Linux 用 lsof -i :3000，Windows 用 netstat -ano | findstr :3000。",
+        "en": "If the Web console port is taken, specify another: claude --port 3001. To find what's using the port: macOS/Linux use lsof -i :3000, Windows use netstat -ano | findstr :3000."
       }
     }
   ]
