@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "首頁",
+    "install": "安裝指南",
+    "skills": "Skills 目錄",
+    "about": "關於",
+    "blog": "Blog",
+    "bundles": "推薦組合",
+    "language": "語言"
+  },
+  "footer": {
+    "copyright": "2025 51Claw. All rights reserved.",
+    "madeBy": "由 51（0x515151）打造",
+    "links": {
+      "twitter": "X (Twitter)",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    }
+  },
+  "common": {
+    "search": "搜尋",
+    "loading": "載入中...",
+    "viewDetails": "查看詳情",
+    "copyCode": "複製程式碼",
+    "copied": "已複製！",
+    "readMore": "閱讀更多",
+    "backToTop": "回到頂部"
+  },
+  "home": {
+    "heroTitle": "你的 AI Skills 武器庫",
+    "heroSubtitle": "精選 MCP Skills，讓 Claude 成為你的鏈上瑞士刀",
+    "ctaPrimary": "瀏覽 Skills",
+    "ctaSecondary": "安裝教學",
+    "featuredSkills": "精選 Skills",
+    "stats": {
+      "skillsCount": "Skills 數量",
+      "categories": "分類",
+      "free": "全部免費"
+    }
+  },
+  "install": {
+    "title": "安裝指南",
+    "subtitle": "三步搞定，從零開始設定你的 AI Skills 環境",
+    "systemReq": {
+      "title": "系統需求",
+      "nodeVersion": "Node.js 18+",
+      "claudeDesktop": "Claude Desktop 最新版",
+      "os": "macOS / Windows / Linux"
+    },
+    "steps": {
+      "step1": "安裝 Claude Desktop",
+      "step2": "設定 MCP Skills",
+      "step3": "啟動並測試"
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": "什麼是 MCP？",
+      "a1": "MCP（Model Context Protocol）是讓 AI 模型連接外部工具的標準協議，可以讓 Claude 直接操作鏈上數據、交易所 API 等。",
+      "q2": "需要付費嗎？",
+      "a2": "所有 Skills 完全免費，你只需要有 Claude Desktop 帳號。",
+      "q3": "遇到問題怎麼辦？",
+      "a3": "加入我們的 Telegram 社群，會有人協助你排除問題。"
+    }
+  },
+  "skills": {
+    "title": "Skills 目錄",
+    "subtitle": "探索所有可用的 AI Skills，找到適合你的工具組合",
+    "categories": {
+      "cex": "CEX 官方",
+      "news": "信息流",
+      "onchain": "鏈上工具",
+      "analytics": "數據分析",
+      "security": "安全",
+      "other": "其他"
+    },
+    "searchPlaceholder": "搜尋 Skills..."
+  },
+  "about": {
+    "title": "關於 51Claw",
+    "intro": {
+      "heading": "51 是誰？",
+      "description": "51（0x515151）— Crypto 實戰派，Hunter Association 創辦人、Dexless 共同創辦人。不寫教科書，只分享真正用過、踩過坑的東西。"
+    },
+    "openClaw": {
+      "heading": "什麼是 OpenClaw？",
+      "description": "OpenClaw 是開源的 AI Skills 集合，把散落各處的 MCP 工具整理成可直接使用的武器庫。不用自己爬文件、不用自己寫設定，裝了就能用。"
+    },
+    "community": {
+      "heading": "加入社群",
+      "description": "和其他玩家交流 AI x Crypto 的實戰心得，第一時間獲取新 Skills 更新。",
+      "joinTelegram": "加入 Telegram",
+      "followTwitter": "追蹤 X"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "AI Skills 實戰筆記 — 不講理論，只講怎麼用",
+    "tags": {
+      "tutorial": "教學",
+      "review": "評測",
+      "update": "更新",
+      "tips": "技巧"
+    }
+  },
+  "bundles": {
+    "title": "推薦組合",
+    "subtitle": "依場景精選的 Skills 套餐，省去你自己挑選的時間"
+  }
+}
