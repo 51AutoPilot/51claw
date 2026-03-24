@@ -82,7 +82,10 @@
       "security": "Security",
       "other": "Other"
     },
-    "searchPlaceholder": "Search Skills..."
+    "searchPlaceholder": "Search Skills...",
+    "all": "All",
+    "noResults": "No Skills found matching your criteria",
+    "noResultsHint": "Try different keywords or categories"
   },
   "about": {
     "title": "About 51Claw",

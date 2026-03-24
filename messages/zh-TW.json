@@ -82,7 +82,10 @@
       "security": "安全",
       "other": "其他"
     },
-    "searchPlaceholder": "搜尋 Skills..."
+    "searchPlaceholder": "搜尋 Skills...",
+    "all": "全部",
+    "noResults": "找不到符合條件的 Skills",
+    "noResultsHint": "試試其他關鍵字或分類"
   },
   "about": {
     "title": "關於 51Claw",
