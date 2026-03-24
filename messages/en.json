@@ -1,10 +1,109 @@
 {
-  "metadata": {
-    "title": "51Claw — AI Skills Hub",
-    "description": "AI Skills / MCP / Claude practical guides and navigation"
+  "nav": {
+    "home": "Home",
+    "install": "Install",
+    "skills": "Skills",
+    "about": "About",
+    "blog": "Blog",
+    "bundles": "Bundles",
+    "language": "Language"
+  },
+  "footer": {
+    "copyright": "2025 51Claw. All rights reserved.",
+    "madeBy": "Built by 51 (0x515151)",
+    "links": {
+      "twitter": "X (Twitter)",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    }
+  },
+  "common": {
+    "search": "Search",
+    "loading": "Loading...",
+    "viewDetails": "View Details",
+    "copyCode": "Copy Code",
+    "copied": "Copied!",
+    "readMore": "Read More",
+    "backToTop": "Back to Top"
   },
   "home": {
-    "heading": "51Claw",
-    "subheading": "AI Skills Hub"
+    "heroTitle": "Your AI Skills Arsenal",
+    "heroSubtitle": "Curated MCP Skills that turn Claude into your on-chain Swiss Army knife",
+    "ctaPrimary": "Browse Skills",
+    "ctaSecondary": "Installation Guide",
+    "featuredSkills": "Featured Skills",
+    "stats": {
+      "skillsCount": "Total Skills",
+      "categories": "Categories",
+      "free": "100% Free"
+    }
+  },
+  "install": {
+    "title": "Installation Guide",
+    "subtitle": "Three steps to set up your AI Skills environment from scratch",
+    "systemReq": {
+      "title": "System Requirements",
+      "nodeVersion": "Node.js 18+",
+      "claudeDesktop": "Claude Desktop (latest)",
+      "os": "macOS / Windows / Linux"
+    },
+    "steps": {
+      "step1": "Install Claude Desktop",
+      "step2": "Configure MCP Skills",
+      "step3": "Launch & Test"
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "What is MCP?",
+      "a1": "MCP (Model Context Protocol) is a standard protocol that lets AI models connect to external tools — enabling Claude to interact with on-chain data, exchange APIs, and more.",
+      "q2": "Does it cost anything?",
+      "a2": "All Skills are completely free. You just need a Claude Desktop account.",
+      "q3": "What if I run into issues?",
+      "a3": "Join our Telegram community — someone will help you troubleshoot."
+    }
+  },
+  "skills": {
+    "title": "Skills Directory",
+    "subtitle": "Explore all available AI Skills and find the right toolkit for you",
+    "categories": {
+      "cex": "CEX Official",
+      "news": "News Feed",
+      "onchain": "On-chain Tools",
+      "analytics": "Analytics",
+      "security": "Security",
+      "other": "Other"
+    },
+    "searchPlaceholder": "Search Skills..."
+  },
+  "about": {
+    "title": "About 51Claw",
+    "intro": {
+      "heading": "Who is 51?",
+      "description": "51 (0x515151) — a hands-on crypto builder. Founder of Hunter Association, co-founder of Dexless. No textbook theory, just tools and lessons from real experience."
+    },
+    "openClaw": {
+      "heading": "What is OpenClaw?",
+      "description": "OpenClaw is an open-source collection of AI Skills — MCP tools organized into a ready-to-use arsenal. No digging through docs, no writing configs. Install and go."
+    },
+    "community": {
+      "heading": "Join the Community",
+      "description": "Connect with others exploring AI x Crypto, and get first access to new Skills and updates.",
+      "joinTelegram": "Join Telegram",
+      "followTwitter": "Follow on X"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "AI Skills Field Notes — skip the theory, here's how to actually use them",
+    "tags": {
+      "tutorial": "Tutorial",
+      "review": "Review",
+      "update": "Update",
+      "tips": "Tips"
+    }
+  },
+  "bundles": {
+    "title": "Bundles",
+    "subtitle": "Curated Skills packages for specific use cases — skip the guesswork"
   }
 }
