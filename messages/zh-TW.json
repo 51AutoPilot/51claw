@@ -40,6 +40,11 @@
       "skillsCount": "Skills 數量",
       "categories": "分類",
       "free": "全部免費"
+    },
+    "bottomCta": {
+      "title": "開始打造你的 AI 工作流",
+      "subtitle": "從安裝到實戰，只需要幾分鐘",
+      "button": "立即開始"
     }
   },
   "install": {

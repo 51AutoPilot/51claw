@@ -40,6 +40,11 @@
       "skillsCount": "Total Skills",
       "categories": "Categories",
       "free": "100% Free"
+    },
+    "bottomCta": {
+      "title": "Start Building Your AI Workflow",
+      "subtitle": "From install to action in just minutes",
+      "button": "Get Started"
     }
   },
   "install": {

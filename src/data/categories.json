@@ -3,36 +3,54 @@
     "id": "cex",
     "name": "CEX Official",
     "nameZh": "CEX 官方",
+    "icon": "🏦",
+    "description": "Official exchange tools and wallet integrations",
+    "descriptionZh": "官方交易所工具與錢包整合",
     "count": 5
   },
   {
     "id": "news",
     "name": "News Feed",
     "nameZh": "信息流",
+    "icon": "📡",
+    "description": "Real-time crypto news and market intelligence",
+    "descriptionZh": "即時加密貨幣新聞與市場情報",
     "count": 4
   },
   {
     "id": "onchain",
     "name": "On-chain Tools",
     "nameZh": "鏈上工具",
+    "icon": "⛓️",
+    "description": "DeFi protocols, DEX, and on-chain operations",
+    "descriptionZh": "DeFi 協議、DEX 與鏈上操作工具",
     "count": 10
   },
   {
     "id": "analytics",
     "name": "Analytics",
     "nameZh": "數據分析",
+    "icon": "📊",
+    "description": "On-chain data analytics and market insights",
+    "descriptionZh": "鏈上數據分析與市場洞察",
     "count": 3
   },
   {
     "id": "security",
     "name": "Security",
     "nameZh": "安全",
+    "icon": "🛡️",
+    "description": "Smart contract auditing and threat detection",
+    "descriptionZh": "智能合約審計與威脅偵測",
     "count": 3
   },
   {
     "id": "other",
     "name": "Other",
     "nameZh": "其他",
+    "icon": "🔧",
+    "description": "Specialized tools and research utilities",
+    "descriptionZh": "專業工具與研究輔助",
     "count": 2
   }
 ]
