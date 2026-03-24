@@ -74,7 +74,7 @@ export default function Nav() {
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="flex h-9 w-9 items-center justify-center rounded-lg text-text-muted transition-colors hover:bg-white/5 hover:text-foreground md:hidden"
-            aria-label="Toggle menu"
+            aria-label={t("toggleMenu")}
           >
             <svg
               width="20"
@@ -105,7 +105,7 @@ export default function Nav() {
       {/* Mobile Menu */}
       <div
         className={`overflow-hidden border-t border-card-border bg-background/95 backdrop-blur-xl transition-all duration-300 ease-in-out md:hidden ${
-          mobileOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0 border-t-0"
+          mobileOpen ? "max-h-[calc(100vh-4rem)] opacity-100" : "max-h-0 opacity-0 border-t-0"
         }`}
       >
         <div className="space-y-1 px-4 py-3">

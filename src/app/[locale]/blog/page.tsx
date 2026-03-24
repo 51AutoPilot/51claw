@@ -23,7 +23,7 @@ function TagFilter({
         <button
           key={tag}
           onClick={() => onSelect(tag)}
-          className={`rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-300 ${
+          className={`rounded-full px-3 py-1.5 text-xs font-medium transition-all duration-300 sm:px-4 sm:text-sm ${
             activeTag === tag
               ? "bg-primary text-white shadow-lg shadow-primary/20"
               : "border border-card-border text-text-muted hover:border-primary/50 hover:text-primary-light"

@@ -79,7 +79,7 @@ function StepTimeline({ platform }: { platform: Platform }) {
   const steps = installGuide.platforms[platform].steps;
 
   return (
-    <div className="relative ml-4 space-y-8 border-l border-card-border pl-8">
+    <div className="relative ml-2 space-y-8 border-l border-card-border pl-6 sm:ml-4 sm:pl-8">
       {steps.map((step, i) => {
         const hasInstallMethods = "installMethods" in step && step.installMethods;
         const hasAIProviders = "aiProviders" in step && step.aiProviders;

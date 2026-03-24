@@ -47,8 +47,8 @@ export default function CodeBlock({
       </div>
 
       {/* Code content */}
-      <pre className="overflow-x-auto p-4">
-        <code className="text-sm leading-relaxed text-foreground/90 font-mono">
+      <pre className="overflow-x-auto p-3 sm:p-4">
+        <code className="text-xs leading-relaxed text-foreground/90 font-mono sm:text-sm">
           {code}
         </code>
       </pre>

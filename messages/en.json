@@ -10,7 +10,8 @@
     "about": "About",
     "blog": "Blog",
     "bundles": "Bundles",
-    "language": "Language"
+    "language": "Language",
+    "toggleMenu": "Toggle menu"
   },
   "footer": {
     "copyright": "2025 51Claw. All rights reserved.",
@@ -156,7 +157,8 @@
     },
     "readTime": "min read",
     "noResults": "No articles match your criteria",
-    "backToList": "Back to articles"
+    "backToList": "Back to articles",
+    "notFound": "Post not found"
   },
   "bundles": {
     "title": "Bundles",

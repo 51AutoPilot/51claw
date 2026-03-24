@@ -20,7 +20,7 @@ function IntroSection() {
         </h1>
 
         {/* 51 介紹 */}
-        <div className="mt-16 flex flex-col items-center gap-8 md:flex-row md:items-start">
+        <div className="mt-16 flex flex-col items-center gap-4 md:flex-row md:items-start md:gap-8">
           <div className="flex h-28 w-28 flex-shrink-0 items-center justify-center rounded-2xl border border-primary/30 bg-primary/10 text-5xl">
             👤
           </div>

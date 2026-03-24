@@ -10,7 +10,8 @@
     "about": "關於",
     "blog": "Blog",
     "bundles": "推薦組合",
-    "language": "語言"
+    "language": "語言",
+    "toggleMenu": "切換選單"
   },
   "footer": {
     "copyright": "2025 51Claw. All rights reserved.",
@@ -156,7 +157,8 @@
     },
     "readTime": "分鐘閱讀",
     "noResults": "沒有符合條件的文章",
-    "backToList": "返回文章列表"
+    "backToList": "返回文章列表",
+    "notFound": "找不到這篇文章"
   },
   "bundles": {
     "title": "推薦組合",

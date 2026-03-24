@@ -20,7 +20,7 @@ function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
-        <h1 className="text-gradient-purple font-heading text-5xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-7xl">
+        <h1 className="text-gradient-purple font-heading text-3xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-7xl">
           {t("heroTitle")}
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-text-muted sm:text-xl">
@@ -137,7 +137,7 @@ function Stats() {
       <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 sm:grid-cols-3">
         {stats.map((stat, i) => (
           <div key={i} className="text-center">
-            <div className="font-heading text-4xl font-bold text-primary-light sm:text-5xl">
+            <div className="font-heading text-3xl font-bold text-primary-light sm:text-4xl md:text-5xl">
               <AnimatedNumber target={stat.value} />
               {stat.suffix}
             </div>

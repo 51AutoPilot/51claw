@@ -23,10 +23,10 @@ function BundleCard({ bundle }: { bundle: (typeof bundlesData)[number] }) {
       {/* 頂部漸變光條 */}
       <div className="h-1 rounded-t-2xl bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
 
-      <div className="p-8">
+      <div className="p-5 sm:p-8">
         {/* Icon + 標題 */}
         <div className="flex items-center gap-4">
-          <span className="text-5xl">{bundle.icon}</span>
+          <span className="text-4xl sm:text-5xl">{bundle.icon}</span>
           <div>
             <h3 className="font-heading text-2xl font-bold text-foreground">
               {t(`${bundle.id}.title`)}

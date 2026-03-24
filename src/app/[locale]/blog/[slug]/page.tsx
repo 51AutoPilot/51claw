@@ -23,7 +23,7 @@ export default function BlogPostPage() {
           <h1 className="font-heading text-2xl font-bold text-foreground">
             404
           </h1>
-          <p className="mt-2 text-text-muted">Post not found</p>
+          <p className="mt-2 text-text-muted">{t("notFound")}</p>
           <div className="mt-6">
             <Button href="/blog" variant="secondary">
               {t("backToList")}
@@ -74,7 +74,7 @@ export default function BlogPostPage() {
         </header>
 
         {/* 內容區 */}
-        <div className="mt-12 rounded-2xl border border-card-border bg-card-bg p-8">
+        <div className="mt-12 rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6 md:p-8">
           <p className="text-lg leading-relaxed text-text-muted">
             {isZh ? post.excerpt.zh : post.excerpt.en}
           </p>
