@@ -33,7 +33,7 @@ body {
   overflow-x: hidden;
 }
 
-/* 背景網格裝飾 */
+/* ─── 背景網格裝飾 ─── */
 .bg-grid {
   background-image:
     linear-gradient(rgba(168, 85, 247, 0.03) 1px, transparent 1px),
@@ -41,20 +41,21 @@ body {
   background-size: 60px 60px;
 }
 
-/* 紫色漸層文字 */
+/* ─── 紫色漸層文字 + glow text-shadow ─── */
 .text-gradient-purple {
   background: linear-gradient(135deg, #a855f7 0%, #c084fc 50%, #06b6d4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.3)) drop-shadow(0 0 60px rgba(168, 85, 247, 0.1));
 }
 
-/* 紫色光暈效果 */
+/* ─── 紫色光暈效果 ─── */
 .glow-purple {
   box-shadow: 0 0 20px rgba(168, 85, 247, 0.15), 0 0 60px rgba(168, 85, 247, 0.05);
 }
 
-/* 卡片 hover 紫光邊框 */
+/* ─── 卡片 hover 紫光邊框 ─── */
 .card-hover {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
@@ -67,7 +68,94 @@ body {
   box-shadow: 0 0 30px rgba(168, 85, 247, 0.12), 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
-/* fadeIn 動畫 — Tabs 等元件用 */
+/* ─── 漸變分隔線 ─── */
+.gradient-line-h {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.3), transparent);
+}
+
+/* ─── 脈動光暈動畫 ─── */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translate(-50%, 0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1.15);
+  }
+}
+
+@keyframes pulse-glow-secondary {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow-secondary {
+  animation: pulse-glow-secondary 8s ease-in-out infinite;
+}
+
+/* ─── 漂浮粒子動畫 ─── */
+@keyframes float-particle {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(20px);
+    opacity: 0;
+  }
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  animation: float-particle linear infinite;
+  pointer-events: none;
+}
+
+/* ─── 動態網格背景 ─── */
+@keyframes grid-breathe {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(168, 85, 247, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168, 85, 247, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: grid-breathe 8s ease-in-out infinite;
+}
+
+/* ─── Stats 數字 glow ─── */
+.stats-glow {
+  text-shadow: 0 0 30px rgba(168, 85, 247, 0.3), 0 0 60px rgba(168, 85, 247, 0.1);
+}
+
+/* ─── fadeIn 動畫 — Tabs 等元件用 ─── */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -79,7 +167,7 @@ body {
   }
 }
 
-/* 頁面載入動畫 — 淡入 + 上移 */
+/* ─── 頁面載入動畫 ─── */
 @keyframes pageEnter {
   from {
     opacity: 0;
@@ -95,7 +183,7 @@ body {
   animation: pageEnter 0.4s ease-out;
 }
 
-/* 隱藏橫向滾動條 */
+/* ─── 隱藏橫向滾動條 ─── */
 .scrollbar-none {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -104,7 +192,7 @@ body {
   display: none;
 }
 
-/* 滾動條 */
+/* ─── 滾動條 ─── */
 ::-webkit-scrollbar {
   width: 6px;
 }

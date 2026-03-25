@@ -28,7 +28,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-card-border bg-background/80 backdrop-blur-xl">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
@@ -101,6 +101,9 @@ export default function Nav() {
           </button>
         </div>
       </div>
+
+      {/* 底部漸變光線 */}
+      <div className="gradient-line-h" />
 
       {/* Mobile Menu */}
       <div

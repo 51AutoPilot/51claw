@@ -6,7 +6,8 @@ export default function Footer() {
   const t = useTranslations("footer");
 
   return (
-    <footer className="border-t border-card-border bg-background">
+    <footer className="bg-background">
+      <div className="gradient-line-h" />
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 py-10 sm:flex-row sm:justify-between sm:px-6 lg:px-8">
         {/* Left: Logo + Copyright */}
         <div className="flex flex-col items-center gap-2 sm:items-start">

@@ -13,10 +13,33 @@ function Hero() {
 
   return (
     <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-4">
-      {/* 背景光暈裝飾 */}
+      {/* 動態網格背景 */}
+      <div className="pointer-events-none absolute inset-0 hero-grid" />
+
+      {/* 脈動光暈 */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/2 top-1/4 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-primary/8 blur-[120px]" />
-        <div className="absolute right-1/4 top-1/2 h-[300px] w-[300px] rounded-full bg-secondary/5 blur-[100px]" />
+        <div className="absolute left-1/2 top-1/4 h-[500px] w-[500px] rounded-full bg-primary/8 blur-[120px] animate-pulse-glow" />
+        <div className="absolute right-1/4 top-1/2 h-[300px] w-[300px] rounded-full bg-secondary/5 blur-[100px] animate-pulse-glow-secondary" />
+      </div>
+
+      {/* 漂浮粒子 — CSS only */}
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
+        {Array.from({ length: 12 }).map((_, i) => (
+          <div
+            key={i}
+            className="particle"
+            style={{
+              left: `${8 + (i * 7.3) % 84}%`,
+              bottom: `-${(i * 13) % 20}px`,
+              background: i % 3 === 0 ? "#06b6d4" : "#a855f7",
+              width: `${1.5 + (i % 3)}px`,
+              height: `${1.5 + (i % 3)}px`,
+              animationDuration: `${8 + (i % 5) * 3}s`,
+              animationDelay: `${(i * 1.2) % 6}s`,
+              boxShadow: `0 0 ${4 + (i % 3) * 2}px currentColor`,
+            }}
+          />
+        ))}
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
@@ -133,11 +156,12 @@ function Stats() {
   ];
 
   return (
-    <section className="border-y border-card-border bg-card-bg/50 px-4 py-16">
+    <section className="bg-card-bg/50 px-4 py-16">
+      <div className="gradient-line-h mb-16" />
       <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 sm:grid-cols-3">
         {stats.map((stat, i) => (
           <div key={i} className="text-center">
-            <div className="font-heading text-3xl font-bold text-primary-light sm:text-4xl md:text-5xl">
+            <div className="font-heading text-3xl font-bold text-primary-light stats-glow sm:text-4xl md:text-5xl">
               <AnimatedNumber target={stat.value} />
               {stat.suffix}
             </div>
@@ -145,6 +169,7 @@ function Stats() {
           </div>
         ))}
       </div>
+      <div className="gradient-line-h mt-16" />
     </section>
   );
 }

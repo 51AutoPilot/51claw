@@ -349,7 +349,7 @@
     "name": "CoinAnk API",
     "nameZh": "CoinAnk API",
     "description": "K-line charts, ETF data, and smart money tracking.",
-    "descriptionZh": "K 線圖表、ETF 數據、聯明錢追蹤。",
+    "descriptionZh": "K 線圖表、ETF 數據、聰明錢追蹤。",
     "category": "analytics",
     "tags": [
       "data"
@@ -385,7 +385,7 @@
     "name": "Nansen",
     "nameZh": "Nansen",
     "description": "Smart money address tracking and on-chain behavior analysis.",
-    "descriptionZh": "聯明錢地址追蹤、鏈上行為分析。",
+    "descriptionZh": "聰明錢地址追蹤、鏈上行為分析。",
     "category": "analytics",
     "tags": [
       "data",
