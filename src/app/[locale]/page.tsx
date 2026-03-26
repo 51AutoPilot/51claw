@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
 import categories from "@/data/categories.json";
+import skills from "@/data/skills.json";
 import { useEffect, useRef, useState } from "react";
 
 /* ─── Hero Section ─── */
@@ -150,8 +151,8 @@ function Stats() {
   const t = useTranslations("home.stats");
 
   const stats = [
-    { value: 27, label: t("skillsCount"), suffix: "+" },
-    { value: 6, label: t("categories"), suffix: "" },
+    { value: skills.length, label: t("skillsCount"), suffix: "+" },
+    { value: categories.length, label: t("categories"), suffix: "" },
     { value: 100, label: t("free"), suffix: "%" },
   ];
 

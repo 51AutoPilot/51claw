@@ -199,7 +199,7 @@ function Community() {
         </h2>
         <p className="mt-4 text-lg text-text-muted">{t("description")}</p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Button size="lg" href="https://t.me/" variant="primary">
+          <Button size="lg" href="https://t.me/hunternha" variant="primary">
             {t("joinTelegram")}
           </Button>
           <Button size="lg" href="https://x.com/0x515151" variant="secondary">

@@ -37,7 +37,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://t.me/hunter_association"
+            href="https://t.me/hunternha"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-purple"

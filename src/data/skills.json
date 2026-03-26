@@ -15,16 +15,16 @@
       "數據"
     ],
     "icon": "💼",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/bitget-wallet-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add bitget-wallet",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
     "id": "binance",
@@ -42,16 +42,16 @@
       "安全"
     ],
     "icon": "🔶",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/binance-skills-hub",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add binance-skills-hub",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
     "id": "htx",
@@ -67,16 +67,16 @@
       "交易"
     ],
     "icon": "🔥",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/htx-skills-hub",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add htx-skills-hub",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
     "id": "okx",
@@ -94,16 +94,16 @@
       "交易"
     ],
     "icon": "⚡",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/okx-onchainos",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add okx-onchainos",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
     "id": "coinbase",
@@ -121,16 +121,16 @@
       "錢包"
     ],
     "icon": "🪙",
-    "url": "",
+    "url": "https://github.com/coinbase/agentkit",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add coinbase/agentkit",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "bankr",
@@ -146,16 +146,16 @@
       "工具"
     ],
     "icon": "🏦",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/bankr-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add bankr",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "phantom-connect",
@@ -173,16 +173,16 @@
       "Solana"
     ],
     "icon": "👻",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/phantom-connect-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add phantom-connect",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "blockbeats",
@@ -200,16 +200,16 @@
       "資訊"
     ],
     "icon": "📰",
-    "url": "",
+    "url": "https://github.com/BlockBeatsOfficial/blockbeats-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add https://github.com/BlockBeatsOfficial/blockbeats-skill",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "6551-news",
@@ -227,16 +227,16 @@
       "資訊"
     ],
     "icon": "📡",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/6551-news-feed",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add 6551-news-feed",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "xclaw",
@@ -252,16 +252,16 @@
       "資訊"
     ],
     "icon": "🐦",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/xclaw",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add xclaw",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "x-research",
@@ -277,16 +277,16 @@
       "資訊"
     ],
     "icon": "🔬",
-    "url": "",
+    "url": "https://github.com/rohunvora/x-research-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add x-research",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "coinmarketcap",
@@ -302,16 +302,16 @@
       "數據"
     ],
     "icon": "📊",
-    "url": "",
+    "url": "https://coinmarketcap.com",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add coinmarketcap",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "coinank-api",
@@ -327,16 +327,16 @@
       "數據"
     ],
     "icon": "📈",
-    "url": "",
+    "url": "https://coinank.com",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add coinank-api",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "day1global",
@@ -354,16 +354,16 @@
       "美股"
     ],
     "icon": "🌍",
-    "url": "",
+    "url": "https://day1global.com",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add day1global",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。建議先用模擬帳戶測試。"
   },
   {
     "id": "almanak",
@@ -379,16 +379,16 @@
       "DeFi"
     ],
     "icon": "🧪",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/almanak-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add almanak",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "byreal-cli",
@@ -406,16 +406,16 @@
       "工具"
     ],
     "icon": "⌨️",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/byreal-cli",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add byreal-cli",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "lista-dao",
@@ -431,16 +431,16 @@
       "DeFi"
     ],
     "icon": "🏛️",
-    "url": "",
+    "url": "https://lista.org",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add lista-dao",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "uniswap-ai",
@@ -458,16 +458,16 @@
       "交易"
     ],
     "icon": "🦄",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/uniswap-ai-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add uniswap-ai",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "bnb-chain-mcp",
@@ -485,16 +485,16 @@
       "DeFi"
     ],
     "icon": "⛓️",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/bnb-chain-mcp",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add bnb-chain-mcp",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "bnb-chain",
@@ -510,16 +510,16 @@
       "工具"
     ],
     "icon": "🔗",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/bnb-chain-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add bnb-chain",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "four-meme",
@@ -535,16 +535,16 @@
       "Meme"
     ],
     "icon": "🐸",
-    "url": "",
+    "url": "https://four.meme",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add four-meme",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
     "id": "minara-ai-v2",
@@ -562,16 +562,16 @@
       "AI"
     ],
     "icon": "🤖",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/minara-ai-v2",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add minara-ai-v2",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。建議先用模擬帳戶測試。"
   },
   {
     "id": "dune",
@@ -589,16 +589,16 @@
       "分析"
     ],
     "icon": "🔍",
-    "url": "",
+    "url": "https://github.com/duneanalytics/dune-mcp",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add dune",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "nansen",
@@ -616,16 +616,16 @@
       "分析"
     ],
     "icon": "🧠",
-    "url": "",
+    "url": "https://nansen.ai",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add nansen",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "goplus-agentguard",
@@ -641,16 +641,16 @@
       "安全"
     ],
     "icon": "🛡️",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/goplus-agentguard",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add goplus-agentguard",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "slowmist",
@@ -666,16 +666,16 @@
       "安全"
     ],
     "icon": "🔒",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/slowmist-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add slowmist",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "skill-vetter",
@@ -691,16 +691,16 @@
       "安全"
     ],
     "icon": "✅",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/skill-vetter",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add skill-vetter",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "bybit-skill",
@@ -720,14 +720,14 @@
     "icon": "🟡",
     "url": "https://github.com/bybit-exchange/skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add https://github.com/bybit-exchange/skills",
     "installCount": null,
     "source": "Bybit",
     "isOfficial": true,
     "verdict": "warn",
     "warning": "建議先在 Testnet 練習",
     "features": null,
-    "installNote": null
+    "installNote": "需要交易所 API Key。安裝後需設定 API 權限，建議先用 Testnet 測試。官方出品，操作真實資金請謹慎。"
   },
   {
     "id": "gate-skills",
@@ -751,7 +751,7 @@
       "地址追蹤"
     ],
     "icon": "🚪",
-    "url": "",
+    "url": "https://github.com/gateio/gate-skills",
     "isFree": true,
     "installCmd": "npx skills add gate/gate-skills",
     "installCount": null,
@@ -760,7 +760,7 @@
     "verdict": "warn",
     "warning": "可查詢帳戶資產和執行交易，請注意 API 權限範圍",
     "features": null,
-    "installNote": null
+    "installNote": "需要交易所 API Key。安裝後需設定 API 權限，建議先用 Testnet 測試。官方出品，操作真實資金請謹慎。"
   },
   {
     "id": "solana-dev-skill",
@@ -784,7 +784,7 @@
       "最佳實踐"
     ],
     "icon": "🟣",
-    "url": "",
+    "url": "https://github.com/solana-foundation/solana-dev-skill",
     "isFree": true,
     "installCmd": "npx skills add https://github.com/solana-foundation/solana-dev-skill",
     "installCount": null,
@@ -793,7 +793,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。官方出品，品質有保障。"
   },
   {
     "id": "helius-skills",
@@ -826,7 +826,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。官方出品，品質有保障。"
   },
   {
     "id": "trust-wallet-skills",
@@ -850,7 +850,7 @@
       "市場數據"
     ],
     "icon": "🛡️",
-    "url": "",
+    "url": "https://github.com/nicepay-dev/tw-agent-skills",
     "isFree": true,
     "installCmd": "npx skills add trustwallet/tw-agent-skills",
     "installCount": null,
@@ -859,7 +859,7 @@
     "verdict": "warn",
     "warning": "可執行代幣交換和錢包操作，使用前請確認交易細節",
     "features": null,
-    "installNote": null
+    "installNote": "涉及鏈上操作，安裝後需設定錢包或 API。使用前請確認授權範圍，建議先在測試網練習。官方出品。"
   },
   {
     "id": "emblem-agent-wallet",
@@ -892,7 +892,7 @@
     "verdict": "warn",
     "warning": "管理多鏈加密資產，請妥善保管錢包密碼",
     "features": null,
-    "installNote": null
+    "installNote": "涉及鏈上操作，安裝後需設定錢包或 API。使用前請確認授權範圍，建議先在測試網練習。第三方工具，注意安全。"
   },
   {
     "id": "blockbeats-skill",
@@ -919,7 +919,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "nunchi-yex-trader",
@@ -945,14 +945,14 @@
     "icon": "🤖",
     "url": "https://github.com/Nunchi-trade/agent-cli",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/Nunchi-trade/agent-cli.git && cd agent-cli && pip install -r requirements.txt",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "自動交易工具，請充分了解策略風險",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "agipro-trading",
@@ -980,14 +980,14 @@
     "icon": "📊",
     "url": "https://github.com/agiprolabs/claude-trading-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add https://github.com/agiprolabs/claude-trading-skills",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "覆蓋多個 DeFi 協議的交易操作",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "vectorbt-backtesting",
@@ -1015,14 +1015,14 @@
     "icon": "📈",
     "url": "https://github.com/marketcalls/vectorbt-backtesting-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/marketcalls/vectorbt-backtesting-skills.git && pip install -r requirements.txt",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。建議先用模擬帳戶測試。"
   },
   {
     "id": "options-strategy-advisor",
@@ -1040,14 +1040,14 @@
     "icon": "📐",
     "url": "https://github.com/staskh/trading_skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/staskh/trading_skills.git",
     "installCount": null,
     "source": "Community",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "含 IB 整合",
     "features": null,
-    "installNote": null
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "alpaca-trading",
@@ -1075,14 +1075,14 @@
     "icon": "🦙",
     "url": "https://github.com/lacymorrow/openclaw-alpaca-trading-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/lacymorrow/openclaw-alpaca-trading-skill.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "支援真實資金交易，建議先用模擬帳戶",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "polyclaw",
@@ -1108,14 +1108,14 @@
     "icon": "🔮",
     "url": "https://github.com/chainstacklabs/polyclaw",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/chainstacklabs/polyclaw.git && cd polyclaw && pip install -r requirements.txt",
     "installCount": null,
     "source": "Chainstack",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "涉及預測市場真實資金投注",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "bankrbot",
@@ -1141,14 +1141,14 @@
     "icon": "💣",
     "url": "https://github.com/BankrBot/claude-plugins",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/BankrBot/claude-plugins.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "⚠️ 高風險：最高 150 倍槓桿，可能造成重大資金損失",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "dpro-hyperliquid",
@@ -1174,14 +1174,14 @@
     "icon": "⚡",
     "url": "https://github.com/dProLabs/dpro-hyperliquid",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/dProLabs/dpro-hyperliquid.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "涉及 DEX 真實交易操作",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "hyper-alpha-arena",
@@ -1207,14 +1207,14 @@
     "icon": "🏟️",
     "url": "https://github.com/HammerGPT/Hyper-Alpha-Arena",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/HammerGPT/Hyper-Alpha-Arena.git && pip install -r requirements.txt",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "多 Agent 自動交易，請確認風控設定",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "trump-code",
@@ -1240,14 +1240,14 @@
     "icon": "🦅",
     "url": "https://github.com/sstklen/trump-code",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/sstklen/trump-code.git && pip install -r requirements.txt",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "基於社交媒體信號的投機策略，風險極高",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "claude-financial-services",
@@ -1274,7 +1274,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Claude.ai 付費方案或 Claude Code。執行安裝指令後，在 Claude 中即可使用對應技能。Anthropic 官方出品，品質有保障。"
   },
   {
     "id": "trailofbits-skills",
@@ -1301,7 +1301,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。官方出品，不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "owasp-security",
@@ -1334,7 +1334,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "transilience-tools",
@@ -1352,14 +1352,14 @@
     "icon": "⚔️",
     "url": "https://github.com/transilienceai/communitytools",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/transilienceai/communitytools.git",
     "installCount": null,
     "source": "Transilience",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "僅限授權測試",
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "parry",
@@ -1392,7 +1392,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "dippy",
@@ -1423,7 +1423,7 @@
     "verdict": "warn",
     "warning": "自動批准機制可能跳過必要的安全確認",
     "features": null,
-    "installNote": null
+    "installNote": "macOS 用戶可用 Homebrew 安裝。安裝後重啟終端即可使用。社群開發。"
   },
   {
     "id": "agnix",
@@ -1454,7 +1454,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。全域安裝後即可使用。社群開發，使用前建議確認套件來源。"
   },
   {
     "id": "plamen",
@@ -1487,7 +1487,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "superclaude",
@@ -1518,7 +1518,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "多 Agent 協作工具。安裝後按照文件設定即可使用。社群開發。"
   },
   {
     "id": "vibehq-hub",
@@ -1549,7 +1549,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "container-use",
@@ -1580,7 +1580,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "macOS 用戶可用 Homebrew 安裝。安裝後重啟終端即可使用。官方維護。"
   },
   {
     "id": "superpowers",
@@ -1611,7 +1611,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "claude-squad",
@@ -1642,7 +1642,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "macOS 用戶可用 Homebrew 安裝。安裝後重啟終端即可使用。社群開發。"
   },
   {
     "id": "ccpm",
@@ -1673,7 +1673,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "auto-claude",
@@ -1697,14 +1697,14 @@
     "icon": "🤖",
     "url": "https://github.com/AndyMik90/Auto-Claude",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/AndyMik90/Auto-Claude.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "自主多終端執行有風險，請確認安全模型設定",
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "ruflo",
@@ -1735,7 +1735,7 @@
     "verdict": "warn",
     "warning": "平台會執行外部命令，請在受控環境中使用",
     "features": null,
-    "installNote": null
+    "installNote": "執行安裝腳本即可完成設定。安裝前建議先檢查腳本內容。社群開發，注意安全。"
   },
   {
     "id": "contextkit",
@@ -1766,7 +1766,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "執行安裝腳本即可完成設定。安裝前建議先檢查腳本內容。社群開發，注意安全。"
   },
   {
     "id": "tsk",
@@ -1797,7 +1797,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Rust 工具鏈（cargo）。執行安裝指令後即可使用。社群開發的 Rust 工具。"
   },
   {
     "id": "find-skills",
@@ -1821,7 +1821,7 @@
       "官方"
     ],
     "icon": "🔍",
-    "url": "",
+    "url": "https://clawhub.com/find-skills",
     "isFree": true,
     "installCmd": "npx clawhub install find-skills",
     "installCount": null,
@@ -1830,7 +1830,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   },
   {
     "id": "self-improving-agent",
@@ -1852,7 +1852,7 @@
       "Agent"
     ],
     "icon": "🧠",
-    "url": "",
+    "url": "https://clawhub.com/self-improving-agent",
     "isFree": true,
     "installCmd": "npx clawhub install self-improving-agent",
     "installCount": null,
@@ -1861,7 +1861,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   },
   {
     "id": "github-skill",
@@ -1885,7 +1885,7 @@
       "代碼搜尋"
     ],
     "icon": "🐙",
-    "url": "",
+    "url": "https://clawhub.com/github",
     "isFree": true,
     "installCmd": "npx clawhub install github",
     "installCount": null,
@@ -1894,7 +1894,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   },
   {
     "id": "tavily-search",
@@ -1918,7 +1918,7 @@
       "免費額度"
     ],
     "icon": "🔎",
-    "url": "",
+    "url": "https://github.com/tavily-ai/skills",
     "isFree": true,
     "installCmd": "npx skills add tavily-ai/skills",
     "installCount": null,
@@ -1927,7 +1927,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "summarize",
@@ -1951,7 +1951,7 @@
       "網址"
     ],
     "icon": "📝",
-    "url": "",
+    "url": "https://clawhub.com/summarize",
     "isFree": true,
     "installCmd": "npx clawhub install summarize",
     "installCount": null,
@@ -1960,7 +1960,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   },
   {
     "id": "claude-command-suite",
@@ -1991,7 +1991,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "production-commands",
@@ -2022,7 +2022,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "riper-workflow",
@@ -2046,14 +2046,14 @@
     "icon": "🔄",
     "url": "https://github.com/tony/claude-code-riper-5",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/tony/claude-code-riper-5.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "ab-method",
@@ -2084,7 +2084,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "開發工具，安裝後在 Claude Code 中直接使用。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "claudekit",
@@ -2115,7 +2115,7 @@
     "verdict": "warn",
     "warning": "Hook 腳本會自動執行，請確認所有 hook 行為符合預期",
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。全域安裝後即可使用。社群開發，使用前建議確認套件來源。"
   },
   {
     "id": "understand-anything",
@@ -2146,7 +2146,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "skill-factory",
@@ -2177,7 +2177,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "開發工具，安裝後在 Claude Code 中直接使用。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "skill-seekers",
@@ -2208,7 +2208,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "開發工具，安裝後在 Claude Code 中直接使用。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "compound-engineering",
@@ -2239,7 +2239,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "context7",
@@ -2272,7 +2272,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "生產力工具。安裝後即可在 Claude Code 中使用。官方出品。"
   },
   {
     "id": "github-mcp-server",
@@ -2307,7 +2307,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Docker 環境。執行指令啟動容器即可使用。適合需要隔離環境的場景。"
   },
   {
     "id": "sentry-mcp",
@@ -2340,7 +2340,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "生產力工具。安裝後即可在 Claude Code 中使用。官方出品。"
   },
   {
     "id": "claude-code-mcp",
@@ -2373,7 +2373,7 @@
     "verdict": "warn",
     "warning": "⚠️ 跳過所有權限確認，存在安全風險，僅建議在受信任環境使用",
     "features": null,
-    "installNote": null
+    "installNote": "生產力工具。安裝後即可在 Claude Code 中使用。注意授權範圍。社群開發。"
   },
   {
     "id": "lyra-tool-discovery",
@@ -2406,7 +2406,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。全域安裝後即可使用。社群開發，使用前建議確認套件來源。"
   },
   {
     "id": "ccusage",
@@ -2439,7 +2439,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "生產力工具。安裝後即可在 Claude Code 中使用。社群開發。"
   },
   {
     "id": "ccflare",
@@ -2472,7 +2472,7 @@
     "verdict": "warn",
     "warning": "代理多個 API Key，請確認安全儲存方式",
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "claudex",
@@ -2505,7 +2505,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。全域安裝後即可使用。社群開發，使用前建議確認套件來源。"
   },
   {
     "id": "frontend-design",
@@ -2527,7 +2527,7 @@
       "設計系統"
     ],
     "icon": "🎨",
-    "url": "",
+    "url": "https://github.com/anthropics/skills",
     "isFree": true,
     "installCmd": "npx skills add anthropic/frontend-design",
     "installCount": null,
@@ -2536,7 +2536,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "Anthropic 官方技能，透過 Skills 指令安裝即可使用。無需額外配置，開箱即用。"
   },
   {
     "id": "react-best-practices",
@@ -2558,7 +2558,7 @@
       "優化"
     ],
     "icon": "⚛️",
-    "url": "",
+    "url": "https://github.com/vercel-labs/agent-skills",
     "isFree": true,
     "installCmd": "npx skills add vercel-labs/agent-skills",
     "installCount": null,
@@ -2567,7 +2567,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx skills add 指令安裝，重啟 Claude Code 即可生效。Vercel 官方維護，品質可靠。"
   },
   {
     "id": "web-design-guidelines",
@@ -2589,7 +2589,7 @@
       "深色模式"
     ],
     "icon": "🌐",
-    "url": "",
+    "url": "https://github.com/vercel-labs/agent-skills",
     "isFree": true,
     "installCmd": "curl -fsSL https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/web-design-guidelines/SKILL.md > .claude/skills/web-design-guidelines.md",
     "installCount": null,
@@ -2598,7 +2598,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx skills add 指令安裝，重啟 Claude Code 即可生效。Vercel 官方維護，品質可靠。"
   },
   {
     "id": "vercel-react-native",
@@ -2620,7 +2620,7 @@
       "開發指南"
     ],
     "icon": "📱",
-    "url": "",
+    "url": "https://github.com/vercel-labs/agent-skills",
     "isFree": true,
     "installCmd": "npx skills add vercel-labs/agent-skills --skill react-native-guidelines",
     "installCount": null,
@@ -2629,7 +2629,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx skills add 指令安裝，重啟 Claude Code 即可生效。Vercel 官方維護，品質可靠。"
   },
   {
     "id": "frontend-design-toolkit",
@@ -2653,14 +2653,14 @@
     "icon": "🧰",
     "url": "https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "varies"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "claude-code-ui-agents",
@@ -2684,14 +2684,14 @@
     "icon": "🖌️",
     "url": "https://github.com/mustafakendiguzel/claude-code-ui-agents",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/mustafakendiguzel/claude-code-ui-agents.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "react-native-expo-agent",
@@ -2709,14 +2709,14 @@
     "icon": "📲",
     "url": "https://github.com/senaiverse/claude-code-reactnative-expo-agent-system",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/senaiverse/claude-code-reactnative-expo-agent-system.git",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "stripe-skills",
@@ -2740,7 +2740,7 @@
       "金融科技"
     ],
     "icon": "💳",
-    "url": "",
+    "url": "https://github.com/stripe/ai",
     "isFree": true,
     "installCmd": "npx skills add stripe/ai",
     "installCount": null,
@@ -2749,7 +2749,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "cloudflare-skills",
@@ -2784,7 +2784,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "netlify-skills",
@@ -2810,7 +2810,7 @@
       "部署"
     ],
     "icon": "🌍",
-    "url": "",
+    "url": "https://github.com/netlify/context-and-tools",
     "isFree": true,
     "installCmd": "npx skills add netlify/context-and-tools",
     "installCount": null,
@@ -2819,7 +2819,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "supabase-skills",
@@ -2845,7 +2845,7 @@
       "後端"
     ],
     "icon": "⚡",
-    "url": "",
+    "url": "https://github.com/supabase/agent-skills",
     "isFree": true,
     "installCmd": "npx skills add supabase/agent-skills",
     "installCount": null,
@@ -2854,7 +2854,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "hashicorp-skills",
@@ -2878,7 +2878,7 @@
       "基礎設施"
     ],
     "icon": "🏗️",
-    "url": "",
+    "url": "https://github.com/hashicorp/agent-skills",
     "isFree": true,
     "installCmd": "npx skills add hashicorp/agent-skills",
     "installCount": null,
@@ -2887,7 +2887,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "pulumi-skills",
@@ -2911,7 +2911,7 @@
       "雲端"
     ],
     "icon": "🔧",
-    "url": "",
+    "url": "https://github.com/pulumi/agent-skills",
     "isFree": true,
     "installCmd": "npx skills add pulumi/agent-skills --skill '*'",
     "installCount": null,
@@ -2920,7 +2920,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "neon-skills",
@@ -2944,7 +2944,7 @@
       "成本優化"
     ],
     "icon": "🐘",
-    "url": "",
+    "url": "https://github.com/neondatabase/agent-skills",
     "isFree": true,
     "installCmd": "npx skills add neondatabase/agent-skills",
     "installCount": null,
@@ -2953,7 +2953,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "terraform-skill",
@@ -2988,7 +2988,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "cc-devops-skills",
@@ -3023,7 +3023,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "claudebox",
@@ -3049,14 +3049,14 @@
     "icon": "📦",
     "url": "https://github.com/RchGrav/claudebox",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "wget https://raw.githubusercontent.com/RchGrav/claudebox/main/claudebox.sh && chmod +x claudebox.sh && ./claudebox.sh",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "需要 Docker 根權限，請確認環境安全",
     "features": null,
-    "installNote": "wget + chmod + run"
+    "installNote": "需要 Node.js 18+。執行安裝指令後重啟 Claude Code 即可使用。社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "n8n-skills",
@@ -3089,7 +3089,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "gemini-api-skills",
@@ -3115,7 +3115,7 @@
       "API"
     ],
     "icon": "💫",
-    "url": "",
+    "url": "https://github.com/google-gemini/gemini-skills",
     "isFree": true,
     "installCmd": "npx skills add google-gemini/gemini-skills",
     "installCount": null,
@@ -3124,7 +3124,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "firecrawl-skills",
@@ -3148,7 +3148,7 @@
       "雲端瀏覽器"
     ],
     "icon": "🔥",
-    "url": "",
+    "url": "https://github.com/mendableai/firecrawl",
     "isFree": true,
     "installCmd": "npx skills add firecrawl/cli",
     "installCount": null,
@@ -3157,7 +3157,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "ai-marketing-suite",
@@ -3190,7 +3190,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "執行安裝腳本即可完成設定。安裝前建議先檢查腳本內容。社群開發，注意安全。"
   },
   {
     "id": "claude-seo",
@@ -3223,7 +3223,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "執行安裝腳本即可完成設定。安裝前建議先檢查腳本內容。社群開發，注意安全。"
   },
   {
     "id": "seo-geo-skills",
@@ -3256,7 +3256,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "seo-machine",
@@ -3291,7 +3291,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。需要 Python 3.8+。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "create-viral-content",
@@ -3324,7 +3324,7 @@
     "verdict": "warn",
     "warning": "包含 AI 內容偵測規避功能，請遵守各平台內容政策",
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "remotion-best-practices",
@@ -3351,7 +3351,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "elevenlabs-mcp",
@@ -3377,7 +3377,7 @@
       "MCP"
     ],
     "icon": "🎙️",
-    "url": "",
+    "url": "https://github.com/elevenlabs/elevenlabs-mcp",
     "isFree": true,
     "installCmd": "uvx elevenlabs-mcp",
     "installCount": null,
@@ -3386,7 +3386,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "媒體生成工具。安裝後可能需要設定對應 API Key。官方出品，品質可靠。"
   },
   {
     "id": "claude-media-skills",
@@ -3412,14 +3412,14 @@
     "icon": "🖼️",
     "url": "https://github.com/dennisonbertram/claude-media-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/dennisonbertram/claude-media-skills.git && cp -r skills/ ~/.claude/skills/",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "圖片上傳到第三方服務 catbox.moe，請注意隱私",
     "features": null,
-    "installNote": "cp skills to ~/.claude/skills/"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "generative-media-skills",
@@ -3454,7 +3454,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "video-toolkit",
@@ -3482,14 +3482,14 @@
     "icon": "🎞️",
     "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/digitalsamba/claude-code-video-toolkit.git && pip install -r requirements.txt",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "git clone + pip install"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。需要 Python 3.8+。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "ai-music-production",
@@ -3517,7 +3517,7 @@
     "icon": "🎵",
     "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "/plugin marketplace add bitwize-music-studio/claude-ai-music-skills",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
@@ -3544,14 +3544,14 @@
     "icon": "🌅",
     "url": "https://github.com/deapi-ai/claude-code-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/deapi-ai/claude-code-skills.git && cp -r skills/ ~/.claude/skills/",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "game-studios",
@@ -3584,7 +3584,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "godogen",
@@ -3617,7 +3617,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "生產力工具。安裝後即可在 Claude Code 中使用。社群開發。"
   },
   {
     "id": "altimate-data-engineering",
@@ -3650,7 +3650,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "在 Claude Code 中直接執行安裝指令即可。社群開發，建議先了解功能範圍。"
   },
   {
     "id": "claude-data-analysis",
@@ -3676,14 +3676,14 @@
     "icon": "📊",
     "url": "https://github.com/liangdabiao/claude-data-analysis",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/liangdabiao/claude-data-analysis.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "clone + data_storage/"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "data-science-team",
@@ -3709,14 +3709,14 @@
     "icon": "🧪",
     "url": "https://github.com/HungHsunHan/claude-code-data-science-team",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/HungHsunHan/claude-code-data-science-team.git && pip install -r requirements.txt",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "git clone + pip install"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。需要 Python 3.8+。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "x-research-skill",
@@ -3736,14 +3736,14 @@
     "icon": "🐦",
     "url": "https://github.com/rohunvora/x-research-skill",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/rohunvora/x-research-skill.git",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "cc-connect",
@@ -3778,7 +3778,7 @@
     "verdict": "warn",
     "warning": "可存取多個通訊平台的訊息，請確認授權範圍",
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。全域安裝後即可使用。社群開發，使用前建議確認套件來源。"
   },
   {
     "id": "wacli",
@@ -3811,7 +3811,7 @@
     "verdict": "warn",
     "warning": "可代為發送 WhatsApp 訊息，請確認收件人和內容",
     "features": null,
-    "installNote": null
+    "installNote": "macOS 用戶可用 Homebrew 安裝。安裝後重啟終端即可使用。社群開發。"
   },
   {
     "id": "claude-code-discord",
@@ -3844,7 +3844,7 @@
     "verdict": "warn",
     "warning": "Bot 可執行 Shell 命令，請確保 RBAC 設定正確",
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "anthropic-document-skills",
@@ -3870,7 +3870,7 @@
       "Anthropic"
     ],
     "icon": "📄",
-    "url": "",
+    "url": "https://github.com/anthropics/skills",
     "isFree": true,
     "installCmd": "/plugin marketplace add anthropics/skills",
     "installCount": null,
@@ -3879,7 +3879,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Claude.ai 付費方案或 Claude Code。執行安裝指令後，在 Claude 中即可使用對應技能。Anthropic 官方出品，品質有保障。"
   },
   {
     "id": "anthropic-canvas-design",
@@ -3903,7 +3903,7 @@
       "Anthropic"
     ],
     "icon": "🎭",
-    "url": "",
+    "url": "https://github.com/anthropics/skills",
     "isFree": true,
     "installCmd": "/plugin marketplace add anthropics/skills",
     "installCount": null,
@@ -3912,7 +3912,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Claude.ai 付費方案或 Claude Code。執行安裝指令後，在 Claude 中即可使用對應技能。Anthropic 官方出品，品質有保障。"
   },
   {
     "id": "anthropic-web-artifacts",
@@ -3938,7 +3938,7 @@
       "Anthropic"
     ],
     "icon": "🧩",
-    "url": "",
+    "url": "https://github.com/anthropics/skills",
     "isFree": true,
     "installCmd": "/plugin marketplace add anthropics/skills",
     "installCount": null,
@@ -3947,7 +3947,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Claude.ai 付費方案或 Claude Code。執行安裝指令後，在 Claude 中即可使用對應技能。Anthropic 官方出品，品質有保障。"
   },
   {
     "id": "anthropic-mcp-builder",
@@ -3973,7 +3973,7 @@
       "Anthropic"
     ],
     "icon": "🔌",
-    "url": "",
+    "url": "https://github.com/anthropics/skills",
     "isFree": true,
     "installCmd": "/plugin marketplace add anthropics/skills",
     "installCount": null,
@@ -3982,7 +3982,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Claude.ai 付費方案或 Claude Code。執行安裝指令後，在 Claude 中即可使用對應技能。Anthropic 官方出品，品質有保障。"
   },
   {
     "id": "anthropic-webapp-testing",
@@ -4008,7 +4008,7 @@
       "Anthropic"
     ],
     "icon": "🧪",
-    "url": "",
+    "url": "https://github.com/anthropics/skills",
     "isFree": true,
     "installCmd": "/plugin marketplace add anthropics/skills",
     "installCount": null,
@@ -4017,7 +4017,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Claude.ai 付費方案或 Claude Code。執行安裝指令後，在 Claude 中即可使用對應技能。Anthropic 官方出品，品質有保障。"
   },
   {
     "id": "sanity-toolkit",
@@ -4043,7 +4043,7 @@
       "AB測試"
     ],
     "icon": "📚",
-    "url": "",
+    "url": "https://github.com/sanity-io/agent-toolkit",
     "isFree": true,
     "installCmd": "npx skills add sanity-io/agent-toolkit",
     "installCount": null,
@@ -4052,7 +4052,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "veryfi-ocr",
@@ -4076,9 +4076,9 @@
       "擷取"
     ],
     "icon": "🧾",
-    "url": "",
+    "url": "https://veryfi.com",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx clawhub install veryfi-ocr",
     "installCount": null,
     "source": "Veryfi 官方",
     "isOfficial": true,
@@ -4113,7 +4113,7 @@
     "icon": "⚖️",
     "url": "https://github.com/Kromer-Group/Claude-Legal",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/Kromer-Group/Claude-Legal.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
@@ -4146,14 +4146,14 @@
     "icon": "📕",
     "url": "https://github.com/robertguss/claude-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/robertguss/claude-skills.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "git clone https://github.com/robertguss/claude-skills.git"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "web-scraper",
@@ -4186,7 +4186,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "claude-homeassistant",
@@ -4219,7 +4219,7 @@
     "verdict": "warn",
     "warning": "可遠端控制家中設備，請確認 SSH 連線安全",
     "features": null,
-    "installNote": null
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "bybit-trading",
@@ -4243,16 +4243,16 @@
       "零安裝"
     ],
     "icon": "🟡",
-    "url": "",
+    "url": "https://github.com/bybit-exchange/skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "npx skills add https://github.com/bybit-exchange/skills",
     "installCount": null,
     "source": "Bybit 官方",
     "isOfficial": true,
     "verdict": "warn",
     "warning": "可用真實資金執行交易，建議先在 Testnet 測試",
     "features": null,
-    "installNote": null
+    "installNote": "需要交易所 API Key。安裝後需設定 API 權限，建議先用 Testnet 測試。官方出品，操作真實資金請謹慎。"
   },
   {
     "id": "anthropic-financial",
@@ -4276,7 +4276,7 @@
       "Anthropic"
     ],
     "icon": "🏦",
-    "url": "",
+    "url": "https://github.com/anthropics/financial-services-plugins",
     "isFree": true,
     "installCmd": "/plugin marketplace add anthropics/financial-services-plugins",
     "installCount": null,
@@ -4285,7 +4285,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Claude.ai 付費方案或 Claude Code。執行安裝指令後，在 Claude 中即可使用對應技能。Anthropic 官方出品，品質有保障。"
   },
   {
     "id": "options-strategy",
@@ -4311,14 +4311,14 @@
     "icon": "🎯",
     "url": "https://github.com/staskh/trading_skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/staskh/trading_skills.git",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "可連接真實券商帳戶，請用模擬帳戶測試",
     "features": null,
-    "installNote": "from GitHub"
+    "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。涉及真實資金操作，請充分了解風險。"
   },
   {
     "id": "trail-of-bits",
@@ -4342,7 +4342,7 @@
       "逆向工程"
     ],
     "icon": "🔬",
-    "url": "",
+    "url": "https://github.com/trailofbits/skills",
     "isFree": true,
     "installCmd": "/plugin marketplace add trailofbits/skills",
     "installCount": null,
@@ -4351,7 +4351,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。官方出品，不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "transilience",
@@ -4384,7 +4384,7 @@
     "verdict": "warn",
     "warning": "僅限授權安全測試使用",
     "features": null,
-    "installNote": null
+    "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
     "id": "stitch-design2code",
@@ -4406,7 +4406,7 @@
       "Google"
     ],
     "icon": "✂️",
-    "url": "",
+    "url": "https://github.com/google-labs-code/stitch-skills",
     "isFree": true,
     "installCmd": "npx skills add google-labs-code/stitch-skills",
     "installCount": null,
@@ -4415,7 +4415,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "uiux-pro-max",
@@ -4448,7 +4448,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。全域安裝後即可使用。社群開發，使用前建議確認套件來源。"
   },
   {
     "id": "rn-expo-agent-system",
@@ -4479,7 +4479,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "前端開發輔助工具。安裝後可直接在開發流程中使用。社群開發，無需額外配置。"
   },
   {
     "id": "better-auth",
@@ -4505,7 +4505,7 @@
       "多租戶"
     ],
     "icon": "🔐",
-    "url": "",
+    "url": "https://github.com/better-auth/skills",
     "isFree": true,
     "installCmd": "npx skills add better-auth/skills",
     "installCount": null,
@@ -4514,7 +4514,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "apollo-graphql",
@@ -4540,7 +4540,7 @@
       "MCP"
     ],
     "icon": "🔗",
-    "url": "",
+    "url": "https://github.com/apollographql/skills",
     "isFree": true,
     "installCmd": "npx skills add apollographql/skills",
     "installCount": null,
@@ -4549,7 +4549,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "speakeasy-api",
@@ -4575,7 +4575,7 @@
       "MCP"
     ],
     "icon": "📡",
-    "url": "",
+    "url": "https://github.com/speakeasy-api/agent-skills",
     "isFree": true,
     "installCmd": "speakeasy agent setup-skills",
     "installCount": null,
@@ -4584,7 +4584,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後即可使用。官方出品，文檔完善。"
   },
   {
     "id": "claude-scientific",
@@ -4612,14 +4612,14 @@
     "icon": "🔬",
     "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/K-Dense-AI/claude-scientific-skills.git && cp -r skills/ ~/.claude/skills/",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "git clone + cp"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "remotion-skills",
@@ -4645,7 +4645,7 @@
       "字幕"
     ],
     "icon": "🎬",
-    "url": "",
+    "url": "https://github.com/remotion-dev/skills",
     "isFree": true,
     "installCmd": "npx skills add remotion-dev/skills",
     "installCount": null,
@@ -4654,7 +4654,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
     "id": "deapi-media",
@@ -4682,14 +4682,14 @@
     "icon": "🎨",
     "url": "https://github.com/deapi-ai/claude-code-skills",
     "isFree": true,
-    "installCmd": null,
+    "installCmd": "git clone https://github.com/deapi-ai/claude-code-skills.git && cp -r skills/ ~/.claude/skills/",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": "git clone + cp"
+    "installNote": "需要 Git。clone 後按照 README 完成設定。第三方社群開發，使用前建議審查原始碼。"
   },
   {
     "id": "marketing-skills-kostja",
@@ -4724,7 +4724,7 @@
     "verdict": "pass",
     "warning": null,
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
     "id": "gog",
@@ -4750,7 +4750,7 @@
       "文件"
     ],
     "icon": "📧",
-    "url": "",
+    "url": "https://clawhub.com/gog",
     "isFree": true,
     "installCmd": "npx clawhub install gog",
     "installCount": null,
@@ -4759,6 +4759,6 @@
     "verdict": "warn",
     "warning": "可讀取/傳送 Email 和存取 Google Drive，使用前請確認 OAuth 授權範圍",
     "features": null,
-    "installNote": null
+    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   }
 ]
