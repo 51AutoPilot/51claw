@@ -114,7 +114,22 @@
     "searchPlaceholder": "Search Skills...",
     "all": "All",
     "noResults": "No Skills found matching your criteria",
-    "noResultsHint": "Try different keywords or categories"
+    "noResultsHint": "Try different keywords or categories",
+    "detail": {
+      "auditPass": "Audit Passed",
+      "auditWarn": "Security Warning",
+      "official": "Official",
+      "source": "Source",
+      "free": "Free",
+      "paid": "Paid",
+      "tags": "Tags",
+      "installCmd": "Install Command",
+      "installNote": "Installation Notes",
+      "visitLink": "Visit External Link",
+      "relatedSkills": "Related Skills",
+      "notFound": "Skill not found",
+      "backToSkills": "Back to Skills Directory"
+    }
   },
   "about": {
     "title": "About 51Claw",

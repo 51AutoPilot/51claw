@@ -114,7 +114,22 @@
     "searchPlaceholder": "搜尋 Skills...",
     "all": "全部",
     "noResults": "找不到符合條件的 Skills",
-    "noResultsHint": "試試其他關鍵字或分類"
+    "noResultsHint": "試試其他關鍵字或分類",
+    "detail": {
+      "auditPass": "安全審計通過",
+      "auditWarn": "安全提醒",
+      "official": "官方",
+      "source": "來源",
+      "free": "免費",
+      "paid": "付費",
+      "tags": "標籤",
+      "installCmd": "安裝指令",
+      "installNote": "安裝說明",
+      "visitLink": "前往外部連結",
+      "relatedSkills": "相關 Skills",
+      "notFound": "找不到這個 Skill",
+      "backToSkills": "返回 Skills 目錄"
+    }
   },
   "about": {
     "title": "關於 51Claw",

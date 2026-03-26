@@ -1,16 +1,69 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
-import { useRouter, usePathname } from "@/i18n/navigation";
-import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
+import { Link, useRouter, usePathname } from "@/i18n/navigation";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import skills from "@/data/skills.json";
 import categories from "@/data/categories.json";
 
 type Skill = (typeof skills)[number];
+
+// 分類 accent 色
+const categoryAccent: Record<string, string> = {
+  cex: "#fbbf24",
+  news: "#38bdf8",
+  onchain: "#a78bfa",
+  analytics: "#34d399",
+  security: "#f87171",
+  trading: "#4ade80",
+  frontend: "#f472b6",
+  devtools: "#fb923c",
+  multiagent: "#818cf8",
+  cloud: "#22d3ee",
+  data: "#a3e635",
+  media: "#c084fc",
+  marketing: "#fb7185",
+  productivity: "#94a3b8",
+};
+
+// Fade-up 動畫用的 hook
+function useFadeUp() {
+  const [visibleSet, setVisibleSet] = useState<Set<string>>(new Set());
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  useEffect(() => {
+    observerRef.current = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute("data-skill-id");
+            if (id) {
+              setVisibleSet((prev) => {
+                const next = new Set(prev);
+                next.add(id);
+                return next;
+              });
+              observerRef.current?.unobserve(entry.target);
+            }
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+    );
+
+    return () => observerRef.current?.disconnect();
+  }, []);
+
+  const observe = useCallback((el: HTMLElement | null) => {
+    if (el && observerRef.current) {
+      observerRef.current.observe(el);
+    }
+  }, []);
+
+  return { visibleSet, observe };
+}
 
 export default function SkillsPage() {
   const t = useTranslations("skills");
@@ -23,6 +76,7 @@ export default function SkillsPage() {
   const initialCategory = searchParams.get("category") ?? "all";
   const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [search, setSearch] = useState("");
+  const { visibleSet, observe } = useFadeUp();
 
   const handleCategoryChange = (cat: string) => {
     setActiveCategory(cat);
@@ -127,44 +181,105 @@ export default function SkillsPage() {
         {/* Skills Grid */}
         {filtered.length > 0 ? (
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {filtered.map((skill) => (
-              <Card key={skill.id} className="flex flex-col">
-                <div className="flex items-start gap-3">
-                  <span className="text-2xl">{skill.icon}</span>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2">
-                      <h3 className="font-heading text-base font-semibold text-foreground truncate">
-                        {skill.name}
-                      </h3>
-                      <span className="flex-shrink-0 rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary-light">
-                        {locale === "zh-TW"
-                          ? categories.find((c) => c.id === skill.category)?.nameZh
-                          : categories.find((c) => c.id === skill.category)?.name}
+            {filtered.map((skill, index) => {
+              const accent = categoryAccent[skill.category] || "#a78bfa";
+              const isVisible = visibleSet.has(skill.id);
+              const staggerDelay = Math.min(index * 50, 300);
+
+              return (
+                <div
+                  key={skill.id}
+                  ref={observe}
+                  data-skill-id={skill.id}
+                  className="skill-card group relative overflow-hidden rounded-2xl border border-card-border bg-card-bg backdrop-blur-sm"
+                  style={{
+                    // @ts-expect-error CSS custom property
+                    "--card-accent": accent,
+                    opacity: isVisible ? 1 : 0,
+                    transform: isVisible ? "none" : "translateY(16px)",
+                    transition: `opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${staggerDelay}ms, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${staggerDelay}ms`,
+                  }}
+                >
+                  {/* Hover 頂部 accent 漸層線 */}
+                  <div
+                    className="h-[2px] w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                    style={{
+                      background: `linear-gradient(to right, transparent, ${accent}, transparent)`,
+                    }}
+                  />
+
+                  <div className="relative px-6 py-5">
+                    {/* 官方 badge（右上角） */}
+                    {skill.isOfficial && (
+                      <span className="absolute right-4 top-4 rounded-full bg-blue-500/15 px-2 py-0.5 text-[10px] font-medium text-blue-400">
+                        Official
                       </span>
+                    )}
+
+                    {/* Warn 標記（右上角，官方下方） */}
+                    {skill.verdict === "warn" && (
+                      <span
+                        className={`absolute ${skill.isOfficial ? "right-4 top-10" : "right-4 top-4"} text-amber-400 text-sm`}
+                        title={skill.warning || ""}
+                      >
+                        ⚠️
+                      </span>
+                    )}
+
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">{skill.icon}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 pr-16">
+                          <h3 className="font-heading text-base font-semibold text-foreground truncate">
+                            {locale === "zh-TW" ? skill.nameZh : skill.name}
+                          </h3>
+                          {/* 分類 badge — 用分類 accent 色 */}
+                          <span
+                            className="flex-shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium"
+                            style={{
+                              backgroundColor: `${accent}1a`,
+                              color: accent,
+                            }}
+                          >
+                            {locale === "zh-TW"
+                              ? categories.find(
+                                  (c) => c.id === skill.category
+                                )?.nameZh
+                              : categories.find(
+                                  (c) => c.id === skill.category
+                                )?.name}
+                          </span>
+                        </div>
+                        <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-text-muted">
+                          {locale === "zh-TW"
+                            ? skill.descriptionZh
+                            : skill.description}
+                        </p>
+                        {/* Tags */}
+                        <div className="mt-3 flex flex-wrap gap-1.5">
+                          {skill.tags.map((tag) => (
+                            <span
+                              key={tag}
+                              className="rounded-md bg-white/5 px-2 py-0.5 text-[11px] text-text-muted"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
                     </div>
-                    <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-text-muted">
-                      {locale === "zh-TW" ? skill.descriptionZh : skill.description}
-                    </p>
-                    {/* Tags */}
-                    <div className="mt-3 flex flex-wrap gap-1.5">
-                      {skill.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="rounded-md bg-white/5 px-2 py-0.5 text-[11px] text-text-muted"
-                        >
-                          {tag}
-                        </span>
-                      ))}
+                    <div className="mt-4 pt-3 border-t border-card-border">
+                      <Link
+                        href={`/skills/${skill.id}`}
+                        className="inline-flex w-full items-center justify-center rounded-lg px-4 py-1.5 text-sm font-medium text-text-muted transition-all duration-300 ease-out hover:text-foreground hover:bg-white/5"
+                      >
+                        {tCommon("viewDetails")}
+                      </Link>
                     </div>
                   </div>
                 </div>
-                <div className="mt-4 pt-3 border-t border-card-border">
-                  <Button variant="ghost" size="sm" className="w-full">
-                    {tCommon("viewDetails")}
-                  </Button>
-                </div>
-              </Card>
-            ))}
+              );
+            })}
           </div>
         ) : (
           /* Empty State */

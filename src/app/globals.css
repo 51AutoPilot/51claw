@@ -211,3 +211,18 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(168, 85, 247, 0.5);
 }
+
+/* ─── Skill 卡片 hover accent glow ─── */
+.skill-card {
+  --card-accent: #a78bfa;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--card-accent) 30%, transparent);
+  box-shadow: 0 8px 32px color-mix(in srgb, var(--card-accent) 12%, transparent),
+    0 4px 16px color-mix(in srgb, var(--card-accent) 8%, transparent);
+}
