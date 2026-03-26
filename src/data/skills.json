@@ -23,7 +23,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "binance",
@@ -49,7 +50,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "htx",
@@ -73,7 +75,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "okx",
@@ -99,7 +102,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "coinbase",
@@ -125,7 +129,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "bankr",
@@ -149,7 +154,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "phantom-connect",
@@ -175,7 +181,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "blockbeats",
@@ -201,7 +208,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "6551-news",
@@ -227,7 +235,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "xclaw",
@@ -251,7 +260,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "x-research",
@@ -275,7 +285,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "coinmarketcap",
@@ -299,7 +310,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "coinank-api",
@@ -323,7 +335,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "day1global",
@@ -349,14 +362,15 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "almanak",
     "name": "Almanak",
     "nameZh": "Almanak",
     "description": "DeFi strategy automation with intelligent fund allocation.",
-    "descriptionZh": "DeFi 策略自動化，智能資金配置。",
+    "descriptionZh": "DeFi 策略自動化，智慧資金配置。",
     "category": "onchain",
     "tags": [
       "defi"
@@ -373,7 +387,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "byreal-cli",
@@ -399,7 +414,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "lista-dao",
@@ -423,14 +439,15 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "uniswap-ai",
     "name": "Uniswap AI",
     "nameZh": "Uniswap AI",
     "description": "Uniswap DEX intelligent trading.",
-    "descriptionZh": "Uniswap DEX 智能交易。",
+    "descriptionZh": "Uniswap DEX 智慧交易。",
     "category": "onchain",
     "tags": [
       "defi",
@@ -449,7 +466,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "bnb-chain-mcp",
@@ -475,7 +493,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "bnb-chain",
@@ -499,7 +518,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "four-meme",
@@ -523,7 +543,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "minara-ai-v2",
@@ -549,7 +570,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "dune",
@@ -575,7 +597,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "nansen",
@@ -601,7 +624,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "goplus-agentguard",
@@ -625,7 +649,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "slowmist",
@@ -649,7 +674,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "skill-vetter",
@@ -673,7 +699,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "bybit-skill",
@@ -699,7 +726,8 @@
     "isOfficial": true,
     "verdict": "warn",
     "warning": "建議先在 Testnet 練習",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "gate-skills",
@@ -731,7 +759,8 @@
     "isOfficial": true,
     "verdict": "warn",
     "warning": "可查詢帳戶資產和執行交易，請注意 API 權限範圍",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "solana-dev-skill",
@@ -763,7 +792,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "helius-skills",
@@ -795,7 +825,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "trust-wallet-skills",
@@ -827,7 +858,8 @@
     "isOfficial": true,
     "verdict": "warn",
     "warning": "可執行代幣交換和錢包操作，使用前請確認交易細節",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "emblem-agent-wallet",
@@ -859,7 +891,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "管理多鏈加密資產，請妥善保管錢包密碼",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "blockbeats-skill",
@@ -885,7 +918,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "nunchi-yex-trader",
@@ -911,13 +945,14 @@
     "icon": "🤖",
     "url": "https://github.com/Nunchi-trade/agent-cli",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "自動交易工具，請充分了解策略風險",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "agipro-trading",
@@ -945,13 +980,14 @@
     "icon": "📊",
     "url": "https://github.com/agiprolabs/claude-trading-skills",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "覆蓋多個 DeFi 協議的交易操作",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "vectorbt-backtesting",
@@ -979,13 +1015,14 @@
     "icon": "📈",
     "url": "https://github.com/marketcalls/vectorbt-backtesting-skills",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "options-strategy-advisor",
@@ -1009,7 +1046,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "含 IB 整合",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "alpaca-trading",
@@ -1037,13 +1075,14 @@
     "icon": "🦙",
     "url": "https://github.com/lacymorrow/openclaw-alpaca-trading-skill",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "支援真實資金交易，建議先用模擬帳戶",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "polyclaw",
@@ -1069,13 +1108,14 @@
     "icon": "🔮",
     "url": "https://github.com/chainstacklabs/polyclaw",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "Chainstack",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "涉及預測市場真實資金投注",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "bankrbot",
@@ -1101,13 +1141,14 @@
     "icon": "💣",
     "url": "https://github.com/BankrBot/claude-plugins",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "⚠️ 高風險：最高 150 倍槓桿，可能造成重大資金損失",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "dpro-hyperliquid",
@@ -1133,13 +1174,14 @@
     "icon": "⚡",
     "url": "https://github.com/dProLabs/dpro-hyperliquid",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "涉及 DEX 真實交易操作",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "hyper-alpha-arena",
@@ -1165,13 +1207,14 @@
     "icon": "🏟️",
     "url": "https://github.com/HammerGPT/Hyper-Alpha-Arena",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "多 Agent 自動交易，請確認風控設定",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "trump-code",
@@ -1197,13 +1240,14 @@
     "icon": "🦅",
     "url": "https://github.com/sstklen/trump-code",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "基於社交媒體信號的投機策略，風險極高",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "claude-financial-services",
@@ -1229,14 +1273,15 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "trailofbits-skills",
     "name": "Trail of Bits",
     "nameZh": "Trail of Bits 安全",
     "description": "40+ security skills — smart contracts, code review.",
-    "descriptionZh": "40+ 安全技能 — 智能合約審計、程式碼審查。",
+    "descriptionZh": "40+ 安全技能 — 智慧合約審計、程式碼審查。",
     "category": "security",
     "tags": [
       "audit",
@@ -1255,7 +1300,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "owasp-security",
@@ -1287,7 +1333,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "transilience-tools",
@@ -1311,7 +1358,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "僅限授權測試",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "parry",
@@ -1343,7 +1391,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "dippy",
@@ -1373,7 +1422,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "自動批准機制可能跳過必要的安全確認",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "agnix",
@@ -1403,7 +1453,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "plamen",
@@ -1435,7 +1486,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "superclaude",
@@ -1465,7 +1517,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "vibehq-hub",
@@ -1495,7 +1548,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "container-use",
@@ -1525,7 +1579,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "superpowers",
@@ -1555,7 +1610,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-squad",
@@ -1585,7 +1641,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "ccpm",
@@ -1615,7 +1672,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "auto-claude",
@@ -1639,13 +1697,14 @@
     "icon": "🤖",
     "url": "https://github.com/AndyMik90/Auto-Claude",
     "isFree": true,
-    "installCmd": "GitHub Releases 下載",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "自主多終端執行有風險，請確認安全模型設定",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "ruflo",
@@ -1675,7 +1734,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "平台會執行外部命令，請在受控環境中使用",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "contextkit",
@@ -1705,7 +1765,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "tsk",
@@ -1735,7 +1796,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "find-skills",
@@ -1767,7 +1829,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "self-improving-agent",
@@ -1797,7 +1860,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "github-skill",
@@ -1829,7 +1893,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "tavily-search",
@@ -1861,7 +1926,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "summarize",
@@ -1893,7 +1959,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-command-suite",
@@ -1923,7 +1990,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "production-commands",
@@ -1953,7 +2021,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "riper-workflow",
@@ -1977,13 +2046,14 @@
     "icon": "🔄",
     "url": "https://github.com/tony/claude-code-riper-5",
     "isFree": true,
-    "installCmd": "複製 .claude 目錄到專案根目錄",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "ab-method",
@@ -2013,7 +2083,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claudekit",
@@ -2043,7 +2114,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "Hook 腳本會自動執行，請確認所有 hook 行為符合預期",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "understand-anything",
@@ -2073,7 +2145,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "skill-factory",
@@ -2103,7 +2176,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "skill-seekers",
@@ -2133,7 +2207,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "compound-engineering",
@@ -2163,7 +2238,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "context7",
@@ -2195,7 +2271,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "github-mcp-server",
@@ -2229,7 +2306,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "sentry-mcp",
@@ -2261,7 +2339,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-code-mcp",
@@ -2293,7 +2372,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "⚠️ 跳過所有權限確認，存在安全風險，僅建議在受信任環境使用",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "lyra-tool-discovery",
@@ -2325,7 +2405,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "ccusage",
@@ -2357,7 +2438,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "ccflare",
@@ -2389,7 +2471,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "代理多個 API Key，請確認安全儲存方式",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claudex",
@@ -2421,7 +2504,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "frontend-design",
@@ -2451,7 +2535,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "react-best-practices",
@@ -2481,7 +2566,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "web-design-guidelines",
@@ -2511,7 +2597,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "vercel-react-native",
@@ -2541,7 +2628,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "frontend-design-toolkit",
@@ -2565,13 +2653,14 @@
     "icon": "🧰",
     "url": "https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit",
     "isFree": true,
-    "installCmd": "varies",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "varies"
   },
   {
     "id": "claude-code-ui-agents",
@@ -2595,13 +2684,14 @@
     "icon": "🖌️",
     "url": "https://github.com/mustafakendiguzel/claude-code-ui-agents",
     "isFree": true,
-    "installCmd": "無需安裝",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "react-native-expo-agent",
@@ -2625,7 +2715,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "stripe-skills",
@@ -2657,7 +2748,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "cloudflare-skills",
@@ -2691,7 +2783,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "netlify-skills",
@@ -2725,7 +2818,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "supabase-skills",
@@ -2759,7 +2853,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "hashicorp-skills",
@@ -2791,7 +2886,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "pulumi-skills",
@@ -2823,7 +2919,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "neon-skills",
@@ -2855,7 +2952,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "terraform-skill",
@@ -2889,7 +2987,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "cc-devops-skills",
@@ -2923,7 +3022,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claudebox",
@@ -2949,13 +3049,14 @@
     "icon": "📦",
     "url": "https://github.com/RchGrav/claudebox",
     "isFree": true,
-    "installCmd": "wget + chmod + run",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "需要 Docker 根權限，請確認環境安全",
-    "features": null
+    "features": null,
+    "installNote": "wget + chmod + run"
   },
   {
     "id": "n8n-skills",
@@ -2987,7 +3088,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "gemini-api-skills",
@@ -3021,7 +3123,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "firecrawl-skills",
@@ -3053,7 +3156,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "ai-marketing-suite",
@@ -3085,7 +3189,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-seo",
@@ -3117,7 +3222,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "seo-geo-skills",
@@ -3149,7 +3255,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "seo-machine",
@@ -3183,7 +3290,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "create-viral-content",
@@ -3215,7 +3323,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "包含 AI 內容偵測規避功能，請遵守各平台內容政策",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "remotion-best-practices",
@@ -3241,7 +3350,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "elevenlabs-mcp",
@@ -3275,7 +3385,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-media-skills",
@@ -3301,13 +3412,14 @@
     "icon": "🖼️",
     "url": "https://github.com/dennisonbertram/claude-media-skills",
     "isFree": true,
-    "installCmd": "cp skills to ~/.claude/skills/",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "圖片上傳到第三方服務 catbox.moe，請注意隱私",
-    "features": null
+    "features": null,
+    "installNote": "cp skills to ~/.claude/skills/"
   },
   {
     "id": "generative-media-skills",
@@ -3341,7 +3453,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "video-toolkit",
@@ -3369,13 +3482,14 @@
     "icon": "🎞️",
     "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
     "isFree": true,
-    "installCmd": "git clone + pip install",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "git clone + pip install"
   },
   {
     "id": "ai-music-production",
@@ -3403,13 +3517,14 @@
     "icon": "🎵",
     "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
     "isFree": true,
-    "installCmd": "/plugin marketplace add + /bitwize-music:setup",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "/plugin marketplace add + /bitwize-music:setup"
   },
   {
     "id": "deapi-media-toolkit",
@@ -3435,7 +3550,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "game-studios",
@@ -3467,7 +3583,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "godogen",
@@ -3499,7 +3616,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "altimate-data-engineering",
@@ -3531,7 +3649,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-data-analysis",
@@ -3557,13 +3676,14 @@
     "icon": "📊",
     "url": "https://github.com/liangdabiao/claude-data-analysis",
     "isFree": true,
-    "installCmd": "clone + data_storage/",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "clone + data_storage/"
   },
   {
     "id": "data-science-team",
@@ -3589,13 +3709,14 @@
     "icon": "🧪",
     "url": "https://github.com/HungHsunHan/claude-code-data-science-team",
     "isFree": true,
-    "installCmd": "git clone + pip install",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "git clone + pip install"
   },
   {
     "id": "x-research-skill",
@@ -3621,7 +3742,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "cc-connect",
@@ -3655,7 +3777,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "可存取多個通訊平台的訊息，請確認授權範圍",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "wacli",
@@ -3687,7 +3810,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "可代為發送 WhatsApp 訊息，請確認收件人和內容",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-code-discord",
@@ -3719,7 +3843,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "Bot 可執行 Shell 命令，請確保 RBAC 設定正確",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "anthropic-document-skills",
@@ -3753,7 +3878,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "anthropic-canvas-design",
@@ -3785,7 +3911,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "anthropic-web-artifacts",
@@ -3819,7 +3946,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "anthropic-mcp-builder",
@@ -3853,7 +3981,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "anthropic-webapp-testing",
@@ -3887,7 +4016,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "sanity-toolkit",
@@ -3921,7 +4051,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "veryfi-ocr",
@@ -3947,13 +4078,14 @@
     "icon": "🧾",
     "url": "",
     "isFree": true,
-    "installCmd": "clawhub install veryfi-ocr",
+    "installCmd": null,
     "installCount": null,
     "source": "Veryfi 官方",
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "clawhub install veryfi-ocr"
   },
   {
     "id": "claude-legal",
@@ -3981,13 +4113,14 @@
     "icon": "⚖️",
     "url": "https://github.com/Kromer-Group/Claude-Legal",
     "isFree": true,
-    "installCmd": "claude plugins add",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "claude plugins add"
   },
   {
     "id": "book-factory",
@@ -4013,13 +4146,14 @@
     "icon": "📕",
     "url": "https://github.com/robertguss/claude-skills",
     "isFree": true,
-    "installCmd": "git clone https://github.com/robertguss/claude-skills.git",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "git clone https://github.com/robertguss/claude-skills.git"
   },
   {
     "id": "web-scraper",
@@ -4051,7 +4185,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-homeassistant",
@@ -4083,7 +4218,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "可遠端控制家中設備，請確認 SSH 連線安全",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "bybit-trading",
@@ -4109,13 +4245,14 @@
     "icon": "🟡",
     "url": "",
     "isFree": true,
-    "installCmd": "零安裝 — 讀取 SKILL.md 即可",
+    "installCmd": null,
     "installCount": null,
     "source": "Bybit 官方",
     "isOfficial": true,
     "verdict": "warn",
     "warning": "可用真實資金執行交易，建議先在 Testnet 測試",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "anthropic-financial",
@@ -4147,7 +4284,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "options-strategy",
@@ -4173,20 +4311,21 @@
     "icon": "🎯",
     "url": "https://github.com/staskh/trading_skills",
     "isFree": true,
-    "installCmd": "from GitHub",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "可連接真實券商帳戶，請用模擬帳戶測試",
-    "features": null
+    "features": null,
+    "installNote": "from GitHub"
   },
   {
     "id": "trail-of-bits",
     "name": "Trail of Bits Skills",
     "nameZh": "Trail of Bits 安全技能",
     "description": "Premier security firm's 40+ skills for smart contract auditing, CodeQL, Semgrep, and reverse engineering.",
-    "descriptionZh": "頂尖資安公司 40+ 安全技能，智能合約/CodeQL/Semgrep/逆向工程全覆蓋",
+    "descriptionZh": "頂尖資安公司 40+ 安全技能，智慧合約/CodeQL/Semgrep/逆向工程全覆蓋",
     "category": "security",
     "tags": [
       "security-audit",
@@ -4211,7 +4350,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "transilience",
@@ -4243,7 +4383,8 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "僅限授權安全測試使用",
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "stitch-design2code",
@@ -4273,7 +4414,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "uiux-pro-max",
@@ -4305,7 +4447,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "rn-expo-agent-system",
@@ -4335,7 +4478,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "better-auth",
@@ -4369,7 +4513,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "apollo-graphql",
@@ -4403,7 +4548,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "speakeasy-api",
@@ -4437,14 +4583,15 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "claude-scientific",
     "name": "Claude Scientific Skills",
     "nameZh": "Claude 科學技能庫",
     "description": "170+ scientific skills across 250+ databases: biology, chemistry, medicine, physics with 60+ Python packages",
-    "descriptionZh": "170+ 科學技能 × 250+ 資料庫，生物/化學/醫學/物理 + 60+ Python 套件，研究者天堂",
+    "descriptionZh": "170+ 科學技能 x 250+ 資料庫，生物/化學/醫學/物理 + 60+ Python 套件，研究者天堂",
     "category": "data",
     "tags": [
       "science",
@@ -4465,13 +4612,14 @@
     "icon": "🔬",
     "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "isFree": true,
-    "installCmd": "git clone + cp",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "git clone + cp"
   },
   {
     "id": "remotion-skills",
@@ -4505,7 +4653,8 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "deapi-media",
@@ -4533,13 +4682,14 @@
     "icon": "🎨",
     "url": "https://github.com/deapi-ai/claude-code-skills",
     "isFree": true,
-    "installCmd": "git clone + cp",
+    "installCmd": null,
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": "git clone + cp"
   },
   {
     "id": "marketing-skills-kostja",
@@ -4573,7 +4723,8 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null
+    "features": null,
+    "installNote": null
   },
   {
     "id": "gog",
@@ -4607,6 +4758,7 @@
     "isOfficial": false,
     "verdict": "warn",
     "warning": "可讀取/傳送 Email 和存取 Google Drive，使用前請確認 OAuth 授權範圍",
-    "features": null
+    "features": null,
+    "installNote": null
   }
 ]
