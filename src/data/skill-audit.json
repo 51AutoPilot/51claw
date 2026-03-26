@@ -3,930 +3,1085 @@
     "id": "bitget-wallet",
     "name": "Bitget Wallet",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "binance",
     "name": "Binance Skills Hub",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "htx",
     "name": "HTX Skills Hub",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "okx",
     "name": "OKX OnchainOS",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "coinbase",
     "name": "Coinbase Agentic Wallets",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "bankr",
     "name": "Bankr",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "phantom-connect",
     "name": "Phantom Connect",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "blockbeats",
     "name": "BlockBeats",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "6551-news",
     "name": "6551 News Feed",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "xclaw",
     "name": "XClaw",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "x-research",
     "name": "X Research",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "coinmarketcap",
     "name": "CoinMarketCap",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "coinank-api",
     "name": "CoinAnk API",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "day1global",
     "name": "Day1Global",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "almanak",
     "name": "Almanak",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "byreal-cli",
     "name": "Byreal CLI",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "lista-dao",
     "name": "Lista DAO",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "uniswap-ai",
     "name": "Uniswap AI",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "bnb-chain-mcp",
     "name": "BNB Chain MCP",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "bnb-chain",
     "name": "BNB Chain",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "four-meme",
     "name": "Four Meme",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "minara-ai-v2",
     "name": "Minara AI v2",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "dune",
     "name": "Dune",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "nansen",
     "name": "Nansen",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "goplus-agentguard",
     "name": "GoPlus AgentGuard",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "slowmist",
     "name": "SlowMist",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "skill-vetter",
     "name": "Skill Vetter",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "bybit-skill",
     "name": "Bybit AI Trading",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "建議先在 Testnet 練習"
   },
   {
     "id": "gate-skills",
     "name": "Gate Skills",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可查詢帳戶資產和執行交易，請注意 API 權限範圍"
   },
   {
     "id": "solana-dev-skill",
     "name": "Solana Dev Skill",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "helius-skills",
     "name": "Helius Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "trust-wallet-skills",
     "name": "Trust Wallet Agent Skills",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可執行代幣交換和錢包操作，使用前請確認交易細節"
   },
   {
     "id": "emblem-agent-wallet",
     "name": "Emblem AI Agent Wallet",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "管理多鏈加密資產，請妥善保管錢包密碼"
   },
   {
     "id": "blockbeats-skill",
     "name": "BlockBeats Skill",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "nunchi-yex-trader",
     "name": "Nunchi yex-trader",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "自動交易工具，請充分了解策略風險"
   },
   {
     "id": "agipro-trading",
     "name": "AGIPro Trading Skills",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "覆蓋多個 DeFi 協議的交易操作"
   },
   {
     "id": "vectorbt-backtesting",
     "name": "VectorBT Backtesting",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "options-strategy-advisor",
     "name": "Options Advisor",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "含 IB 整合"
   },
   {
     "id": "alpaca-trading",
     "name": "Alpaca Trading",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "支援真實資金交易，建議先用模擬帳戶"
   },
   {
     "id": "polyclaw",
     "name": "Polyclaw",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "涉及預測市場真實資金投注"
   },
   {
     "id": "bankrbot",
     "name": "BankrBot",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "⚠️ 高風險：最高 150 倍槓桿，可能造成重大資金損失"
   },
   {
     "id": "dpro-hyperliquid",
     "name": "dpro-hyperliquid",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "涉及 DEX 真實交易操作"
   },
   {
     "id": "hyper-alpha-arena",
     "name": "Hyper-Alpha-Arena",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "多 Agent 自動交易，請確認風控設定"
   },
   {
     "id": "trump-code",
     "name": "Trump Code",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "基於社交媒體信號的投機策略，風險極高"
   },
   {
     "id": "claude-financial-services",
     "name": "Claude Financial Services",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "trailofbits-skills",
     "name": "Trail of Bits",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "owasp-security",
     "name": "OWASP Security Skill",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "transilience-tools",
     "name": "Transilience Tools",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "僅限授權測試"
   },
   {
     "id": "parry",
     "name": "Parry",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "dippy",
     "name": "Dippy",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "自動批准機制可能跳過必要的安全確認"
   },
   {
     "id": "agnix",
     "name": "agnix",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "plamen",
     "name": "Plamen",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "superclaude",
     "name": "SuperClaude Framework",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "vibehq-hub",
     "name": "VibeHQ Hub",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "container-use",
     "name": "Container-Use (Dagger)",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "superpowers",
     "name": "Superpowers",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-squad",
     "name": "Claude Squad",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "ccpm",
     "name": "CCPM",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "auto-claude",
     "name": "Auto-Claude",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "自主多終端執行有風險，請確認安全模型設定"
   },
   {
     "id": "ruflo",
     "name": "Ruflo",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "平台會執行外部命令，請在受控環境中使用"
   },
   {
     "id": "contextkit",
     "name": "ContextKit",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "tsk",
     "name": "TSK",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "find-skills",
     "name": "Find Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "self-improving-agent",
     "name": "Self-Improving Agent",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "github-skill",
     "name": "GitHub",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "tavily-search",
     "name": "Tavily Search",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "summarize",
     "name": "Summarize",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-command-suite",
     "name": "Claude Command Suite",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "production-commands",
     "name": "Production Commands",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "riper-workflow",
     "name": "RIPER Workflow",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "ab-method",
     "name": "AB Method",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claudekit",
     "name": "claudekit",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "Hook 腳本會自動執行，請確認所有 hook 行為符合預期"
   },
   {
     "id": "understand-anything",
     "name": "Understand-Anything",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "skill-factory",
     "name": "Skill Factory",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "skill-seekers",
     "name": "Skill Seekers",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "compound-engineering",
     "name": "Compound Engineering",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "context7",
     "name": "Context7",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "github-mcp-server",
     "name": "GitHub MCP Server",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "sentry-mcp",
     "name": "Sentry MCP Server",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-code-mcp",
     "name": "Claude Code MCP",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "⚠️ 跳過所有權限確認，存在安全風險，僅建議在受信任環境使用"
   },
   {
     "id": "lyra-tool-discovery",
     "name": "Lyra Tool Discovery",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "ccusage",
     "name": "ccusage",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "ccflare",
     "name": "ccflare",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "代理多個 API Key，請確認安全儲存方式"
   },
   {
     "id": "claudex",
     "name": "Claudex",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "frontend-design",
     "name": "Frontend Design",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "react-best-practices",
     "name": "React Best Practices",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "web-design-guidelines",
     "name": "Web Design Guidelines",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "vercel-react-native",
     "name": "Vercel React Native Guidelines",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "frontend-design-toolkit",
     "name": "Claude Frontend Design Toolkit",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-code-ui-agents",
     "name": "Claude Code UI Agents",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "react-native-expo-agent",
     "name": "RN Expo Agent",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "stripe-skills",
     "name": "Stripe Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "cloudflare-skills",
     "name": "Cloudflare Skills Hub",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "netlify-skills",
     "name": "Netlify Context and Tools",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "supabase-skills",
     "name": "Supabase Agent Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "hashicorp-skills",
     "name": "HashiCorp Agent Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "pulumi-skills",
     "name": "Pulumi Agent Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "neon-skills",
     "name": "Neon Agent Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "terraform-skill",
     "name": "Terraform Skill",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "cc-devops-skills",
     "name": "cc-devops-skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claudebox",
     "name": "ClaudeBox",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "需要 Docker 根權限，請確認環境安全"
   },
   {
     "id": "n8n-skills",
     "name": "n8n Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "gemini-api-skills",
     "name": "Gemini API Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "firecrawl-skills",
     "name": "Firecrawl CLI & Plugin",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "ai-marketing-suite",
     "name": "AI Marketing Suite",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-seo",
     "name": "Claude SEO",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "seo-geo-skills",
     "name": "SEO & GEO Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "seo-machine",
     "name": "SEO Machine",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "create-viral-content",
     "name": "Create Viral Content",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "包含 AI 內容偵測規避功能，請遵守各平台內容政策"
   },
   {
     "id": "remotion-best-practices",
     "name": "Remotion",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "elevenlabs-mcp",
     "name": "ElevenLabs MCP Server",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-media-skills",
     "name": "Claude Media Skills",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "圖片上傳到第三方服務 catbox.moe，請注意隱私"
   },
   {
     "id": "generative-media-skills",
     "name": "Generative Media Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "video-toolkit",
     "name": "Video Toolkit",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "ai-music-production",
     "name": "AI Music Production",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "deapi-media-toolkit",
     "name": "deAPI Media",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "game-studios",
     "name": "Claude Code Game Studios",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "godogen",
     "name": "Godogen",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "altimate-data-engineering",
     "name": "Altimate Data Engineering",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-data-analysis",
     "name": "claude-data-analysis",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "data-science-team",
     "name": "claude-code-data-science-team",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "x-research-skill",
     "name": "X Research",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "cc-connect",
     "name": "cc-connect",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可存取多個通訊平台的訊息，請確認授權範圍"
   },
   {
     "id": "wacli",
     "name": "Wacli",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可代為發送 WhatsApp 訊息，請確認收件人和內容"
   },
   {
     "id": "claude-code-discord",
     "name": "claude-code-discord",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "Bot 可執行 Shell 命令，請確保 RBAC 設定正確"
   },
   {
     "id": "anthropic-document-skills",
     "name": "Anthropic Document Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "anthropic-canvas-design",
     "name": "Anthropic Canvas Design",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "anthropic-web-artifacts",
     "name": "Anthropic Web Artifacts Builder",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "anthropic-mcp-builder",
     "name": "Anthropic MCP Builder",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "anthropic-webapp-testing",
     "name": "Anthropic Webapp Testing",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "sanity-toolkit",
     "name": "Sanity Agent Toolkit",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "veryfi-ocr",
     "name": "Veryfi OCR 3.0",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-legal",
     "name": "Claude-Legal",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "book-factory",
     "name": "Book Factory",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "web-scraper",
     "name": "Web Scraper",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-homeassistant",
     "name": "claude-homeassistant",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可遠端控制家中設備，請確認 SSH 連線安全"
   },
   {
     "id": "bybit-trading",
     "name": "Bybit AI Trading Skill",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可用真實資金執行交易，建議先在 Testnet 測試"
   },
   {
     "id": "anthropic-financial",
     "name": "Claude for Financial Services",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "options-strategy",
     "name": "Options Strategy Advisor",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可連接真實券商帳戶，請用模擬帳戶測試"
   },
   {
     "id": "trail-of-bits",
     "name": "Trail of Bits Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "transilience",
     "name": "Transilience Community Tools",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "僅限授權安全測試使用"
   },
   {
     "id": "stitch-design2code",
     "name": "Stitch Design-to-Code",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "uiux-pro-max",
     "name": "UI/UX Pro Max",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "rn-expo-agent-system",
     "name": "React Native Expo Agent System",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "better-auth",
     "name": "Better Auth Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "apollo-graphql",
     "name": "Apollo GraphQL Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "speakeasy-api",
     "name": "Speakeasy API Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "claude-scientific",
     "name": "Claude Scientific Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "remotion-skills",
     "name": "Remotion Best Practices",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "deapi-media",
     "name": "deAPI AI Media Toolkit",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "marketing-skills-kostja",
     "name": "Marketing Skills",
     "verdict": "pass",
+    "reason": "既有收錄 skill",
     "warning": null
   },
   {
     "id": "gog",
     "name": "GOG (Google Workspace)",
     "verdict": "warn",
+    "reason": "既有收錄 skill",
     "warning": "可讀取/傳送 Email 和存取 Google Drive，使用前請確認 OAuth 授權範圍"
   },
   {
     "id": "htx-skills-hub",
     "name": "htx-skills-hub",
     "verdict": "reject",
+    "reason": "重複收錄，已合併至主條目",
     "warning": null
   },
   {
     "id": "blockbeats-detail",
     "name": "blockbeats-detail",
     "verdict": "reject",
+    "reason": "重複收錄，已合併至主條目",
     "warning": null
   },
   {
     "id": "x-research-detail",
     "name": "x-research-detail",
     "verdict": "reject",
+    "reason": "重複收錄，已合併至主條目",
     "warning": null
   }
 ]
