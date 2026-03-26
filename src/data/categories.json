@@ -6,7 +6,7 @@
     "icon": "🏦",
     "description": "Official exchange tools and wallet integrations",
     "descriptionZh": "官方交易所工具與錢包整合",
-    "count": 5
+    "count": 7
   },
   {
     "id": "news",
@@ -15,16 +15,16 @@
     "icon": "📡",
     "description": "Real-time crypto news and market intelligence",
     "descriptionZh": "即時加密貨幣新聞與市場情報",
-    "count": 4
+    "count": 5
   },
   {
     "id": "onchain",
     "name": "On-chain Tools",
     "nameZh": "鏈上工具",
     "icon": "⛓️",
-    "description": "DeFi protocols, DEX, and on-chain operations",
-    "descriptionZh": "DeFi 協議、DEX 與鏈上操作工具",
-    "count": 10
+    "description": "DeFi protocols, wallets, and blockchain development",
+    "descriptionZh": "DeFi 協議、錢包與區塊鏈開發",
+    "count": 14
   },
   {
     "id": "analytics",
@@ -33,24 +33,96 @@
     "icon": "📊",
     "description": "On-chain data analytics and market insights",
     "descriptionZh": "鏈上數據分析與市場洞察",
-    "count": 3
+    "count": 2
   },
   {
     "id": "security",
     "name": "Security",
     "nameZh": "安全",
     "icon": "🛡️",
-    "description": "Smart contract auditing and threat detection",
-    "descriptionZh": "智能合約審計與威脅偵測",
-    "count": 3
+    "description": "Smart contract auditing, penetration testing, and threat detection",
+    "descriptionZh": "合約審計、滲透測試與威脅偵測",
+    "count": 10
   },
   {
-    "id": "other",
-    "name": "Other",
-    "nameZh": "其他",
+    "id": "trading",
+    "name": "Trading & Finance",
+    "nameZh": "交易 & 金融",
+    "icon": "💹",
+    "description": "Quantitative trading, backtesting, and financial analysis",
+    "descriptionZh": "量化交易、回測與金融分析",
+    "count": 15
+  },
+  {
+    "id": "frontend",
+    "name": "Frontend & UI",
+    "nameZh": "前端 & UI",
+    "icon": "🎨",
+    "description": "Design systems, UI/UX frameworks, and React best practices",
+    "descriptionZh": "設計系統、UI/UX 框架與 React 最佳實踐",
+    "count": 10
+  },
+  {
+    "id": "devtools",
+    "name": "Dev Tools",
+    "nameZh": "開發工具",
     "icon": "🔧",
-    "description": "Specialized tools and research utilities",
-    "descriptionZh": "專業工具與研究輔助",
-    "count": 2
+    "description": "Slash commands, workflows, linters, and dev productivity",
+    "descriptionZh": "斜線指令、工作流、Linter 與開發提速",
+    "count": 12
+  },
+  {
+    "id": "multiagent",
+    "name": "Multi-Agent",
+    "nameZh": "多 Agent",
+    "icon": "🤖",
+    "description": "Multi-agent coordination, orchestration, and frameworks",
+    "descriptionZh": "多 Agent 協調、編排與框架",
+    "count": 10
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud & DevOps",
+    "nameZh": "雲端 & DevOps",
+    "icon": "☁️",
+    "description": "IaC, CI/CD, containers, databases, and backend services",
+    "descriptionZh": "IaC、CI/CD、容器、資料庫與後端服務",
+    "count": 12
+  },
+  {
+    "id": "data",
+    "name": "Data & AI",
+    "nameZh": "數據 & AI",
+    "icon": "🧬",
+    "description": "Data science, ML, APIs, and scientific research",
+    "descriptionZh": "數據科學、ML、API 與科學研究",
+    "count": 7
+  },
+  {
+    "id": "media",
+    "name": "Media Creation",
+    "nameZh": "媒體生成",
+    "icon": "🎬",
+    "description": "Video, music, image generation, and TTS",
+    "descriptionZh": "影片、音樂、圖片生成與語音合成",
+    "count": 9
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing & SEO",
+    "nameZh": "行銷 & SEO",
+    "icon": "📢",
+    "description": "SEO optimization, content marketing, and social media",
+    "descriptionZh": "SEO 優化、內容行銷與社群策略",
+    "count": 6
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity",
+    "nameZh": "生產力",
+    "icon": "💼",
+    "description": "Office tools, communication, search, MCP servers, and utilities",
+    "descriptionZh": "辦公工具、通訊、搜尋、MCP 與實用工具",
+    "count": 33
   }
 ]

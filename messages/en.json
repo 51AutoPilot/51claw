@@ -101,7 +101,15 @@
       "onchain": "On-chain Tools",
       "analytics": "Analytics",
       "security": "Security",
-      "other": "Other"
+      "trading": "Trading & Finance",
+      "frontend": "Frontend & UI",
+      "devtools": "Dev Tools",
+      "multiagent": "Multi-Agent",
+      "cloud": "Cloud & DevOps",
+      "data": "Data & AI",
+      "media": "Media Creation",
+      "marketing": "Marketing & SEO",
+      "productivity": "Productivity"
     },
     "searchPlaceholder": "Search Skills...",
     "all": "All",
@@ -204,6 +212,48 @@
       "description": "Full-spectrum security. Contract auditing, risk detection, and Skills safety checks all in one.",
       "bestFor": "Security-conscious traders",
       "highlight": "Full-spectrum security"
+    },
+    "developer": {
+      "title": "Developer Toolkit",
+      "description": "Everything a builder needs. Chain tools, CLI operations, on-chain queries, and security auditing in one pack.",
+      "bestFor": "Developers building on-chain",
+      "highlight": "Build + audit in one workflow"
+    },
+    "web3-starter": {
+      "title": "Web3 Starter Pack",
+      "description": "Your first steps into Web3. Wallet setup, DEX trading, news feeds, and security — all the essentials covered.",
+      "bestFor": "Web3 newcomers",
+      "highlight": "Zero to on-chain in minutes"
+    },
+    "marketing": {
+      "title": "Marketing Suite",
+      "description": "Social intel meets market data. Monitor X sentiment, track news, and stay ahead of narratives.",
+      "bestFor": "KOLs, marketers, community managers",
+      "highlight": "Narrative tracking + social intel"
+    },
+    "official-essentials": {
+      "title": "Official Essentials",
+      "description": "Top-quality official skills from leading platforms",
+      "bestFor": "All developers",
+      "highlight": "Trusted, official, production-ready"
+    },
+    "trading-starter": {
+      "title": "Trading Starter",
+      "description": "Essential tools for traders and financial analysis",
+      "bestFor": "Traders, financial analysts",
+      "highlight": "Backtesting + analysis + search"
+    },
+    "ai-creator": {
+      "title": "AI Creator",
+      "description": "Full media generation toolkit for creators",
+      "bestFor": "Content creators, media producers",
+      "highlight": "Video + music + image + TTS"
+    },
+    "devflow": {
+      "title": "Dev Flow",
+      "description": "Supercharge your development workflow",
+      "bestFor": "Developers seeking productivity",
+      "highlight": "Multi-agent + self-improving + review"
     }
   }
 }

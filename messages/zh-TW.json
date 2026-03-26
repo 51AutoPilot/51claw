@@ -101,7 +101,15 @@
       "onchain": "鏈上工具",
       "analytics": "數據分析",
       "security": "安全",
-      "other": "其他"
+      "trading": "交易 & 金融",
+      "frontend": "前端 & UI",
+      "devtools": "開發工具",
+      "multiagent": "多 Agent",
+      "cloud": "雲端 & DevOps",
+      "data": "數據 & AI",
+      "media": "媒體生成",
+      "marketing": "行銷 & SEO",
+      "productivity": "生產力"
     },
     "searchPlaceholder": "搜尋 Skills...",
     "all": "全部",
@@ -204,6 +212,48 @@
       "description": "全方位安全防護。合約審計、風險偵測、Skills 安全性檢查一次搞定。",
       "bestFor": "注重安全的交易者",
       "highlight": "全方位安全防護"
+    },
+    "developer": {
+      "title": "開發者工具包",
+      "description": "開發者的全套裝備。公鏈工具、CLI 操作、鏈上查詢、安全審計一包搞定。",
+      "bestFor": "鏈上開發者",
+      "highlight": "開發 + 審計一條龍"
+    },
+    "web3-starter": {
+      "title": "Web3 入門包",
+      "description": "踏入 Web3 的第一步。錢包設定、DEX 交易、新聞資訊、安全防護，基礎全都有。",
+      "bestFor": "Web3 新手",
+      "highlight": "從零到鏈上只要幾分鐘"
+    },
+    "marketing": {
+      "title": "行銷套餐",
+      "description": "社交情報 × 市場數據。監控 X 輿情、追蹤新聞、搶先掌握敘事風向。",
+      "bestFor": "KOL、行銷人、社群經理",
+      "highlight": "敘事追蹤 + 社交情報"
+    },
+    "official-essentials": {
+      "title": "官方精選",
+      "description": "頂尖平台官方出品的高品質 Skills",
+      "bestFor": "所有開發者",
+      "highlight": "可信賴、官方、生產級"
+    },
+    "trading-starter": {
+      "title": "交易入門",
+      "description": "交易者與金融分析必備工具",
+      "bestFor": "交易者、金融分析師",
+      "highlight": "回測 + 分析 + 搜尋"
+    },
+    "ai-creator": {
+      "title": "AI 創作者",
+      "description": "媒體生成全家桶，創作者的武器庫",
+      "bestFor": "內容創作者、媒體製作人",
+      "highlight": "影片 + 音樂 + 圖片 + TTS"
+    },
+    "devflow": {
+      "title": "開發加速",
+      "description": "開發工作流提速神器",
+      "bestFor": "追求效率的開發者",
+      "highlight": "多 Agent + 自我改進 + 審查"
     }
   }
 }

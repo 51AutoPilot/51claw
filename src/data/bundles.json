@@ -2,16 +2,109 @@
   {
     "id": "starter",
     "icon": "🚀",
-    "skillIds": ["coinbase", "coinmarketcap", "phantom-connect", "goplus-agentguard"]
+    "skillIds": [
+      "coinbase",
+      "coinmarketcap",
+      "phantom-connect",
+      "goplus-agentguard"
+    ]
   },
   {
     "id": "analytics",
     "icon": "📊",
-    "skillIds": ["dune", "nansen", "coinank-api", "almanak", "bnb-chain-mcp"]
+    "skillIds": [
+      "dune",
+      "nansen",
+      "coinank-api",
+      "almanak",
+      "bnb-chain-mcp"
+    ]
   },
   {
     "id": "security",
     "icon": "🛡️",
-    "skillIds": ["goplus-agentguard", "slowmist", "skill-vetter", "bitget-wallet"]
+    "skillIds": [
+      "goplus-agentguard",
+      "slowmist",
+      "skill-vetter",
+      "bitget-wallet"
+    ]
+  },
+  {
+    "id": "developer",
+    "icon": "🛠️",
+    "skillIds": [
+      "bnb-chain-mcp",
+      "bnb-chain",
+      "byreal-cli",
+      "dune",
+      "skill-vetter"
+    ]
+  },
+  {
+    "id": "web3-starter",
+    "icon": "🌐",
+    "skillIds": [
+      "okx",
+      "phantom-connect",
+      "uniswap-ai",
+      "blockbeats",
+      "goplus-agentguard"
+    ]
+  },
+  {
+    "id": "marketing",
+    "icon": "📣",
+    "skillIds": [
+      "xclaw",
+      "x-research",
+      "blockbeats",
+      "6551-news",
+      "coinmarketcap"
+    ]
+  },
+  {
+    "id": "official-essentials",
+    "icon": "⭐",
+    "skillIds": [
+      "frontend-design",
+      "react-best-practices",
+      "cloudflare-skills",
+      "supabase-skills",
+      "stripe-skills",
+      "trail-of-bits"
+    ]
+  },
+  {
+    "id": "trading-starter",
+    "icon": "💰",
+    "skillIds": [
+      "vectorbt-backtesting",
+      "alpaca-trading",
+      "anthropic-financial",
+      "tavily-search"
+    ]
+  },
+  {
+    "id": "ai-creator",
+    "icon": "🎨",
+    "skillIds": [
+      "remotion-skills",
+      "elevenlabs-mcp",
+      "generative-media-skills",
+      "deapi-media",
+      "ai-music-production"
+    ]
+  },
+  {
+    "id": "devflow",
+    "icon": "🚀",
+    "skillIds": [
+      "superclaude",
+      "claude-squad",
+      "self-improving-agent",
+      "claudekit",
+      "understand-anything"
+    ]
   }
 ]

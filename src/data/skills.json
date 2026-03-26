@@ -16,26 +16,14 @@
     ],
     "icon": "💼",
     "url": "",
-    "isFree": true
-  },
-  {
-    "id": "coinbase",
-    "name": "Coinbase Agentic Wallets",
-    "nameZh": "Coinbase Agentic Wallets",
-    "description": "Autonomous agent wallet infrastructure for DeFi operations.",
-    "descriptionZh": "自主代理錢包基礎設施。",
-    "category": "cex",
-    "tags": [
-      "defi",
-      "wallet"
-    ],
-    "tagsZh": [
-      "DeFi",
-      "錢包"
-    ],
-    "icon": "🪙",
-    "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "binance",
@@ -54,7 +42,14 @@
     ],
     "icon": "🔶",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "htx",
@@ -71,7 +66,14 @@
     ],
     "icon": "🔥",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "okx",
@@ -90,96 +92,40 @@
     ],
     "icon": "⚡",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
-    "id": "blockbeats",
-    "name": "BlockBeats",
-    "nameZh": "律動 BlockBeats",
-    "description": "In-depth research reports + real-time news from 1500+ sources.",
-    "descriptionZh": "深度研報 + 1500+ 信源即時新聞。",
-    "category": "news",
-    "tags": [
-      "reading",
-      "info"
-    ],
-    "tagsZh": [
-      "閱讀",
-      "資訊"
-    ],
-    "icon": "📰",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "6551-news",
-    "name": "6551 News Feed",
-    "nameZh": "6551 新聞源",
-    "description": "X data + 50+ real-time news sources + Telegram alerts.",
-    "descriptionZh": "X 數據 + 50+ 實時新聞源 + Telegram 提醒。",
-    "category": "news",
-    "tags": [
-      "reading",
-      "info"
-    ],
-    "tagsZh": [
-      "閱讀",
-      "資訊"
-    ],
-    "icon": "📡",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "coinmarketcap",
-    "name": "CoinMarketCap",
-    "nameZh": "CoinMarketCap",
-    "description": "Token prices, market cap rankings, and trading volume queries.",
-    "descriptionZh": "代幣價格、市值排名、交易量查詢。",
-    "category": "news",
-    "tags": [
-      "data"
-    ],
-    "tagsZh": [
-      "數據"
-    ],
-    "icon": "📊",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "xclaw",
-    "name": "XClaw",
-    "nameZh": "XClaw",
-    "description": "X platform intelligence gathering — saves 95%+ token consumption.",
-    "descriptionZh": "X 平台情報收集，節省 95%+ Token 消耗。",
-    "category": "news",
-    "tags": [
-      "info"
-    ],
-    "tagsZh": [
-      "資訊"
-    ],
-    "icon": "🐦",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "almanak",
-    "name": "Almanak",
-    "nameZh": "Almanak",
-    "description": "DeFi strategy automation with intelligent fund allocation.",
-    "descriptionZh": "DeFi 策略自動化，智能資金配置。",
+    "id": "coinbase",
+    "name": "Coinbase Agentic Wallets",
+    "nameZh": "Coinbase Agentic Wallets",
+    "description": "Autonomous agent wallet infrastructure for DeFi operations.",
+    "descriptionZh": "自主代理錢包基礎設施。",
     "category": "onchain",
     "tags": [
-      "defi"
+      "defi",
+      "wallet"
     ],
     "tagsZh": [
-      "DeFi"
+      "DeFi",
+      "錢包"
     ],
-    "icon": "🧪",
+    "icon": "🪙",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "bankr",
@@ -196,115 +142,14 @@
     ],
     "icon": "🏦",
     "url": "",
-    "isFree": true
-  },
-  {
-    "id": "bnb-chain-mcp",
-    "name": "BNB Chain MCP",
-    "nameZh": "BNB Chain MCP",
-    "description": "Native MCP integration for BNB Chain ecosystem.",
-    "descriptionZh": "BNB Chain 原生 MCP 整合。",
-    "category": "onchain",
-    "tags": [
-      "tools",
-      "defi"
-    ],
-    "tagsZh": [
-      "工具",
-      "DeFi"
-    ],
-    "icon": "⛓️",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "bnb-chain",
-    "name": "BNB Chain",
-    "nameZh": "BNB Chain",
-    "description": "BNB Chain ecosystem resources and toolset.",
-    "descriptionZh": "BNB Chain 生態資源和工具集。",
-    "category": "onchain",
-    "tags": [
-      "tools"
-    ],
-    "tagsZh": [
-      "工具"
-    ],
-    "icon": "🔗",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "byreal-cli",
-    "name": "Byreal CLI",
-    "nameZh": "Byreal CLI",
-    "description": "Command-line DeFi operations tool.",
-    "descriptionZh": "命令列 DeFi 操作工具。",
-    "category": "onchain",
-    "tags": [
-      "defi",
-      "tools"
-    ],
-    "tagsZh": [
-      "DeFi",
-      "工具"
-    ],
-    "icon": "⌨️",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "four-meme",
-    "name": "Four Meme",
-    "nameZh": "Four Meme",
-    "description": "BNB Chain meme token discovery and analysis.",
-    "descriptionZh": "BNB Chain Meme 代幣發現與分析。",
-    "category": "onchain",
-    "tags": [
-      "meme"
-    ],
-    "tagsZh": [
-      "Meme"
-    ],
-    "icon": "🐸",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "lista-dao",
-    "name": "Lista DAO",
-    "nameZh": "Lista DAO",
-    "description": "BNB Chain staking and liquidity protocol.",
-    "descriptionZh": "BNB Chain 質押與流動性協議。",
-    "category": "onchain",
-    "tags": [
-      "defi"
-    ],
-    "tagsZh": [
-      "DeFi"
-    ],
-    "icon": "🏛️",
-    "url": "",
-    "isFree": true
-  },
-  {
-    "id": "minara-ai-v2",
-    "name": "Minara AI v2",
-    "nameZh": "Minara AI v2",
-    "description": "AI-driven CLMM (Concentrated Liquidity) strategy management.",
-    "descriptionZh": "AI 驅動的 CLMM 策略管理。",
-    "category": "onchain",
-    "tags": [
-      "defi",
-      "ai"
-    ],
-    "tagsZh": [
-      "DeFi",
-      "AI"
-    ],
-    "icon": "🤖",
-    "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "phantom-connect",
@@ -323,7 +168,262 @@
     ],
     "icon": "👻",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "blockbeats",
+    "name": "BlockBeats",
+    "nameZh": "律動 BlockBeats",
+    "description": "In-depth research reports + real-time news from 1500+ sources.",
+    "descriptionZh": "深度研報 + 1500+ 信源即時新聞。",
+    "category": "news",
+    "tags": [
+      "reading",
+      "info"
+    ],
+    "tagsZh": [
+      "閱讀",
+      "資訊"
+    ],
+    "icon": "📰",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "6551-news",
+    "name": "6551 News Feed",
+    "nameZh": "6551 新聞源",
+    "description": "X data + 50+ real-time news sources + Telegram alerts.",
+    "descriptionZh": "X 數據 + 50+ 實時新聞源 + Telegram 提醒。",
+    "category": "news",
+    "tags": [
+      "reading",
+      "info"
+    ],
+    "tagsZh": [
+      "閱讀",
+      "資訊"
+    ],
+    "icon": "📡",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "xclaw",
+    "name": "XClaw",
+    "nameZh": "XClaw",
+    "description": "X platform intelligence gathering — saves 95%+ token consumption.",
+    "descriptionZh": "X 平台情報收集，節省 95%+ Token 消耗。",
+    "category": "productivity",
+    "tags": [
+      "info"
+    ],
+    "tagsZh": [
+      "資訊"
+    ],
+    "icon": "🐦",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "x-research",
+    "name": "X Research",
+    "nameZh": "X Research",
+    "description": "Twitter/X account monitoring and data analysis.",
+    "descriptionZh": "Twitter/X 帳號監控與數據分析。",
+    "category": "productivity",
+    "tags": [
+      "info"
+    ],
+    "tagsZh": [
+      "資訊"
+    ],
+    "icon": "🔬",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "coinmarketcap",
+    "name": "CoinMarketCap",
+    "nameZh": "CoinMarketCap",
+    "description": "Token prices, market cap rankings, and trading volume queries.",
+    "descriptionZh": "代幣價格、市值排名、交易量查詢。",
+    "category": "news",
+    "tags": [
+      "data"
+    ],
+    "tagsZh": [
+      "數據"
+    ],
+    "icon": "📊",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "coinank-api",
+    "name": "CoinAnk API",
+    "nameZh": "CoinAnk API",
+    "description": "K-line charts, ETF data, and smart money tracking.",
+    "descriptionZh": "K 線圖表、ETF 數據、聰明錢追蹤。",
+    "category": "news",
+    "tags": [
+      "data"
+    ],
+    "tagsZh": [
+      "數據"
+    ],
+    "icon": "📈",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "day1global",
+    "name": "Day1Global",
+    "nameZh": "Day1Global",
+    "description": "US stock earnings analysis and financial data queries.",
+    "descriptionZh": "美股財報分析與數據查詢。",
+    "category": "trading",
+    "tags": [
+      "data",
+      "us-stocks"
+    ],
+    "tagsZh": [
+      "數據",
+      "美股"
+    ],
+    "icon": "🌍",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "almanak",
+    "name": "Almanak",
+    "nameZh": "Almanak",
+    "description": "DeFi strategy automation with intelligent fund allocation.",
+    "descriptionZh": "DeFi 策略自動化，智能資金配置。",
+    "category": "onchain",
+    "tags": [
+      "defi"
+    ],
+    "tagsZh": [
+      "DeFi"
+    ],
+    "icon": "🧪",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "byreal-cli",
+    "name": "Byreal CLI",
+    "nameZh": "Byreal CLI",
+    "description": "Command-line DeFi operations tool.",
+    "descriptionZh": "命令列 DeFi 操作工具。",
+    "category": "onchain",
+    "tags": [
+      "defi",
+      "tools"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "工具"
+    ],
+    "icon": "⌨️",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "lista-dao",
+    "name": "Lista DAO",
+    "nameZh": "Lista DAO",
+    "description": "BNB Chain staking and liquidity protocol.",
+    "descriptionZh": "BNB Chain 質押與流動性協議。",
+    "category": "onchain",
+    "tags": [
+      "defi"
+    ],
+    "tagsZh": [
+      "DeFi"
+    ],
+    "icon": "🏛️",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "uniswap-ai",
@@ -342,24 +442,114 @@
     ],
     "icon": "🦄",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
-    "id": "coinank-api",
-    "name": "CoinAnk API",
-    "nameZh": "CoinAnk API",
-    "description": "K-line charts, ETF data, and smart money tracking.",
-    "descriptionZh": "K 線圖表、ETF 數據、聰明錢追蹤。",
-    "category": "analytics",
+    "id": "bnb-chain-mcp",
+    "name": "BNB Chain MCP",
+    "nameZh": "BNB Chain MCP",
+    "description": "Native MCP integration for BNB Chain ecosystem.",
+    "descriptionZh": "BNB Chain 原生 MCP 整合。",
+    "category": "onchain",
     "tags": [
-      "data"
+      "tools",
+      "defi"
     ],
     "tagsZh": [
-      "數據"
+      "工具",
+      "DeFi"
     ],
-    "icon": "📈",
+    "icon": "⛓️",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "bnb-chain",
+    "name": "BNB Chain",
+    "nameZh": "BNB Chain",
+    "description": "BNB Chain ecosystem resources and toolset.",
+    "descriptionZh": "BNB Chain 生態資源和工具集。",
+    "category": "onchain",
+    "tags": [
+      "tools"
+    ],
+    "tagsZh": [
+      "工具"
+    ],
+    "icon": "🔗",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "four-meme",
+    "name": "Four Meme",
+    "nameZh": "Four Meme",
+    "description": "BNB Chain meme token discovery and analysis.",
+    "descriptionZh": "BNB Chain Meme 代幣發現與分析。",
+    "category": "onchain",
+    "tags": [
+      "meme"
+    ],
+    "tagsZh": [
+      "Meme"
+    ],
+    "icon": "🐸",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "minara-ai-v2",
+    "name": "Minara AI v2",
+    "nameZh": "Minara AI v2",
+    "description": "AI-driven CLMM (Concentrated Liquidity) strategy management.",
+    "descriptionZh": "AI 驅動的 CLMM 策略管理。",
+    "category": "trading",
+    "tags": [
+      "defi",
+      "ai"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "AI"
+    ],
+    "icon": "🤖",
+    "url": "",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "dune",
@@ -378,7 +568,14 @@
     ],
     "icon": "🔍",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "nansen",
@@ -397,7 +594,14 @@
     ],
     "icon": "🧠",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "goplus-agentguard",
@@ -414,7 +618,14 @@
     ],
     "icon": "🛡️",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "slowmist",
@@ -431,7 +642,14 @@
     ],
     "icon": "🔒",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
     "id": "skill-vetter",
@@ -448,42 +666,3947 @@
     ],
     "icon": "✅",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
-    "id": "day1global",
-    "name": "Day1Global",
-    "nameZh": "Day1Global",
-    "description": "US stock earnings analysis and financial data queries.",
-    "descriptionZh": "美股財報分析與數據查詢。",
-    "category": "other",
+    "id": "bybit-skill",
+    "name": "Bybit AI Trading",
+    "nameZh": "Bybit AI 交易",
+    "description": "253 API endpoints, natural language crypto trading, zero setup.",
+    "descriptionZh": "253 API 端點，自然語言交易，零安裝。",
+    "category": "cex",
     "tags": [
-      "data",
-      "us-stocks"
+      "trading",
+      "api"
     ],
     "tagsZh": [
-      "數據",
-      "美股"
+      "交易",
+      "API"
+    ],
+    "icon": "🟡",
+    "url": "https://github.com/bybit-exchange/skills",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "Bybit",
+    "isOfficial": true,
+    "verdict": "warn",
+    "warning": "建議先在 Testnet 練習",
+    "features": null
+  },
+  {
+    "id": "gate-skills",
+    "name": "Gate Skills",
+    "nameZh": "Gate 交易技能",
+    "description": "Gate.io official open-source AI agent skills for asset queries, unified accounts, staking, token analysis, and address tracking.",
+    "descriptionZh": "Gate 官方開源 AI Agent 技能，資產查詢/統一帳戶/質押/單幣分析/地址追蹤",
+    "category": "cex",
+    "tags": [
+      "gate",
+      "cex",
+      "staking",
+      "portfolio",
+      "tracking"
+    ],
+    "tagsZh": [
+      "Gate",
+      "中心化交易所",
+      "質押",
+      "資產組合",
+      "地址追蹤"
+    ],
+    "icon": "🚪",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add gate/gate-skills",
+    "installCount": null,
+    "source": "Gate 官方",
+    "isOfficial": true,
+    "verdict": "warn",
+    "warning": "可查詢帳戶資產和執行交易，請注意 API 權限範圍",
+    "features": null
+  },
+  {
+    "id": "solana-dev-skill",
+    "name": "Solana Dev Skill",
+    "nameZh": "Solana 開發技能",
+    "description": "Solana Foundation official 2026 ecosystem best practices with Anchor and Pinocchio framework support.",
+    "descriptionZh": "Solana 基金會官方 2026 最新生態系最佳實踐，Anchor+Pinocchio 雙框架",
+    "category": "onchain",
+    "tags": [
+      "solana",
+      "anchor",
+      "pinocchio",
+      "smart-contract",
+      "best-practices"
+    ],
+    "tagsZh": [
+      "Solana",
+      "Anchor",
+      "Pinocchio",
+      "智能合約",
+      "最佳實踐"
+    ],
+    "icon": "🟣",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add https://github.com/solana-foundation/solana-dev-skill",
+    "installCount": null,
+    "source": "Solana Foundation 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "helius-skills",
+    "name": "Helius Skills",
+    "nameZh": "Helius Solana 開發套件",
+    "description": "Helius official Solana full-stack dev toolkit with CLI, MCP, Skills, and Plugin support.",
+    "descriptionZh": "Helius 官方 Solana 全端開發套件，CLI+MCP+Skills+Plugin 一站搞定",
+    "category": "onchain",
+    "tags": [
+      "helius",
+      "solana",
+      "full-stack",
+      "mcp",
+      "cli"
+    ],
+    "tagsZh": [
+      "Helius",
+      "Solana",
+      "全端",
+      "MCP",
+      "CLI"
+    ],
+    "icon": "☀️",
+    "url": "https://github.com/helius-labs/core-ai",
+    "isFree": true,
+    "installCmd": "npm install -g helius-cli",
+    "installCount": null,
+    "source": "Helius 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "trust-wallet-skills",
+    "name": "Trust Wallet Agent Skills",
+    "nameZh": "Trust Wallet Agent 技能",
+    "description": "Trust Wallet official skills for token swaps, market data, and security scanning across 100+ chains.",
+    "descriptionZh": "Trust Wallet 官方 Token Swap/市場數據/安全掃描，覆蓋 100+ 鏈",
+    "category": "onchain",
+    "tags": [
+      "trust-wallet",
+      "swap",
+      "security-scan",
+      "multi-chain",
+      "market-data"
+    ],
+    "tagsZh": [
+      "Trust Wallet",
+      "代幣交換",
+      "安全掃描",
+      "多鏈",
+      "市場數據"
+    ],
+    "icon": "🛡️",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add trustwallet/tw-agent-skills",
+    "installCount": null,
+    "source": "Trust Wallet 官方",
+    "isOfficial": true,
+    "verdict": "warn",
+    "warning": "可執行代幣交換和錢包操作，使用前請確認交易細節",
+    "features": null
+  },
+  {
+    "id": "emblem-agent-wallet",
+    "name": "Emblem AI Agent Wallet",
+    "nameZh": "Emblem AI 錢包",
+    "description": "AI agent-native multi-chain wallet supporting 7 chains with 250+ tools and zero configuration.",
+    "descriptionZh": "AI Agent 專用多鏈錢包，7 條鏈 250+ 工具，零配置即用",
+    "category": "onchain",
+    "tags": [
+      "wallet",
+      "multi-chain",
+      "ai-agent",
+      "zero-config",
+      "emblem"
+    ],
+    "tagsZh": [
+      "錢包",
+      "多鏈",
+      "AI Agent",
+      "零配置",
+      "Emblem"
+    ],
+    "icon": "👛",
+    "url": "https://github.com/EmblemCompany/EmblemAi-AgentWallet",
+    "isFree": true,
+    "installCmd": "npm install -g @emblemvault/agentwallet",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "管理多鏈加密資產，請妥善保管錢包密碼",
+    "features": null
+  },
+  {
+    "id": "blockbeats-skill",
+    "name": "BlockBeats Skill",
+    "nameZh": "律動 BlockBeats 技能",
+    "description": "Deep research, whale detective, prediction markets.",
+    "descriptionZh": "深度研報、鏈上偵探、預測市場。",
+    "category": "news",
+    "tags": [
+      "research",
+      "whale"
+    ],
+    "tagsZh": [
+      "研報",
+      "巨鯨"
+    ],
+    "icon": "📰",
+    "url": "https://github.com/BlockBeatsOfficial/blockbeats-skill",
+    "isFree": true,
+    "installCmd": "npx skills add https://github.com/BlockBeatsOfficial/blockbeats-skill",
+    "installCount": null,
+    "source": "BlockBeats",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "nunchi-yex-trader",
+    "name": "Nunchi yex-trader",
+    "nameZh": "Nunchi 自動交易器",
+    "description": "Hyperliquid automated trading with 14 strategies including market making, arbitrage, trend following, and risk management.",
+    "descriptionZh": "Hyperliquid 14 策略自動交易：做市/套利/趨勢/風控一條龍",
+    "category": "trading",
+    "tags": [
+      "hyperliquid",
+      "market-making",
+      "arbitrage",
+      "automated-trading",
+      "risk-management"
+    ],
+    "tagsZh": [
+      "Hyperliquid",
+      "做市",
+      "套利",
+      "自動交易",
+      "風控"
+    ],
+    "icon": "🤖",
+    "url": "https://github.com/Nunchi-trade/agent-cli",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "自動交易工具，請充分了解策略風險",
+    "features": null
+  },
+  {
+    "id": "agipro-trading",
+    "name": "AGIPro Trading Skills",
+    "nameZh": "AGIPro 交易技能包",
+    "description": "62 DeFi/quant skills covering Birdeye, DexScreener, Jupiter, CoinGecko, and DeFiLlama integrations.",
+    "descriptionZh": "62 個 DeFi/量化 skills，涵蓋 Birdeye/DexScreener/Jupiter/CoinGecko/DeFiLlama",
+    "category": "trading",
+    "tags": [
+      "defi",
+      "quantitative",
+      "birdeye",
+      "dexscreener",
+      "jupiter",
+      "coingecko"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "量化",
+      "Birdeye",
+      "DexScreener",
+      "Jupiter",
+      "CoinGecko"
+    ],
+    "icon": "📊",
+    "url": "https://github.com/agiprolabs/claude-trading-skills",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "覆蓋多個 DeFi 協議的交易操作",
+    "features": null
+  },
+  {
+    "id": "vectorbt-backtesting",
+    "name": "VectorBT Backtesting",
+    "nameZh": "VectorBT 回測引擎",
+    "description": "Backtesting suite for India/US/crypto markets with TA-Lib, 12 strategy templates, and QuantStats reports.",
+    "descriptionZh": "印度/美國/加密回測 + TA-Lib + 12 策略模板 + QuantStats 報表，回測一把罩",
+    "category": "trading",
+    "tags": [
+      "backtesting",
+      "ta-lib",
+      "quantstats",
+      "strategy",
+      "crypto",
+      "stocks"
+    ],
+    "tagsZh": [
+      "回測",
+      "TA-Lib",
+      "QuantStats",
+      "策略",
+      "加密貨幣",
+      "股票"
+    ],
+    "icon": "📈",
+    "url": "https://github.com/marketcalls/vectorbt-backtesting-skills",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "options-strategy-advisor",
+    "name": "Options Advisor",
+    "nameZh": "選擇權策略顧問",
+    "description": "Black-Scholes + Greeks + IB integration.",
+    "descriptionZh": "Black-Scholes + 希臘字母 + IB。",
+    "category": "trading",
+    "tags": [
+      "options"
+    ],
+    "tagsZh": [
+      "選擇權"
+    ],
+    "icon": "📐",
+    "url": "https://github.com/staskh/trading_skills",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "Community",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "含 IB 整合",
+    "features": null
+  },
+  {
+    "id": "alpaca-trading",
+    "name": "Alpaca Trading",
+    "nameZh": "Alpaca 交易技能",
+    "description": "Stock, ETF, options, and crypto trading via Rust CLI with $100K paper trading account support.",
+    "descriptionZh": "股票/ETF/期權/加密交易 Rust CLI，內建 $100K 模擬帳戶",
+    "category": "trading",
+    "tags": [
+      "alpaca",
+      "stocks",
+      "etf",
+      "options",
+      "crypto",
+      "rust"
+    ],
+    "tagsZh": [
+      "Alpaca",
+      "股票",
+      "ETF",
+      "期權",
+      "加密貨幣",
+      "Rust"
+    ],
+    "icon": "🦙",
+    "url": "https://github.com/lacymorrow/openclaw-alpaca-trading-skill",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "支援真實資金交易，建議先用模擬帳戶",
+    "features": null
+  },
+  {
+    "id": "polyclaw",
+    "name": "Polyclaw",
+    "nameZh": "Polyclaw 預測市場",
+    "description": "Polymarket prediction market trading with LLM-powered hedge discovery, built by Chainstack.",
+    "descriptionZh": "Chainstack 開發，Polymarket 預測市場交易 + LLM 自動發現對沖機會",
+    "category": "trading",
+    "tags": [
+      "polymarket",
+      "prediction-market",
+      "hedging",
+      "chainstack",
+      "llm"
+    ],
+    "tagsZh": [
+      "Polymarket",
+      "預測市場",
+      "對沖",
+      "Chainstack",
+      "LLM"
+    ],
+    "icon": "🔮",
+    "url": "https://github.com/chainstacklabs/polyclaw",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "Chainstack",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "涉及預測市場真實資金投注",
+    "features": null
+  },
+  {
+    "id": "bankrbot",
+    "name": "BankrBot",
+    "nameZh": "BankrBot 全能 DeFi",
+    "description": "Multi-chain DeFi with cross-chain swaps, up to 150x leverage, and Polymarket integration.",
+    "descriptionZh": "多鏈 DeFi + 跨鏈 swap + 最高 150 倍槓桿 + Polymarket，高風險高報酬",
+    "category": "trading",
+    "tags": [
+      "defi",
+      "cross-chain",
+      "leverage",
+      "polymarket",
+      "multi-chain"
+    ],
+    "tagsZh": [
+      "DeFi",
+      "跨鏈",
+      "槓桿",
+      "Polymarket",
+      "多鏈"
+    ],
+    "icon": "💣",
+    "url": "https://github.com/BankrBot/claude-plugins",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "⚠️ 高風險：最高 150 倍槓桿，可能造成重大資金損失",
+    "features": null
+  },
+  {
+    "id": "dpro-hyperliquid",
+    "name": "dpro-hyperliquid",
+    "nameZh": "dPro Hyperliquid 交易",
+    "description": "Full-featured Hyperliquid DEX trading with dPro on-chain analytics integration.",
+    "descriptionZh": "Hyperliquid DEX 全功能交易 + dPro 鏈上分析，數據驅動交易",
+    "category": "trading",
+    "tags": [
+      "hyperliquid",
+      "dex",
+      "on-chain-analytics",
+      "dpro",
+      "trading"
+    ],
+    "tagsZh": [
+      "Hyperliquid",
+      "DEX",
+      "鏈上分析",
+      "dPro",
+      "交易"
+    ],
+    "icon": "⚡",
+    "url": "https://github.com/dProLabs/dpro-hyperliquid",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "涉及 DEX 真實交易操作",
+    "features": null
+  },
+  {
+    "id": "hyper-alpha-arena",
+    "name": "Hyper-Alpha-Arena",
+    "nameZh": "Hyper Alpha 競技場",
+    "description": "86-factor analysis with 5 collaborative AI agents for automated Hyperliquid and Binance futures trading.",
+    "descriptionZh": "86 因子 + 5 AI Agent 協作，Hyperliquid/幣安合約自動交易",
+    "category": "trading",
+    "tags": [
+      "multi-agent",
+      "factor-analysis",
+      "hyperliquid",
+      "binance",
+      "futures"
+    ],
+    "tagsZh": [
+      "多 Agent",
+      "因子分析",
+      "Hyperliquid",
+      "幣安",
+      "合約"
+    ],
+    "icon": "🏟️",
+    "url": "https://github.com/HammerGPT/Hyper-Alpha-Arena",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "多 Agent 自動交易，請確認風控設定",
+    "features": null
+  },
+  {
+    "id": "trump-code",
+    "name": "Trump Code",
+    "nameZh": "川普推文信號",
+    "description": "Trump tweet signal detection with S&P 500 correlation analysis and Polymarket/Kalshi arbitrage at 61.3% hit rate.",
+    "descriptionZh": "川普推文信號偵測 + S&P 500 相關性 + PM/Kalshi 套利，61.3% 命中率",
+    "category": "trading",
+    "tags": [
+      "social-signal",
+      "trump",
+      "arbitrage",
+      "polymarket",
+      "kalshi"
+    ],
+    "tagsZh": [
+      "社交信號",
+      "川普",
+      "套利",
+      "Polymarket",
+      "Kalshi"
+    ],
+    "icon": "🦅",
+    "url": "https://github.com/sstklen/trump-code",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "基於社交媒體信號的投機策略，風險極高",
+    "features": null
+  },
+  {
+    "id": "claude-financial-services",
+    "name": "Claude Financial Services",
+    "nameZh": "Claude 金融服務",
+    "description": "Anthropic official — IB, equity research, PE, 11 data providers.",
+    "descriptionZh": "Anthropic 官方 — 投行/股研/PE，11 家數據供應商。",
+    "category": "trading",
+    "tags": [
+      "finance",
+      "dcf"
+    ],
+    "tagsZh": [
+      "金融",
+      "DCF"
+    ],
+    "icon": "🏛️",
+    "url": "https://github.com/anthropics/financial-services-plugins",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add anthropics/financial-services-plugins",
+    "installCount": null,
+    "source": "Anthropic",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "trailofbits-skills",
+    "name": "Trail of Bits",
+    "nameZh": "Trail of Bits 安全",
+    "description": "40+ security skills — smart contracts, code review.",
+    "descriptionZh": "40+ 安全技能 — 智能合約審計、程式碼審查。",
+    "category": "security",
+    "tags": [
+      "audit",
+      "codeql"
+    ],
+    "tagsZh": [
+      "審計",
+      "CodeQL"
+    ],
+    "icon": "🔬",
+    "url": "https://github.com/trailofbits/skills",
+    "isFree": true,
+    "installCmd": "npx skills add trailofbits/skills",
+    "installCount": null,
+    "source": "Trail of Bits",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "owasp-security",
+    "name": "OWASP Security Skill",
+    "nameZh": "OWASP 安全掃描",
+    "description": "OWASP Top 10:2025 and Agentic AI security standards with support for 20+ programming languages.",
+    "descriptionZh": "OWASP Top 10:2025 + Agentic AI 安全標準，支援 20+ 程式語言",
+    "category": "security",
+    "tags": [
+      "owasp",
+      "vulnerability-scan",
+      "agentic-ai",
+      "multi-language",
+      "security-standards"
+    ],
+    "tagsZh": [
+      "OWASP",
+      "漏洞掃描",
+      "Agentic AI",
+      "多語言",
+      "安全標準"
+    ],
+    "icon": "🐝",
+    "url": "https://github.com/agamm/claude-code-owasp",
+    "isFree": true,
+    "installCmd": "curl -sSL https://raw.githubusercontent.com/agamm/claude-code-owasp/main/install.sh | bash",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "transilience-tools",
+    "name": "Transilience Tools",
+    "nameZh": "Transilience 滲透測試",
+    "description": "23 skills + 8 agents pentest suite.",
+    "descriptionZh": "23 技能 + 8 Agent 滲透測試。",
+    "category": "security",
+    "tags": [
+      "pentest"
+    ],
+    "tagsZh": [
+      "滲透測試"
+    ],
+    "icon": "⚔️",
+    "url": "https://github.com/transilienceai/communitytools",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "Transilience",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "僅限授權測試",
+    "features": null
+  },
+  {
+    "id": "parry",
+    "name": "Parry",
+    "nameZh": "Parry 注入防護",
+    "description": "ML-powered prompt injection scanner with DeBERTa and Llama dual models and 8ms cached detection.",
+    "descriptionZh": "ML 驅動 prompt injection 掃描器，DeBERTa+Llama 雙模型，8ms 快取極速偵測",
+    "category": "security",
+    "tags": [
+      "prompt-injection",
+      "ml-detection",
+      "deberta",
+      "llama",
+      "rust"
+    ],
+    "tagsZh": [
+      "Prompt 注入",
+      "ML 偵測",
+      "DeBERTa",
+      "Llama",
+      "Rust"
+    ],
+    "icon": "🤺",
+    "url": "https://github.com/vaporif/parry",
+    "isFree": true,
+    "installCmd": "cargo install parry",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "dippy",
+    "name": "Dippy",
+    "nameZh": "Dippy",
+    "description": "Auto-approve safe bash commands — 14K+ tests, Parable parser, 40% speed boost",
+    "descriptionZh": "自動批准安全 bash 命令，14K+ 測試、Parable 解析器，提速 40%",
+    "category": "devtools",
+    "tags": [
+      "auto-approve",
+      "bash",
+      "safety",
+      "speed"
+    ],
+    "tagsZh": [
+      "自動批准",
+      "Bash",
+      "安全",
+      "加速"
+    ],
+    "icon": "⚡",
+    "url": "https://github.com/ldayton/Dippy",
+    "isFree": true,
+    "installCmd": "brew tap ldayton/dippy && brew install dippy",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "自動批准機制可能跳過必要的安全確認",
+    "features": null
+  },
+  {
+    "id": "agnix",
+    "name": "agnix",
+    "nameZh": "agnix",
+    "description": "AI config linter + LSP — 342 rules validating CLAUDE.md/SKILL.md/Hooks with CI/CD integration",
+    "descriptionZh": "AI 設定檔 linter + LSP，342 條規則驗證 CLAUDE.md/SKILL.md/Hooks，CI/CD 整合",
+    "category": "devtools",
+    "tags": [
+      "linter",
+      "lsp",
+      "validation",
+      "ci-cd"
+    ],
+    "tagsZh": [
+      "Linter",
+      "LSP",
+      "驗證",
+      "CI/CD"
+    ],
+    "icon": "✅",
+    "url": "https://github.com/agent-sh/agnix",
+    "isFree": true,
+    "installCmd": "npm install -g agnix",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "plamen",
+    "name": "Plamen",
+    "nameZh": "Plamen Web3 安全審計",
+    "description": "Autonomous Web3 security audit agent supporting multi-chain with 15-95 agents and PoC exploit generation.",
+    "descriptionZh": "自主 Web3 安全審計 Agent，多鏈支援 15-95 個 Agent 協作，含 PoC 漏洞攻擊驗證",
+    "category": "security",
+    "tags": [
+      "web3-audit",
+      "multi-chain",
+      "multi-agent",
+      "poc-exploit",
+      "autonomous"
+    ],
+    "tagsZh": [
+      "Web3 審計",
+      "多鏈",
+      "多 Agent",
+      "PoC 漏洞",
+      "自主運行"
+    ],
+    "icon": "🔥",
+    "url": "https://github.com/PlamenTSV/plamen",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/PlamenTSV/plamen.git && cd plamen && pip install -r requirements.txt",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "superclaude",
+    "name": "SuperClaude Framework",
+    "nameZh": "SuperClaude Framework",
+    "description": "30 commands, 20 expert agents, 7 cognitive modes, 21.8K stars, 8 MCP integrations",
+    "descriptionZh": "30 命令、20 專家 Agent、7 認知模式、21.8K 星、整合 8 MCP",
+    "category": "multiagent",
+    "tags": [
+      "framework",
+      "agents",
+      "cognitive",
+      "mcp"
+    ],
+    "tagsZh": [
+      "框架",
+      "Agent",
+      "認知",
+      "MCP"
+    ],
+    "icon": "🦸",
+    "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+    "isFree": true,
+    "installCmd": "pipx install superclaude && superclaude install",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "vibehq-hub",
+    "name": "VibeHQ Hub",
+    "nameZh": "VibeHQ Hub",
+    "description": "5 AI agents coding simultaneously — 20 MCP tools, contract system, 13 auto-detection rules",
+    "descriptionZh": "5 AI Agent 同時寫 code，20 MCP 工具、合約系統、13 條自動偵測",
+    "category": "multiagent",
+    "tags": [
+      "multi-agent",
+      "parallel",
+      "mcp",
+      "contracts"
+    ],
+    "tagsZh": [
+      "多 Agent",
+      "平行",
+      "MCP",
+      "合約"
+    ],
+    "icon": "🎯",
+    "url": "https://github.com/0x0funky/vibehq-hub",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/0x0funky/vibehq-hub && npm install && npm run build",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "container-use",
+    "name": "Container-Use (Dagger)",
+    "nameZh": "Container-Use (Dagger)",
+    "description": "Each agent gets isolated container + Git branch — fail and discard safely. 3.6K stars",
+    "descriptionZh": "每個 Agent 獨立容器 + Git 分支，失敗即棄，3.6K 星",
+    "category": "multiagent",
+    "tags": [
+      "container",
+      "isolation",
+      "git",
+      "dagger"
+    ],
+    "tagsZh": [
+      "容器",
+      "隔離",
+      "Git",
+      "Dagger"
+    ],
+    "icon": "📦",
+    "url": "https://github.com/dagger/container-use",
+    "isFree": true,
+    "installCmd": "brew install dagger/tap/container-use",
+    "installCount": null,
+    "source": "Dagger 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "superpowers",
+    "name": "Superpowers",
+    "nameZh": "Superpowers",
+    "description": "Design-first approach with Git worktree isolation, TDD red-green-refactor, parallel sub-agents",
+    "descriptionZh": "設計先行、Git worktree 隔離、TDD 紅綠燈、子 Agent 平行執行",
+    "category": "multiagent",
+    "tags": [
+      "design-first",
+      "tdd",
+      "worktree",
+      "parallel"
+    ],
+    "tagsZh": [
+      "設計先行",
+      "TDD",
+      "Worktree",
+      "平行"
+    ],
+    "icon": "💪",
+    "url": "https://github.com/obra/superpowers",
+    "isFree": true,
+    "installCmd": "/plugin install superpowers@claude-plugins-official",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-squad",
+    "name": "Claude Squad",
+    "nameZh": "Claude Squad",
+    "description": "Go-based terminal UI to manage multiple Claude/Codex/Gemini/Aider instances simultaneously",
+    "descriptionZh": "Go 終端 UI，同時管理多個 Claude/Codex/Gemini/Aider 實例",
+    "category": "multiagent",
+    "tags": [
+      "terminal",
+      "multi-instance",
+      "go",
+      "management"
+    ],
+    "tagsZh": [
+      "終端",
+      "多實例",
+      "Go",
+      "管理"
+    ],
+    "icon": "👥",
+    "url": "https://github.com/smtg-ai/claude-squad",
+    "isFree": true,
+    "installCmd": "brew install claude-squad",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "ccpm",
+    "name": "CCPM",
+    "nameZh": "CCPM",
+    "description": "PRD → GitHub Issues + Git worktree parallel agents — 89% less context switching",
+    "descriptionZh": "PRD→GitHub Issues + Git worktree 平行 Agent，減少 89% 上下文切換",
+    "category": "multiagent",
+    "tags": [
+      "prd",
+      "github",
+      "worktree",
+      "parallel"
+    ],
+    "tagsZh": [
+      "PRD",
+      "GitHub",
+      "Worktree",
+      "平行"
+    ],
+    "icon": "📋",
+    "url": "https://github.com/automazeio/ccpm",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/automazeio/ccpm",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "auto-claude",
+    "name": "Auto-Claude",
+    "nameZh": "Auto-Claude",
+    "description": "Autonomous multi-agent desktop app — up to 12 terminals, Kanban board, 3-layer safety model",
+    "descriptionZh": "自主多 Agent 桌面應用，最多 12 終端、Kanban 看板、三層安全模型",
+    "category": "multiagent",
+    "tags": [
+      "autonomous",
+      "desktop",
+      "kanban",
+      "safety"
+    ],
+    "tagsZh": [
+      "自主",
+      "桌面應用",
+      "看板",
+      "安全"
+    ],
+    "icon": "🤖",
+    "url": "https://github.com/AndyMik90/Auto-Claude",
+    "isFree": true,
+    "installCmd": "GitHub Releases 下載",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "自主多終端執行有風險，請確認安全模型設定",
+    "features": null
+  },
+  {
+    "id": "ruflo",
+    "name": "Ruflo",
+    "nameZh": "Ruflo",
+    "description": "Enterprise-grade AI orchestration — 100+ pre-built agents, 5 consensus algorithms, RuVector DB",
+    "descriptionZh": "企業級 AI 編排，100+ 預建 Agent、5 種共識演算法、RuVector 向量 DB",
+    "category": "multiagent",
+    "tags": [
+      "enterprise",
+      "orchestration",
+      "consensus",
+      "vector-db"
+    ],
+    "tagsZh": [
+      "企業級",
+      "編排",
+      "共識",
+      "向量資料庫"
+    ],
+    "icon": "👑",
+    "url": "https://github.com/ruvnet/ruflo",
+    "isFree": true,
+    "installCmd": "curl -fsSL https://raw.githubusercontent.com/ruvnet/ruflo/main/install.sh | bash",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "平台會執行外部命令，請在受控環境中使用",
+    "features": null
+  },
+  {
+    "id": "contextkit",
+    "name": "ContextKit",
+    "nameZh": "ContextKit",
+    "description": "4-phase planning methodology with quality agents and automatic tech stack detection",
+    "descriptionZh": "4 階段規劃方法論，品質 Agent 自動偵測技術堆疊",
+    "category": "multiagent",
+    "tags": [
+      "planning",
+      "methodology",
+      "quality",
+      "detection"
+    ],
+    "tagsZh": [
+      "規劃",
+      "方法論",
+      "品質",
+      "偵測"
+    ],
+    "icon": "📝",
+    "url": "https://github.com/FlineDev/ContextKit",
+    "isFree": true,
+    "installCmd": "curl -fsSL https://raw.githubusercontent.com/FlineDev/ContextKit/main/install.sh | bash",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "tsk",
+    "name": "TSK",
+    "nameZh": "TSK",
+    "description": "Rust CLI with Docker sandbox, task queue, and Squid proxy network isolation",
+    "descriptionZh": "Rust CLI + Docker 沙箱、任務佇列、Squid proxy 網路隔離",
+    "category": "multiagent",
+    "tags": [
+      "rust",
+      "docker",
+      "sandbox",
+      "network-isolation"
+    ],
+    "tagsZh": [
+      "Rust",
+      "Docker",
+      "沙箱",
+      "網路隔離"
+    ],
+    "icon": "🔒",
+    "url": "https://github.com/dtormoen/tsk",
+    "isFree": true,
+    "installCmd": "cargo install tsk-ai",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "find-skills",
+    "name": "Find Skills",
+    "nameZh": "技能探索",
+    "description": "ClawHub official skill discovery engine — auto search, evaluate, and recommend from 13K+ skills",
+    "descriptionZh": "ClawHub 官方 Skill 發現引擎，自動搜尋／評估／推薦 13K+ 技能",
+    "category": "productivity",
+    "tags": [
+      "discovery",
+      "search",
+      "recommendation",
+      "skills",
+      "official"
+    ],
+    "tagsZh": [
+      "發現",
+      "搜尋",
+      "推薦",
+      "技能",
+      "官方"
+    ],
+    "icon": "🔍",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx clawhub install find-skills",
+    "installCount": null,
+    "source": "ClawHub 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "self-improving-agent",
+    "name": "Self-Improving Agent",
+    "nameZh": "Self-Improving Agent",
+    "description": "Self-evolving engine — error logging → learning tracking → memory enhancement. Top-starred on ClawHub",
+    "descriptionZh": "自我進化引擎：錯誤記錄→學習追蹤→記憶提升，ClawHub 最高星數項目",
+    "category": "devtools",
+    "tags": [
+      "self-improving",
+      "learning",
+      "memory",
+      "agent"
+    ],
+    "tagsZh": [
+      "自我進化",
+      "學習",
+      "記憶",
+      "Agent"
+    ],
+    "icon": "🧠",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx clawhub install self-improving-agent",
+    "installCount": null,
+    "source": "ClawHub 社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "github-skill",
+    "name": "GitHub",
+    "nameZh": "GitHub",
+    "description": "Natural language GitHub management — PRs, Issues, Actions, and code search via gh CLI",
+    "descriptionZh": "自然語言管理 GitHub PR／Issues／Actions／代碼搜尋，透過 gh CLI",
+    "category": "productivity",
+    "tags": [
+      "github",
+      "pr",
+      "issues",
+      "actions",
+      "code-search"
+    ],
+    "tagsZh": [
+      "GitHub",
+      "PR",
+      "Issues",
+      "Actions",
+      "代碼搜尋"
+    ],
+    "icon": "🐙",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx clawhub install github",
+    "installCount": null,
+    "source": "ClawHub",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "tavily-search",
+    "name": "Tavily Search",
+    "nameZh": "Tavily 搜尋",
+    "description": "Search engine built for AI agents — LLM-optimized results with relevance scoring, 1000 free queries/month",
+    "descriptionZh": "專為 AI Agent 打造的搜尋引擎，LLM 優化結果 + 相關性評分，1000 次／月免費",
+    "category": "productivity",
+    "tags": [
+      "search",
+      "ai-agent",
+      "llm",
+      "relevance",
+      "free-tier"
+    ],
+    "tagsZh": [
+      "搜尋",
+      "AI代理",
+      "LLM",
+      "相關性",
+      "免費額度"
+    ],
+    "icon": "🔎",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add tavily-ai/skills",
+    "installCount": null,
+    "source": "Tavily 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "summarize",
+    "name": "Summarize",
+    "nameZh": "一鍵摘要",
+    "description": "One-click summarization for URLs, PDFs, documents, audio, and YouTube with structured output",
+    "descriptionZh": "一鍵摘要 URL／PDF／文件／音訊／YouTube，結構化輸出",
+    "category": "productivity",
+    "tags": [
+      "summarize",
+      "pdf",
+      "youtube",
+      "audio",
+      "url"
+    ],
+    "tagsZh": [
+      "摘要",
+      "PDF",
+      "YouTube",
+      "音訊",
+      "網址"
+    ],
+    "icon": "📝",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx clawhub install summarize",
+    "installCount": null,
+    "source": "ClawHub 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-command-suite",
+    "name": "Claude Command Suite",
+    "nameZh": "Claude Command Suite",
+    "description": "216+ slash commands + 54 AI agents + 12 skills — all-in-one dev package",
+    "descriptionZh": "216+ slash commands + 54 AI agents + 12 skills，一站式開發包",
+    "category": "devtools",
+    "tags": [
+      "commands",
+      "agents",
+      "skills",
+      "all-in-one"
+    ],
+    "tagsZh": [
+      "命令",
+      "Agent",
+      "技能",
+      "一站式"
+    ],
+    "icon": "⌨️",
+    "url": "https://github.com/qdhenry/Claude-Command-Suite",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/qdhenry/Claude-Command-Suite && ./install.sh",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "production-commands",
+    "name": "Production Commands",
+    "nameZh": "Production Commands",
+    "description": "57 production-grade slash commands — 15 workflows + 42 tools",
+    "descriptionZh": "57 個生產級 slash commands，15 個工作流 + 42 個工具",
+    "category": "devtools",
+    "tags": [
+      "commands",
+      "workflows",
+      "tools",
+      "production"
+    ],
+    "tagsZh": [
+      "命令",
+      "工作流",
+      "工具",
+      "生產級"
+    ],
+    "icon": "🔨",
+    "url": "https://github.com/wshobson/commands",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/wshobson/commands ~/.claude/commands",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "riper-workflow",
+    "name": "RIPER Workflow",
+    "nameZh": "RIPER Workflow",
+    "description": "Research→Innovate→Plan→Execute→Review — 5-phase workflow with branch memory banks and strict access control",
+    "descriptionZh": "Research→Innovate→Plan→Execute→Review 五階段工作流，分支記憶庫 + 嚴格存取控制",
+    "category": "devtools",
+    "tags": [
+      "workflow",
+      "methodology",
+      "memory",
+      "planning"
+    ],
+    "tagsZh": [
+      "工作流",
+      "方法論",
+      "記憶",
+      "規劃"
+    ],
+    "icon": "🔄",
+    "url": "https://github.com/tony/claude-code-riper-5",
+    "isFree": true,
+    "installCmd": "複製 .claude 目錄到專案根目錄",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "ab-method",
+    "name": "AB Method",
+    "nameZh": "AB Method",
+    "description": "Spec-driven incremental tasks with 6 sub-agents that auto-maintain architecture docs",
+    "descriptionZh": "規格驅動增量任務，6 個子 Agent 自動維護架構文檔",
+    "category": "devtools",
+    "tags": [
+      "spec-driven",
+      "agents",
+      "architecture",
+      "incremental"
+    ],
+    "tagsZh": [
+      "規格驅動",
+      "Agent",
+      "架構",
+      "增量"
+    ],
+    "icon": "📐",
+    "url": "https://github.com/ayoubben18/ab-method",
+    "isFree": true,
+    "installCmd": "npx ab-method",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claudekit",
+    "name": "claudekit",
+    "nameZh": "claudekit",
+    "description": "195+ safety pattern detections, Git auto-save, 6-agent parallel review, 20+ sub-agents",
+    "descriptionZh": "195+ 安全模式檢測、Git 自動存檔、6 Agent 平行審查、20+ 子 Agent",
+    "category": "devtools",
+    "tags": [
+      "safety",
+      "review",
+      "git",
+      "agents"
+    ],
+    "tagsZh": [
+      "安全",
+      "審查",
+      "Git",
+      "Agent"
+    ],
+    "icon": "🛠️",
+    "url": "https://github.com/carlrannaberg/claudekit",
+    "isFree": true,
+    "installCmd": "npm install -g claudekit && claudekit setup",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "Hook 腳本會自動執行，請確認所有 hook 行為符合預期",
+    "features": null
+  },
+  {
+    "id": "understand-anything",
+    "name": "Understand-Anything",
+    "nameZh": "Understand-Anything",
+    "description": "Any codebase → interactive knowledge graph with 12 code pattern recognitions and semantic search",
+    "descriptionZh": "任何 codebase→互動式知識圖譜，12 種程式模式辨識 + 語意搜尋",
+    "category": "devtools",
+    "tags": [
+      "knowledge-graph",
+      "codebase",
+      "patterns",
+      "search"
+    ],
+    "tagsZh": [
+      "知識圖譜",
+      "代碼庫",
+      "模式",
+      "搜尋"
+    ],
+    "icon": "🗺️",
+    "url": "https://github.com/Lum1104/Understand-Anything",
+    "isFree": true,
+    "installCmd": "/plugin install understand-anything",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "skill-factory",
+    "name": "Skill Factory",
+    "nameZh": "Skill Factory",
+    "description": "Batch-create Skills/Agents/Commands — 9 pre-built skills + Prompt Factory with 69 presets",
+    "descriptionZh": "批量建立 Skills/Agents/Commands，9 預建 Skills + Prompt Factory 69 預設",
+    "category": "devtools",
+    "tags": [
+      "skills",
+      "agents",
+      "commands",
+      "factory"
+    ],
+    "tagsZh": [
+      "技能",
+      "Agent",
+      "命令",
+      "工廠"
+    ],
+    "icon": "🏭",
+    "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+    "isFree": true,
+    "installCmd": "cp -r skills/ ~/.claude/skills/",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "skill-seekers",
+    "name": "Skill Seekers",
+    "nameZh": "Skill Seekers",
+    "description": "Convert 17+ sources into AI Skills via AST parsing across 6 languages — days of data prep → 45 minutes",
+    "descriptionZh": "17+ 來源轉為 AI Skills，AST 解析支援 6 語言，數據準備從天縮至 45 分鐘",
+    "category": "devtools",
+    "tags": [
+      "ast",
+      "parsing",
+      "data-prep",
+      "multi-language"
+    ],
+    "tagsZh": [
+      "AST",
+      "解析",
+      "數據準備",
+      "多語言"
+    ],
+    "icon": "🔎",
+    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+    "isFree": true,
+    "installCmd": "pip install skill-seekers",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "compound-engineering",
+    "name": "Compound Engineering",
+    "nameZh": "Compound Engineering",
+    "description": "Compound-interest development — 80% planning + 20% execution, learn from mistakes, 12+ tool integrations",
+    "descriptionZh": "複利式開發：80% 規劃 + 20% 執行，從錯誤中學習，兼容 12+ 工具",
+    "category": "devtools",
+    "tags": [
+      "methodology",
+      "planning",
+      "learning",
+      "integration"
+    ],
+    "tagsZh": [
+      "方法論",
+      "規劃",
+      "學習",
+      "整合"
+    ],
+    "icon": "📈",
+    "url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add compound-engineering",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "context7",
+    "name": "Context7",
+    "nameZh": "Context7 即時文檔注入",
+    "description": "Upstash official real-time versioned doc injection — eliminates API hallucinations with CLI + MCP dual mode",
+    "descriptionZh": "Upstash 官方即時版本文檔注入，消除 API 幻覺，CLI + MCP 雙模式",
+    "category": "productivity",
+    "tags": [
+      "documentation",
+      "context",
+      "anti-hallucination",
+      "mcp",
+      "cli"
+    ],
+    "tagsZh": [
+      "文檔",
+      "上下文",
+      "反幻覺",
+      "MCP",
+      "CLI"
+    ],
+    "icon": "📑",
+    "url": "https://github.com/upstash/context7",
+    "isFree": true,
+    "installCmd": "npx ctx7 setup",
+    "installCount": null,
+    "source": "Upstash 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "github-mcp-server",
+    "name": "GitHub MCP Server",
+    "nameZh": "GitHub MCP Server",
+    "description": "Official GitHub MCP with modular Repo, Issue, PR, Actions, Security, and Discussions support",
+    "descriptionZh": "GitHub 官方 MCP，模組化 Repo／Issue／PR／Actions／Security／Discussions",
+    "category": "productivity",
+    "tags": [
+      "github",
+      "mcp",
+      "repo",
+      "issues",
+      "pr",
+      "actions"
+    ],
+    "tagsZh": [
+      "GitHub",
+      "MCP",
+      "倉庫",
+      "Issues",
+      "PR",
+      "Actions"
+    ],
+    "icon": "🐙",
+    "url": "https://github.com/github/github-mcp-server",
+    "isFree": true,
+    "installCmd": "docker run ghcr.io/github/github-mcp-server",
+    "installCount": null,
+    "source": "GitHub 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "sentry-mcp",
+    "name": "Sentry MCP Server",
+    "nameZh": "Sentry MCP Server",
+    "description": "Official Sentry error tracking MCP — event queries, stack traces, AI search with human-in-the-loop",
+    "descriptionZh": "Sentry 官方錯誤追蹤 MCP，事件查詢／堆疊追蹤／AI 搜索 + human-in-the-loop",
+    "category": "productivity",
+    "tags": [
+      "sentry",
+      "error-tracking",
+      "mcp",
+      "debugging",
+      "stack-trace"
+    ],
+    "tagsZh": [
+      "Sentry",
+      "錯誤追蹤",
+      "MCP",
+      "除錯",
+      "堆疊追蹤"
+    ],
+    "icon": "🐛",
+    "url": "https://github.com/getsentry/sentry-mcp",
+    "isFree": true,
+    "installCmd": "claude plugin marketplace add getsentry/sentry-mcp",
+    "installCount": null,
+    "source": "Sentry 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-code-mcp",
+    "name": "Claude Code MCP",
+    "nameZh": "Claude Code MCP",
+    "description": "Agent-in-agent — lets Cursor/Windsurf invoke full Claude Code capabilities via MCP",
+    "descriptionZh": "Agent 中的 Agent，讓 Cursor／Windsurf 調用 Claude Code 完整能力",
+    "category": "productivity",
+    "tags": [
+      "mcp",
+      "cursor",
+      "windsurf",
+      "agent",
+      "bridge"
+    ],
+    "tagsZh": [
+      "MCP",
+      "Cursor",
+      "Windsurf",
+      "代理",
+      "橋接"
+    ],
+    "icon": "🔀",
+    "url": "https://github.com/steipete/claude-code-mcp",
+    "isFree": true,
+    "installCmd": "npx -y @steipete/claude-code-mcp@latest",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "⚠️ 跳過所有權限確認，存在安全風險，僅建議在受信任環境使用",
+    "features": null
+  },
+  {
+    "id": "lyra-tool-discovery",
+    "name": "Lyra Tool Discovery",
+    "nameZh": "Lyra 工具發現",
+    "description": "AI auto-discovers MCP servers by searching GitHub/npm and generating ready-to-use configurations",
+    "descriptionZh": "AI 自動發現 MCP Server，搜索 GitHub／npm 生成即用配置",
+    "category": "productivity",
+    "tags": [
+      "mcp",
+      "discovery",
+      "github",
+      "npm",
+      "auto-config"
+    ],
+    "tagsZh": [
+      "MCP",
+      "發現",
+      "GitHub",
+      "npm",
+      "自動配置"
+    ],
+    "icon": "🔮",
+    "url": "https://github.com/nirholas/lyra-tool-discovery",
+    "isFree": true,
+    "installCmd": "npm install -g @nirholas/lyra-tool-discovery",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "ccusage",
+    "name": "ccusage",
+    "nameZh": "ccusage 用量分析",
+    "description": "Claude Code usage analytics — daily/monthly/session cost breakdown with 5-hour billing intervals and MCP support",
+    "descriptionZh": "Claude Code 用量分析，日／月／會話費用統計，5 小時計費區間 + MCP 支援",
+    "category": "productivity",
+    "tags": [
+      "usage",
+      "analytics",
+      "cost",
+      "billing",
+      "mcp"
+    ],
+    "tagsZh": [
+      "用量",
+      "分析",
+      "費用",
+      "計費",
+      "MCP"
+    ],
+    "icon": "📊",
+    "url": "https://github.com/ryoppippi/ccusage",
+    "isFree": true,
+    "installCmd": "npx ccusage@latest",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "ccflare",
+    "name": "ccflare",
+    "nameZh": "ccflare API 代理",
+    "description": "Web Claude API proxy with multi-account load balancing, dashboard, real-time cost monitoring, and <10ms latency",
+    "descriptionZh": "Web Claude API 代理，多帳號負載均衡 + Dashboard 即時成本監控，延遲 <10ms",
+    "category": "productivity",
+    "tags": [
+      "proxy",
+      "load-balancing",
+      "dashboard",
+      "cost",
+      "api"
+    ],
+    "tagsZh": [
+      "代理",
+      "負載均衡",
+      "儀表板",
+      "成本",
+      "API"
+    ],
+    "icon": "⚡",
+    "url": "https://github.com/snipeship/ccflare",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/snipeship/ccflare.git && cd ccflare && bun install && bun run start",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "代理多個 API Key，請確認安全儲存方式",
+    "features": null
+  },
+  {
+    "id": "claudex",
+    "name": "Claudex",
+    "nameZh": "Claudex 對話瀏覽器",
+    "description": "Conversation history browser with FTS5 full-text search, MCP cross-session memory, 10 themes, and 29 fonts",
+    "descriptionZh": "對話歷史瀏覽器，FTS5 全文搜索 + MCP 跨會話記憶，10 主題 29 字體",
+    "category": "productivity",
+    "tags": [
+      "history",
+      "search",
+      "memory",
+      "themes",
+      "browser"
+    ],
+    "tagsZh": [
+      "歷史",
+      "搜索",
+      "記憶",
+      "主題",
+      "瀏覽器"
+    ],
+    "icon": "📖",
+    "url": "https://github.com/kunwar-shah/claudex",
+    "isFree": true,
+    "installCmd": "npm install -g @kunwarshah/claudex",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "frontend-design",
+    "name": "Frontend Design",
+    "nameZh": "Frontend Design",
+    "description": "Anthropic's official design system — escape AI slop aesthetics with brutalist/maximalist/retro-futuristic philosophy",
+    "descriptionZh": "Anthropic 官方設計系統，告別 AI slop 美學，支援 brutalist/maximalist/retro-futuristic 風格哲學",
+    "category": "frontend",
+    "tags": [
+      "design",
+      "ui",
+      "styling",
+      "design-system"
+    ],
+    "tagsZh": [
+      "設計",
+      "介面",
+      "樣式",
+      "設計系統"
+    ],
+    "icon": "🎨",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add anthropic/frontend-design",
+    "installCount": null,
+    "source": "Anthropic 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "react-best-practices",
+    "name": "React Best Practices",
+    "nameZh": "React Best Practices",
+    "description": "Vercel's official 40+ performance optimization rules, prioritized by impact level",
+    "descriptionZh": "Vercel 官方 40+ 條效能優化規則，按影響程度分級排序",
+    "category": "frontend",
+    "tags": [
+      "react",
+      "performance",
+      "best-practices",
+      "optimization"
+    ],
+    "tagsZh": [
+      "React",
+      "效能",
+      "最佳實踐",
+      "優化"
+    ],
+    "icon": "⚛️",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add vercel-labs/agent-skills",
+    "installCount": null,
+    "source": "Vercel 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "web-design-guidelines",
+    "name": "Web Design Guidelines",
+    "nameZh": "Web Design Guidelines",
+    "description": "Vercel's official 100+ web design rules with accessibility, performance, and dark mode auto-audit",
+    "descriptionZh": "Vercel 官方 100+ 條 Web 設計規則，涵蓋可訪問性、效能、深色模式自動審計",
+    "category": "frontend",
+    "tags": [
+      "web-design",
+      "accessibility",
+      "performance",
+      "dark-mode"
+    ],
+    "tagsZh": [
+      "網頁設計",
+      "可訪問性",
+      "效能",
+      "深色模式"
+    ],
+    "icon": "🌐",
+    "url": "",
+    "isFree": true,
+    "installCmd": "curl -fsSL https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/web-design-guidelines/SKILL.md > .claude/skills/web-design-guidelines.md",
+    "installCount": null,
+    "source": "Vercel 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "vercel-react-native",
+    "name": "Vercel React Native Guidelines",
+    "nameZh": "Vercel React Native Guidelines",
+    "description": "Vercel's official React Native/Expo guidelines — 16 rules across 7 domains",
+    "descriptionZh": "Vercel 官方 React Native/Expo 開發指南，16 條規則橫跨 7 大領域",
+    "category": "frontend",
+    "tags": [
+      "react-native",
+      "expo",
+      "mobile",
+      "guidelines"
+    ],
+    "tagsZh": [
+      "React Native",
+      "Expo",
+      "行動端",
+      "開發指南"
+    ],
+    "icon": "📱",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add vercel-labs/agent-skills --skill react-native-guidelines",
+    "installCount": null,
+    "source": "Vercel 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "frontend-design-toolkit",
+    "name": "Claude Frontend Design Toolkit",
+    "nameZh": "Claude Frontend Design Toolkit",
+    "description": "70+ frontend design tools, 240+ styles, OKLCH token system, Figma bi-directional sync",
+    "descriptionZh": "70+ 前端設計工具整合，240+ 風格、OKLCH Token 系統、Figma 雙向同步",
+    "category": "frontend",
+    "tags": [
+      "design-toolkit",
+      "figma",
+      "tokens",
+      "styles"
+    ],
+    "tagsZh": [
+      "設計工具包",
+      "Figma",
+      "Token",
+      "風格"
+    ],
+    "icon": "🧰",
+    "url": "https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+    "isFree": true,
+    "installCmd": "varies",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-code-ui-agents",
+    "name": "Claude Code UI Agents",
+    "nameZh": "Claude Code UI Agents",
+    "description": "27 curated UI/UX prompts across 9 categories — zero install, use immediately",
+    "descriptionZh": "27 個精選 UI/UX prompt，9 大分類，無需安裝直接用",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "ux",
+      "prompts",
+      "no-install"
+    ],
+    "tagsZh": [
+      "介面",
+      "體驗",
+      "提示詞",
+      "免安裝"
+    ],
+    "icon": "🖌️",
+    "url": "https://github.com/mustafakendiguzel/claude-code-ui-agents",
+    "isFree": true,
+    "installCmd": "無需安裝",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "react-native-expo-agent",
+    "name": "RN Expo Agent",
+    "nameZh": "RN Expo Agent 系統",
+    "description": "7 agents, 3 commands, 50% less dev time.",
+    "descriptionZh": "7 Agent + 3 指令，減少 50% 開發。",
+    "category": "frontend",
+    "tags": [
+      "react-native"
+    ],
+    "tagsZh": [
+      "RN"
+    ],
+    "icon": "📲",
+    "url": "https://github.com/senaiverse/claude-code-reactnative-expo-agent-system",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "stripe-skills",
+    "name": "Stripe Skills",
+    "nameZh": "Stripe 技能包",
+    "description": "Official Stripe payment integration + SDK upgrade with automatic doc sync",
+    "descriptionZh": "Stripe 官方支付整合 + SDK 升級，文件自動同步不怕版本過時",
+    "category": "cloud",
+    "tags": [
+      "payments",
+      "stripe",
+      "sdk",
+      "billing",
+      "fintech"
+    ],
+    "tagsZh": [
+      "支付",
+      "Stripe",
+      "SDK",
+      "帳單",
+      "金融科技"
+    ],
+    "icon": "💳",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add stripe/ai",
+    "installCount": null,
+    "source": "Stripe 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "cloudflare-skills",
+    "name": "Cloudflare Skills Hub",
+    "nameZh": "Cloudflare 技能中心",
+    "description": "Official Cloudflare 8 Skills covering Workers, Pages, KV, D1, R2, AI Agent, and MCP",
+    "descriptionZh": "Cloudflare 官方 8 大技能，Workers/Pages/KV/D1/R2/AI Agent/MCP 一次到位",
+    "category": "cloud",
+    "tags": [
+      "cloudflare",
+      "workers",
+      "edge",
+      "serverless",
+      "cdn",
+      "storage"
+    ],
+    "tagsZh": [
+      "Cloudflare",
+      "Workers",
+      "邊緣運算",
+      "無伺服器",
+      "CDN",
+      "儲存"
+    ],
+    "icon": "☁️",
+    "url": "https://github.com/cloudflare/skills",
+    "isFree": true,
+    "installCmd": "npx skills add https://github.com/cloudflare/skills",
+    "installCount": null,
+    "source": "Cloudflare 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "netlify-skills",
+    "name": "Netlify Context and Tools",
+    "nameZh": "Netlify 情境與工具",
+    "description": "Official Netlify 12 Skills for Serverless, Edge, DB, and AI Gateway deployment",
+    "descriptionZh": "Netlify 官方 12 個技能，Serverless/Edge/DB/AI Gateway 部署全包",
+    "category": "cloud",
+    "tags": [
+      "netlify",
+      "serverless",
+      "edge",
+      "database",
+      "ai-gateway",
+      "deployment"
+    ],
+    "tagsZh": [
+      "Netlify",
+      "無伺服器",
+      "邊緣運算",
+      "資料庫",
+      "AI 閘道",
+      "部署"
     ],
     "icon": "🌍",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": "npx skills add netlify/context-and-tools",
+    "installCount": null,
+    "source": "Netlify 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
   },
   {
-    "id": "x-research",
-    "name": "X Research",
-    "nameZh": "X Research",
-    "description": "Twitter/X account monitoring and data analysis.",
-    "descriptionZh": "Twitter/X 帳號監控與數據分析。",
-    "category": "other",
+    "id": "supabase-skills",
+    "name": "Supabase Agent Skills",
+    "nameZh": "Supabase 代理技能",
+    "description": "Official Supabase Postgres performance optimization across 8 categories + MCP backend management",
+    "descriptionZh": "Supabase 官方 Postgres 效能優化 8 大類別 + MCP 後端管理，資料庫調校神器",
+    "category": "cloud",
     "tags": [
-      "info"
+      "supabase",
+      "postgres",
+      "database",
+      "performance",
+      "mcp",
+      "backend"
     ],
     "tagsZh": [
-      "資訊"
+      "Supabase",
+      "Postgres",
+      "資料庫",
+      "效能優化",
+      "MCP",
+      "後端"
+    ],
+    "icon": "⚡",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add supabase/agent-skills",
+    "installCount": null,
+    "source": "Supabase 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "hashicorp-skills",
+    "name": "HashiCorp Agent Skills",
+    "nameZh": "HashiCorp 代理技能",
+    "description": "Official HashiCorp Terraform code generation, module refactoring, Stacks, Provider, and Packer",
+    "descriptionZh": "HashiCorp 官方 Terraform 代碼生成、模組重構、Stacks/Provider/Packer 全家桶",
+    "category": "cloud",
+    "tags": [
+      "terraform",
+      "hashicorp",
+      "iac",
+      "packer",
+      "infrastructure"
+    ],
+    "tagsZh": [
+      "Terraform",
+      "HashiCorp",
+      "基礎設施即代碼",
+      "Packer",
+      "基礎設施"
+    ],
+    "icon": "🏗️",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add hashicorp/agent-skills",
+    "installCount": null,
+    "source": "HashiCorp 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "pulumi-skills",
+    "name": "Pulumi Agent Skills",
+    "nameZh": "Pulumi 代理技能",
+    "description": "Official Pulumi 4 migration tools (Terraform/CDK/CF/ARM) + 4 best practice writing skills",
+    "descriptionZh": "Pulumi 官方 4 大遷移工具（Terraform/CDK/CF/ARM）+ 4 套最佳實踐撰寫技能",
+    "category": "cloud",
+    "tags": [
+      "pulumi",
+      "iac",
+      "migration",
+      "terraform",
+      "cloud"
+    ],
+    "tagsZh": [
+      "Pulumi",
+      "基礎設施即代碼",
+      "遷移",
+      "Terraform",
+      "雲端"
+    ],
+    "icon": "🔧",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add pulumi/agent-skills --skill '*'",
+    "installCount": null,
+    "source": "Pulumi 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "neon-skills",
+    "name": "Neon Agent Skills",
+    "nameZh": "Neon 代理技能",
+    "description": "Official Neon Serverless Postgres branch management and egress cost optimization",
+    "descriptionZh": "Neon 官方 Serverless Postgres 分支管理 + Egress 成本優化，省錢又靈活",
+    "category": "cloud",
+    "tags": [
+      "neon",
+      "postgres",
+      "serverless",
+      "database",
+      "cost-optimization"
+    ],
+    "tagsZh": [
+      "Neon",
+      "Postgres",
+      "無伺服器",
+      "資料庫",
+      "成本優化"
+    ],
+    "icon": "🐘",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add neondatabase/agent-skills",
+    "installCount": null,
+    "source": "Neon 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "terraform-skill",
+    "name": "Terraform Skill",
+    "nameZh": "Terraform 技能",
+    "description": "1.3K-star Terraform skill by AWS Hero: test strategies, module dev, CI/CD, security compliance, cost estimation",
+    "descriptionZh": "AWS Hero 打造 1.3K 星，測試策略/模組開發/CI-CD/安全合規/成本估算全覆蓋",
+    "category": "cloud",
+    "tags": [
+      "terraform",
+      "aws",
+      "testing",
+      "security",
+      "cost-estimation",
+      "cicd"
+    ],
+    "tagsZh": [
+      "Terraform",
+      "AWS",
+      "測試",
+      "安全",
+      "成本估算",
+      "CI/CD"
+    ],
+    "icon": "🏔️",
+    "url": "https://github.com/antonbabenko/terraform-skill",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add antonbabenko/terraform-skill",
+    "installCount": null,
+    "source": "社群 (AWS Hero)",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "cc-devops-skills",
+    "name": "cc-devops-skills",
+    "nameZh": "DevOps 技能集",
+    "description": "31 DevOps skills across 5 domains: IaC, CI/CD, K8s, Observability, and Scripting",
+    "descriptionZh": "31 個 DevOps 技能橫跨 IaC/CI-CD/K8s/可觀測性/腳本五大領域，一包全收",
+    "category": "cloud",
+    "tags": [
+      "devops",
+      "iac",
+      "cicd",
+      "kubernetes",
+      "observability",
+      "scripting"
+    ],
+    "tagsZh": [
+      "DevOps",
+      "基礎設施即代碼",
+      "CI/CD",
+      "Kubernetes",
+      "可觀測性",
+      "腳本"
+    ],
+    "icon": "🔄",
+    "url": "https://github.com/akin-ozer/cc-devops-skills",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add akin-ozer/cc-devops-skills",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claudebox",
+    "name": "ClaudeBox",
+    "nameZh": "ClaudeBox 容器化",
+    "description": "Docker-containerized Claude Code with 15+ language profiles, project isolation, and network firewall",
+    "descriptionZh": "Docker 容器化 Claude Code，15+ 語言 Profile、專案隔離、網路防火牆，沙盒級安全",
+    "category": "cloud",
+    "tags": [
+      "docker",
+      "container",
+      "isolation",
+      "security",
+      "sandbox"
+    ],
+    "tagsZh": [
+      "Docker",
+      "容器",
+      "隔離",
+      "安全",
+      "沙盒"
+    ],
+    "icon": "📦",
+    "url": "https://github.com/RchGrav/claudebox",
+    "isFree": true,
+    "installCmd": "wget + chmod + run",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "需要 Docker 根權限，請確認環境安全",
+    "features": null
+  },
+  {
+    "id": "n8n-skills",
+    "name": "n8n Skills",
+    "nameZh": "n8n 自動化技能",
+    "description": "7 complementary skills for production-grade n8n automation: expressions, MCP, 5 patterns, validation",
+    "descriptionZh": "7 個互補技能打造生產級 n8n 自動化，表達式/MCP/5 模式/驗證一條龍",
+    "category": "cloud",
+    "tags": [
+      "n8n",
+      "automation",
+      "workflow",
+      "mcp",
+      "nocode"
+    ],
+    "tagsZh": [
+      "n8n",
+      "自動化",
+      "工作流",
+      "MCP",
+      "無代碼"
+    ],
+    "icon": "⚙️",
+    "url": "https://github.com/czlonkowski/n8n-skills",
+    "isFree": true,
+    "installCmd": "/plugin install czlonkowski/n8n-skills",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "gemini-api-skills",
+    "name": "Gemini API Skills",
+    "nameZh": "Gemini API 技能包",
+    "description": "Official Google 4 Skills for Gemini API, Vertex AI, Live API, and Interactions",
+    "descriptionZh": "Google 官方 4 大技能：Gemini API/Vertex AI/Live API/Interactions，直通 Google AI",
+    "category": "data",
+    "tags": [
+      "gemini",
+      "google",
+      "ai",
+      "vertex",
+      "llm",
+      "api"
+    ],
+    "tagsZh": [
+      "Gemini",
+      "Google",
+      "AI",
+      "Vertex",
+      "大語言模型",
+      "API"
+    ],
+    "icon": "💫",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add google-gemini/gemini-skills",
+    "installCount": null,
+    "source": "Google 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "firecrawl-skills",
+    "name": "Firecrawl CLI & Plugin",
+    "nameZh": "Firecrawl 爬蟲工具",
+    "description": "Official Firecrawl crawling, searching, mapping, structured extraction, and cloud browser",
+    "descriptionZh": "Firecrawl 官方爬取／搜尋／地圖／結構化擷取／雲端瀏覽器",
+    "category": "productivity",
+    "tags": [
+      "firecrawl",
+      "crawling",
+      "scraping",
+      "extraction",
+      "cloud-browser"
+    ],
+    "tagsZh": [
+      "Firecrawl",
+      "爬取",
+      "抓取",
+      "擷取",
+      "雲端瀏覽器"
+    ],
+    "icon": "🔥",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add firecrawl/cli",
+    "installCount": null,
+    "source": "Firecrawl 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "ai-marketing-suite",
+    "name": "AI Marketing Suite",
+    "nameZh": "AI 行銷套件",
+    "description": "5 parallel sub-agents for 6-dimension marketing audit with 0-100 scoring across 14 professional skills",
+    "descriptionZh": "5 平行 sub-agent 六維度行銷審計 0-100 評分，涵蓋 14 項專業技能",
+    "category": "marketing",
+    "tags": [
+      "marketing",
+      "audit",
+      "sub-agent",
+      "scoring",
+      "strategy"
+    ],
+    "tagsZh": [
+      "行銷",
+      "審計",
+      "子代理",
+      "評分",
+      "策略"
+    ],
+    "icon": "📣",
+    "url": "https://github.com/zubair-trabzada/ai-marketing-claude",
+    "isFree": true,
+    "installCmd": "curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-claude/main/install.sh | bash",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-seo",
+    "name": "Claude SEO",
+    "nameZh": "Claude SEO",
+    "description": "13 sub-skills + 7 sub-agents + DataForSEO MCP for all-in-one SEO including Core Web Vitals and E-E-A-T analysis",
+    "descriptionZh": "13 子技能 + 7 subagent + DataForSEO MCP，一站式 SEO 涵蓋 Core Web Vitals 與 E-E-A-T 分析",
+    "category": "marketing",
+    "tags": [
+      "seo",
+      "core-web-vitals",
+      "e-e-a-t",
+      "sub-agent",
+      "dataforseo"
+    ],
+    "tagsZh": [
+      "SEO",
+      "核心網頁指標",
+      "E-E-A-T",
+      "子代理",
+      "DataForSEO"
+    ],
+    "icon": "🔍",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "isFree": true,
+    "installCmd": "curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/install.sh | bash",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "seo-geo-skills",
+    "name": "SEO & GEO Skills",
+    "nameZh": "SEO & GEO 技能包",
+    "description": "20 skills with 9 one-click commands, CORE-EEAT 80+ items + CITE 40+ items, zero external dependencies",
+    "descriptionZh": "20 技能 9 一鍵指令，CORE-EEAT 80 項 + CITE 40 項檢查，零外部依賴",
+    "category": "marketing",
+    "tags": [
+      "seo",
+      "geo",
+      "eeat",
+      "zero-dependency",
+      "audit"
+    ],
+    "tagsZh": [
+      "SEO",
+      "GEO",
+      "EEAT",
+      "零依賴",
+      "審計"
+    ],
+    "icon": "🌏",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+    "isFree": true,
+    "installCmd": "npx skills add aaron-he-zhu/seo-geo-claude-skills",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "seo-machine",
+    "name": "SEO Machine",
+    "nameZh": "SEO 機器",
+    "description": "10 specialized agents + 26 marketing skills for long-form SEO with GA4/GSC/DataForSEO integration and WordPress publishing",
+    "descriptionZh": "10 專業 agent + 26 行銷技能，長文 SEO 整合 GA4／GSC／DataForSEO，直發 WordPress",
+    "category": "marketing",
+    "tags": [
+      "seo",
+      "agent",
+      "ga4",
+      "gsc",
+      "wordpress",
+      "dataforseo"
+    ],
+    "tagsZh": [
+      "SEO",
+      "代理",
+      "GA4",
+      "GSC",
+      "WordPress",
+      "DataForSEO"
+    ],
+    "icon": "⚡",
+    "url": "https://github.com/TheCraigHewitt/seomachine",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/TheCraigHewitt/seomachine.git && cd seomachine && pip install -r requirements.txt",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "create-viral-content",
+    "name": "Create Viral Content",
+    "nameZh": "病毒式爆款內容",
+    "description": "Viral content for 5 platforms with 3 hook patterns, AI detection evasion, and 6-round adversarial review",
+    "descriptionZh": "5 平台爆款內容生成，3 Hook 模式 + AI 偵測規避 + 6 輪對抗性審查",
+    "category": "marketing",
+    "tags": [
+      "viral",
+      "content",
+      "hooks",
+      "ai-detection",
+      "social-media"
+    ],
+    "tagsZh": [
+      "爆款",
+      "內容",
+      "Hook",
+      "AI偵測",
+      "社群媒體"
+    ],
+    "icon": "🔥",
+    "url": "https://github.com/aaaronmiller/create-viral-content",
+    "isFree": true,
+    "installCmd": "/plugin install viral-content-forge",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "包含 AI 內容偵測規避功能，請遵守各平台內容政策",
+    "features": null
+  },
+  {
+    "id": "remotion-best-practices",
+    "name": "Remotion",
+    "nameZh": "Remotion 影片",
+    "description": "Code-driven video with React/TS.",
+    "descriptionZh": "React/TS 做影片。",
+    "category": "media",
+    "tags": [
+      "video",
+      "react"
+    ],
+    "tagsZh": [
+      "影片",
+      "React"
+    ],
+    "icon": "🎬",
+    "url": "https://github.com/remotion-dev/skills",
+    "isFree": true,
+    "installCmd": "npx skills add remotion-dev/skills",
+    "installCount": 126000,
+    "source": "Remotion",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "elevenlabs-mcp",
+    "name": "ElevenLabs MCP Server",
+    "nameZh": "ElevenLabs MCP 伺服器",
+    "description": "Official ElevenLabs TTS, voice cloning, transcription, sound design, and audio isolation",
+    "descriptionZh": "ElevenLabs 官方 TTS/聲音複製/轉錄/聲音設計/音訊隔離，語音 AI 全能工具",
+    "category": "media",
+    "tags": [
+      "tts",
+      "voice",
+      "audio",
+      "transcription",
+      "elevenlabs",
+      "mcp"
+    ],
+    "tagsZh": [
+      "語音合成",
+      "聲音",
+      "音訊",
+      "轉錄",
+      "ElevenLabs",
+      "MCP"
+    ],
+    "icon": "🎙️",
+    "url": "",
+    "isFree": true,
+    "installCmd": "uvx elevenlabs-mcp",
+    "installCount": null,
+    "source": "ElevenLabs 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-media-skills",
+    "name": "Claude Media Skills",
+    "nameZh": "Claude 媒體技能",
+    "description": "Gemini image generation + Kling video synthesis with character consistency across shots",
+    "descriptionZh": "Gemini 圖片生成 + Kling 影片合成，角色一致性跨鏡頭不崩壞",
+    "category": "media",
+    "tags": [
+      "image-generation",
+      "video",
+      "gemini",
+      "kling",
+      "character-consistency"
+    ],
+    "tagsZh": [
+      "圖片生成",
+      "影片",
+      "Gemini",
+      "Kling",
+      "角色一致性"
+    ],
+    "icon": "🖼️",
+    "url": "https://github.com/dennisonbertram/claude-media-skills",
+    "isFree": true,
+    "installCmd": "cp skills to ~/.claude/skills/",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "圖片上傳到第三方服務 catbox.moe，請注意隱私",
+    "features": null
+  },
+  {
+    "id": "generative-media-skills",
+    "name": "Generative Media Skills",
+    "nameZh": "生成式媒體技能",
+    "description": "CLI-driven 100+ AI models: Midjourney, Flux, Kling, Veo3 with 19 structured tools",
+    "descriptionZh": "CLI 驅動 100+ AI 模型，Midjourney/Flux/Kling/Veo3 + 19 結構化工具隨你調度",
+    "category": "media",
+    "tags": [
+      "midjourney",
+      "flux",
+      "kling",
+      "veo3",
+      "ai-generation",
+      "cli"
+    ],
+    "tagsZh": [
+      "Midjourney",
+      "Flux",
+      "Kling",
+      "Veo3",
+      "AI 生成",
+      "CLI"
+    ],
+    "icon": "🎥",
+    "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+    "isFree": true,
+    "installCmd": "npx skills add SamurAIGPT/Generative-Media-Skills --all",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "video-toolkit",
+    "name": "Video Toolkit",
+    "nameZh": "影片工具包",
+    "description": "AI video production with Remotion + ElevenLabs + FFmpeg + Playwright, 7 transitions, brand system",
+    "descriptionZh": "AI 影片製作全套：Remotion + ElevenLabs + FFmpeg + Playwright，7 種轉場 + 品牌系統",
+    "category": "media",
+    "tags": [
+      "video",
+      "remotion",
+      "elevenlabs",
+      "ffmpeg",
+      "branding",
+      "transitions"
+    ],
+    "tagsZh": [
+      "影片",
+      "Remotion",
+      "ElevenLabs",
+      "FFmpeg",
+      "品牌",
+      "轉場"
+    ],
+    "icon": "🎞️",
+    "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+    "isFree": true,
+    "installCmd": "git clone + pip install",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "ai-music-production",
+    "name": "AI Music Production",
+    "nameZh": "AI 音樂製作",
+    "description": "52 skills + 10 sub-agents + 80 MCP tools for full album pipeline with Suno V5",
+    "descriptionZh": "52 技能 + 10 子 Agent + 80 MCP 工具，Suno V5 完整專輯流水線從作曲到母帶",
+    "category": "media",
+    "tags": [
+      "music",
+      "suno",
+      "album",
+      "production",
+      "agents",
+      "mcp"
+    ],
+    "tagsZh": [
+      "音樂",
+      "Suno",
+      "專輯",
+      "製作",
+      "代理",
+      "MCP"
+    ],
+    "icon": "🎵",
+    "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add + /bitwize-music:setup",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "deapi-media-toolkit",
+    "name": "deAPI Media",
+    "nameZh": "deAPI 媒體",
+    "description": "Image + TTS + OCR, 1/20 cost.",
+    "descriptionZh": "圖片 + TTS + OCR，1/20 成本。",
+    "category": "media",
+    "tags": [
+      "image",
+      "tts"
+    ],
+    "tagsZh": [
+      "圖片",
+      "TTS"
+    ],
+    "icon": "🌅",
+    "url": "https://github.com/deapi-ai/claude-code-skills",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "game-studios",
+    "name": "Claude Code Game Studios",
+    "nameZh": "Claude Code 遊戲工作室",
+    "description": "48 agents + 37 slash commands for 3-tier game development across Godot, Unity, and Unreal",
+    "descriptionZh": "48 Agent + 37 斜線指令，三層遊戲開發架構支援 Godot／Unity／Unreal",
+    "category": "productivity",
+    "tags": [
+      "gamedev",
+      "godot",
+      "unity",
+      "unreal",
+      "agents"
+    ],
+    "tagsZh": [
+      "遊戲開發",
+      "Godot",
+      "Unity",
+      "Unreal",
+      "代理"
+    ],
+    "icon": "🎮",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git && cd Claude-Code-Game-Studios && claude && /start",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "godogen",
+    "name": "Godogen",
+    "nameZh": "Godogen 遊戲生成器",
+    "description": "Game description to complete Godot 4 project — 2D/3D assets, visual QA, and 850+ class documentation",
+    "descriptionZh": "遊戲描述→完整 Godot 4 專案，2D／3D 資產 + 視覺 QA + 850+ 類別文檔",
+    "category": "productivity",
+    "tags": [
+      "godot",
+      "game-generation",
+      "2d",
+      "3d",
+      "assets"
+    ],
+    "tagsZh": [
+      "Godot",
+      "遊戲生成",
+      "2D",
+      "3D",
+      "資產"
+    ],
+    "icon": "🕹️",
+    "url": "https://github.com/htdt/godogen",
+    "isFree": true,
+    "installCmd": "./publish.sh",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "altimate-data-engineering",
+    "name": "Altimate Data Engineering",
+    "nameZh": "Altimate 資料工程",
+    "description": "dbt + Snowflake skills: 53% ADE-bench, 84% optimization pass rate, 3.6x performance boost",
+    "descriptionZh": "dbt + Snowflake 專精，53% ADE-bench、84% 優化通過率、效能提升 3.6 倍，數據工程硬實力",
+    "category": "data",
+    "tags": [
+      "dbt",
+      "snowflake",
+      "data-engineering",
+      "optimization",
+      "sql"
+    ],
+    "tagsZh": [
+      "dbt",
+      "Snowflake",
+      "資料工程",
+      "效能優化",
+      "SQL"
+    ],
+    "icon": "🗄️",
+    "url": "https://github.com/AltimateAI/data-engineering-skills",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add AltimateAI/data-engineering-skills",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-data-analysis",
+    "name": "claude-data-analysis",
+    "nameZh": "Claude 資料分析",
+    "description": "6 sub-agents for conversational data analysis: exploration, visualization, and full reporting pipeline",
+    "descriptionZh": "6 個子 Agent 對話式資料分析，探索/視覺化/報告全流程，問就有答案",
+    "category": "data",
+    "tags": [
+      "data-analysis",
+      "visualization",
+      "reporting",
+      "agent",
+      "pipeline"
+    ],
+    "tagsZh": [
+      "資料分析",
+      "視覺化",
+      "報告",
+      "代理",
+      "流水線"
+    ],
+    "icon": "📊",
+    "url": "https://github.com/liangdabiao/claude-data-analysis",
+    "isFree": true,
+    "installCmd": "clone + data_storage/",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "data-science-team",
+    "name": "claude-code-data-science-team",
+    "nameZh": "資料科學團隊",
+    "description": "5 specialized Agents simulating a data science team, achieving 85.5% accuracy on Titanic dataset",
+    "descriptionZh": "5 個專業 Agent 模擬數據科學團隊，Titanic 資料集 85.5% 準確率實戰驗證",
+    "category": "data",
+    "tags": [
+      "data-science",
+      "machine-learning",
+      "agents",
+      "team",
+      "modeling"
+    ],
+    "tagsZh": [
+      "資料科學",
+      "機器學習",
+      "代理",
+      "團隊",
+      "建模"
+    ],
+    "icon": "🧪",
+    "url": "https://github.com/HungHsunHan/claude-code-data-science-team",
+    "isFree": true,
+    "installCmd": "git clone + pip install",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "x-research-skill",
+    "name": "X Research",
+    "nameZh": "X Research",
+    "description": "Search tweets, monitor KOLs.",
+    "descriptionZh": "搜索推文、監控 KOL。",
+    "category": "productivity",
+    "tags": [
+      "twitter",
+      "kol"
+    ],
+    "tagsZh": [
+      "Twitter",
+      "KOL"
+    ],
+    "icon": "🐦",
+    "url": "https://github.com/rohunvora/x-research-skill",
+    "isFree": true,
+    "installCmd": null,
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "cc-connect",
+    "name": "cc-connect",
+    "nameZh": "cc-connect 多平台橋接",
+    "description": "Bridge Feishu, DingTalk, Telegram, Slack, Discord, WeCom, and WeChat — 7+ platforms remote control",
+    "descriptionZh": "橋接飛書／釘釘／Telegram／Slack／Discord／企微／微信 7+ 平台遠端控制",
+    "category": "productivity",
+    "tags": [
+      "messaging",
+      "slack",
+      "telegram",
+      "discord",
+      "wechat",
+      "bridge"
+    ],
+    "tagsZh": [
+      "通訊",
+      "Slack",
+      "Telegram",
+      "Discord",
+      "微信",
+      "橋接"
+    ],
+    "icon": "🌉",
+    "url": "https://github.com/chenhg5/cc-connect",
+    "isFree": true,
+    "installCmd": "npm install -g cc-connect",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "可存取多個通訊平台的訊息，請確認授權範圍",
+    "features": null
+  },
+  {
+    "id": "wacli",
+    "name": "Wacli",
+    "nameZh": "Wacli WhatsApp CLI",
+    "description": "WhatsApp CLI Swiss Army knife — messaging, search, sync, and file transfer with 16K+ downloads",
+    "descriptionZh": "WhatsApp CLI 瑞士刀，訊息／搜索／同步／檔案傳輸，16K+ 下載",
+    "category": "productivity",
+    "tags": [
+      "whatsapp",
+      "cli",
+      "messaging",
+      "sync",
+      "file-transfer"
+    ],
+    "tagsZh": [
+      "WhatsApp",
+      "CLI",
+      "訊息",
+      "同步",
+      "檔案傳輸"
+    ],
+    "icon": "💬",
+    "url": "https://github.com/steipete/wacli",
+    "isFree": true,
+    "installCmd": "brew install steipete/tap/wacli",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "可代為發送 WhatsApp 訊息，請確認收件人和內容",
+    "features": null
+  },
+  {
+    "id": "claude-code-discord",
+    "name": "claude-code-discord",
+    "nameZh": "Claude Code Discord Bot",
+    "description": "Claude Code in Discord with thread-per-session, RBAC, and 45+ slash commands",
+    "descriptionZh": "把 Claude Code 搬進 Discord，Thread-per-session + RBAC + 45+ 斜線指令",
+    "category": "productivity",
+    "tags": [
+      "discord",
+      "bot",
+      "rbac",
+      "slash-commands",
+      "session"
+    ],
+    "tagsZh": [
+      "Discord",
+      "機器人",
+      "RBAC",
+      "斜線指令",
+      "會話"
+    ],
+    "icon": "🎮",
+    "url": "https://github.com/zebbern/claude-code-discord",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/zebbern/claude-code-discord.git && cd claude-code-discord && docker compose up -d",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "Bot 可執行 Shell 命令，請確保 RBAC 設定正確",
+    "features": null
+  },
+  {
+    "id": "anthropic-document-skills",
+    "name": "Anthropic Document Skills",
+    "nameZh": "Anthropic 文件處理",
+    "description": "Official Anthropic document processing for DOCX, PPTX, XLSX, and PDF — ready out of the box",
+    "descriptionZh": "Anthropic 官方文件處理，DOCX／PPTX／XLSX／PDF 即開即用",
+    "category": "productivity",
+    "tags": [
+      "documents",
+      "docx",
+      "pptx",
+      "xlsx",
+      "pdf",
+      "anthropic"
+    ],
+    "tagsZh": [
+      "文件",
+      "DOCX",
+      "PPTX",
+      "XLSX",
+      "PDF",
+      "Anthropic"
+    ],
+    "icon": "📄",
+    "url": "",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add anthropics/skills",
+    "installCount": null,
+    "source": "Anthropic 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "anthropic-canvas-design",
+    "name": "Anthropic Canvas Design",
+    "nameZh": "Anthropic Canvas 設計",
+    "description": "Official Anthropic Canvas for interactive graphics, data visualization, animations, and algorithmic art",
+    "descriptionZh": "Anthropic 官方 Canvas，互動圖形／資料視覺化／動畫／演算法藝術",
+    "category": "productivity",
+    "tags": [
+      "canvas",
+      "visualization",
+      "animation",
+      "design",
+      "anthropic"
+    ],
+    "tagsZh": [
+      "畫布",
+      "視覺化",
+      "動畫",
+      "設計",
+      "Anthropic"
+    ],
+    "icon": "🎭",
+    "url": "",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add anthropics/skills",
+    "installCount": null,
+    "source": "Anthropic 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "anthropic-web-artifacts",
+    "name": "Anthropic Web Artifacts Builder",
+    "nameZh": "Anthropic Web 元件產生器",
+    "description": "Official Anthropic tool for rapid HTML/CSS/JS generation with live preview and theme factory",
+    "descriptionZh": "Anthropic 官方快速產生 HTML／CSS／JS，即時預覽 + 主題工廠",
+    "category": "productivity",
+    "tags": [
+      "html",
+      "css",
+      "javascript",
+      "preview",
+      "artifacts",
+      "anthropic"
+    ],
+    "tagsZh": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "預覽",
+      "元件",
+      "Anthropic"
+    ],
+    "icon": "🧩",
+    "url": "",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add anthropics/skills",
+    "installCount": null,
+    "source": "Anthropic 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "anthropic-mcp-builder",
+    "name": "Anthropic MCP Builder",
+    "nameZh": "Anthropic MCP 建構器",
+    "description": "Official Anthropic MCP Server builder with tool definitions, auth integration, and debug testing",
+    "descriptionZh": "Anthropic 官方 MCP Server 建構，工具定義／認證整合／除錯測試",
+    "category": "productivity",
+    "tags": [
+      "mcp",
+      "server",
+      "tools",
+      "auth",
+      "debugging",
+      "anthropic"
+    ],
+    "tagsZh": [
+      "MCP",
+      "伺服器",
+      "工具",
+      "認證",
+      "除錯",
+      "Anthropic"
+    ],
+    "icon": "🔌",
+    "url": "",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add anthropics/skills",
+    "installCount": null,
+    "source": "Anthropic 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "anthropic-webapp-testing",
+    "name": "Anthropic Webapp Testing",
+    "nameZh": "Anthropic Web 測試",
+    "description": "Official Anthropic Playwright E2E testing with screenshot verification and cross-browser support",
+    "descriptionZh": "Anthropic 官方 Playwright E2E 測試，截圖驗證 + 跨瀏覽器支援",
+    "category": "productivity",
+    "tags": [
+      "testing",
+      "playwright",
+      "e2e",
+      "screenshot",
+      "cross-browser",
+      "anthropic"
+    ],
+    "tagsZh": [
+      "測試",
+      "Playwright",
+      "E2E",
+      "截圖",
+      "跨瀏覽器",
+      "Anthropic"
+    ],
+    "icon": "🧪",
+    "url": "",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add anthropics/skills",
+    "installCount": null,
+    "source": "Anthropic 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "sanity-toolkit",
+    "name": "Sanity Agent Toolkit",
+    "nameZh": "Sanity 代理工具包",
+    "description": "Official Sanity toolkit for GROQ optimization, schema design, Visual Editing, SEO-AEO, and A/B testing",
+    "descriptionZh": "Sanity 官方工具包，GROQ 優化／Schema 設計／Visual Editing／SEO-AEO／AB 測試",
+    "category": "productivity",
+    "tags": [
+      "sanity",
+      "groq",
+      "schema",
+      "cms",
+      "seo",
+      "ab-testing"
+    ],
+    "tagsZh": [
+      "Sanity",
+      "GROQ",
+      "Schema",
+      "CMS",
+      "SEO",
+      "AB測試"
+    ],
+    "icon": "📚",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add sanity-io/agent-toolkit",
+    "installCount": null,
+    "source": "Sanity 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "veryfi-ocr",
+    "name": "Veryfi OCR 3.0",
+    "nameZh": "Veryfi OCR 3.0",
+    "description": "SOC 2 certified receipt/invoice/bill to JSON extraction — 100+ fields in seconds",
+    "descriptionZh": "SOC 2 認證，收據／發票／帳單→JSON 擷取，100+ 欄位秒級處理",
+    "category": "productivity",
+    "tags": [
+      "ocr",
+      "invoice",
+      "receipt",
+      "soc2",
+      "extraction"
+    ],
+    "tagsZh": [
+      "OCR",
+      "發票",
+      "收據",
+      "SOC2",
+      "擷取"
+    ],
+    "icon": "🧾",
+    "url": "",
+    "isFree": true,
+    "installCmd": "clawhub install veryfi-ocr",
+    "installCount": null,
+    "source": "Veryfi 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-legal",
+    "name": "Claude-Legal",
+    "nameZh": "Claude 法律助手",
+    "description": "AI legal team for contract review with GREEN/YELLOW/RED triage, NDA routing, GDPR/CCPA compliance",
+    "descriptionZh": "AI 法律團隊，合約審查 GREEN／YELLOW／RED 分流，NDA 路由 + GDPR／CCPA 合規",
+    "category": "productivity",
+    "tags": [
+      "legal",
+      "contract",
+      "gdpr",
+      "ccpa",
+      "nda",
+      "compliance"
+    ],
+    "tagsZh": [
+      "法律",
+      "合約",
+      "GDPR",
+      "CCPA",
+      "NDA",
+      "合規"
+    ],
+    "icon": "⚖️",
+    "url": "https://github.com/Kromer-Group/Claude-Legal",
+    "isFree": true,
+    "installCmd": "claude plugins add",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "book-factory",
+    "name": "Book Factory",
+    "nameZh": "書籍工廠",
+    "description": "Non-fiction book publishing pipeline — ebook, ghostwriting, brainstorming, and hook automation",
+    "descriptionZh": "非虛構書籍出版 Pipeline，電子書／代筆／腦力激盪／Hook 自動化",
+    "category": "productivity",
+    "tags": [
+      "book",
+      "publishing",
+      "ebook",
+      "writing",
+      "automation"
+    ],
+    "tagsZh": [
+      "書籍",
+      "出版",
+      "電子書",
+      "寫作",
+      "自動化"
+    ],
+    "icon": "📕",
+    "url": "https://github.com/robertguss/claude-skills",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/robertguss/claude-skills.git",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "web-scraper",
+    "name": "Web Scraper",
+    "nameZh": "Web Scraper 自適應爬蟲",
+    "description": "6-stage adaptive reconnaissance with framework-aware API discovery, Apify TypeScript deployment — 15-60x faster",
+    "descriptionZh": "六階段自適應偵察，框架感知 API 發現 + Apify TypeScript 部署，快 15-60 倍",
+    "category": "productivity",
+    "tags": [
+      "scraping",
+      "apify",
+      "api-discovery",
+      "typescript",
+      "reconnaissance"
+    ],
+    "tagsZh": [
+      "爬蟲",
+      "Apify",
+      "API發現",
+      "TypeScript",
+      "偵察"
+    ],
+    "icon": "🕸️",
+    "url": "https://github.com/yfe404/web-scraper",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/yfe404/web-scraper.git",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-homeassistant",
+    "name": "claude-homeassistant",
+    "nameZh": "Claude Home Assistant",
+    "description": "Natural language to Home Assistant automations with multi-layer validation and secure SSH deployment",
+    "descriptionZh": "自然語言→Home Assistant 自動化，多層驗證 + SSH 安全部署",
+    "category": "productivity",
+    "tags": [
+      "home-assistant",
+      "iot",
+      "automation",
+      "ssh",
+      "smart-home"
+    ],
+    "tagsZh": [
+      "Home Assistant",
+      "IoT",
+      "自動化",
+      "SSH",
+      "智慧家庭"
+    ],
+    "icon": "🏠",
+    "url": "https://github.com/philippb/claude-homeassistant",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/philippb/claude-homeassistant.git && cd claude-homeassistant && ./setup.sh",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "可遠端控制家中設備，請確認 SSH 連線安全",
+    "features": null
+  },
+  {
+    "id": "bybit-trading",
+    "name": "Bybit AI Trading Skill",
+    "nameZh": "Bybit AI 交易技能",
+    "description": "Bybit official skill with 253 API endpoints, natural language crypto trading, zero installation required.",
+    "descriptionZh": "Bybit 官方 253 個 API 端點，支援自然語言加密交易，零安裝讀取 SKILL.md 即可",
+    "category": "cex",
+    "tags": [
+      "bybit",
+      "cex",
+      "trading",
+      "natural-language",
+      "zero-install"
+    ],
+    "tagsZh": [
+      "Bybit",
+      "中心化交易所",
+      "交易",
+      "自然語言",
+      "零安裝"
+    ],
+    "icon": "🟡",
+    "url": "",
+    "isFree": true,
+    "installCmd": "零安裝 — 讀取 SKILL.md 即可",
+    "installCount": null,
+    "source": "Bybit 官方",
+    "isOfficial": true,
+    "verdict": "warn",
+    "warning": "可用真實資金執行交易，建議先在 Testnet 測試",
+    "features": null
+  },
+  {
+    "id": "anthropic-financial",
+    "name": "Claude for Financial Services",
+    "nameZh": "Claude 金融服務插件",
+    "description": "Anthropic official financial plugin suite with 41 skills across investment banking, equity research, PE, and wealth management, integrating 11 data providers.",
+    "descriptionZh": "Anthropic 官方金融插件，投行/股研/PE/財管 41 Skills，整合 11 家數據商",
+    "category": "trading",
+    "tags": [
+      "finance",
+      "investment-banking",
+      "equity-research",
+      "wealth-management",
+      "anthropic"
+    ],
+    "tagsZh": [
+      "金融",
+      "投資銀行",
+      "股票研究",
+      "財富管理",
+      "Anthropic"
+    ],
+    "icon": "🏦",
+    "url": "",
+    "isFree": true,
+    "installCmd": "/plugin marketplace add anthropics/financial-services-plugins",
+    "installCount": null,
+    "source": "Anthropic 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "options-strategy",
+    "name": "Options Strategy Advisor",
+    "nameZh": "選擇權策略顧問",
+    "description": "Options pricing with Black-Scholes, Greeks analysis, spread strategies, and Interactive Brokers integration.",
+    "descriptionZh": "Black-Scholes + 希臘字母 + 選擇權價差策略 + IB 券商整合",
+    "category": "trading",
+    "tags": [
+      "options",
+      "black-scholes",
+      "greeks",
+      "interactive-brokers",
+      "derivatives"
+    ],
+    "tagsZh": [
+      "選擇權",
+      "Black-Scholes",
+      "希臘字母",
+      "IB 券商",
+      "衍生品"
+    ],
+    "icon": "🎯",
+    "url": "https://github.com/staskh/trading_skills",
+    "isFree": true,
+    "installCmd": "from GitHub",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "可連接真實券商帳戶，請用模擬帳戶測試",
+    "features": null
+  },
+  {
+    "id": "trail-of-bits",
+    "name": "Trail of Bits Skills",
+    "nameZh": "Trail of Bits 安全技能",
+    "description": "Premier security firm's 40+ skills for smart contract auditing, CodeQL, Semgrep, and reverse engineering.",
+    "descriptionZh": "頂尖資安公司 40+ 安全技能，智能合約/CodeQL/Semgrep/逆向工程全覆蓋",
+    "category": "security",
+    "tags": [
+      "security-audit",
+      "smart-contract",
+      "codeql",
+      "semgrep",
+      "reverse-engineering"
+    ],
+    "tagsZh": [
+      "安全審計",
+      "智能合約",
+      "CodeQL",
+      "Semgrep",
+      "逆向工程"
     ],
     "icon": "🔬",
     "url": "",
-    "isFree": true
+    "isFree": true,
+    "installCmd": "/plugin marketplace add trailofbits/skills",
+    "installCount": null,
+    "source": "Trail of Bits 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "transilience",
+    "name": "Transilience Community Tools",
+    "nameZh": "Transilience 滲透測試套件",
+    "description": "23 skills and 8 agents for penetration testing covering OWASP Top 10 and LLM Top 10.",
+    "descriptionZh": "23 技能 + 8 agent 滲透測試套件，覆蓋 OWASP Top 10 + LLM Top 10",
+    "category": "security",
+    "tags": [
+      "pentest",
+      "owasp",
+      "llm-security",
+      "red-team",
+      "agents"
+    ],
+    "tagsZh": [
+      "滲透測試",
+      "OWASP",
+      "LLM 安全",
+      "紅隊",
+      "Agent"
+    ],
+    "icon": "🕵️",
+    "url": "https://github.com/transilienceai/communitytools",
+    "isFree": true,
+    "installCmd": "git clone https://github.com/transilienceai/communitytools.git",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "僅限授權安全測試使用",
+    "features": null
+  },
+  {
+    "id": "stitch-design2code",
+    "name": "Stitch Design-to-Code",
+    "nameZh": "Stitch Design-to-Code",
+    "description": "Google's official design-to-React pipeline — extract Design Systems, generate multi-page sites from mockups",
+    "descriptionZh": "Google 官方設計稿→React 元件轉換，支援 Design System 萃取與多頁網站生成",
+    "category": "frontend",
+    "tags": [
+      "design-to-code",
+      "react",
+      "design-system",
+      "google"
+    ],
+    "tagsZh": [
+      "設計轉代碼",
+      "React",
+      "設計系統",
+      "Google"
+    ],
+    "icon": "✂️",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add google-labs-code/stitch-skills",
+    "installCount": null,
+    "source": "Google 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "uiux-pro-max",
+    "name": "UI/UX Pro Max",
+    "nameZh": "UI/UX Pro Max",
+    "description": "67 styles, 161 palettes, 57 font pairings, 13 tech stacks with reasoning engine",
+    "descriptionZh": "67 風格、161 色盤、57 字型配對、13 種技術棧，內建推理引擎",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "ux",
+      "design",
+      "fonts",
+      "colors"
+    ],
+    "tagsZh": [
+      "介面",
+      "體驗",
+      "設計",
+      "字型",
+      "配色"
+    ],
+    "icon": "💎",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "isFree": true,
+    "installCmd": "npm install -g uipro-cli && uipro init --ai claude",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "rn-expo-agent-system",
+    "name": "React Native Expo Agent System",
+    "nameZh": "React Native Expo Agent System",
+    "description": "7 production-grade agents + 3 slash commands, 3-layer architecture — 50% faster dev, 80% faster reviews",
+    "descriptionZh": "7 個生產級 Agent + 3 個 slash command，三層架構，開發快 50%、審查快 80%",
+    "category": "frontend",
+    "tags": [
+      "react-native",
+      "expo",
+      "agents",
+      "production"
+    ],
+    "tagsZh": [
+      "React Native",
+      "Expo",
+      "Agent",
+      "生產級"
+    ],
+    "icon": "📲",
+    "url": "https://github.com/senaiverse/claude-code-reactnative-expo-agent-system",
+    "isFree": true,
+    "installCmd": "run install-agents.ps1",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "better-auth",
+    "name": "Better Auth Skills",
+    "nameZh": "Better Auth 技能包",
+    "description": "Official Better Auth complete authentication: Email, OAuth, 2FA, Passkey, multi-tenant, RBAC",
+    "descriptionZh": "Better Auth 官方完整認證方案：Email/OAuth/2FA/Passkey/多租戶/RBAC 一套搞定",
+    "category": "cloud",
+    "tags": [
+      "auth",
+      "oauth",
+      "2fa",
+      "passkey",
+      "rbac",
+      "multi-tenant"
+    ],
+    "tagsZh": [
+      "認證",
+      "OAuth",
+      "雙因素驗證",
+      "Passkey",
+      "角色權限",
+      "多租戶"
+    ],
+    "icon": "🔐",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add better-auth/skills",
+    "installCount": null,
+    "source": "Better Auth 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "apollo-graphql",
+    "name": "Apollo GraphQL Skills",
+    "nameZh": "Apollo GraphQL 技能包",
+    "description": "Official Apollo 11 Skills: Schema, Client, Server, Federation, Router, and MCP integration",
+    "descriptionZh": "Apollo 官方 11 個技能，Schema/Client/Server/Federation/Router/MCP 完整 GraphQL 生態",
+    "category": "data",
+    "tags": [
+      "graphql",
+      "apollo",
+      "schema",
+      "federation",
+      "api",
+      "mcp"
+    ],
+    "tagsZh": [
+      "GraphQL",
+      "Apollo",
+      "Schema",
+      "聯邦架構",
+      "API",
+      "MCP"
+    ],
+    "icon": "🔗",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add apollographql/skills",
+    "installCount": null,
+    "source": "Apollo 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "speakeasy-api",
+    "name": "Speakeasy API Skills",
+    "nameZh": "Speakeasy API 技能包",
+    "description": "Official Speakeasy 12 skills: OpenAPI to 9-language SDK + Terraform Provider + MCP generation",
+    "descriptionZh": "Speakeasy 官方 12 技能，OpenAPI 一鍵生成 9 語言 SDK + Terraform Provider + MCP",
+    "category": "data",
+    "tags": [
+      "openapi",
+      "sdk",
+      "codegen",
+      "terraform",
+      "api",
+      "mcp"
+    ],
+    "tagsZh": [
+      "OpenAPI",
+      "SDK",
+      "代碼生成",
+      "Terraform",
+      "API",
+      "MCP"
+    ],
+    "icon": "📡",
+    "url": "",
+    "isFree": true,
+    "installCmd": "speakeasy agent setup-skills",
+    "installCount": null,
+    "source": "Speakeasy 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "claude-scientific",
+    "name": "Claude Scientific Skills",
+    "nameZh": "Claude 科學技能庫",
+    "description": "170+ scientific skills across 250+ databases: biology, chemistry, medicine, physics with 60+ Python packages",
+    "descriptionZh": "170+ 科學技能 × 250+ 資料庫，生物/化學/醫學/物理 + 60+ Python 套件，研究者天堂",
+    "category": "data",
+    "tags": [
+      "science",
+      "biology",
+      "chemistry",
+      "medicine",
+      "physics",
+      "research"
+    ],
+    "tagsZh": [
+      "科學",
+      "生物",
+      "化學",
+      "醫學",
+      "物理",
+      "研究"
+    ],
+    "icon": "🔬",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "isFree": true,
+    "installCmd": "git clone + cp",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "remotion-skills",
+    "name": "Remotion Best Practices",
+    "nameZh": "Remotion 最佳實踐",
+    "description": "Official Remotion: create videos with React + TypeScript — animations, audio, subtitles, 3D, data-driven",
+    "descriptionZh": "Remotion 官方用 React + TS 做影片，動畫/音訊/字幕/3D/數據驅動全支援",
+    "category": "media",
+    "tags": [
+      "remotion",
+      "video",
+      "react",
+      "animation",
+      "3d",
+      "subtitles"
+    ],
+    "tagsZh": [
+      "Remotion",
+      "影片",
+      "React",
+      "動畫",
+      "3D",
+      "字幕"
+    ],
+    "icon": "🎬",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx skills add remotion-dev/skills",
+    "installCount": null,
+    "source": "Remotion 官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "deapi-media",
+    "name": "deAPI AI Media Toolkit",
+    "nameZh": "deAPI AI 媒體工具包",
+    "description": "Image, TTS, YouTube transcription, OCR, video — 1/20 industry cost with $5 free credits",
+    "descriptionZh": "圖片/TTS/YouTube 轉錄/OCR/影片一站搞定，成本業界 1/20，$5 免費額度先玩",
+    "category": "media",
+    "tags": [
+      "image",
+      "tts",
+      "youtube",
+      "ocr",
+      "video",
+      "budget"
+    ],
+    "tagsZh": [
+      "圖片",
+      "語音合成",
+      "YouTube",
+      "OCR",
+      "影片",
+      "低成本"
+    ],
+    "icon": "🎨",
+    "url": "https://github.com/deapi-ai/claude-code-skills",
+    "isFree": true,
+    "installCmd": "git clone + cp",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "marketing-skills-kostja",
+    "name": "Marketing Skills",
+    "nameZh": "行銷技能庫",
+    "description": "160+ pure Markdown skills across SEO, content, paid ads, page templates, and social media in 9 categories",
+    "descriptionZh": "160+ 純 Markdown 技能，SEO／內容／付費廣告／頁面模板／社群 9 大分類一次到位",
+    "category": "marketing",
+    "tags": [
+      "marketing",
+      "seo",
+      "content",
+      "ads",
+      "social-media",
+      "templates"
+    ],
+    "tagsZh": [
+      "行銷",
+      "SEO",
+      "內容",
+      "廣告",
+      "社群媒體",
+      "模板"
+    ],
+    "icon": "📢",
+    "url": "https://github.com/kostja94/marketing-skills",
+    "isFree": true,
+    "installCmd": "npx skills add kostja94/marketing-skills",
+    "installCount": null,
+    "source": "社群",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": null
+  },
+  {
+    "id": "gog",
+    "name": "GOG (Google Workspace)",
+    "nameZh": "GOG (Google Workspace)",
+    "description": "One skill to rule Gmail, Calendar, Drive, Sheets, and Docs with structured JSON output",
+    "descriptionZh": "一個 Skill 打通 Gmail／Calendar／Drive／Sheets／Docs，JSON 結構化輸出",
+    "category": "productivity",
+    "tags": [
+      "google",
+      "gmail",
+      "calendar",
+      "drive",
+      "sheets",
+      "docs"
+    ],
+    "tagsZh": [
+      "Google",
+      "Gmail",
+      "日曆",
+      "雲端硬碟",
+      "試算表",
+      "文件"
+    ],
+    "icon": "📧",
+    "url": "",
+    "isFree": true,
+    "installCmd": "npx clawhub install gog",
+    "installCount": null,
+    "source": "ClawHub 社群",
+    "isOfficial": false,
+    "verdict": "warn",
+    "warning": "可讀取/傳送 Email 和存取 Google Drive，使用前請確認 OAuth 授權範圍",
+    "features": null
   }
 ]
