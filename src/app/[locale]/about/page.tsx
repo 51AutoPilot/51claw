@@ -119,7 +119,6 @@ function Projects() {
 
   const projects = [
     { key: "hunterAssociation", icon: "🐉", color: "from-red-500/20 to-orange-500/20" },
-    { key: "dexless", icon: "🤖", color: "from-primary/20 to-secondary/20" },
   ] as const;
 
   return (
@@ -128,7 +127,7 @@ function Projects() {
         <h2 className="text-center font-heading text-3xl font-bold text-foreground sm:text-4xl">
           {t("heading")}
         </h2>
-        <div className="mt-12 grid gap-8 md:grid-cols-2">
+        <div className="mt-12 mx-auto max-w-lg">
           {projects.map(({ key, icon, color }) => (
             <div
               key={key}
@@ -199,11 +198,14 @@ function Community() {
         </h2>
         <p className="mt-4 text-lg text-text-muted">{t("description")}</p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Button size="lg" href="https://t.me/hunternha" variant="primary">
-            {t("joinTelegram")}
+          <Button size="lg" href="https://line.me/ti/g2/SCwiAQSnQ2SW6fFuKcOBs0sipyzdoOJ3FepZ2Q" variant="primary">
+            {t("joinLine")}
           </Button>
           <Button size="lg" href="https://x.com/0x515151" variant="secondary">
             {t("followTwitter")}
+          </Button>
+          <Button size="lg" href="https://www.instagram.com/hunter.ai.crypto/" variant="secondary">
+            {t("followInstagram")}
           </Button>
         </div>
       </div>

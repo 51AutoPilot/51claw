@@ -1,11 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0f;
+  --background: #0a0520;
   --foreground: #f0f0f5;
   --primary: #a855f7;
   --primary-light: #c084fc;
   --secondary: #06b6d4;
+  --fire: #ff6b35;
+  --fire-light: #fbbf24;
   --card-bg: rgba(255, 255, 255, 0.05);
   --card-border: rgba(255, 255, 255, 0.08);
   --text-muted: #9ca3af;
@@ -22,6 +24,8 @@
   --color-card-border: var(--card-border);
   --color-text-muted: var(--text-muted);
   --color-text-accent: var(--text-accent);
+  --color-fire: var(--fire);
+  --color-fire-light: var(--fire-light);
   --font-sans: var(--font-noto-sans-tc), var(--font-space-grotesk), system-ui, sans-serif;
   --font-heading: var(--font-space-grotesk), var(--font-noto-sans-tc), sans-serif;
   --font-mono: var(--font-jetbrains-mono), monospace;
@@ -31,6 +35,18 @@ body {
   background: var(--background);
   color: var(--foreground);
   overflow-x: hidden;
+}
+
+/* ─── Noise texture overlay ─── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.02;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
 }
 
 /* ─── 背景網格裝飾 ─── */
@@ -57,21 +73,21 @@ body {
 
 /* ─── 卡片 hover 紫光邊框 ─── */
 .card-hover {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .card-hover:hover {
-  transform: scale(1.02);
+  transform: translateY(-5px);
   border-color: rgba(168, 85, 247, 0.4);
-  box-shadow: 0 0 30px rgba(168, 85, 247, 0.12), 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.15), 0 12px 40px rgba(0, 0, 0, 0.3);
 }
 
 /* ─── 漸變分隔線 ─── */
 .gradient-line-h {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.3), transparent);
+  background: linear-gradient(90deg, transparent, var(--primary), transparent);
 }
 
 /* ─── 脈動光暈動畫 ─── */
@@ -200,7 +216,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0f;
+  background: #0a0520;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -221,8 +237,38 @@ body {
 }
 
 .skill-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
   border-color: color-mix(in srgb, var(--card-accent) 30%, transparent);
   box-shadow: 0 8px 32px color-mix(in srgb, var(--card-accent) 12%, transparent),
     0 4px 16px color-mix(in srgb, var(--card-accent) 8%, transparent);
+}
+
+/* ─── Button shine 動畫 ─── */
+@keyframes btn-shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.15) 45%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0.15) 55%,
+    transparent 60%
+  );
+  animation: btn-shine 3s ease-in-out infinite;
 }

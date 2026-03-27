@@ -12,7 +12,7 @@
     },
     "about": {
       "title": "About 51Claw | AI Skills Hub",
-      "description": "51 (0x515151)'s AI Skills Hub — Founder of Hunter Association, co-founder of Dexless"
+      "description": "51 (0x515151)'s AI Skills Arsenal — Founder of Hunter Association"
     },
     "blog": {
       "title": "Blog | 51Claw",
@@ -38,7 +38,8 @@
     "madeBy": "Built by 51 (0x515151)",
     "links": {
       "twitter": "X (Twitter)",
-      "telegram": "Telegram",
+      "line": "LINE Community",
+      "instagram": "Instagram",
       "github": "GitHub"
     }
   },
@@ -135,11 +136,11 @@
     "title": "About 51Claw",
     "intro": {
       "heading": "Who is 51?",
-      "description": "51 (0x515151) — a hands-on crypto builder. Founder of Hunter Association, co-founder of Dexless. No textbook theory, just tools and lessons from real experience."
+      "description": "51 (0x515151) — a hands-on crypto trader from Taiwan, founder of Hunter Association. No textbook theory — only methods that survive the real market. 51Claw is my AI Skills arsenal, turning scattered tools into ready-to-use gear."
     },
     "openClaw": {
-      "heading": "What is OpenClaw?",
-      "description": "OpenClaw is an open-source AI command-line tool for interacting with on-chain worlds using natural language. Built on Claude Code's MCP ecosystem, it turns scattered tools into a ready-to-use arsenal."
+      "heading": "About 51Claw",
+      "description": "51Claw is an AI Skills directory built on Claude Code's MCP ecosystem. Curated, audited, and categorized from 150+ tools so you don't have to dig through docs one by one. Every Skill comes with security audit tags and install commands."
     },
     "targetUsers": {
       "heading": "Who is it for?",
@@ -171,10 +172,6 @@
       "hunterAssociation": {
         "title": "Hunter Association",
         "description": "Crypto trading community with VIP tier system and strong brand identity. Pixel dragons and flame-red-orange hunter culture."
-      },
-      "dexless": {
-        "title": "Dexless",
-        "description": "AI-driven Perp DEX with a scoring system based on trading behavior quality. It's not just about volume — it's about how you trade."
       }
     },
     "contributors": {
@@ -183,7 +180,8 @@
     "community": {
       "heading": "Join the Community",
       "description": "Connect with others exploring AI x Crypto, and get first access to new Skills and updates.",
-      "joinTelegram": "Join Telegram",
+      "joinLine": "Join LINE Community",
+      "followInstagram": "Follow on Instagram",
       "followTwitter": "Follow on X"
     }
   },

@@ -13,7 +13,7 @@ function Hero() {
   const t = useTranslations("home");
 
   return (
-    <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-4">
+    <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-4 py-32">
       {/* 動態網格背景 */}
       <div className="pointer-events-none absolute inset-0 hero-grid" />
 
@@ -162,7 +162,7 @@ function Stats() {
       <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 sm:grid-cols-3">
         {stats.map((stat, i) => (
           <div key={i} className="text-center">
-            <div className="font-heading text-3xl font-bold text-primary-light stats-glow sm:text-4xl md:text-5xl">
+            <div className="font-heading text-4xl font-bold text-primary-light stats-glow sm:text-5xl md:text-6xl tracking-tight">
               <AnimatedNumber target={stat.value} />
               {stat.suffix}
             </div>

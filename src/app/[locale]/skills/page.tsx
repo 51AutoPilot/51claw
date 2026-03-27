@@ -134,7 +134,7 @@ export default function SkillsPage() {
         </div>
 
         {/* Search */}
-        <div className="mx-auto mt-10 max-w-xl">
+        <div className="mx-auto mt-10 max-w-2xl">
           <div className="relative">
             <svg
               className="absolute left-4 top-1/2 -translate-y-1/2 text-text-muted"
@@ -160,7 +160,7 @@ export default function SkillsPage() {
         </div>
 
         {/* Category Filter — 手機版水平滾動，桌面版 flex-wrap 換行 */}
-        <div className="mt-8 -mx-4 px-4 overflow-x-auto scrollbar-hide sm:mx-0 sm:px-0 sm:overflow-x-visible">
+        <div className="mt-8 py-4 -mx-4 px-4 overflow-x-auto scrollbar-hide sm:mx-0 sm:px-0 sm:overflow-x-visible">
           <div className="flex gap-2 sm:flex-wrap sm:justify-center min-w-max sm:min-w-0">
             {allCategories.map((cat) => (
               <button
@@ -180,7 +180,7 @@ export default function SkillsPage() {
 
         {/* Skills Grid */}
         {filtered.length > 0 ? (
-          <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((skill, index) => {
               const accent = categoryAccent[skill.category] || "#a78bfa";
               const isVisible = visibleSet.has(skill.id);

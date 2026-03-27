@@ -12,7 +12,7 @@
     },
     "about": {
       "title": "關於 51Claw | AI Skills Hub",
-      "description": "51（0x515151）的個人品牌 AI Skills Hub — Hunter Association 創辦人、Dexless 共同創辦人"
+      "description": "51（0x515151）的 AI Skills 武器庫 — Hunter Association 獵人協會創辦人"
     },
     "blog": {
       "title": "Blog | 51Claw",
@@ -38,7 +38,8 @@
     "madeBy": "由 51（0x515151）打造",
     "links": {
       "twitter": "X (Twitter)",
-      "telegram": "Telegram",
+      "line": "LINE 社群",
+      "instagram": "Instagram",
       "github": "GitHub"
     }
   },
@@ -135,11 +136,11 @@
     "title": "關於 51Claw",
     "intro": {
       "heading": "51 是誰？",
-      "description": "51（0x515151）— Crypto 實戰派，Hunter Association 創辦人、Dexless 共同創辦人。不寫教科書，只分享真正用過、踩過坑的東西。"
+      "description": "51（0x515151）— 台灣加密交易實戰派，Hunter Association 獵人協會創辦人。不寫教科書，只分享真正在市場裡活下來的方法。51Claw 是我打造的 AI Skills 武器庫，把散落的工具整理成可直接上手的裝備。"
     },
     "openClaw": {
-      "heading": "什麼是 OpenClaw？",
-      "description": "OpenClaw 是開源的 AI 命令列工具，用自然語言與鏈上世界對話。基於 Claude Code 的 MCP 生態，把散落各處的工具整理成可直接使用的武器庫。"
+      "heading": "關於 51Claw",
+      "description": "51Claw 是基於 Claude Code MCP 生態的 AI Skills 導航站。從 150+ 個工具中精選、審核、分類，讓你不用自己一個一個翻文件。每個 Skill 都附安全審計標記和安裝指令。"
     },
     "targetUsers": {
       "heading": "誰適合用？",
@@ -171,10 +172,6 @@
       "hunterAssociation": {
         "title": "Hunter Association",
         "description": "加密貨幣交易社群，VIP 分級制度，強烈品牌識別。用像素龍和火焰紅橘打造獵人文化。"
-      },
-      "dexless": {
-        "title": "Dexless",
-        "description": "AI 驅動的 Perp DEX，積分系統根據交易行為品質計分。不只算量，更看你怎麼交易。"
       }
     },
     "contributors": {
@@ -183,7 +180,8 @@
     "community": {
       "heading": "加入社群",
       "description": "和其他玩家交流 AI x Crypto 的實戰心得，第一時間獲取新 Skills 更新。",
-      "joinTelegram": "加入 Telegram",
+      "joinLine": "加入 LINE 社群",
+      "followInstagram": "追蹤 Instagram",
       "followTwitter": "追蹤 X"
     }
   },
