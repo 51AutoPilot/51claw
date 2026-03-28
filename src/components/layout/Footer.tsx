@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 py-10 sm:flex-row sm:justify-between sm:px-6 lg:px-8">
         {/* Left: Logo + Copyright */}
         <div className="flex flex-col items-center gap-2 sm:items-start">
-          <span className="text-gradient-purple font-heading text-lg font-bold">
+          <span className="text-gradient-claude font-heading text-lg font-bold">
             51Claw
           </span>
           <p className="text-xs text-text-muted">
@@ -28,7 +28,7 @@ export default function Footer() {
             href="https://x.com/0x515151"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-purple"
+            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-claude"
             aria-label={t("links.twitter")}
           >
             {/* X (Twitter) Icon */}
@@ -40,7 +40,7 @@ export default function Footer() {
             href="https://line.me/ti/g2/SCwiAQSnQ2SW6fFuKcOBs0sipyzdoOJ3FepZ2Q"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-purple"
+            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-claude"
             aria-label={t("links.line")}
           >
             {/* LINE Icon */}
@@ -52,7 +52,7 @@ export default function Footer() {
             href="https://www.instagram.com/hunter.ai.crypto/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-purple"
+            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-claude"
             aria-label={t("links.instagram")}
           >
             {/* Instagram Icon */}
@@ -64,7 +64,7 @@ export default function Footer() {
             href="https://github.com/51AutoPilot"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-purple"
+            className="flex h-9 w-9 items-center justify-center rounded-lg border border-card-border text-text-muted transition-all duration-200 hover:border-primary/40 hover:text-primary-light hover:glow-claude"
             aria-label={t("links.github")}
           >
             {/* GitHub Icon */}

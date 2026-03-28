@@ -1,0 +1,482 @@
+[
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "provider": "Anthropic",
+    "icon": "🟠",
+    "description": "最強推理能力，支援 1M context，程式碼生成頂尖",
+    "descriptionEn": "Best-in-class reasoning with 1M context, top-tier code generation",
+    "pricing": {
+      "input": 15,
+      "output": 75
+    },
+    "contextLength": 1000000,
+    "apiUrl": "https://console.anthropic.com/",
+    "features": [
+      "推理",
+      "長上下文",
+      "工具使用",
+      "視覺"
+    ],
+    "featuresEn": [
+      "Reasoning",
+      "Long Context",
+      "Tool Use",
+      "Vision"
+    ],
+    "steps": [
+      "前往 console.anthropic.com 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create Key",
+      "複製 API Key，設定環境變數 ANTHROPIC_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to console.anthropic.com and sign up",
+      "Navigate to the API Keys page",
+      "Click Create Key",
+      "Copy the API Key and set ANTHROPIC_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false
+  },
+  {
+    "slug": "gpt",
+    "name": "GPT",
+    "provider": "OpenAI",
+    "icon": "🟢",
+    "description": "最廣泛使用的 LLM，生態系最完整，GPT-4o 多模態能力強",
+    "descriptionEn": "Most widely adopted LLM with the richest ecosystem, GPT-4o excels at multimodal tasks",
+    "pricing": {
+      "input": 5,
+      "output": 15
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://platform.openai.com/",
+    "features": [
+      "多模態",
+      "函數呼叫",
+      "JSON 模式",
+      "微調"
+    ],
+    "featuresEn": [
+      "Multimodal",
+      "Function Calling",
+      "JSON Mode",
+      "Fine-tuning"
+    ],
+    "steps": [
+      "前往 platform.openai.com 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create new secret key",
+      "複製 API Key，設定環境變數 OPENAI_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to platform.openai.com and sign up",
+      "Navigate to API Keys page",
+      "Click Create new secret key",
+      "Copy the API Key and set OPENAI_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false
+  },
+  {
+    "slug": "gemini",
+    "name": "Gemini",
+    "provider": "Google",
+    "icon": "🔵",
+    "description": "Google 旗艦模型，2M context window 業界最大，多模態原生支援",
+    "descriptionEn": "Google's flagship model with industry-leading 2M context window, native multimodal support",
+    "pricing": {
+      "input": 7,
+      "output": 21
+    },
+    "contextLength": 2000000,
+    "apiUrl": "https://aistudio.google.com/",
+    "features": [
+      "超長上下文",
+      "多模態",
+      "程式碼生成",
+      "搜尋整合"
+    ],
+    "featuresEn": [
+      "Ultra-long Context",
+      "Multimodal",
+      "Code Generation",
+      "Search Grounding"
+    ],
+    "steps": [
+      "前往 aistudio.google.com 登入 Google 帳號",
+      "點擊 Get API key",
+      "選擇或建立 Google Cloud 專案",
+      "複製 API Key，設定環境變數 GOOGLE_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to aistudio.google.com and sign in with Google",
+      "Click Get API key",
+      "Select or create a Google Cloud project",
+      "Copy the API Key and set GOOGLE_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": true
+  },
+  {
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "provider": "DeepSeek",
+    "icon": "🐋",
+    "description": "中國開源模型黑馬，推理能力媲美頂尖模型，價格極低",
+    "descriptionEn": "China's open-source dark horse, reasoning rivaling top models at a fraction of the cost",
+    "pricing": {
+      "input": 0.27,
+      "output": 1.1
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://platform.deepseek.com/",
+    "features": [
+      "推理",
+      "程式碼",
+      "數學",
+      "開源"
+    ],
+    "featuresEn": [
+      "Reasoning",
+      "Coding",
+      "Math",
+      "Open Source"
+    ],
+    "steps": [
+      "前往 platform.deepseek.com 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create API Key",
+      "複製 API Key，設定環境變數 DEEPSEEK_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to platform.deepseek.com and sign up",
+      "Navigate to API Keys page",
+      "Click Create API Key",
+      "Copy the API Key and set DEEPSEEK_API_KEY environment variable"
+    ],
+    "type": "open",
+    "free": false
+  },
+  {
+    "slug": "qwen",
+    "name": "Qwen",
+    "provider": "Alibaba",
+    "icon": "☁️",
+    "description": "阿里通義千問，中文理解最強，支援超長文本和多模態",
+    "descriptionEn": "Alibaba's Qwen, best Chinese language understanding with long-text and multimodal support",
+    "pricing": {
+      "input": 0.8,
+      "output": 2
+    },
+    "contextLength": 1000000,
+    "apiUrl": "https://dashscope.console.aliyun.com/",
+    "features": [
+      "中文理解",
+      "長文本",
+      "多模態",
+      "開源"
+    ],
+    "featuresEn": [
+      "Chinese NLU",
+      "Long Text",
+      "Multimodal",
+      "Open Source"
+    ],
+    "steps": [
+      "前往 dashscope.console.aliyun.com 註冊阿里雲帳號",
+      "開通 DashScope 服務",
+      "進入 API Key 管理頁面，建立金鑰",
+      "複製 API Key，設定環境變數 DASHSCOPE_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to dashscope.console.aliyun.com and create Alibaba Cloud account",
+      "Enable DashScope service",
+      "Go to API Key management and create a key",
+      "Copy the API Key and set DASHSCOPE_API_KEY environment variable"
+    ],
+    "type": "open",
+    "free": false
+  },
+  {
+    "slug": "grok",
+    "name": "Grok",
+    "provider": "xAI",
+    "icon": "⚡",
+    "description": "Elon Musk 的 xAI 打造，即時存取 X/Twitter 數據，回應風格直接",
+    "descriptionEn": "Built by Elon Musk's xAI, real-time X/Twitter data access with a direct response style",
+    "pricing": {
+      "input": 5,
+      "output": 15
+    },
+    "contextLength": 131072,
+    "apiUrl": "https://console.x.ai/",
+    "features": [
+      "即時資訊",
+      "X 整合",
+      "推理",
+      "程式碼"
+    ],
+    "featuresEn": [
+      "Real-time Info",
+      "X Integration",
+      "Reasoning",
+      "Coding"
+    ],
+    "steps": [
+      "前往 console.x.ai 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create API Key",
+      "複製 API Key，設定環境變數 XAI_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to console.x.ai and sign up",
+      "Navigate to API Keys page",
+      "Click Create API Key",
+      "Copy the API Key and set XAI_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false
+  },
+  {
+    "slug": "llama",
+    "name": "Llama",
+    "provider": "Meta",
+    "icon": "🦙",
+    "description": "Meta 開源旗艦，社群生態最活躍，可本地部署完全掌控",
+    "descriptionEn": "Meta's open-source flagship with the most active community, fully self-hostable",
+    "pricing": {
+      "input": 0,
+      "output": 0
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://llama.meta.com/",
+    "features": [
+      "開源",
+      "本地部署",
+      "微調",
+      "社群生態"
+    ],
+    "featuresEn": [
+      "Open Source",
+      "Self-hosted",
+      "Fine-tuning",
+      "Community"
+    ],
+    "steps": [
+      "前往 llama.meta.com 下載模型權重",
+      "安裝 Ollama 或 vLLM 等推理框架",
+      "載入模型：ollama run llama3",
+      "或透過 Together AI / Groq 等雲端 API 使用"
+    ],
+    "stepsEn": [
+      "Go to llama.meta.com to download model weights",
+      "Install an inference framework like Ollama or vLLM",
+      "Load the model: ollama run llama3",
+      "Or use via cloud APIs like Together AI / Groq"
+    ],
+    "type": "open",
+    "free": true
+  },
+  {
+    "slug": "mistral",
+    "name": "Mistral",
+    "provider": "Mistral AI",
+    "icon": "🌀",
+    "description": "歐洲 AI 領頭羊，模型精悍高效，Agent 和函數呼叫能力優秀",
+    "descriptionEn": "Europe's AI leader, lean and efficient models with excellent agent and function calling capabilities",
+    "pricing": {
+      "input": 3,
+      "output": 9
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://console.mistral.ai/",
+    "features": [
+      "高效",
+      "Agent",
+      "函數呼叫",
+      "多語言"
+    ],
+    "featuresEn": [
+      "Efficient",
+      "Agent",
+      "Function Calling",
+      "Multilingual"
+    ],
+    "steps": [
+      "前往 console.mistral.ai 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create new key",
+      "複製 API Key，設定環境變數 MISTRAL_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to console.mistral.ai and sign up",
+      "Navigate to API Keys page",
+      "Click Create new key",
+      "Copy the API Key and set MISTRAL_API_KEY environment variable"
+    ],
+    "type": "open",
+    "free": false
+  },
+  {
+    "slug": "glm",
+    "name": "GLM",
+    "provider": "Zhipu AI (智譜)",
+    "icon": "🧠",
+    "description": "清華系 AI 團隊打造，中文學術和商業場景表現突出",
+    "descriptionEn": "Built by Tsinghua-backed Zhipu AI, excels in Chinese academic and business scenarios",
+    "pricing": {
+      "input": 1,
+      "output": 1
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://open.bigmodel.cn/",
+    "features": [
+      "中文優化",
+      "知識問答",
+      "Agent",
+      "多模態"
+    ],
+    "featuresEn": [
+      "Chinese Optimized",
+      "Knowledge QA",
+      "Agent",
+      "Multimodal"
+    ],
+    "steps": [
+      "前往 open.bigmodel.cn 註冊帳號",
+      "進入控制台 API Keys 頁面",
+      "點擊建立 API Key",
+      "複製 API Key，設定環境變數 ZHIPU_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to open.bigmodel.cn and sign up",
+      "Navigate to console API Keys page",
+      "Click Create API Key",
+      "Copy the API Key and set ZHIPU_API_KEY environment variable"
+    ],
+    "type": "open",
+    "free": true
+  },
+  {
+    "slug": "minimax",
+    "name": "MiniMax",
+    "provider": "MiniMax",
+    "icon": "🎯",
+    "description": "語音和多模態見長，TTS 和語音對話品質業界領先",
+    "descriptionEn": "Specializes in voice and multimodal, with industry-leading TTS and voice conversation quality",
+    "pricing": {
+      "input": 1,
+      "output": 1
+    },
+    "contextLength": 245760,
+    "apiUrl": "https://platform.minimaxi.com/",
+    "features": [
+      "語音合成",
+      "多模態",
+      "長上下文",
+      "對話"
+    ],
+    "featuresEn": [
+      "TTS",
+      "Multimodal",
+      "Long Context",
+      "Conversation"
+    ],
+    "steps": [
+      "前往 platform.minimaxi.com 註冊帳號",
+      "進入 API Key 管理頁面",
+      "建立新的 API Key",
+      "複製 API Key，設定環境變數 MINIMAX_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to platform.minimaxi.com and sign up",
+      "Navigate to API Key management page",
+      "Create a new API Key",
+      "Copy the API Key and set MINIMAX_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false
+  },
+  {
+    "slug": "command-r",
+    "name": "Command R+",
+    "provider": "Cohere",
+    "icon": "🟣",
+    "description": "企業級 RAG 專家，128K context，內建搜尋和引用功能",
+    "descriptionEn": "Enterprise-grade RAG specialist with 128K context, built-in search and citation",
+    "pricing": {
+      "input": 2.5,
+      "output": 10
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://dashboard.cohere.com/",
+    "features": [
+      "RAG",
+      "搜尋",
+      "引用",
+      "多語言"
+    ],
+    "featuresEn": [
+      "RAG",
+      "Search",
+      "Citations",
+      "Multilingual"
+    ],
+    "steps": [
+      "前往 dashboard.cohere.com 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Generate Trial Key（免費試用）或 Production Key",
+      "複製 API Key，設定環境變數 COHERE_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to dashboard.cohere.com and sign up",
+      "Navigate to the API Keys page",
+      "Click Generate Trial Key (free trial) or Production Key",
+      "Copy the API Key and set COHERE_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": true
+  },
+  {
+    "slug": "yi",
+    "name": "Yi-Lightning",
+    "provider": "01.AI",
+    "icon": "⚡",
+    "description": "零一萬物旗艦模型，極速推理，中英文能力出色",
+    "descriptionEn": "01.AI's flagship model with blazing-fast inference, excellent Chinese-English bilingual capabilities",
+    "pricing": {
+      "input": 0.99,
+      "output": 0.99
+    },
+    "contextLength": 16384,
+    "apiUrl": "https://platform.01.ai/",
+    "features": [
+      "快速推理",
+      "中英雙語",
+      "高性價比",
+      "對話"
+    ],
+    "featuresEn": [
+      "Fast Inference",
+      "Bilingual",
+      "Cost-effective",
+      "Conversation"
+    ],
+    "steps": [
+      "前往 platform.01.ai 註冊帳號",
+      "進入 API 管理頁面",
+      "建立新的 API Key",
+      "複製 API Key，設定環境變數 YI_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to platform.01.ai and sign up",
+      "Navigate to API management page",
+      "Create a new API Key",
+      "Copy the API Key and set YI_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false
+  }
+]

@@ -182,7 +182,7 @@ export default function InstallPage() {
         <Breadcrumb currentPage={t("title")} />
         {/* Header */}
         <div className="text-center">
-          <h1 className="text-gradient-purple font-heading text-4xl font-bold sm:text-5xl">
+          <h1 className="text-gradient-claude font-heading text-4xl font-bold sm:text-5xl">
             {t("title")}
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-text-muted">

@@ -50,8 +50,8 @@
         {
           "stepNumber": 2,
           "title": {
-            "zh": "安裝 OpenClaw",
-            "en": "Install OpenClaw"
+            "zh": "安裝 Claude Code",
+            "en": "Install Claude Code"
           },
           "description": {
             "zh": "三種安裝方式任選一種。新手建議用一鍵安裝。",
@@ -130,13 +130,13 @@
             "en": "Initialize Project"
           },
           "description": {
-            "zh": "進到專案目錄，讓 Claude 掃描你的程式碼結構，自動生成 CLAUDE.md 設定檔。",
-            "en": "Enter your project directory. Claude will scan your code and auto-generate a CLAUDE.md config file."
+            "zh": "進到專案目錄，讓 Claude 掃描你的程式碼結構。它會自動生成 CLAUDE.md — 這是一份告訴 Claude「你的專案長怎樣、該怎麼幫你」的設定檔，有了它 Claude 才能精準回答。",
+            "en": "Enter your project directory and let Claude scan your code. It auto-generates CLAUDE.md — a config file that tells Claude about your project structure and how to help you. This makes Claude's responses much more accurate."
           },
           "code": "cd your-project-folder\nclaude\n\n# Claude 會自動生成 CLAUDE.md",
           "note": {
-            "zh": "這步可選，但建議做。CLAUDE.md 讓 Claude 更了解你的專案。",
-            "en": "Optional but recommended. CLAUDE.md helps Claude understand your project better."
+            "zh": "這步可選但強烈建議。沒有 CLAUDE.md，Claude 就像不認識你專案的新人。",
+            "en": "Optional but strongly recommended. Without CLAUDE.md, Claude is like a new teammate who doesn't know your project."
           }
         },
         {
@@ -146,13 +146,13 @@
             "en": "Install Skills"
           },
           "description": {
-            "zh": "從 Skills 目錄挑選你需要的工具，一行指令安裝。",
-            "en": "Pick the tools you need from the Skills directory and install with one command."
+            "zh": "前往 51Claw Skills 目錄（/skills）挑選你需要的工具，一行指令安裝。",
+            "en": "Head to the 51Claw Skills directory (/skills) to pick the tools you need, then install with one command."
           },
           "code": "# 安裝單個 Skill\nclaude mcp add skill-name\n\n# 範例：安裝 Binance Skills Hub\nclaude mcp add binance-skills-hub",
           "note": {
-            "zh": "可以到 Skills 目錄頁查看所有可用的 Skills。",
-            "en": "Check the Skills directory page for all available Skills."
+            "zh": "到 51Claw 的 Skills 目錄（/skills）查看全部 152+ 可用的 Skills，有分類和搜尋。",
+            "en": "Visit 51Claw's Skills directory (/skills) to browse all 152+ available Skills with categories and search."
           }
         },
         {
@@ -195,8 +195,8 @@
         {
           "stepNumber": 2,
           "title": {
-            "zh": "安裝 OpenClaw",
-            "en": "Install OpenClaw"
+            "zh": "安裝 Claude Code",
+            "en": "Install Claude Code"
           },
           "description": {
             "zh": "打開 PowerShell 或 Windows Terminal，三種方式任選。",
@@ -337,8 +337,8 @@
         {
           "stepNumber": 2,
           "title": {
-            "zh": "安裝 OpenClaw",
-            "en": "Install OpenClaw"
+            "zh": "安裝 Claude Code",
+            "en": "Install Claude Code"
           },
           "description": {
             "zh": "三種安裝方式，新手建議一鍵安裝。",

@@ -53,7 +53,7 @@ export default function Card({
         className="pointer-events-none absolute -inset-px rounded-2xl transition-opacity duration-300"
         style={{
           opacity: glowPos.visible ? 1 : 0,
-          background: `radial-gradient(400px circle at ${glowPos.x}px ${glowPos.y}px, rgba(168, 85, 247, 0.12), transparent 60%)`,
+          background: `radial-gradient(400px circle at ${glowPos.x}px ${glowPos.y}px, rgba(232, 115, 74, 0.12), transparent 60%)`,
         }}
       />
 

@@ -13,6 +13,8 @@ const navLinks = [
   { href: "/about", key: "about" },
   { href: "/blog", key: "blog" },
   { href: "/bundles", key: "bundles" },
+  { href: "/llms", key: "llms" },
+  { href: "/models", key: "models" },
 ] as const;
 
 export default function Nav() {
@@ -32,7 +34,7 @@ export default function Nav() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-gradient-purple font-heading text-xl font-bold tracking-tight">
+          <span className="text-gradient-claude font-heading text-xl font-bold tracking-tight">
             51Claw
           </span>
         </Link>
@@ -48,7 +50,7 @@ export default function Nav() {
               <Link
                 key={link.key}
                 href={link.href}
-                className={`rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                className={`rounded-lg px-3 py-2 text-base font-medium transition-colors duration-200 ${
                   isActive
                     ? "text-primary-light bg-primary/10"
                     : "text-text-muted hover:text-foreground hover:bg-white/5"
@@ -65,7 +67,7 @@ export default function Nav() {
           {/* Language Switch */}
           <button
             onClick={switchLocale}
-            className="rounded-lg border border-card-border px-3 py-1.5 text-xs font-medium text-text-muted transition-colors duration-200 hover:border-primary/40 hover:text-primary-light"
+            className="rounded-lg border border-card-border px-3 py-1.5 text-sm font-medium text-text-muted transition-colors duration-200 hover:border-primary/40 hover:text-primary-light"
           >
             {locale === "zh-TW" ? "EN" : "中文"}
           </button>
@@ -122,7 +124,7 @@ export default function Nav() {
                 key={link.key}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors duration-200 ${
+                className={`block rounded-lg px-3 py-2.5 text-base font-medium transition-colors duration-200 ${
                   isActive
                     ? "text-primary-light bg-primary/10"
                     : "text-text-muted hover:text-foreground hover:bg-white/5"

@@ -1,10 +1,10 @@
 {
   "metadata": {
     "title": "51Claw — AI Skills Hub",
-    "description": "AI Skills / MCP / Claude practical guides and navigation",
+    "description": "Your one-stop guide to Claude Code + OpenClaw — 152+ AI Skills at your fingertips",
     "skills": {
       "title": "Skills Directory | 51Claw",
-      "description": "Explore 27 curated AI Skills — CEX tools, on-chain ops, analytics, and security"
+      "description": "Explore 152+ curated AI Skills — CEX tools, on-chain ops, analytics, and security"
     },
     "install": {
       "title": "Installation Guide | 51Claw",
@@ -21,6 +21,14 @@
     "bundles": {
       "title": "Bundles | 51Claw",
       "description": "Curated Skills packages — Starter Pack, Analytics Suite, Security Suite"
+    },
+    "llms": {
+      "title": "Model Hub | 51Claw",
+      "description": "AI LLM API guide — get your API keys in one place"
+    },
+    "models": {
+      "title": "Model Rankings | 51Claw",
+      "description": "Real-time data from OpenRouter — 346+ models at a glance"
     }
   },
   "nav": {
@@ -30,11 +38,13 @@
     "about": "About",
     "blog": "Blog",
     "bundles": "Bundles",
+    "llms": "Model Hub",
+    "models": "Rankings",
     "language": "Language",
     "toggleMenu": "Toggle menu"
   },
   "footer": {
-    "copyright": "2025 51Claw. All rights reserved.",
+    "copyright": "2025-2026 51Claw. All rights reserved.",
     "madeBy": "Built by 51 (0x515151)",
     "links": {
       "twitter": "X (Twitter)",
@@ -54,19 +64,53 @@
   },
   "home": {
     "heroTitle": "Your AI Skills Arsenal",
-    "heroSubtitle": "Curated MCP Skills that turn Claude into your on-chain Swiss Army knife",
-    "ctaPrimary": "Browse Skills",
-    "ctaSecondary": "Installation Guide",
-    "featuredSkills": "Featured Skills",
-    "stats": {
-      "skillsCount": "Total Skills",
-      "categories": "Categories",
-      "free": "100% Free"
+    "heroSubtitle": "Claude Code + OpenClaw Guide ｜ 152+ AI Skills Directory ｜ LLM Model Guide",
+    "ctaInstall": "Get Started",
+    "ctaSkills": "Browse Skills",
+    "coreFeatures": {
+      "heading": "One Platform, Three Pillars",
+      "minSuffix": " min",
+      "install": {
+        "title": "Installation Guide",
+        "desc": "Install Claude Code from scratch — follow the steps and you're ready",
+        "statLabel": "to get started",
+        "cta": "Start Installing"
+      },
+      "skills": {
+        "title": "Skills Directory",
+        "desc": "Curated AI Skills across 14 categories — search, filter, one-click install",
+        "statLabel": "curated Skills",
+        "cta": "Browse Skills"
+      },
+      "models": {
+        "title": "Model Guide",
+        "desc": "Live LLM rankings + API key tutorials, all in one place",
+        "statLabel": "model guides",
+        "cta": "View Models"
+      }
     },
-    "bottomCta": {
-      "title": "Start Building Your AI Workflow",
-      "subtitle": "From install to action in just minutes",
-      "button": "Get Started"
+    "featuredSkills": "Featured Skills Categories",
+    "viewAllSkills": "View All 152+ Skills",
+    "modelRanking": {
+      "title": "🔥 Model Rankings",
+      "source": "Real-time data from OpenRouter",
+      "viewAll": "View Full Rankings",
+      "apiGuide": "API Key Guide",
+      "inputPrice": "Input",
+      "outputPrice": "Output",
+      "perMillion": "/ 1M tokens"
+    },
+    "blog": {
+      "heading": "📝 Latest Articles",
+      "viewAll": "More Articles"
+    },
+    "community": {
+      "heading": "Join the Community",
+      "description": "Join Hunter Association and explore the infinite possibilities of AI x Crypto with 51.",
+      "hunterCta": "Visit Hunter Association",
+      "joinLine": "Join LINE Community",
+      "followX": "Follow on X",
+      "followIg": "Follow on Instagram"
     }
   },
   "install": {
@@ -135,12 +179,27 @@
   "about": {
     "title": "About 51Claw",
     "intro": {
-      "heading": "Who is 51?",
-      "description": "51 (0x515151) — a hands-on crypto trader from Taiwan, founder of Hunter Association. No textbook theory — only methods that survive the real market. 51Claw is my AI Skills arsenal, turning scattered tools into ready-to-use gear."
+      "role": "Founder of Hunter Association / Crypto KOL",
+      "description": "A hands-on crypto trader from Taiwan. No textbook theory — only methods that survive the real market. 51Claw is my AI Skills arsenal, turning scattered tools into ready-to-use gear."
     },
-    "openClaw": {
-      "heading": "About 51Claw",
-      "description": "51Claw is an AI Skills directory built on Claude Code's MCP ecosystem. Curated, audited, and categorized from 150+ tools so you don't have to dig through docs one by one. Every Skill comes with security audit tags and install commands."
+    "hunterAssociation": {
+      "heading": "🏹 Hunter Association",
+      "description": "Taiwan's most hardcore crypto trading community. SMC strategies × AI monitoring × real battle experience.",
+      "cta": "Visit Hunter Association",
+      "features": {
+        "smc": {
+          "title": "SMC Strategy Training",
+          "description": "Learn Smart Money Concepts from scratch — institutional-grade trading logic"
+        },
+        "ai": {
+          "title": "AI Trading Tools",
+          "description": "AI-powered chart monitoring and signal marking, 24/7 non-stop"
+        },
+        "community": {
+          "title": "Battle-tested Community",
+          "description": "Survive the market together with fellow hunters — never fight alone"
+        }
+      }
     },
     "targetUsers": {
       "heading": "Who is it for?",
@@ -160,22 +219,6 @@
         "title": "Business Builder",
         "description": "Teams building products with AI Agents"
       }
-    },
-    "transforms": {
-      "heading": "The Shift We Enable",
-      "item1": { "from": "Awareness", "to": "Mastery" },
-      "item2": { "from": "Trial & Error", "to": "Precision Match" },
-      "item3": { "from": "Single Tool", "to": "Ecosystem" }
-    },
-    "projects": {
-      "heading": "Brand Projects",
-      "hunterAssociation": {
-        "title": "Hunter Association",
-        "description": "Crypto trading community with VIP tier system and strong brand identity. Pixel dragons and flame-red-orange hunter culture."
-      }
-    },
-    "contributors": {
-      "heading": "Core Contributors"
     },
     "community": {
       "heading": "Join the Community",
@@ -268,5 +311,46 @@
       "bestFor": "Developers seeking productivity",
       "highlight": "Multi-agent + self-improving + review"
     }
+  },
+  "llms": {
+    "title": "Model Hub — AI LLM API Guide",
+    "subtitle": "Get API keys for all major LLMs in one place",
+    "searchPlaceholder": "Search models...",
+    "pricing": "Pricing",
+    "perMillion": "/ 1M tokens",
+    "free": "Free",
+    "getApiKey": "How to Get API Key",
+    "visitApi": "Visit API Platform",
+    "backToList": "Back to Model Hub",
+    "notFound": "Model not found",
+    "noResults": "No models match your criteria",
+    "filter": {
+      "all": "All",
+      "allModels": "All",
+      "open": "Open Source",
+      "closed": "Closed Source",
+      "free": "Free Tier",
+      "paid": "Paid"
+    }
+  },
+  "models": {
+    "title": "Model Rankings",
+    "subtitle": "Real-time data from OpenRouter — browse pricing and specs for all available LLMs",
+    "modelsCount": "models",
+    "searchPlaceholder": "Search models...",
+    "sortPriceDesc": "Price High→Low",
+    "sortPriceAsc": "Price Low→High",
+    "sortContext": "Context Large→Small",
+    "sortName": "Name A→Z",
+    "freeOnly": "Free Only",
+    "allProviders": "All",
+    "colModel": "Model",
+    "colInput": "Input",
+    "colOutput": "Output",
+    "colContext": "Context",
+    "errorTitle": "Failed to Load",
+    "errorDesc": "Could not connect to OpenRouter API. Please try again later.",
+    "retry": "Reload",
+    "noResults": "No models match your criteria"
   }
 }

@@ -27,9 +27,9 @@ type ButtonProps = ButtonAsButton | ButtonAsLink;
 
 const variantStyles: Record<Variant, string> = {
   primary:
-    "btn-shine bg-gradient-to-r from-[#e879f9] via-[#c026d3] to-[#9333ea] text-white shadow-lg shadow-primary/20 hover:shadow-[0_0_20px_rgba(168,85,247,0.4),0_0_40px_rgba(168,85,247,0.2)] hover:brightness-110 hover:scale-105",
+    "btn-shine bg-gradient-to-r from-[#E8734A] to-[#C75B3A] text-white shadow-lg shadow-primary/20 hover:shadow-[0_0_20px_rgba(232,115,74,0.4),0_0_40px_rgba(232,115,74,0.2)] hover:brightness-110 hover:scale-105",
   secondary:
-    "border border-card-border text-foreground hover:border-primary/50 hover:text-primary-light hover:bg-primary/5 hover:scale-105 hover:shadow-[0_0_15px_rgba(168,85,247,0.15)]",
+    "border border-card-border text-foreground hover:border-primary/50 hover:text-primary-light hover:bg-primary/5 hover:scale-105 hover:shadow-[0_0_15px_rgba(232,115,74,0.15)]",
   ghost:
     "text-text-muted hover:text-foreground hover:bg-white/5",
 };

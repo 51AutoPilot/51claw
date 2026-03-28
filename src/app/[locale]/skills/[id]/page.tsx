@@ -15,16 +15,16 @@ import { notFound } from "next/navigation";
 const categoryAccent: Record<string, string> = {
   cex: "#fbbf24",
   news: "#38bdf8",
-  onchain: "#a78bfa",
+  onchain: "#D4A574",
   analytics: "#34d399",
   security: "#f87171",
   trading: "#4ade80",
   frontend: "#f472b6",
   devtools: "#fb923c",
-  multiagent: "#818cf8",
+  multiagent: "#E8734A",
   cloud: "#22d3ee",
   data: "#a3e635",
-  media: "#c084fc",
+  media: "#F09070",
   marketing: "#fb7185",
   productivity: "#94a3b8",
 };
@@ -43,7 +43,7 @@ export default function SkillDetailPage() {
   }
 
   const category = categories.find((c) => c.id === skill.category);
-  const accent = categoryAccent[skill.category] || "#a78bfa";
+  const accent = categoryAccent[skill.category] || "#D4A574";
 
   // 同分類的其他 skill，最多 3 個
   const relatedSkills = skills
@@ -243,7 +243,7 @@ export default function SkillDetailPage() {
             </h2>
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">
               {relatedSkills.map((rs) => {
-                const rsAccent = categoryAccent[rs.category] || "#a78bfa";
+                const rsAccent = categoryAccent[rs.category] || "#D4A574";
                 const rsCat = categories.find((c) => c.id === rs.category);
                 return (
                   <Link

@@ -23,7 +23,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "多鏈資產",
+        "nameEn": "Multi-chain Assets",
+        "desc": "跨鏈資產餘額查詢和管理",
+        "descEn": "Cross-chain asset balance query and management"
+      },
+      {
+        "name": "巨鯨監測",
+        "nameEn": "Whale Monitoring",
+        "desc": "追蹤大額錢包動態",
+        "descEn": "Track large wallet movements"
+      },
+      {
+        "name": "K 線分析",
+        "nameEn": "K-line Analysis",
+        "desc": "技術分析圖表和指標",
+        "descEn": "Technical analysis charts and indicators"
+      }
+    ],
     "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
@@ -50,7 +69,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "現貨行情",
+        "nameEn": "Spot Market Data",
+        "desc": "即時查詢 Binance 現貨行情和交易對",
+        "descEn": "Real-time Binance spot market data and trading pairs"
+      },
+      {
+        "name": "Meme 發現",
+        "nameEn": "Meme Discovery",
+        "desc": "追蹤熱門 Meme 幣和新上線代幣",
+        "descEn": "Track trending meme coins and new listings"
+      },
+      {
+        "name": "合約審計",
+        "nameEn": "Contract Audit",
+        "desc": "智能合約安全性快速檢查",
+        "descEn": "Quick smart contract security checks"
+      },
+      {
+        "name": "帳戶管理",
+        "nameEn": "Account Management",
+        "desc": "查看餘額、交易記錄和訂單",
+        "descEn": "View balances, trade history, and orders"
+      }
+    ],
     "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
@@ -75,7 +119,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "行情查詢",
+        "nameEn": "Market Data",
+        "desc": "火幣即時行情和交易對查詢",
+        "descEn": "HTX real-time market data and trading pairs"
+      },
+      {
+        "name": "交易執行",
+        "nameEn": "Trade Execution",
+        "desc": "下單、查詢訂單狀態",
+        "descEn": "Place orders and check order status"
+      },
+      {
+        "name": "帳戶管理",
+        "nameEn": "Account Management",
+        "desc": "查看餘額和交易記錄",
+        "descEn": "View balances and trade history"
+      }
+    ],
     "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
@@ -102,7 +165,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "行情查詢",
+        "nameEn": "Market Data",
+        "desc": "OKX 現貨和合約行情即時查詢",
+        "descEn": "Real-time OKX spot and futures market data"
+      },
+      {
+        "name": "交易執行",
+        "nameEn": "Trade Execution",
+        "desc": "下單、撤單、修改訂單",
+        "descEn": "Place, cancel, and modify orders"
+      },
+      {
+        "name": "資產管理",
+        "nameEn": "Asset Management",
+        "desc": "查看帳戶餘額和持倉",
+        "descEn": "View account balances and positions"
+      },
+      {
+        "name": "鏈上工具",
+        "nameEn": "On-chain Tools",
+        "desc": "DeFi 查詢和跨鏈操作",
+        "descEn": "DeFi queries and cross-chain operations"
+      }
+    ],
     "installNote": "需要對應交易所帳號與 API Key。安裝後在設定中填入 API 金鑰即可使用。第三方開發，使用前請確認安全性。"
   },
   {
@@ -129,7 +217,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "資產查詢",
+        "nameEn": "Asset Query",
+        "desc": "查看 Coinbase 帳戶餘額和資產組合",
+        "descEn": "View Coinbase account balances and portfolio"
+      },
+      {
+        "name": "價格追蹤",
+        "nameEn": "Price Tracking",
+        "desc": "即時幣價和歷史走勢",
+        "descEn": "Real-time prices and historical trends"
+      },
+      {
+        "name": "交易操作",
+        "nameEn": "Trading",
+        "desc": "買賣、轉帳和交易記錄查詢",
+        "descEn": "Buy, sell, transfer and trade history"
+      },
+      {
+        "name": "錢包管理",
+        "nameEn": "Wallet Management",
+        "desc": "管理多個錢包和地址",
+        "descEn": "Manage multiple wallets and addresses"
+      }
+    ],
     "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
@@ -181,7 +294,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "錢包連接",
+        "nameEn": "Wallet Connect",
+        "desc": "連接 Phantom 錢包查看資產",
+        "descEn": "Connect Phantom wallet to view assets"
+      },
+      {
+        "name": "Solana 資產",
+        "nameEn": "Solana Assets",
+        "desc": "查詢 SOL 和 SPL 代幣餘額",
+        "descEn": "Query SOL and SPL token balances"
+      },
+      {
+        "name": "交易簽名",
+        "nameEn": "Transaction Signing",
+        "desc": "簽署和發送 Solana 交易",
+        "descEn": "Sign and send Solana transactions"
+      }
+    ],
     "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
@@ -208,7 +340,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "即時新聞",
+        "nameEn": "Real-time News",
+        "desc": "律動區塊鏈即時快訊推送",
+        "descEn": "BlockBeats real-time blockchain news feed"
+      },
+      {
+        "name": "深度報導",
+        "nameEn": "Deep Reports",
+        "desc": "行業分析和專案深度報導",
+        "descEn": "Industry analysis and project deep dives"
+      },
+      {
+        "name": "資訊彙整",
+        "nameEn": "Info Aggregation",
+        "desc": "重要事件和公告的快速彙整",
+        "descEn": "Quick aggregation of key events and announcements"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
@@ -260,7 +411,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "X 輿情監控",
+        "nameEn": "X Sentiment Monitor",
+        "desc": "監控 X/Twitter 上的加密貨幣討論",
+        "descEn": "Monitor crypto discussions on X/Twitter"
+      },
+      {
+        "name": "KOL 追蹤",
+        "nameEn": "KOL Tracking",
+        "desc": "追蹤重要 KOL 的發文和互動",
+        "descEn": "Track key KOL posts and interactions"
+      },
+      {
+        "name": "敘事分析",
+        "nameEn": "Narrative Analysis",
+        "desc": "識別熱門敘事和趨勢話題",
+        "descEn": "Identify trending narratives and topics"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
@@ -285,7 +455,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "推文搜尋",
+        "nameEn": "Tweet Search",
+        "desc": "搜尋 X/Twitter 上的特定話題推文",
+        "descEn": "Search for specific topic tweets on X/Twitter"
+      },
+      {
+        "name": "帳號分析",
+        "nameEn": "Account Analysis",
+        "desc": "分析帳號活躍度和影響力",
+        "descEn": "Analyze account activity and influence"
+      },
+      {
+        "name": "趨勢偵測",
+        "nameEn": "Trend Detection",
+        "desc": "偵測新興趨勢和熱門話題",
+        "descEn": "Detect emerging trends and hot topics"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
@@ -310,7 +499,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "幣價查詢",
+        "nameEn": "Price Query",
+        "desc": "即時查詢數千種加密貨幣價格",
+        "descEn": "Real-time price query for thousands of cryptocurrencies"
+      },
+      {
+        "name": "市值排行",
+        "nameEn": "Market Cap Rankings",
+        "desc": "依市值排列的全球加密貨幣排行",
+        "descEn": "Global cryptocurrency rankings by market cap"
+      },
+      {
+        "name": "趨勢追蹤",
+        "nameEn": "Trend Tracking",
+        "desc": "熱門幣種和漲跌幅排行",
+        "descEn": "Trending coins and top gainers/losers"
+      },
+      {
+        "name": "新幣追蹤",
+        "nameEn": "New Listings",
+        "desc": "追蹤新上線代幣和 ICO",
+        "descEn": "Track new token listings and ICOs"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
@@ -335,7 +549,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "恐懼貪婪指數",
+        "nameEn": "Fear & Greed Index",
+        "desc": "即時市場情緒量化指標",
+        "descEn": "Real-time quantified market sentiment"
+      },
+      {
+        "name": "資金費率",
+        "nameEn": "Funding Rates",
+        "desc": "合約市場多空情緒即時查看",
+        "descEn": "Real-time contract market long/short sentiment"
+      },
+      {
+        "name": "清算地圖",
+        "nameEn": "Liquidation Map",
+        "desc": "顯示各價位的潛在爆倉量",
+        "descEn": "Show potential liquidation volumes at each price level"
+      },
+      {
+        "name": "技術指標",
+        "nameEn": "Technical Indicators",
+        "desc": "K 線、均線、RSI 等基礎 TA 數據",
+        "descEn": "K-line, moving averages, RSI and other TA data"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
@@ -362,7 +601,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "全球新聞",
+        "nameEn": "Global News",
+        "desc": "彙整全球科技和加密貨幣新聞",
+        "descEn": "Aggregate global tech and crypto news"
+      },
+      {
+        "name": "趨勢分析",
+        "nameEn": "Trend Analysis",
+        "desc": "識別跨領域的新興趨勢",
+        "descEn": "Identify emerging cross-sector trends"
+      },
+      {
+        "name": "每日摘要",
+        "nameEn": "Daily Digest",
+        "desc": "每日重點新聞快速摘要",
+        "descEn": "Daily highlight news quick digest"
+      }
+    ],
     "installNote": "交易相關工具，安裝後可能需要設定 API Key 或帳號。建議先用模擬帳戶測試。"
   },
   {
@@ -387,7 +645,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "DeFi 策略",
+        "nameEn": "DeFi Strategies",
+        "desc": "AI 驅動的 DeFi 投資策略推薦",
+        "descEn": "AI-driven DeFi investment strategy recommendations"
+      },
+      {
+        "name": "風險評估",
+        "nameEn": "Risk Assessment",
+        "desc": "協議和池子的風險量化分析",
+        "descEn": "Quantified risk analysis for protocols and pools"
+      },
+      {
+        "name": "收益最佳化",
+        "nameEn": "Yield Optimization",
+        "desc": "找到最佳收益農場和流動性池",
+        "descEn": "Find optimal yield farms and liquidity pools"
+      }
+    ],
     "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
@@ -466,7 +743,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "DEX 交易",
+        "nameEn": "DEX Trading",
+        "desc": "透過 Uniswap 進行代幣交換",
+        "descEn": "Swap tokens via Uniswap"
+      },
+      {
+        "name": "流動性查詢",
+        "nameEn": "Liquidity Query",
+        "desc": "查詢池子的流動性和交易量",
+        "descEn": "Query pool liquidity and trading volume"
+      },
+      {
+        "name": "價格影響",
+        "nameEn": "Price Impact",
+        "desc": "估算交易的價格滑點",
+        "descEn": "Estimate trade price slippage"
+      }
+    ],
     "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
@@ -493,7 +789,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "MCP 整合",
+        "nameEn": "MCP Integration",
+        "desc": "透過 MCP 協議連接 BNB Chain",
+        "descEn": "Connect to BNB Chain via MCP protocol"
+      },
+      {
+        "name": "智能合約",
+        "nameEn": "Smart Contracts",
+        "desc": "部署和互動 BNB Chain 智能合約",
+        "descEn": "Deploy and interact with BNB Chain smart contracts"
+      },
+      {
+        "name": "DeFi 操作",
+        "nameEn": "DeFi Operations",
+        "desc": "PancakeSwap 等 DeFi 協議操作",
+        "descEn": "Interact with DeFi protocols like PancakeSwap"
+      }
+    ],
     "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
@@ -518,7 +833,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "鏈上查詢",
+        "nameEn": "On-chain Query",
+        "desc": "查詢 BNB Chain 上的交易和合約",
+        "descEn": "Query transactions and contracts on BNB Chain"
+      },
+      {
+        "name": "代幣操作",
+        "nameEn": "Token Operations",
+        "desc": "BEP-20 代幣查詢和轉帳",
+        "descEn": "BEP-20 token query and transfer"
+      },
+      {
+        "name": "生態工具",
+        "nameEn": "Ecosystem Tools",
+        "desc": "BNB Chain 生態系統整合工具",
+        "descEn": "BNB Chain ecosystem integration tools"
+      }
+    ],
     "installNote": "需要 Node.js 18+。安裝後需設定對應的鏈上帳號或 API Key。第三方開發，使用前確認安全性。"
   },
   {
@@ -597,7 +931,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "SQL 查詢",
+        "nameEn": "SQL Queries",
+        "desc": "用自然語言或 SQL 查詢鏈上數據",
+        "descEn": "Query on-chain data via natural language or SQL"
+      },
+      {
+        "name": "Dashboard 存取",
+        "nameEn": "Dashboard Access",
+        "desc": "存取社群建立的數十萬個 Dashboard",
+        "descEn": "Access hundreds of thousands of community dashboards"
+      },
+      {
+        "name": "跨鏈分析",
+        "nameEn": "Cross-chain Analysis",
+        "desc": "支援 Ethereum、Polygon、Solana 等多鏈",
+        "descEn": "Support Ethereum, Polygon, Solana and more"
+      },
+      {
+        "name": "數據匯出",
+        "nameEn": "Data Export",
+        "desc": "將查詢結果匯出為結構化數據",
+        "descEn": "Export query results as structured data"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
@@ -624,7 +983,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "聰明錢追蹤",
+        "nameEn": "Smart Money Tracking",
+        "desc": "即時監控聰明錢的買賣動作",
+        "descEn": "Real-time monitoring of smart money movements"
+      },
+      {
+        "name": "錢包標籤",
+        "nameEn": "Wallet Labels",
+        "desc": "上百萬個地址已標記（基金、交易所）",
+        "descEn": "Millions of labeled addresses (funds, exchanges)"
+      },
+      {
+        "name": "Token 分析",
+        "nameEn": "Token Analytics",
+        "desc": "持倉分布、大戶增減倉、資金流向",
+        "descEn": "Holder distribution, whale activity, fund flows"
+      },
+      {
+        "name": "NFT 分析",
+        "nameEn": "NFT Analytics",
+        "desc": "Mint 追蹤、巨鯨動態、藍籌指標",
+        "descEn": "Mint tracking, whale activity, blue-chip metrics"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。社群開發，使用前建議檢查原始碼。"
   },
   {
@@ -649,7 +1033,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "合約安全掃描",
+        "nameEn": "Contract Security Scan",
+        "desc": "深度掃描智能合約的安全風險",
+        "descEn": "Deep scan smart contract security risks"
+      },
+      {
+        "name": "代幣風險評估",
+        "nameEn": "Token Risk Assessment",
+        "desc": "檢測代幣是否有 rug pull 風險",
+        "descEn": "Detect token rug pull risks"
+      },
+      {
+        "name": "地址風險查詢",
+        "nameEn": "Address Risk Query",
+        "desc": "查詢地址是否與惡意行為相關",
+        "descEn": "Check if address is associated with malicious activity"
+      },
+      {
+        "name": "即時防護",
+        "nameEn": "Real-time Protection",
+        "desc": "交易前自動安全檢查",
+        "descEn": "Automatic security checks before transactions"
+      }
+    ],
     "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
@@ -674,7 +1083,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "安全審計",
+        "nameEn": "Security Audit",
+        "desc": "專業級智能合約安全審計",
+        "descEn": "Professional-grade smart contract security audit"
+      },
+      {
+        "name": "漏洞偵測",
+        "nameEn": "Vulnerability Detection",
+        "desc": "偵測常見和進階漏洞類型",
+        "descEn": "Detect common and advanced vulnerability types"
+      },
+      {
+        "name": "風險評分",
+        "nameEn": "Risk Scoring",
+        "desc": "給合約和專案綜合風險評分",
+        "descEn": "Comprehensive risk scoring for contracts and projects"
+      },
+      {
+        "name": "威脅情報",
+        "nameEn": "Threat Intelligence",
+        "desc": "最新區塊鏈安全威脅資訊",
+        "descEn": "Latest blockchain security threat intelligence"
+      }
+    ],
     "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
@@ -699,7 +1133,26 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "安全掃描",
+        "nameEn": "Security Scan",
+        "desc": "掃描 Skill 程式碼的安全風險",
+        "descEn": "Scan Skill source code for security risks"
+      },
+      {
+        "name": "權限分析",
+        "nameEn": "Permission Analysis",
+        "desc": "分析 Skill 要求的系統權限",
+        "descEn": "Analyze system permissions requested by Skills"
+      },
+      {
+        "name": "信任評分",
+        "nameEn": "Trust Score",
+        "desc": "給 Skill 綜合安全信任評分",
+        "descEn": "Provide comprehensive security trust score for Skills"
+      }
+    ],
     "installNote": "安全審計工具，安裝後可直接使用。不涉及資金操作，可放心使用。建議搭配其他安全 Skills 一起使用。"
   },
   {
@@ -1517,7 +1970,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "角色系統",
+        "nameEn": "Persona System",
+        "desc": "多種專業角色切換（架構師、安全專家等）",
+        "descEn": "Switch between professional personas (architect, security expert, etc.)"
+      },
+      {
+        "name": "指令增強",
+        "nameEn": "Enhanced Commands",
+        "desc": "擴展 Claude Code 的指令集",
+        "descEn": "Extend Claude Code's command set"
+      },
+      {
+        "name": "品質控制",
+        "nameEn": "Quality Control",
+        "desc": "自動程式碼審查和品質門檻",
+        "descEn": "Automatic code review and quality gates"
+      },
+      {
+        "name": "工作流引擎",
+        "nameEn": "Workflow Engine",
+        "desc": "預定義的開發工作流程",
+        "descEn": "Pre-defined development workflows"
+      }
+    ],
     "installNote": "多 Agent 協作工具。安裝後按照文件設定即可使用。社群開發。"
   },
   {
@@ -1641,7 +2119,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "多 Agent 管理",
+        "nameEn": "Multi-Agent Management",
+        "desc": "同時管理多個 Claude Code 實例",
+        "descEn": "Manage multiple Claude Code instances simultaneously"
+      },
+      {
+        "name": "任務分配",
+        "nameEn": "Task Distribution",
+        "desc": "將大任務拆分給多個 Agent 並行執行",
+        "descEn": "Split large tasks across multiple agents in parallel"
+      },
+      {
+        "name": "Git 分支隔離",
+        "nameEn": "Git Branch Isolation",
+        "desc": "每個 Agent 在獨立分支工作",
+        "descEn": "Each agent works on an isolated branch"
+      },
+      {
+        "name": "TUI 監控",
+        "nameEn": "TUI Monitor",
+        "desc": "終端介面即時監控所有 Agent 狀態",
+        "descEn": "Terminal UI for real-time agent status monitoring"
+      }
+    ],
     "installNote": "macOS 用戶可用 Homebrew 安裝。安裝後重啟終端即可使用。社群開發。"
   },
   {
@@ -1829,7 +2332,32 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "Skill 搜尋",
+        "nameEn": "Skill Search",
+        "desc": "按關鍵詞搜尋 ClawHub 市集和社群",
+        "descEn": "Search ClawHub marketplace and community by keywords"
+      },
+      {
+        "name": "智能推薦",
+        "nameEn": "Smart Recommendations",
+        "desc": "根據專案類型推薦合適的 Skill",
+        "descEn": "Recommend Skills based on your project type"
+      },
+      {
+        "name": "安裝指引",
+        "nameEn": "Install Guide",
+        "desc": "自動生成安裝命令",
+        "descEn": "Auto-generate install commands"
+      },
+      {
+        "name": "品質評估",
+        "nameEn": "Quality Assessment",
+        "desc": "顯示安裝量、星數、更新頻率等指標",
+        "descEn": "Show install count, stars, update frequency metrics"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   },
   {
@@ -1860,7 +2388,38 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "錯誤記錄",
+        "nameEn": "Error Logging",
+        "desc": "自動偵測和記錄工作中的錯誤",
+        "descEn": "Auto-detect and log errors during work"
+      },
+      {
+        "name": "學習追蹤",
+        "nameEn": "Learning Tracking",
+        "desc": "把修正方式和教訓存入 .learnings/",
+        "descEn": "Store fixes and lessons in .learnings/"
+      },
+      {
+        "name": "記憶提升",
+        "nameEn": "Memory Promotion",
+        "desc": "重要學習自動提升到專案級記憶",
+        "descEn": "Promote important learnings to project-level memory"
+      },
+      {
+        "name": "模式識別",
+        "nameEn": "Pattern Recognition",
+        "desc": "識別重複出現的錯誤模式",
+        "descEn": "Identify recurring error patterns"
+      },
+      {
+        "name": "持續改進",
+        "nameEn": "Continuous Improvement",
+        "desc": "Agent 能力隨時間自主提升",
+        "descEn": "Agent capabilities improve autonomously over time"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   },
   {
@@ -1893,7 +2452,32 @@
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "Repo 管理",
+        "nameEn": "Repo Management",
+        "desc": "建立、搜尋、fork 倉庫",
+        "descEn": "Create, search, and fork repositories"
+      },
+      {
+        "name": "Issue 操作",
+        "nameEn": "Issue Operations",
+        "desc": "建立、更新、查詢 Issue 和標籤",
+        "descEn": "Create, update, query issues and labels"
+      },
+      {
+        "name": "PR 管理",
+        "nameEn": "PR Management",
+        "desc": "建立、審查、合併 Pull Request",
+        "descEn": "Create, review, and merge Pull Requests"
+      },
+      {
+        "name": "程式碼搜尋",
+        "nameEn": "Code Search",
+        "desc": "跨倉庫搜尋程式碼和文件",
+        "descEn": "Cross-repository code and file search"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。"
   },
   {
@@ -1926,7 +2510,38 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "Web 搜尋",
+        "nameEn": "Web Search",
+        "desc": "LLM 優化的搜尋結果 + 相關性評分",
+        "descEn": "LLM-optimized search results with relevance scoring"
+      },
+      {
+        "name": "內容擷取",
+        "nameEn": "Content Extraction",
+        "desc": "從指定 URL 提取乾淨的 Markdown/文字",
+        "descEn": "Extract clean Markdown/text from URLs"
+      },
+      {
+        "name": "網站爬蟲",
+        "nameEn": "Web Crawling",
+        "desc": "爬取整個網站結構和內容",
+        "descEn": "Crawl entire website structure and content"
+      },
+      {
+        "name": "深度研究",
+        "nameEn": "Deep Research",
+        "desc": "多輪搜尋 + 交叉驗證",
+        "descEn": "Multi-round search with cross-verification"
+      },
+      {
+        "name": "域名過濾",
+        "nameEn": "Domain Filtering",
+        "desc": "支持白名單/黑名單域名篩選",
+        "descEn": "Whitelist/blacklist domain filtering"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行安裝指令後，重啟 Claude Code 即可使用。官方維護，品質可靠。"
   },
   {
@@ -2271,7 +2886,32 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "文件查詢",
+        "nameEn": "Documentation Lookup",
+        "desc": "即時查詢最新版本的技術文件",
+        "descEn": "Real-time lookup of latest tech documentation"
+      },
+      {
+        "name": "版本匹配",
+        "nameEn": "Version Matching",
+        "desc": "確保回傳的文件與你使用的版本一致",
+        "descEn": "Ensure returned docs match your library version"
+      },
+      {
+        "name": "程式碼範例",
+        "nameEn": "Code Examples",
+        "desc": "附帶可執行的程式碼範例",
+        "descEn": "Include executable code examples"
+      },
+      {
+        "name": "多框架支援",
+        "nameEn": "Multi-framework Support",
+        "desc": "支援 React、Vue、Angular 等主流框架",
+        "descEn": "Support React, Vue, Angular and more"
+      }
+    ],
     "installNote": "生產力工具。安裝後即可在 Claude Code 中使用。官方出品。"
   },
   {
@@ -2535,7 +3175,38 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "設計方向",
+        "nameEn": "Design Direction",
+        "desc": "根據目的和受眾選擇美學方向（brutalist、luxury 等）",
+        "descEn": "Choose aesthetic direction based on purpose and audience (brutalist, luxury, etc.)"
+      },
+      {
+        "name": "排版設計",
+        "nameEn": "Typography Design",
+        "desc": "大膽的字體配對，拒絕 Inter/Roboto/Arial",
+        "descEn": "Bold font pairing, rejecting Inter/Roboto/Arial"
+      },
+      {
+        "name": "動態效果",
+        "nameEn": "Motion Design",
+        "desc": "編排式動畫、滾動觸發互動",
+        "descEn": "Choreographed animations, scroll-triggered interactions"
+      },
+      {
+        "name": "空間構圖",
+        "nameEn": "Spatial Composition",
+        "desc": "不對稱排版、打破網格的元素",
+        "descEn": "Asymmetric layouts, grid-breaking elements"
+      },
+      {
+        "name": "視覺深度",
+        "nameEn": "Visual Depth",
+        "desc": "漸層、紋理、層疊效果",
+        "descEn": "Gradients, textures, layering effects"
+      }
+    ],
     "installNote": "Anthropic 官方技能，透過 Skills 指令安裝即可使用。無需額外配置，開箱即用。"
   },
   {
@@ -2566,7 +3237,38 @@
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
-    "features": null,
+    "features": [
+      {
+        "name": "效能優化",
+        "nameEn": "Performance Optimization",
+        "desc": "40+ 條效能規則，按影響程度分級",
+        "descEn": "40+ performance rules, prioritized by impact level"
+      },
+      {
+        "name": "反模式偵測",
+        "nameEn": "Anti-pattern Detection",
+        "desc": "自動識別串聯 useEffect、重複渲染等問題",
+        "descEn": "Auto-detect chained useEffect, unnecessary re-renders"
+      },
+      {
+        "name": "Bundle 優化",
+        "nameEn": "Bundle Optimization",
+        "desc": "識別過大的 client-side import",
+        "descEn": "Identify oversized client-side imports"
+      },
+      {
+        "name": "Server Component",
+        "nameEn": "Server Components",
+        "desc": "RSC 最佳實踐���引",
+        "descEn": "RSC best practices guidance"
+      },
+      {
+        "name": "Next.js 路由",
+        "nameEn": "Next.js Routing",
+        "desc": "App Router、SSR/SSG 最佳實踐",
+        "descEn": "App Router, SSR/SSG best practices"
+      }
+    ],
     "installNote": "需要 Node.js 18+。執行 npx skills add 指令安裝，重啟 Claude Code 即可生效。Vercel 官方維護，品質可靠。"
   },
   {

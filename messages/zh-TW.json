@@ -1,10 +1,10 @@
 {
   "metadata": {
     "title": "51Claw — AI Skills Hub",
-    "description": "AI Skills / MCP / Claude 實戰指南與導航站",
+    "description": "Claude Code + OpenClaw 一站式入門指南，152+ AI Skills 任你用",
     "skills": {
       "title": "Skills 目錄 | 51Claw",
-      "description": "探索 27 個精選 AI Skills — CEX 工具、鏈上操作、數據分析、安全審計"
+      "description": "探索 152+ 精選 AI Skills — CEX 工具、鏈上操作、數據分析、安全審計"
     },
     "install": {
       "title": "安裝指南 | 51Claw",
@@ -21,6 +21,14 @@
     "bundles": {
       "title": "推薦組合 | 51Claw",
       "description": "依場景精選的 Skills 套餐 — 新手包、分析包、安全套餐"
+    },
+    "llms": {
+      "title": "模型庫 | 51Claw",
+      "description": "主流 AI 大模型 API 指南 — 一站搞定 API Key 取得教學"
+    },
+    "models": {
+      "title": "大模型排行 | 51Claw",
+      "description": "接入 OpenRouter 即時數據，346+ 模型一覽"
     }
   },
   "nav": {
@@ -30,11 +38,13 @@
     "about": "關於",
     "blog": "Blog",
     "bundles": "推薦組合",
+    "llms": "模型庫",
+    "models": "模型排行",
     "language": "語言",
     "toggleMenu": "切換選單"
   },
   "footer": {
-    "copyright": "2025 51Claw. All rights reserved.",
+    "copyright": "2025-2026 51Claw. All rights reserved.",
     "madeBy": "由 51（0x515151）打造",
     "links": {
       "twitter": "X (Twitter)",
@@ -54,19 +64,53 @@
   },
   "home": {
     "heroTitle": "你的 AI Skills 武器庫",
-    "heroSubtitle": "精選 MCP Skills，讓 Claude 成為你的鏈上瑞士刀",
-    "ctaPrimary": "瀏覽 Skills",
-    "ctaSecondary": "安裝教學",
-    "featuredSkills": "精選 Skills",
-    "stats": {
-      "skillsCount": "Skills 數量",
-      "categories": "分類",
-      "free": "全部免費"
+    "heroSubtitle": "Claude Code + OpenClaw 入門指南 ｜ 152+ AI Skills 大全 ｜ LLM 模型指南",
+    "ctaInstall": "開始安裝",
+    "ctaSkills": "瀏覽 Skills",
+    "coreFeatures": {
+      "heading": "一站搞定，三大核心",
+      "minSuffix": " 分鐘",
+      "install": {
+        "title": "安裝教學",
+        "desc": "從零開始安裝 Claude Code，跟著步驟走就能上手",
+        "statLabel": "即可上手",
+        "cta": "開始安裝"
+      },
+      "skills": {
+        "title": "Skills 大全",
+        "desc": "精選 AI Skills，14 大分類，搜尋、篩選、一鍵安裝",
+        "statLabel": "個精選 Skills",
+        "cta": "瀏覽 Skills"
+      },
+      "models": {
+        "title": "模型指南",
+        "desc": "LLM 即時排行榜 + API Key 取得教學，一站搞定",
+        "statLabel": "個模型教學",
+        "cta": "查看模型"
+      }
     },
-    "bottomCta": {
-      "title": "開始打造你的 AI 工作流",
-      "subtitle": "從安裝到實戰，只需要幾分鐘",
-      "button": "立即開始"
+    "featuredSkills": "精選 Skills 分類",
+    "viewAllSkills": "查看全部 152+ Skills",
+    "modelRanking": {
+      "title": "🔥 大模型排行",
+      "source": "即時數據來自 OpenRouter",
+      "viewAll": "查看完整排行",
+      "apiGuide": "API Key 教學",
+      "inputPrice": "輸入",
+      "outputPrice": "輸出",
+      "perMillion": "/ 1M tokens"
+    },
+    "blog": {
+      "heading": "📝 最新文章",
+      "viewAll": "更多文章"
+    },
+    "community": {
+      "heading": "加入社群，一起玩 AI",
+      "description": "加入 Hunter Association，和 51 一起探索 AI x Crypto 的無限可能。",
+      "hunterCta": "前往獵人協會",
+      "joinLine": "加入 LINE 社群",
+      "followX": "追蹤 X",
+      "followIg": "追蹤 Instagram"
     }
   },
   "install": {
@@ -135,12 +179,27 @@
   "about": {
     "title": "關於 51Claw",
     "intro": {
-      "heading": "51 是誰？",
-      "description": "51（0x515151）— 台灣加密交易實戰派，Hunter Association 獵人協會創辦人。不寫教科書，只分享真正在市場裡活下來的方法。51Claw 是我打造的 AI Skills 武器庫，把散落的工具整理成可直接上手的裝備。"
+      "role": "Hunter Association 獵人協會創辦人 / Crypto KOL",
+      "description": "台灣加密交易實戰派。不寫教科書，只分享真正在市場裡活下來的方法。51Claw 是我打造的 AI Skills 武器庫，把散落的工具整理成可直接上手的裝備。"
     },
-    "openClaw": {
-      "heading": "關於 51Claw",
-      "description": "51Claw 是基於 Claude Code MCP 生態的 AI Skills 導航站。從 150+ 個工具中精選、審核、分類，讓你不用自己一個一個翻文件。每個 Skill 都附安全審計標記和安裝指令。"
+    "hunterAssociation": {
+      "heading": "🏹 獵人協會 Hunter Association",
+      "description": "台灣最硬核的加密交易社群。SMC 策略 × AI 盯盤 × 社群實戰。",
+      "cta": "前往獵人協會",
+      "features": {
+        "smc": {
+          "title": "SMC 策略教學",
+          "description": "從零學 Smart Money Concepts，掌握機構級交易邏輯"
+        },
+        "ai": {
+          "title": "AI 交易工具",
+          "description": "用 AI 自動盯盤、標記信號，24/7 不停歇"
+        },
+        "community": {
+          "title": "實戰社群",
+          "description": "跟獵人們一起在市場活下來，不再孤軍奮戰"
+        }
+      }
     },
     "targetUsers": {
       "heading": "誰適合用？",
@@ -160,22 +219,6 @@
         "title": "商業落地",
         "description": "想用 AI Agent 做產品的團隊"
       }
-    },
-    "transforms": {
-      "heading": "我們帶來的改變",
-      "item1": { "from": "了解", "to": "掌握" },
-      "item2": { "from": "盲目試錯", "to": "精準匹配" },
-      "item3": { "from": "單一工具", "to": "生態構建" }
-    },
-    "projects": {
-      "heading": "品牌專案",
-      "hunterAssociation": {
-        "title": "Hunter Association",
-        "description": "加密貨幣交易社群，VIP 分級制度，強烈品牌識別。用像素龍和火焰紅橘打造獵人文化。"
-      }
-    },
-    "contributors": {
-      "heading": "核心貢獻者"
     },
     "community": {
       "heading": "加入社群",
@@ -268,5 +311,46 @@
       "bestFor": "追求效率的開發者",
       "highlight": "多 Agent + 自我改進 + 審查"
     }
+  },
+  "llms": {
+    "title": "模型庫 — AI 大模型 API 指南",
+    "subtitle": "主流 LLM 的 API Key 取得教學，一站搞定",
+    "searchPlaceholder": "搜尋模型名稱...",
+    "pricing": "定價",
+    "perMillion": "/ 1M tokens",
+    "free": "免費",
+    "getApiKey": "API Key 取得步驟",
+    "visitApi": "前往 API 平台",
+    "backToList": "返回模型庫",
+    "notFound": "找不到這個模型",
+    "noResults": "找不到符合條件的模型",
+    "filter": {
+      "all": "全部",
+      "allModels": "全部",
+      "open": "開源",
+      "closed": "閉源",
+      "free": "免費額度",
+      "paid": "付費"
+    }
+  },
+  "models": {
+    "title": "大模型排行",
+    "subtitle": "接入 OpenRouter 即時數據，一覽所有可用 LLM 的定價與規格",
+    "modelsCount": "個模型",
+    "searchPlaceholder": "搜尋模型名稱...",
+    "sortPriceDesc": "價格高→低",
+    "sortPriceAsc": "價格低→高",
+    "sortContext": "Context 大→小",
+    "sortName": "名稱 A→Z",
+    "freeOnly": "僅免費",
+    "allProviders": "全部",
+    "colModel": "模型",
+    "colInput": "輸入價",
+    "colOutput": "輸出價",
+    "colContext": "Context",
+    "errorTitle": "載入失敗",
+    "errorDesc": "無法連接 OpenRouter API，請稍後再試。",
+    "retry": "重新載入",
+    "noResults": "找不到符合條件的模型"
   }
 }

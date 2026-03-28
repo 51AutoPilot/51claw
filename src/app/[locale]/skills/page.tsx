@@ -14,16 +14,16 @@ type Skill = (typeof skills)[number];
 const categoryAccent: Record<string, string> = {
   cex: "#fbbf24",
   news: "#38bdf8",
-  onchain: "#a78bfa",
+  onchain: "#D4A574",
   analytics: "#34d399",
   security: "#f87171",
   trading: "#4ade80",
   frontend: "#f472b6",
   devtools: "#fb923c",
-  multiagent: "#818cf8",
+  multiagent: "#E8734A",
   cloud: "#22d3ee",
   data: "#a3e635",
-  media: "#c084fc",
+  media: "#F09070",
   marketing: "#fb7185",
   productivity: "#94a3b8",
 };
@@ -125,7 +125,7 @@ export default function SkillsPage() {
         <Breadcrumb currentPage={t("title")} />
         {/* Header */}
         <div className="text-center">
-          <h1 className="text-gradient-purple font-heading text-4xl font-bold sm:text-5xl">
+          <h1 className="text-gradient-claude font-heading text-4xl font-bold sm:text-5xl">
             {t("title")}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-text-muted">
@@ -182,7 +182,7 @@ export default function SkillsPage() {
         {filtered.length > 0 ? (
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((skill, index) => {
-              const accent = categoryAccent[skill.category] || "#a78bfa";
+              const accent = categoryAccent[skill.category] || "#D4A574";
               const isVisible = visibleSet.has(skill.id);
               const staggerDelay = Math.min(index * 50, 300);
 
