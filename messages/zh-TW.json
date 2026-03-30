@@ -1,45 +1,45 @@
 {
   "metadata": {
-    "title": "51Claw — AI Skills Hub",
+    "title": "HunterKit — AI Skills Hub",
     "description": "Claude Code + OpenClaw 一站式入門指南，152+ AI Skills 任你用",
     "skills": {
-      "title": "Skills 目錄 | 51Claw",
+      "title": "Skills 目錄 | HunterKit",
       "description": "探索 152+ 精選 AI Skills — CEX 工具、鏈上操作、數據分析、安全審計"
     },
     "install": {
-      "title": "安裝指南 | 51Claw",
+      "title": "安裝指南 | HunterKit",
       "description": "三步搞定 AI Skills 環境 — 支援 macOS、Windows、Linux"
     },
     "about": {
-      "title": "關於 51Claw | AI Skills Hub",
+      "title": "關於 HunterKit | AI Skills Hub",
       "description": "51（0x515151）的 AI Skills 武器庫 — Hunter Association 獵人協會創辦人"
     },
     "blog": {
-      "title": "Blog | 51Claw",
+      "title": "Blog | HunterKit",
       "description": "AI Skills 實戰筆記 — 不講理論，只講怎麼用"
     },
     "bundles": {
-      "title": "推薦組合 | 51Claw",
+      "title": "推薦組合 | HunterKit",
       "description": "依場景精選的 Skills 套餐 — 新手包、分析包、安全套餐"
     },
     "llms": {
-      "title": "模型庫 | 51Claw",
+      "title": "模型庫 | HunterKit",
       "description": "主流 AI 大模型 API 指南 — 一站搞定 API Key 取得教學"
     },
     "models": {
-      "title": "大模型排行 | 51Claw",
+      "title": "大模型排行 | HunterKit",
       "description": "接入 OpenRouter 即時數據，346+ 模型一覽"
     },
     "faq": {
-      "title": "常見問題 | 51Claw",
-      "description": "關於 51Claw 和 AI Skills 的常見疑問，一次解答"
+      "title": "常見問題 | HunterKit",
+      "description": "關於 HunterKit 和 AI Skills 的常見疑問，一次解答"
     },
     "resources": {
-      "title": "學習資源 | 51Claw",
+      "title": "學習資源 | HunterKit",
       "description": "精選教學影片、文章和 GitHub 合集 — 從零開始到進階"
     },
     "guide": {
-      "title": "新手指南 | 51Claw",
+      "title": "新手指南 | HunterKit",
       "description": "跟著走，4 天上手 AI Skills 全套工作流"
     }
   },
@@ -58,7 +58,7 @@
     "toggleMenu": "切換選單"
   },
   "footer": {
-    "copyright": "2025-2026 51Claw. All rights reserved.",
+    "copyright": "2025-2026 HunterKit. All rights reserved.",
     "madeBy": "由 51（0x515151）打造",
     "links": {
       "twitter": "X (Twitter)",
@@ -202,10 +202,10 @@
     }
   },
   "about": {
-    "title": "關於 51Claw",
+    "title": "關於 HunterKit",
     "intro": {
       "role": "Hunter Association 獵人協會創辦人 / Crypto KOL",
-      "description": "台灣加密交易實戰派。不寫教科書，只分享真正在市場裡活下來的方法。51Claw 是我打造的 AI Skills 武器庫，把散落的工具整理成可直接上手的裝備。"
+      "description": "台灣加密交易實戰派。不寫教科書，只分享真正在市場裡活下來的方法。HunterKit 是我打造的 AI Skills 武器庫，把散落的工具整理成可直接上手的裝備。"
     },
     "hunterAssociation": {
       "heading": "🏹 獵人協會 Hunter Association",
@@ -431,7 +431,7 @@
   },
   "faq": {
     "title": "常見問題",
-    "subtitle": "關於 51Claw 和 AI Skills 的常見疑問，一次解答",
+    "subtitle": "關於 HunterKit 和 AI Skills 的常見疑問，一次解答",
     "stillHaveQuestions": "還有其他問題？",
     "joinCommunity": "加入社群直接問",
     "communityDesc": "在 LINE 社群或 Telegram 群組提問，會有人幫你解答。",
@@ -487,7 +487,7 @@
         "q2": "Skill 裝了但沒反應？",
         "a2": "需要重啟 Claude Code 才會載入新 Skills。",
         "q3": "怎麼找更多 Skill？",
-        "a3": "三個管道：51Claw Skills 目錄（152+ 精選）、find-skills（直接問它）、ClawHub（最大市場，記得先掃描）。"
+        "a3": "三個管道：HunterKit Skills 目錄（152+ 精選）、find-skills（直接問它）、ClawHub（最大市場，記得先掃描）。"
       }
     },
     "day3": {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-const BASE_URL = "https://51claw.xyz";
+const BASE_URL = "https://hunterkit.xyz";
 
 export async function generateMetadata({
   params,
@@ -23,7 +23,7 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
       url,
-      siteName: "51Claw",
+      siteName: "HunterKit",
       type: "website",
     },
     twitter: {

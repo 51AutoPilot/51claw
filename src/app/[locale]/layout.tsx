@@ -36,21 +36,21 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
 
-  const url = `https://51claw.xyz/${locale}`;
+  const url = `https://hunterkit.xyz/${locale}`;
 
   return {
     title: t("title"),
     description: t("description"),
-    metadataBase: new URL("https://51claw.xyz"),
+    metadataBase: new URL("https://hunterkit.xyz"),
     alternates: {
       canonical: url,
-      languages: { "zh-TW": "https://51claw.xyz/zh-TW", en: "https://51claw.xyz/en" },
+      languages: { "zh-TW": "https://hunterkit.xyz/zh-TW", en: "https://hunterkit.xyz/en" },
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
       url,
-      siteName: "51Claw",
+      siteName: "HunterKit",
       type: "website",
       locale: locale === "zh-TW" ? "zh_TW" : "en_US",
     },
@@ -88,13 +88,13 @@ export default async function LocaleLayout({
           data={{
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "51Claw",
-            url: "https://51claw.xyz",
+            name: "HunterKit",
+            url: "https://hunterkit.xyz",
             description: "AI Skills Hub — MCP / Claude practical guides",
             inLanguage: [locale === "zh-TW" ? "zh-TW" : "en"],
             potentialAction: {
               "@type": "SearchAction",
-              target: `https://51claw.xyz/${locale}/skills?q={search_term_string}`,
+              target: `https://hunterkit.xyz/${locale}/skills?q={search_term_string}`,
               "query-input": "required name=search_term_string",
             },
           }}

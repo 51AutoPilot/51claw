@@ -1,7 +1,7 @@
-# 51Claw — 專案規範
+# HunterKit — 專案規範
 
 ## 專案概述
-**51Claw.xyz** — 51 的個人品牌 AI Skills Hub 網站
+**hunterkit.xyz** — 51 的個人品牌 AI Skills Hub 網站
 - 參考對象：https://hengclaw.ai/（做到 9 成像但更完整）
 - 定位：AI Skills / MCP / Claude / OpenClaw 方向的導航站 + 實戰指南
 - 品牌主人：51（0x515151）— Crypto KOL、Hunter Association 創辦人

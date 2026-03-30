@@ -146,13 +146,13 @@
             "en": "Install Skills"
           },
           "description": {
-            "zh": "前往 51Claw Skills 目錄（/skills）挑選你需要的工具，一行指令安裝。",
-            "en": "Head to the 51Claw Skills directory (/skills) to pick the tools you need, then install with one command."
+            "zh": "前往 HunterKit Skills 目錄（/skills）挑選你需要的工具，一行指令安裝。",
+            "en": "Head to the HunterKit Skills directory (/skills) to pick the tools you need, then install with one command."
           },
           "code": "# 安裝單個 Skill\nclaude mcp add skill-name\n\n# 範例：安裝 Binance Skills Hub\nclaude mcp add binance-skills-hub",
           "note": {
-            "zh": "到 51Claw 的 Skills 目錄（/skills）查看全部 152+ 可用的 Skills，有分類和搜尋。",
-            "en": "Visit 51Claw's Skills directory (/skills) to browse all 152+ available Skills with categories and search."
+            "zh": "到 HunterKit 的 Skills 目錄（/skills）查看全部 152+ 可用的 Skills，有分類和搜尋。",
+            "en": "Visit HunterKit's Skills directory (/skills) to browse all 152+ available Skills with categories and search."
           }
         },
         {

@@ -1,7 +1,7 @@
 # Skill 大規模匯入任務
 
 > 來源檔：`C:\Users\User\Desktop\skill-collection-final.md`（113 個 skill，25 品類）
-> 目標：審查安全性、分類、寫使用說明、匯入 51claw 網站
+> 目標：審查安全性、分類、寫使用說明、匯入 HunterKit 網站
 
 ---
 
@@ -47,7 +47,7 @@
 
 ## Phase 2：分類對齊（Claw-Content 負責）
 
-原始檔案有 25 個品類，51claw 目前只有 6 個。需要：
+原始檔案有 25 個品類，HunterKit 目前只有 6 個。需要：
 
 1. 讀取目前的 `src/data/categories.json`（6 個分類）
 2. 根據 113 個 skill 的內容，設計新的分類體系

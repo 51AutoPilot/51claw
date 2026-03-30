@@ -37,7 +37,7 @@ export default function Nav() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <span className="text-gradient-claude font-heading text-xl font-bold tracking-tight">
-            51Claw
+            HunterKit
           </span>
         </Link>
 

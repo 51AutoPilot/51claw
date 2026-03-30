@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://51claw.xyz";
+const BASE_URL = "https://hunterkit.xyz";
 
 const pages = ["", "/skills", "/install", "/about", "/blog", "/bundles"];
 const locales = ["zh-TW", "en"];

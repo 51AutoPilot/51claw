@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://51claw.xyz/sitemap.xml",
+    sitemap: "https://hunterkit.xyz/sitemap.xml",
   };
 }

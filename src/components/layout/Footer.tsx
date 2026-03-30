@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Left: Logo + Copyright */}
         <div className="flex flex-col items-center gap-2 sm:items-start">
           <span className="text-gradient-claude font-heading text-lg font-bold">
-            51Claw
+            HunterKit
           </span>
           <p className="text-xs text-text-muted">
             &copy; {t("copyright")}

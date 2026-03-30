@@ -1,45 +1,45 @@
 {
   "metadata": {
-    "title": "51Claw — AI Skills Hub",
+    "title": "HunterKit — AI Skills Hub",
     "description": "Your one-stop guide to Claude Code + OpenClaw — 152+ AI Skills at your fingertips",
     "skills": {
-      "title": "Skills Directory | 51Claw",
+      "title": "Skills Directory | HunterKit",
       "description": "Explore 152+ curated AI Skills — CEX tools, on-chain ops, analytics, and security"
     },
     "install": {
-      "title": "Installation Guide | 51Claw",
+      "title": "Installation Guide | HunterKit",
       "description": "Set up your AI Skills environment in 3 steps — macOS, Windows, Linux"
     },
     "about": {
-      "title": "About 51Claw | AI Skills Hub",
+      "title": "About HunterKit | AI Skills Hub",
       "description": "51 (0x515151)'s AI Skills Arsenal — Founder of Hunter Association"
     },
     "blog": {
-      "title": "Blog | 51Claw",
+      "title": "Blog | HunterKit",
       "description": "AI Skills field notes — skip the theory, here's how to actually use them"
     },
     "bundles": {
-      "title": "Bundles | 51Claw",
+      "title": "Bundles | HunterKit",
       "description": "Curated Skills packages — Starter Pack, Analytics Suite, Security Suite"
     },
     "llms": {
-      "title": "Model Hub | 51Claw",
+      "title": "Model Hub | HunterKit",
       "description": "AI LLM API guide — get your API keys in one place"
     },
     "models": {
-      "title": "Model Rankings | 51Claw",
+      "title": "Model Rankings | HunterKit",
       "description": "Real-time data from OpenRouter — 346+ models at a glance"
     },
     "faq": {
-      "title": "FAQ | 51Claw",
-      "description": "Common questions about 51Claw and AI Skills, answered"
+      "title": "FAQ | HunterKit",
+      "description": "Common questions about HunterKit and AI Skills, answered"
     },
     "resources": {
-      "title": "Resources | 51Claw",
+      "title": "Resources | HunterKit",
       "description": "Curated tutorials, articles, and GitHub collections — from zero to advanced"
     },
     "guide": {
-      "title": "Getting Started | 51Claw",
+      "title": "Getting Started | HunterKit",
       "description": "Master the full AI Skills workflow in 4 days"
     }
   },
@@ -58,7 +58,7 @@
     "toggleMenu": "Toggle menu"
   },
   "footer": {
-    "copyright": "2025-2026 51Claw. All rights reserved.",
+    "copyright": "2025-2026 HunterKit. All rights reserved.",
     "madeBy": "Built by 51 (0x515151)",
     "links": {
       "twitter": "X (Twitter)",
@@ -202,10 +202,10 @@
     }
   },
   "about": {
-    "title": "About 51Claw",
+    "title": "About HunterKit",
     "intro": {
       "role": "Founder of Hunter Association / Crypto KOL",
-      "description": "A hands-on crypto trader from Taiwan. No textbook theory — only methods that survive the real market. 51Claw is my AI Skills arsenal, turning scattered tools into ready-to-use gear."
+      "description": "A hands-on crypto trader from Taiwan. No textbook theory — only methods that survive the real market. HunterKit is my AI Skills arsenal, turning scattered tools into ready-to-use gear."
     },
     "hunterAssociation": {
       "heading": "🏹 Hunter Association",
@@ -431,7 +431,7 @@
   },
   "faq": {
     "title": "FAQ",
-    "subtitle": "Common questions about 51Claw and AI Skills, answered",
+    "subtitle": "Common questions about HunterKit and AI Skills, answered",
     "stillHaveQuestions": "Still have questions?",
     "joinCommunity": "Ask the community",
     "communityDesc": "Drop your question in our LINE or Telegram group — someone will help you out.",
@@ -487,7 +487,7 @@
         "q2": "Skill installed but nothing happens?",
         "a2": "You need to restart Claude Code to load new Skills.",
         "q3": "How to find more Skills?",
-        "a3": "Three channels: 51Claw Skills Directory (152+ curated), find-skills (just ask it), ClawHub (largest marketplace — always scan with AgentGuard first)."
+        "a3": "Three channels: HunterKit Skills Directory (152+ curated), find-skills (just ask it), ClawHub (largest marketplace — always scan with AgentGuard first)."
       }
     },
     "day3": {
