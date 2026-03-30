@@ -1083,5 +1083,117 @@
     "verdict": "reject",
     "reason": "重複收錄，已合併至主條目",
     "warning": null
+  },
+  {
+    "id": "xxyy-trade",
+    "name": "XXYY Trade",
+    "verdict": "pass",
+    "reason": "社群開發，API Key 需妥善保管",
+    "warning": "需要設定 XXYY API Key，API Key 直接關聯錢包資金"
+  },
+  {
+    "id": "oh-my-claudecode",
+    "name": "oh-my-claudecode",
+    "verdict": "pass",
+    "reason": "開源社群項目，15K+ stars，廣泛使用",
+    "warning": null
+  },
+  {
+    "id": "last30days-skill",
+    "name": "Last 30 Days",
+    "verdict": "pass",
+    "reason": "開源社群項目，15K+ stars，跨平台研究工具",
+    "warning": null
+  },
+  {
+    "id": "mailclaw",
+    "name": "MailClaw",
+    "verdict": "pass",
+    "reason": "開源自托管郵箱，基於 Cloudflare Workers",
+    "warning": null
+  },
+  {
+    "id": "unusual-whales",
+    "name": "Unusual Whales MCP",
+    "verdict": "pass",
+    "reason": "官方出品，金融數據 MCP",
+    "warning": null
+  },
+  {
+    "id": "llm-sast-scanner",
+    "name": "LLM SAST Scanner",
+    "verdict": "pass",
+    "reason": "SunWeb3Sec 出品，安全掃描工具",
+    "warning": null
+  },
+  {
+    "id": "visual-explainer",
+    "name": "Visual Explainer",
+    "verdict": "pass",
+    "reason": "開源社群項目，7K+ stars，HTML 視覺化",
+    "warning": null
+  },
+  {
+    "id": "spec-kit",
+    "name": "spec-kit",
+    "verdict": "pass",
+    "reason": "GitHub 官方出品，83K+ stars",
+    "warning": null
+  },
+  {
+    "id": "web-browsing",
+    "name": "Web Browsing",
+    "verdict": "pass",
+    "reason": "OpenClaw 內建功能",
+    "warning": null
+  },
+  {
+    "id": "telegram-integration",
+    "name": "Telegram Integration",
+    "verdict": "pass",
+    "reason": "OpenClaw 內建功能",
+    "warning": null
+  },
+  {
+    "id": "capability-evolver",
+    "name": "Capability Evolver",
+    "verdict": "warn",
+    "reason": "ClawHub 專屬，GitHub link 待確認",
+    "warning": "GitHub link 待確認，無法驗證源碼"
+  },
+  {
+    "id": "melvynx-cron",
+    "name": "melvynx CRON Skill",
+    "verdict": "pass",
+    "reason": "教學型 Skill，排程功能",
+    "warning": "GitHub link 待確認"
+  },
+  {
+    "id": "railway-deploy",
+    "name": "Railway Deploy",
+    "verdict": "pass",
+    "reason": "部署工具，GitHub link 待確認",
+    "warning": null
+  },
+  {
+    "id": "feishu-cli",
+    "name": "飛書 CLI",
+    "verdict": "pass",
+    "reason": "企業工具，GitHub link 待確認",
+    "warning": "GitHub link 待確認"
+  },
+  {
+    "id": "wewrite",
+    "name": "WeWrite",
+    "verdict": "pass",
+    "reason": "公眾號工具，GitHub link 待確認",
+    "warning": "GitHub link 待確認"
+  },
+  {
+    "id": "openclaw-cc",
+    "name": "OpenClaw 調用 Claude Code",
+    "verdict": "pass",
+    "reason": "教學型內容，AISuperDomain 出品",
+    "warning": null
   }
 ]

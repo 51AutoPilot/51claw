@@ -1,0 +1,74 @@
+[
+  {
+    "id": "anthropic-official-skills",
+    "name": "Anthropic 官方 Skills",
+    "nameEn": "Anthropic Official Skills",
+    "url": "https://github.com/anthropics/skills",
+    "stars": 105673,
+    "description": "官方技能倉庫，包含 frontend-design 等熱門 Skill",
+    "descriptionEn": "Official skills repository, includes popular Skills like frontend-design"
+  },
+  {
+    "id": "obra-superpowers",
+    "name": "Superpowers",
+    "nameEn": "Superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "stars": 122712,
+    "description": "完整的 AI 輔助開發方法論（brainstorming → TDD → 代碼審查），40.9K⭐",
+    "descriptionEn": "Complete AI-assisted development methodology (brainstorming → TDD → code review)"
+  },
+  {
+    "id": "antigravity-awesome-skills",
+    "name": "Antigravity Awesome Skills",
+    "nameEn": "Antigravity Awesome Skills",
+    "url": "https://github.com/sickn33/antigravity-awesome-skills",
+    "stars": 28457,
+    "description": "1,234+ Skill 合集，最大的社區整理清單",
+    "descriptionEn": "1,234+ skills collection, largest community-curated list"
+  },
+  {
+    "id": "vercel-agent-skills",
+    "name": "Vercel Agent Skills",
+    "nameEn": "Vercel Agent Skills",
+    "url": "https://github.com/vercel-labs/agent-skills",
+    "stars": 24062,
+    "description": "Vercel 官方 Skills 工具，含 web-design-guidelines 等",
+    "descriptionEn": "Vercel's official agent skills, includes web-design-guidelines and more"
+  },
+  {
+    "id": "voltagent-awesome",
+    "name": "VoltAgent Awesome Agent Skills",
+    "nameEn": "VoltAgent Awesome Agent Skills",
+    "url": "https://github.com/VoltAgent/awesome-agent-skills",
+    "stars": 13297,
+    "description": "1000+ Skills 合集，官方團隊 + 社區共同維護",
+    "descriptionEn": "1000+ skills collection, maintained by official team + community"
+  },
+  {
+    "id": "travisvn-awesome-claude-skills",
+    "name": "travisvn Awesome Claude Skills",
+    "nameEn": "Awesome Claude Skills",
+    "url": "https://github.com/travisvn/awesome-claude-skills",
+    "stars": 10049,
+    "description": "精選 Claude Skills 列表，品質優先",
+    "descriptionEn": "Curated Claude Skills list, quality-first"
+  },
+  {
+    "id": "alirezarezvani-claude-skills",
+    "name": "alirezarezvani Claude Skills",
+    "nameEn": "Claude Skills Collection",
+    "url": "https://github.com/alirezarezvani/claude-skills",
+    "stars": 7906,
+    "description": "192+ Skills，分類清晰",
+    "descriptionEn": "192+ skills with clear categorization"
+  },
+  {
+    "id": "xianyu110-chinese-tutorial",
+    "name": "xianyu110 中文教程",
+    "nameEn": "xianyu110 Chinese Tutorial",
+    "url": "https://github.com/xianyu110/awesome-openclaw-tutorial",
+    "stars": 3614,
+    "description": "最全中文教程，安裝 + 配置 + 避坑指南",
+    "descriptionEn": "Most comprehensive Chinese tutorial, covering install + config + troubleshooting"
+  }
+]

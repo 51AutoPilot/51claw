@@ -24,7 +24,7 @@
     "icon": "⛓️",
     "description": "DeFi protocols, wallets, and blockchain development",
     "descriptionZh": "DeFi 協議、錢包與區塊鏈開發",
-    "count": 14
+    "count": 15
   },
   {
     "id": "analytics",
@@ -42,7 +42,7 @@
     "icon": "🛡️",
     "description": "Smart contract auditing, penetration testing, and threat detection",
     "descriptionZh": "合約審計、滲透測試與威脅偵測",
-    "count": 10
+    "count": 11
   },
   {
     "id": "trading",
@@ -51,7 +51,7 @@
     "icon": "💹",
     "description": "Quantitative trading, backtesting, and financial analysis",
     "descriptionZh": "量化交易、回測與金融分析",
-    "count": 15
+    "count": 16
   },
   {
     "id": "frontend",
@@ -69,7 +69,7 @@
     "icon": "🔧",
     "description": "Slash commands, workflows, linters, and dev productivity",
     "descriptionZh": "斜線指令、工作流、Linter 與開發提速",
-    "count": 12
+    "count": 14
   },
   {
     "id": "multiagent",
@@ -78,7 +78,7 @@
     "icon": "🤖",
     "description": "Multi-agent coordination, orchestration, and frameworks",
     "descriptionZh": "多 Agent 協調、編排與框架",
-    "count": 10
+    "count": 13
   },
   {
     "id": "cloud",
@@ -87,7 +87,7 @@
     "icon": "☁️",
     "description": "IaC, CI/CD, containers, databases, and backend services",
     "descriptionZh": "IaC、CI/CD、容器、資料庫與後端服務",
-    "count": 12
+    "count": 13
   },
   {
     "id": "data",
@@ -114,7 +114,7 @@
     "icon": "📢",
     "description": "SEO optimization, content marketing, and social media",
     "descriptionZh": "SEO 優化、內容行銷與社群策略",
-    "count": 6
+    "count": 7
   },
   {
     "id": "productivity",
@@ -123,6 +123,6 @@
     "icon": "💼",
     "description": "Office tools, communication, search, MCP servers, and utilities",
     "descriptionZh": "辦公工具、通訊、搜尋、MCP 與實用工具",
-    "count": 33
+    "count": 39
   }
 ]

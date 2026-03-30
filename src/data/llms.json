@@ -1,11 +1,11 @@
 [
   {
-    "slug": "claude",
-    "name": "Claude",
+    "slug": "claude-opus",
+    "name": "Claude Opus 4.6",
     "provider": "Anthropic",
     "icon": "🟠",
-    "description": "最強推理能力，支援 1M context，程式碼生成頂尖",
-    "descriptionEn": "Best-in-class reasoning with 1M context, top-tier code generation",
+    "description": "最強推理 + 編程能力，支援 1M context，複雜任務首選",
+    "descriptionEn": "Top-tier reasoning + coding with 1M context, best for complex tasks",
     "pricing": {
       "input": 15,
       "output": 75
@@ -13,13 +13,13 @@
     "contextLength": 1000000,
     "apiUrl": "https://console.anthropic.com/",
     "features": [
-      "推理",
+      "頂級推理",
       "長上下文",
       "工具使用",
       "視覺"
     ],
     "featuresEn": [
-      "Reasoning",
+      "Top Reasoning",
       "Long Context",
       "Tool Use",
       "Vision"
@@ -37,32 +37,115 @@
       "Copy the API Key and set ANTHROPIC_API_KEY environment variable"
     ],
     "type": "closed",
-    "free": false
+    "free": false,
+    "recommended": "complex"
   },
   {
-    "slug": "gpt",
-    "name": "GPT",
-    "provider": "OpenAI",
-    "icon": "🟢",
-    "description": "最廣泛使用的 LLM，生態系最完整，GPT-4o 多模態能力強",
-    "descriptionEn": "Most widely adopted LLM with the richest ecosystem, GPT-4o excels at multimodal tasks",
+    "slug": "claude-sonnet",
+    "name": "Claude Sonnet",
+    "provider": "Anthropic",
+    "icon": "🟠",
+    "description": "性價比之王 — 日常使用首選，推理和編程能力均衡",
+    "descriptionEn": "Best bang for buck — daily driver with balanced reasoning and coding",
     "pricing": {
-      "input": 5,
+      "input": 3,
       "output": 15
     },
-    "contextLength": 128000,
-    "apiUrl": "https://platform.openai.com/",
+    "contextLength": 200000,
+    "apiUrl": "https://console.anthropic.com/",
     "features": [
-      "多模態",
-      "函數呼叫",
-      "JSON 模式",
-      "微調"
+      "高性價比",
+      "推理",
+      "編程",
+      "工具使用"
     ],
     "featuresEn": [
-      "Multimodal",
+      "Cost-effective",
+      "Reasoning",
+      "Coding",
+      "Tool Use"
+    ],
+    "steps": [
+      "前往 console.anthropic.com 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create Key",
+      "複製 API Key，設定環境變數 ANTHROPIC_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to console.anthropic.com and sign up",
+      "Navigate to the API Keys page",
+      "Click Create Key",
+      "Copy the API Key and set ANTHROPIC_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false,
+    "recommended": "daily"
+  },
+  {
+    "slug": "claude-haiku",
+    "name": "Claude Haiku",
+    "provider": "Anthropic",
+    "icon": "🟠",
+    "description": "Anthropic 最便宜的模型，適合批量任務和簡單問答",
+    "descriptionEn": "Anthropic's cheapest model, ideal for batch tasks and simple Q&A",
+    "pricing": {
+      "input": 0.25,
+      "output": 1.25
+    },
+    "contextLength": 200000,
+    "apiUrl": "https://console.anthropic.com/",
+    "features": [
+      "超便宜",
+      "快速回應",
+      "批量處理",
+      "工具使用"
+    ],
+    "featuresEn": [
+      "Ultra-cheap",
+      "Fast Response",
+      "Batch Processing",
+      "Tool Use"
+    ],
+    "steps": [
+      "前往 console.anthropic.com 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create Key",
+      "複製 API Key，設定環境變數 ANTHROPIC_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to console.anthropic.com and sign up",
+      "Navigate to the API Keys page",
+      "Click Create Key",
+      "Copy the API Key and set ANTHROPIC_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false,
+    "recommended": "budget"
+  },
+  {
+    "slug": "gpt-54-mini",
+    "name": "GPT-5.4 Mini",
+    "provider": "OpenAI",
+    "icon": "🟢",
+    "description": "推理能力強 + 400K 上下文，OpenAI 通用首選",
+    "descriptionEn": "Strong reasoning + 400K context, OpenAI's go-to general model",
+    "pricing": {
+      "input": 0.75,
+      "output": 4.5
+    },
+    "contextLength": 400000,
+    "apiUrl": "https://platform.openai.com/",
+    "features": [
+      "推理",
+      "超長上下文",
+      "函數呼叫",
+      "多模態"
+    ],
+    "featuresEn": [
+      "Reasoning",
+      "Ultra-long Context",
       "Function Calling",
-      "JSON Mode",
-      "Fine-tuning"
+      "Multimodal"
     ],
     "steps": [
       "前往 platform.openai.com 註冊帳號",
@@ -77,18 +160,62 @@
       "Copy the API Key and set OPENAI_API_KEY environment variable"
     ],
     "type": "closed",
-    "free": false
+    "free": false,
+    "recommended": "general"
+  },
+  {
+    "slug": "gpt-54-nano",
+    "name": "GPT-5.4 Nano",
+    "provider": "OpenAI",
+    "icon": "🟢",
+    "description": "超便宜的 OpenAI 模型，省錢首選",
+    "descriptionEn": "Ultra-cheap OpenAI model, top budget pick",
+    "pricing": {
+      "input": 0.2,
+      "output": 1.25
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://platform.openai.com/",
+    "features": [
+      "超便宜",
+      "快速",
+      "函數呼叫",
+      "JSON 模式"
+    ],
+    "featuresEn": [
+      "Ultra-cheap",
+      "Fast",
+      "Function Calling",
+      "JSON Mode"
+    ],
+    "steps": [
+      "前往 platform.openai.com 註冊帳號",
+      "進入 API Keys 頁面",
+      "點擊 Create new secret key",
+      "複製 API Key，設定環境變數 OPENAI_API_KEY"
+    ],
+    "stepsEn": [
+      "Go to platform.openai.com and sign up",
+      "Navigate to API Keys page",
+      "Click Create new secret key",
+      "Copy the API Key and set OPENAI_API_KEY environment variable"
+    ],
+    "type": "closed",
+    "free": false,
+    "recommended": "budget"
   },
   {
     "slug": "gemini",
-    "name": "Gemini",
+    "name": "Gemini 3",
     "provider": "Google",
     "icon": "🔵",
-    "description": "Google 旗艦模型，2M context window 業界最大，多模態原生支援",
-    "descriptionEn": "Google's flagship model with industry-leading 2M context window, native multimodal support",
+    "description": "Google 旗艦模型，有免費額度，多模態原生支援，新手試水首選",
+    "descriptionEn": "Google's flagship model with free tier, native multimodal support, great for beginners",
     "pricing": {
-      "input": 7,
-      "output": 21
+      "input": 0,
+      "output": 0,
+      "note": "免費額度",
+      "noteEn": "Free tier available"
     },
     "contextLength": 2000000,
     "apiUrl": "https://aistudio.google.com/",
@@ -124,11 +251,11 @@
     "name": "DeepSeek",
     "provider": "DeepSeek",
     "icon": "🐋",
-    "description": "中國開源模型黑馬，推理能力媲美頂尖模型，價格極低",
-    "descriptionEn": "China's open-source dark horse, reasoning rivaling top models at a fraction of the cost",
+    "description": "國產最強性價比，推理能力媲美頂尖模型，中文場景首選",
+    "descriptionEn": "Best value from China, reasoning rivaling top models, best pick for Chinese use cases",
     "pricing": {
-      "input": 0.27,
-      "output": 1.1
+      "input": 0.14,
+      "output": 0.28
     },
     "contextLength": 128000,
     "apiUrl": "https://platform.deepseek.com/",
@@ -281,14 +408,14 @@
   },
   {
     "slug": "mistral",
-    "name": "Mistral",
+    "name": "Mistral Small 4",
     "provider": "Mistral AI",
     "icon": "🌀",
-    "description": "歐洲 AI 領頭羊，模型精悍高效，Agent 和函數呼叫能力優秀",
-    "descriptionEn": "Europe's AI leader, lean and efficient models with excellent agent and function calling capabilities",
+    "description": "便宜 + 推理能力不錯，預算方案好選擇",
+    "descriptionEn": "Cheap with decent reasoning, solid budget option",
     "pricing": {
-      "input": 3,
-      "output": 9
+      "input": 0.15,
+      "output": 0.6
     },
     "contextLength": 128000,
     "apiUrl": "https://console.mistral.ai/",
@@ -361,14 +488,14 @@
   },
   {
     "slug": "minimax",
-    "name": "MiniMax",
-    "provider": "MiniMax",
+    "name": "MiniMax M2.7",
+    "provider": "NovitaAI",
     "icon": "🎯",
-    "description": "語音和多模態見長，TTS 和語音對話品質業界領先",
-    "descriptionEn": "Specializes in voice and multimodal, with industry-leading TTS and voice conversation quality",
+    "description": "長上下文處理見長，適合文檔處理和大量文字任務",
+    "descriptionEn": "Excels at long context, ideal for document processing and text-heavy tasks",
     "pricing": {
-      "input": 1,
-      "output": 1
+      "input": 0.3,
+      "output": 1.2
     },
     "contextLength": 245760,
     "apiUrl": "https://platform.minimaxi.com/",
@@ -477,6 +604,46 @@
       "Copy the API Key and set YI_API_KEY environment variable"
     ],
     "type": "closed",
+    "free": false
+  },
+  {
+    "slug": "mimo-v2-omni",
+    "name": "MiMo-V2-Omni",
+    "provider": "Xiaomi",
+    "icon": "📱",
+    "description": "小米推理 + 多模態模型，性價比高",
+    "descriptionEn": "Xiaomi's reasoning + multimodal model, great value",
+    "pricing": {
+      "input": 0.4,
+      "output": 2
+    },
+    "contextLength": 128000,
+    "apiUrl": "https://platform.xiaomi.com/",
+    "features": [
+      "推理",
+      "多模態",
+      "性價比",
+      "開源"
+    ],
+    "featuresEn": [
+      "Reasoning",
+      "Multimodal",
+      "Cost-effective",
+      "Open Source"
+    ],
+    "steps": [
+      "透過相容的 API 服務使用（如 OpenRouter）",
+      "取得 API Key",
+      "設定環境變數",
+      "在 Claude Code 中切換模型"
+    ],
+    "stepsEn": [
+      "Use via compatible API services (e.g. OpenRouter)",
+      "Get your API Key",
+      "Set environment variable",
+      "Switch model in Claude Code"
+    ],
+    "type": "open",
     "free": false
   }
 ]

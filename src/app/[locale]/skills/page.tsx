@@ -3,14 +3,13 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
-import { Link, useRouter, usePathname } from "@/i18n/navigation";
+import { Link } from "@/i18n/navigation";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import skills from "@/data/skills.json";
 import categories from "@/data/categories.json";
 
 type Skill = (typeof skills)[number];
 
-// 分類 accent 色
 const categoryAccent: Record<string, string> = {
   cex: "#fbbf24",
   news: "#38bdf8",
@@ -28,7 +27,7 @@ const categoryAccent: Record<string, string> = {
   productivity: "#94a3b8",
 };
 
-// Fade-up 動畫用的 hook
+/* ─── Fade-up 動畫 hook ─── */
 function useFadeUp() {
   const [visibleSet, setVisibleSet] = useState<Set<string>>(new Set());
   const observerRef = useRef<IntersectionObserver | null>(null);
@@ -65,22 +64,57 @@ function useFadeUp() {
   return { visibleSet, observe };
 }
 
+/* ─── 一鍵複製按鈕 ─── */
+function CopyButton({ text }: { text: string }) {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = useCallback(
+    async (e: React.MouseEvent) => {
+      e.preventDefault();
+      e.stopPropagation();
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    },
+    [text]
+  );
+
+  return (
+    <button
+      onClick={handleCopy}
+      className={`flex-shrink-0 rounded-md px-2 py-1 text-[11px] font-medium transition-all duration-200 ${
+        copied
+          ? "bg-green-500/20 text-green-400"
+          : "text-text-muted hover:bg-white/5 hover:text-foreground"
+      }`}
+      title={text}
+    >
+      {copied ? "✓" : "📋"}
+    </button>
+  );
+}
+
+/* ─── 格式化 stars 數字 ─── */
+function formatStars(stars: number): string {
+  if (stars >= 1000) {
+    return `${(stars / 1000).toFixed(1)}k`;
+  }
+  return String(stars);
+}
+
 export default function SkillsPage() {
   const t = useTranslations("skills");
-  const tCommon = useTranslations("common");
   const locale = useLocale();
   const searchParams = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
 
   const initialCategory = searchParams.get("category") ?? "all";
   const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [search, setSearch] = useState("");
+  const [sortByStars, setSortByStars] = useState(false);
   const { visibleSet, observe } = useFadeUp();
 
   const handleCategoryChange = (cat: string) => {
     setActiveCategory(cat);
-    // 同步到 URL query param
     if (typeof window !== "undefined") {
       const url = new URL(window.location.href);
       if (cat === "all") {
@@ -93,7 +127,7 @@ export default function SkillsPage() {
   };
 
   const filtered = useMemo(() => {
-    let result: Skill[] = skills;
+    let result: Skill[] = [...skills];
 
     if (activeCategory !== "all") {
       result = result.filter((s) => s.category === activeCategory);
@@ -107,12 +141,26 @@ export default function SkillsPage() {
           s.nameZh.toLowerCase().includes(q) ||
           s.description.toLowerCase().includes(q) ||
           s.descriptionZh.toLowerCase().includes(q) ||
-          s.tags.some((tag) => tag.toLowerCase().includes(q))
+          s.tags.some((tag) => tag.toLowerCase().includes(q)) ||
+          s.tagsZh.some((tag) => tag.toLowerCase().includes(q))
       );
     }
 
+    // 排序：essentials 置頂，然後按 stars 或預設
+    if (sortByStars) {
+      result.sort((a, b) => {
+        if (a.isEssential !== b.isEssential) return a.isEssential ? -1 : 1;
+        return (b.stars ?? 0) - (a.stars ?? 0);
+      });
+    } else {
+      result.sort((a, b) => {
+        if (a.isEssential !== b.isEssential) return a.isEssential ? -1 : 1;
+        return 0;
+      });
+    }
+
     return result;
-  }, [activeCategory, search]);
+  }, [activeCategory, search, sortByStars]);
 
   const allCategories = [
     { id: "all", nameZh: t("all"), name: t("all") },
@@ -123,6 +171,7 @@ export default function SkillsPage() {
     <div className="px-4 py-20">
       <div className="mx-auto max-w-7xl">
         <Breadcrumb currentPage={t("title")} />
+
         {/* Header */}
         <div className="text-center">
           <h1 className="text-gradient-claude font-heading text-4xl font-bold sm:text-5xl">
@@ -159,7 +208,7 @@ export default function SkillsPage() {
           </div>
         </div>
 
-        {/* Category Filter — 手機版水平滾動，桌面版 flex-wrap 換行 */}
+        {/* Category Filter */}
         <div className="mt-8 py-4 -mx-4 px-4 overflow-x-auto scrollbar-hide sm:mx-0 sm:px-0 sm:overflow-x-visible">
           <div className="flex gap-2 sm:flex-wrap sm:justify-center min-w-max sm:min-w-0">
             {allCategories.map((cat) => (
@@ -178,111 +227,150 @@ export default function SkillsPage() {
           </div>
         </div>
 
+        {/* Sort + Count */}
+        <div className="mt-6 flex items-center justify-between">
+          <span className="text-sm text-text-muted">
+            {filtered.length} {t("skillCount")}
+          </span>
+          <button
+            onClick={() => setSortByStars((prev) => !prev)}
+            className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-colors duration-200 ${
+              sortByStars
+                ? "bg-primary/15 text-primary-light border border-primary/30"
+                : "border border-card-border text-text-muted hover:text-foreground"
+            }`}
+          >
+            {sortByStars ? `⭐ ${t("sortByStars")}` : t("sortDefault")}
+          </button>
+        </div>
+
         {/* Skills Grid */}
         {filtered.length > 0 ? (
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((skill, index) => {
               const accent = categoryAccent[skill.category] || "#D4A574";
               const isVisible = visibleSet.has(skill.id);
               const staggerDelay = Math.min(index * 50, 300);
 
               return (
-                <div
+                <Link
                   key={skill.id}
-                  ref={observe}
-                  data-skill-id={skill.id}
-                  className="skill-card group relative overflow-hidden rounded-2xl border border-card-border bg-card-bg backdrop-blur-sm"
-                  style={{
-                    // @ts-expect-error CSS custom property
-                    "--card-accent": accent,
-                    opacity: isVisible ? 1 : 0,
-                    transform: isVisible ? "none" : "translateY(16px)",
-                    transition: `opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${staggerDelay}ms, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${staggerDelay}ms`,
-                  }}
+                  href={`/skills/${skill.id}`}
+                  className="group block"
                 >
-                  {/* Hover 頂部 accent 漸層線 */}
                   <div
-                    className="h-[2px] w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                    ref={observe}
+                    data-skill-id={skill.id}
+                    className="skill-card relative h-full overflow-hidden rounded-2xl border border-card-border bg-card-bg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/20 hover:shadow-[0_4px_24px_rgba(232,115,74,0.08)]"
                     style={{
-                      background: `linear-gradient(to right, transparent, ${accent}, transparent)`,
+                      // @ts-expect-error CSS custom property
+                      "--card-accent": accent,
+                      opacity: isVisible ? 1 : 0,
+                      transform: isVisible
+                        ? "none"
+                        : "translateY(16px)",
+                      transition: `opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${staggerDelay}ms, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${staggerDelay}ms`,
                     }}
-                  />
+                  >
+                    {/* Hover 頂部 accent 漸層線 */}
+                    <div
+                      className="h-[2px] w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                      style={{
+                        background: `linear-gradient(to right, transparent, ${accent}, transparent)`,
+                      }}
+                    />
 
-                  <div className="relative px-6 py-5">
-                    {/* 官方 badge（右上角） */}
-                    {skill.isOfficial && (
-                      <span className="absolute right-4 top-4 rounded-full bg-blue-500/15 px-2 py-0.5 text-[10px] font-medium text-blue-400">
-                        Official
-                      </span>
-                    )}
+                    <div className="relative px-5 py-5">
+                      {/* Badges 區域（右上角） */}
+                      <div className="absolute right-4 top-4 flex flex-col items-end gap-1.5">
+                        {skill.isEssential && (
+                          <span className="rounded-full bg-amber-500/15 px-2.5 py-0.5 text-[10px] font-bold text-amber-400">
+                            ⭐ {t("essential")}
+                          </span>
+                        )}
+                        {skill.isOfficial && (
+                          <span className="rounded-full bg-blue-500/15 px-2.5 py-0.5 text-[10px] font-medium text-blue-400">
+                            {t("detail.official")}
+                          </span>
+                        )}
+                        {skill.verdict === "warn" && (
+                          <span
+                            className="rounded-full bg-amber-500/10 px-2 py-0.5 text-[10px] font-medium text-amber-400"
+                            title={skill.warning || ""}
+                          >
+                            ⚠️ {t("detail.auditWarn")}
+                          </span>
+                        )}
+                      </div>
 
-                    {/* Warn 標記（右上角，官方下方） */}
-                    {skill.verdict === "warn" && (
-                      <span
-                        className={`absolute ${skill.isOfficial ? "right-4 top-10" : "right-4 top-4"} text-amber-400 text-sm`}
-                        title={skill.warning || ""}
-                      >
-                        ⚠️
-                      </span>
-                    )}
-
-                    <div className="flex items-start gap-3">
-                      <span className="text-2xl">{skill.icon}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2 pr-16">
+                      {/* Icon + Name + Category */}
+                      <div className="flex items-start gap-3 pr-20">
+                        <span className="text-2xl">{skill.icon}</span>
+                        <div className="flex-1 min-w-0">
                           <h3 className="font-heading text-base font-semibold text-foreground truncate">
                             {locale === "zh-TW" ? skill.nameZh : skill.name}
                           </h3>
-                          {/* 分類 badge — 用分類 accent 色 */}
                           <span
-                            className="flex-shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium"
+                            className="mt-1 inline-block rounded-full px-2 py-0.5 text-[10px] font-medium"
                             style={{
                               backgroundColor: `${accent}1a`,
                               color: accent,
                             }}
                           >
                             {locale === "zh-TW"
-                              ? categories.find(
-                                  (c) => c.id === skill.category
-                                )?.nameZh
-                              : categories.find(
-                                  (c) => c.id === skill.category
-                                )?.name}
+                              ? categories.find((c) => c.id === skill.category)?.nameZh
+                              : categories.find((c) => c.id === skill.category)?.name}
                           </span>
                         </div>
-                        <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-text-muted">
-                          {locale === "zh-TW"
-                            ? skill.descriptionZh
-                            : skill.description}
-                        </p>
-                        {/* Tags */}
-                        <div className="mt-3 flex flex-wrap gap-1.5">
-                          {skill.tags.map((tag) => (
-                            <span
-                              key={tag}
-                              className="rounded-md bg-white/5 px-2 py-0.5 text-[11px] text-text-muted"
-                            >
-                              {tag}
-                            </span>
-                          ))}
+                      </div>
+
+                      {/* Description */}
+                      <p className="mt-3 line-clamp-2 text-sm leading-relaxed text-text-muted">
+                        {locale === "zh-TW"
+                          ? skill.descriptionZh
+                          : skill.description}
+                      </p>
+
+                      {/* Stars + Tags */}
+                      <div className="mt-3 flex items-center gap-3">
+                        {skill.stars != null && skill.stars > 0 && (
+                          <span className="flex items-center gap-1 text-xs text-text-muted">
+                            <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" className="text-amber-400">
+                              <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" />
+                            </svg>
+                            {formatStars(skill.stars)}
+                          </span>
+                        )}
+                        <div className="flex flex-wrap gap-1.5">
+                          {(locale === "zh-TW" ? skill.tagsZh : skill.tags)
+                            .slice(0, 3)
+                            .map((tag) => (
+                              <span
+                                key={tag}
+                                className="rounded-md bg-white/5 px-2 py-0.5 text-[11px] text-text-muted"
+                              >
+                                {tag}
+                              </span>
+                            ))}
                         </div>
                       </div>
-                    </div>
-                    <div className="mt-4 pt-3 border-t border-card-border">
-                      <Link
-                        href={`/skills/${skill.id}`}
-                        className="inline-flex w-full items-center justify-center rounded-lg px-4 py-1.5 text-sm font-medium text-text-muted transition-all duration-300 ease-out hover:text-foreground hover:bg-white/5"
-                      >
-                        {tCommon("viewDetails")}
-                      </Link>
+
+                      {/* Install 指令 + 複製 */}
+                      {skill.installCmd && (
+                        <div className="mt-3 flex items-center gap-2 rounded-lg bg-black/20 px-3 py-2">
+                          <code className="flex-1 truncate font-mono text-[11px] text-text-muted">
+                            {skill.installCmd}
+                          </code>
+                          <CopyButton text={skill.installCmd} />
+                        </div>
+                      )}
                     </div>
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>
         ) : (
-          /* Empty State */
           <div className="mt-20 text-center">
             <div className="text-5xl">🔍</div>
             <p className="mt-4 text-lg font-medium text-foreground">

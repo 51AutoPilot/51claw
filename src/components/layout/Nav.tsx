@@ -9,10 +9,12 @@ import { useRouter } from "@/i18n/navigation";
 const navLinks = [
   { href: "/", key: "home" },
   { href: "/install", key: "install" },
+  { href: "/guide", key: "guide" },
   { href: "/skills", key: "skills" },
   { href: "/about", key: "about" },
   { href: "/blog", key: "blog" },
   { href: "/bundles", key: "bundles" },
+  { href: "/resources", key: "resources" },
   { href: "/llms", key: "llms" },
   { href: "/models", key: "models" },
 ] as const;

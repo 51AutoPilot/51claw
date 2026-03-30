@@ -1,0 +1,72 @@
+[
+  {
+    "id": "openclaw-vs-cc",
+    "question": "OpenClaw vs Claude Code 差在哪？",
+    "questionEn": "What's the difference between OpenClaw and Claude Code?",
+    "answer": "**一句話：** OpenClaw 是平台，Claude Code 是底層引擎之一。\n\nClaude Code 是 Anthropic 出的 AI 開發工具，你可以把它想成一個很聰明的大腦。OpenClaw 是一個完整的系統，它把 Claude Code（以及其他 AI 模型）包起來，加上 Skill 市場、Telegram 整合、Cron 排程、Web UI — 讓你不用寫程式就能用 AI 幹活。\n\n**簡單類比：**\n- Claude Code = 引擎\n- OpenClaw = 整台車（引擎 + 方向盤 + 導航 + 音響）\n\n你不需要二選一。用 OpenClaw 的時候，底層就在用 Claude Code（或你選的其他模型）。",
+    "answerEn": "**One-liner:** OpenClaw is the platform, Claude Code is one of the engines under the hood.\n\nClaude Code is Anthropic's AI dev tool — think of it as a powerful brain. OpenClaw wraps Claude Code (and other AI models) into a complete system: Skill marketplace, Telegram integration, Cron scheduling, Web UI — so you can use AI without writing code.\n\n**Simple analogy:**\n- Claude Code = engine\n- OpenClaw = the whole car (engine + steering + GPS + stereo)\n\nYou don't need to choose between them. When you use OpenClaw, it's already using Claude Code (or whichever model you pick) underneath."
+  },
+  {
+    "id": "cost",
+    "question": "要花多少錢？",
+    "questionEn": "How much does it cost?",
+    "answer": "**比你想的便宜很多。** 最低每月不到 $1。\n\n費用分兩塊：\n\n**1. AI 模型 API 費用（按用量計費）：**\n- 每天聊幾句：Sonnet ~$0.5/月、Haiku ~$0.05/月、DeepSeek ~$0.03/月\n- 每天工作用：Sonnet ~$5/月、Haiku ~$0.5/月、DeepSeek ~$0.3/月\n- 全天重度使用：Sonnet ~$25/月、Haiku ~$2.5/月、DeepSeek ~$1.5/月\n\n**2. VPS 費用（如果要 24 小時跑 Cron）：** $5-15/月\n\n**省錢策略：** 日常用 Sonnet，Cron 和簡單任務用 Haiku 或 DeepSeek。大部分人每月 $5-10 就夠了。\n\n> Google Gemini 有免費額度，新手可以先用免費方案試水。",
+    "answerEn": "**Way cheaper than you think.** Starting from less than $1/month.\n\nTwo cost components:\n\n**1. AI Model API (pay-as-you-go):**\n- Casual chats: Sonnet ~$0.5/mo, Haiku ~$0.05/mo, DeepSeek ~$0.03/mo\n- Daily work: Sonnet ~$5/mo, Haiku ~$0.5/mo, DeepSeek ~$0.3/mo\n- Heavy all-day: Sonnet ~$25/mo, Haiku ~$2.5/mo, DeepSeek ~$1.5/mo\n\n**2. VPS (if running Cron 24/7):** $5-15/month\n\n**Money-saving tip:** Use Sonnet for daily work, Haiku or DeepSeek for Cron and simple tasks. Most people spend $5-10/month total.\n\n> Google Gemini has a free tier — great for beginners to test the waters before committing."
+  },
+  {
+    "id": "how-to-install",
+    "question": "怎麼裝？",
+    "questionEn": "How do I install it?",
+    "answer": "**3 步，5 分鐘。**\n\n```bash\n# 1. 裝 Node.js\nbrew install node          # macOS\nwinget install OpenJS.NodeJS.LTS  # Windows\n\n# 2. 裝 Claude Code\nnpm install -g @anthropic-ai/claude-code\n\n# 3. 設定 API Key\nexport ANTHROPIC_API_KEY=\"你的-key\"\n```\n\n然後打 `claude` 就能開始用。\n\n完整圖文步驟、常見錯誤排除、三個平台（macOS/Windows/Linux）的安裝教學 → [安裝指南](/install)",
+    "answerEn": "**3 steps, 5 minutes.**\n\n```bash\n# 1. Install Node.js\nbrew install node          # macOS\nwinget install OpenJS.NodeJS.LTS  # Windows\n\n# 2. Install Claude Code\nnpm install -g @anthropic-ai/claude-code\n\n# 3. Set API Key\nexport ANTHROPIC_API_KEY=\"your-key\"\n```\n\nRun `claude` and you're in.\n\nFull step-by-step with screenshots, troubleshooting, and platform-specific guides (macOS/Windows/Linux) → [Install Guide](/install)"
+  },
+  {
+    "id": "after-install",
+    "question": "裝了然後呢？",
+    "questionEn": "What do I do after installing?",
+    "answer": "**做三件事，立刻感受到價值：**\n\n1. **裝 AgentGuard** — 保護你的安全（`clawhub install agentguard`）\n2. **裝 find-skills** — 找到你需要的工具（`npx skills add find-skills`）\n3. **接 Telegram** — 讓 AI 能主動聯繫你\n\n裝完之後直接問：\n```\n你：我是幣圈新手，推薦我今天該關注什麼\n你：幫我查 BTC 現在的價格\n你：掃描我的環境有沒有安全問題\n```\n\n詳細的新手 SOP（Day 1 到 Week 2 完整引導）→ [新手指南](/guide)",
+    "answerEn": "**Do three things to see immediate value:**\n\n1. **Install AgentGuard** — protect yourself (`clawhub install agentguard`)\n2. **Install find-skills** — find what you need (`npx skills add find-skills`)\n3. **Connect Telegram** — let your AI reach you proactively\n\nThen just ask:\n```\nYou: I'm new to crypto, what should I be watching today?\nYou: Check the current BTC price\nYou: Scan my environment for security issues\n```\n\nFull beginner SOP (Day 1 through Week 2 guide) → [Getting Started](/guide)"
+  },
+  {
+    "id": "what-is-mcp",
+    "question": "MCP 是什麼？",
+    "questionEn": "What is MCP?",
+    "answer": "**白話版：MCP 是讓 AI 連上外部世界的橋樑。**\n\nAI 本身很聰明，但它被關在一個封閉的房間裡 — 看不到即時價格、讀不到新聞、碰不到你的錢包。\n\nMCP（Model Context Protocol）就是幫 AI 開窗戶。每裝一個 Skill，就是多開一扇窗：\n- 裝了 Binance Skill → AI 能看到幣安行情\n- 裝了 AgentGuard → AI 能掃描安全威脅\n- 裝了 Telegram → AI 能發訊息給你\n\n**你不需要懂 MCP 的技術原理。** 只需要知道：想讓 AI 做什麼，找對應的 Skill 裝就好。Skill 就是 MCP 的應用層。",
+    "answerEn": "**Plain English: MCP is a bridge connecting AI to the outside world.**\n\nAI is smart, but it's locked in a sealed room — can't see live prices, can't read news, can't touch your wallet.\n\nMCP (Model Context Protocol) opens windows. Each Skill you install opens a new one:\n- Install Binance Skill → AI sees market data\n- Install AgentGuard → AI scans security threats\n- Install Telegram → AI can message you\n\n**You don't need to understand how MCP works technically.** Just know this: want your AI to do something? Find the matching Skill and install it. Skills are the user-facing layer of MCP."
+  },
+  {
+    "id": "how-to-choose-skills",
+    "question": "Skill 怎麼挑？",
+    "questionEn": "How do I choose the right Skills?",
+    "answer": "**兩個原則：看需求、看安全。**\n\n**看需求：** 先想清楚你要 AI 幫你做什麼。查價格？追新聞？寫代碼？做影片？然後到 [Skills 目錄](/skills) 搜尋，每個 Skill 都有使用範例，一看就知道合不合用。\n\n**看安全：** ClawHub 上有 **13.4% 的 Skill 存在安全問題**（Snyk 審計結果）。裝之前養成習慣：\n\n1. 看 GitHub Stars — Stars 多的通常比較可靠\n2. 看是不是官方出的（幣安、Anthropic、Uniswap 等官方 Skill 優先）\n3. 用 AgentGuard 掃一下：`你：用 AgentGuard 掃描這個 Skill`\n4. 不確定就不裝\n\n> **51Claw 的 Skills 目錄已經幫你做過一輪篩選**，每個都有安全評級（pass / warn / reject）。從這裡選比直接去 ClawHub 安全得多。",
+    "answerEn": "**Two principles: check your needs, check the security.**\n\n**Needs:** Think about what you want AI to do. Check prices? Track news? Write code? Make videos? Then search the [Skills Directory](/skills) — every Skill has usage examples so you know if it fits.\n\n**Security:** **13.4% of Skills on ClawHub have security issues** (per Snyk audit). Make this a habit before installing:\n\n1. Check GitHub Stars — more stars usually means more reliable\n2. Prefer official Skills (Binance, Anthropic, Uniswap, etc.)\n3. Scan with AgentGuard: `You: Scan this Skill with AgentGuard`\n4. When in doubt, don't install\n\n> **51Claw's Skills Directory is pre-screened** — every Skill has a security rating (pass / warn / reject). Picking from here is much safer than browsing ClawHub raw."
+  },
+  {
+    "id": "use-cases",
+    "question": "能拿來幹嘛？",
+    "questionEn": "What can I do with it?",
+    "answer": "**比你想的多。以下是真實用例：**\n\n**交易 & 研究**\n- 即時查價格、K 線、多空比、資金費率\n- 追蹤巨鯨錢包，看聰明錢在做什麼\n- BTC ETF 資金流監控\n- 每天自動生成市場簡報推送到 Telegram\n\n**自動化**\n- 設 Cron 每天自動查新聞、價格、巨鯨動態\n- BTC 跌超過 5% 自動告警\n- 每週生成投資組合報告\n\n**寫代碼**\n- 幫你建網站、寫 API、修 Bug\n- 用自然語言描述需求，AI 直接寫\n- 多 Agent 並行開發（oh-my-claudecode）\n\n**內容創作**\n- 自動生成研究報告、新聞摘要\n- 做簡報、流程圖、數據表格\n- 用 React 做影片（Remotion）",
+    "answerEn": "**More than you'd expect. Here are real use cases:**\n\n**Trading & Research**\n- Real-time prices, K-lines, long/short ratios, funding rates\n- Track whale wallets, see what smart money is doing\n- BTC ETF flow monitoring\n- Auto-generate daily market briefs, pushed to Telegram\n\n**Automation**\n- Cron jobs for daily news, prices, whale activity\n- BTC drops 5%? Auto-alert\n- Weekly portfolio reports\n\n**Coding**\n- Build websites, write APIs, fix bugs\n- Describe what you want in plain language, AI codes it\n- Multi-agent parallel development (oh-my-claudecode)\n\n**Content Creation**\n- Auto-generate research reports, news digests\n- Create presentations, flowcharts, data tables\n- Make videos with React (Remotion)"
+  },
+  {
+    "id": "free-plan",
+    "question": "免費方案夠用嗎？",
+    "questionEn": "Is the free plan enough?",
+    "answer": "**看你怎麼用。**\n\n- **Google Gemini** 有免費額度，每天聊幾句完全夠用。適合先試水、感受一下 AI 能做什麼。\n- **Anthropic Claude** 註冊送 $5，大概能聊好幾天。\n- **DeepSeek** 極度便宜（輸入 $0.14/M tokens），一個月可能 $1 都不到。\n\n**免費方案的限制：**\n- 模型能力可能較弱（免費的通常不是最強的）\n- 有 rate limit（每分鐘能問幾次有上限）\n- 進階功能可能受限\n\n**建議：** 先用免費方案玩一圈，確定自己會持續用，再花 $5-10/月升級到 Sonnet。這比一杯咖啡便宜。",
+    "answerEn": "**Depends on how you use it.**\n\n- **Google Gemini** has a free tier — enough for casual daily chats. Great for testing the waters.\n- **Anthropic Claude** gives $5 free credits on signup — that's several days of chatting.\n- **DeepSeek** is absurdly cheap ($0.14/M input tokens) — could be under $1/month.\n\n**Free tier limitations:**\n- Model capability may be weaker (free ≠ best)\n- Rate limits (caps on requests per minute)\n- Advanced features might be restricted\n\n**Recommendation:** Play around with free tiers first. Once you know you'll keep using it, upgrade to Sonnet for $5-10/month. That's less than a cup of coffee."
+  },
+  {
+    "id": "security",
+    "question": "安全嗎？",
+    "questionEn": "Is it safe?",
+    "answer": "**給 AI 權限是要小心，但有方法管理風險。**\n\n**風險在哪：**\n- Skill 可以存取你的資料和網路 — 裝錯 Skill 就像裝了流氓 App\n- ClawHub 上 13.4% 的 Skill 有安全問題\n- 如果你讓 AI 操作錢包，私鑰的安全至關重要\n\n**怎麼保護自己：**\n\n1. **裝 AgentGuard**（GoPlus 出品）— 環境巡檢 + 惡意 Skill 攔截 + 動態監控\n2. **裝 SlowMist 慢霧安全** — 投毒偵測、釣魚檢測、代碼後門掃描\n3. **從 51Claw 選 Skill** — 我們每個 Skill 都有安全評級，比直接去 ClawHub 安全\n4. **不確定就不裝** — 寧可少一個功能\n5. **錢包操作用專用錢包** — 不要用你主錢包的私鑰\n\n> 安全不是 AI 的問題，是你怎麼用的問題。裝好防護、從可信來源選 Skill、敏感操作多確認，就不用怕。",
+    "answerEn": "**Giving AI permissions requires care, but the risk is manageable.**\n\n**Where the risk is:**\n- Skills can access your data and network — a bad Skill is like a rogue app\n- 13.4% of Skills on ClawHub have security issues\n- If AI controls a wallet, private key security is critical\n\n**How to protect yourself:**\n\n1. **Install AgentGuard** (by GoPlus) — environment audits + malicious Skill blocking + runtime monitoring\n2. **Install SlowMist Security** — poisoning detection, phishing checks, backdoor scanning\n3. **Pick Skills from 51Claw** — every Skill has a security rating, safer than raw ClawHub\n4. **When in doubt, don't install** — better to miss a feature\n5. **Use a dedicated wallet for AI operations** — never your main wallet's private key\n\n> Security isn't an AI problem, it's a usage problem. Set up defenses, choose Skills from trusted sources, double-check sensitive operations, and you'll be fine."
+  },
+  {
+    "id": "chinese-support",
+    "question": "中文支援如何？",
+    "questionEn": "How's the Chinese language support?",
+    "answer": "**比你預期的好。**\n\n- **中文 Prompt 完全沒問題** — Claude、GPT、DeepSeek 都能理解繁中和簡中\n- **51Claw 是繁體中文優先** — 所有教學、Skill 說明、FAQ 都有中文版\n- **中文 Skill 生態正在長** — 飛書 CLI（19 個 Skill）、微信公眾號 Skill、xianyu110 中文教程等\n- **DeepSeek 中文特別強** — 如果你主要用中文互動，它是性價比最高的選擇\n\n**目前的限制：**\n- 大部分 Skill 的官方文檔是英文，但 AI 可以即時翻譯\n- 有些 Skill 的指令只接受英文輸入\n\n> 中文市場是藍海。全球最成功的 Claude Code 教學是西班牙語的（4,425 愛心），中文市場更大卻還沒有同品質的教學 — 這就是 51Claw 在做的事。",
+    "answerEn": "**Better than you'd expect.**\n\n- **Chinese prompts work perfectly** — Claude, GPT, and DeepSeek all understand Traditional and Simplified Chinese\n- **51Claw is Traditional Chinese-first** — all tutorials, Skill descriptions, and FAQs have Chinese versions\n- **Chinese Skill ecosystem is growing** — Feishu/Lark CLI (19 Skills), WeChat Skill, xianyu110 Chinese tutorials, etc.\n- **DeepSeek excels at Chinese** — if you primarily interact in Chinese, it's the best value pick\n\n**Current limitations:**\n- Most Skill docs are in English, but AI can translate on the fly\n- Some Skills only accept English commands\n\n> The Chinese market is wide open. The most successful Claude Code tutorial globally is in Spanish (4,425 likes). The Chinese market is even bigger but lacks equivalent quality content — that's exactly what 51Claw is building."
+  }
+]

@@ -29,11 +29,25 @@
     "models": {
       "title": "Model Rankings | 51Claw",
       "description": "Real-time data from OpenRouter — 346+ models at a glance"
+    },
+    "faq": {
+      "title": "FAQ | 51Claw",
+      "description": "Common questions about 51Claw and AI Skills, answered"
+    },
+    "resources": {
+      "title": "Resources | 51Claw",
+      "description": "Curated tutorials, articles, and GitHub collections — from zero to advanced"
+    },
+    "guide": {
+      "title": "Getting Started | 51Claw",
+      "description": "Master the full AI Skills workflow in 4 days"
     }
   },
   "nav": {
     "home": "Home",
     "install": "Install",
+    "guide": "Getting Started",
+    "resources": "Resources",
     "skills": "Skills",
     "about": "About",
     "blog": "Blog",
@@ -160,6 +174,10 @@
     "all": "All",
     "noResults": "No Skills found matching your criteria",
     "noResultsHint": "Try different keywords or categories",
+    "essential": "Essential",
+    "sortByStars": "Sort by Stars",
+    "sortDefault": "Default",
+    "skillCount": "Skills",
     "detail": {
       "auditPass": "Audit Passed",
       "auditWarn": "Security Warning",
@@ -170,10 +188,17 @@
       "tags": "Tags",
       "installCmd": "Install Command",
       "installNote": "Installation Notes",
-      "visitLink": "Visit External Link",
+      "visitLink": "View on GitHub",
       "relatedSkills": "Related Skills",
       "notFound": "Skill not found",
-      "backToSkills": "Back to Skills Directory"
+      "backToSkills": "Back to Skills Directory",
+      "features": "Features",
+      "examples": "Usage Examples",
+      "suitableFor": "Best For",
+      "stars": "Stars",
+      "lastUpdated": "Last Updated",
+      "daysAgo": "days ago",
+      "copyInstall": "Copy Install Command"
     }
   },
   "about": {
@@ -313,13 +338,18 @@
     }
   },
   "llms": {
-    "title": "Model Hub — AI LLM API Guide",
-    "subtitle": "Get API keys for all major LLMs in one place",
+    "title": "Model Directory — Pick Smart, Spend Less",
+    "subtitle": "Pricing, features, and use-case recommendations for 10+ AI models. The best model isn't the most expensive one — it's the right one.",
     "searchPlaceholder": "Search models...",
     "pricing": "Pricing",
     "perMillion": "/ 1M tokens",
+    "inputPrice": "Input $/M tokens",
+    "outputPrice": "Output $/M tokens",
+    "contextLength": "Context Length",
+    "provider": "Provider",
     "free": "Free",
     "getApiKey": "How to Get API Key",
+    "getStarted": "Get Started",
     "visitApi": "Visit API Platform",
     "backToList": "Back to Model Hub",
     "notFound": "Model not found",
@@ -331,6 +361,172 @@
       "closed": "Closed Source",
       "free": "Free Tier",
       "paid": "Paid"
+    },
+    "recommended": {
+      "daily": "Daily Driver",
+      "budget": "Budget Pick",
+      "complex": "Best for Complex Tasks",
+      "general": "General Recommended"
+    },
+    "freeTier": "Free Tier Available",
+    "costEstimate": {
+      "title": "Monthly Cost Estimates",
+      "subtitle": "Not sure what it'll cost? See your monthly bill in 3 seconds.",
+      "dailyTokens": "Daily Tokens",
+      "perMonth": "/mo",
+      "light": "Light",
+      "lightDesc": "A few chats a day — asking questions, looking things up. Like casually Googling stuff.",
+      "medium": "Medium",
+      "mediumDesc": "Daily work use — writing copy, checking data, running Cron jobs. Your AI is basically a coworker now.",
+      "heavy": "Heavy",
+      "heavyDesc": "All-day dev mode — coding, building projects, multi-agent parallel work. AI is your entire team.",
+      "vpsTitle": "VPS Cost (Optional)",
+      "vpsDesc": "If you want Cron jobs running 24/7 without your computer on, you'll need a cloud server. Costs roughly $5-15/month. If you only use it on your own machine, skip this."
+    },
+    "savingTips": {
+      "title": "Money-Saving Tips",
+      "tip1": "Sonnet for daily work, Haiku for Cron.",
+      "tip1Desc": "Sonnet handles 90% of tasks. Haiku runs scheduled jobs perfectly at a fraction of the cost.",
+      "tip2": "Don't default to Opus.",
+      "tip2Desc": "Only switch for deep reasoning (complex code, long-form analysis). Most people are fine with Sonnet.",
+      "tip3": "Try DeepSeek.",
+      "tip3Desc": "If you work mainly in Chinese, DeepSeek matches the big players at 1/20th the price."
+    }
+  },
+  "resources": {
+    "title": "Resources — Don't Reinvent the Wheel",
+    "subtitle": "Curated tutorials, articles, and GitHub collections. From zero to advanced — someone's already mapped the minefield for you.",
+    "tutorials": {
+      "heading": "Recommended Tutorials",
+      "subtitle": "See how others use it — these tutorials got the most engagement on X. Real people, real results.",
+      "reactions": "Reactions",
+      "retweets": "Retweets",
+      "viewOnX": "View on X"
+    },
+    "collections": {
+      "heading": "GitHub Collections",
+      "subtitle": "Find more Skills — these GitHub collections feature thousands of Skills, pick what you need.",
+      "sortNote": "Sorted by GitHub Stars — more stars means more people found it useful.",
+      "stars": "Stars"
+    },
+    "tags": {
+      "all": "All",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "video": "Video Tutorial",
+      "cost-saving": "Cost Saving",
+      "tips": "Tips & Tricks",
+      "collection": "Collection",
+      "monetization": "Monetization",
+      "quick-start": "Quick Start",
+      "models": "Model Selection"
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Done watching? Start building. Get your AI live in 5 minutes.",
+      "install": "Install Now",
+      "skills": "Browse Skills"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Common questions about 51Claw and AI Skills, answered",
+    "stillHaveQuestions": "Still have questions?",
+    "joinCommunity": "Ask the community",
+    "communityDesc": "Drop your question in our LINE or Telegram group — someone will help you out.",
+    "communityUrl": "https://line.me/ti/g2/SCwiAQSnQ2SW6fFuKcOBs0sipyzdoOJ3FepZ2Q"
+  },
+  "guide": {
+    "title": "Beginner's Guide",
+    "subtitle": "Follow along — master the full AI Skills workflow in 4 days",
+    "progress": "Progress",
+    "complete": "Complete!",
+    "day1": {
+      "label": "Day 1",
+      "title": "Install + Join Telegram",
+      "subtitle": "Your AI assistant, live in 5 minutes. No coding background needed. No docs to read.",
+      "step1Title": "Install Node.js",
+      "step1Desc": "Claude Code runs on Node.js. You don't need to know what it is — just install it.",
+      "step2Title": "Install Claude Code",
+      "step2Desc": "Three options. Pick one. Beginners: go with the one-click install.",
+      "step3Title": "Set Up Your API Key",
+      "step3Desc": "Grab a key from your preferred provider. Recommended: Anthropic Claude ($5 free credits), DeepSeek (dirt cheap), Google Gemini (free tier).",
+      "step4Title": "Launch Claude Code",
+      "step4Desc": "Navigate to any project folder, run claude and start chatting. On first launch, Claude generates a CLAUDE.md — your project's briefing file.",
+      "step5Title": "Connect Telegram (Optional but Recommended)",
+      "step5Desc": "Talk to your AI without opening a computer. Once set up, you can ask questions and receive notifications right from your phone.",
+      "troubleshoot": "Troubleshooting",
+      "troubleshootItems": {
+        "q1": "node -v shows old version (v16, v18)?",
+        "a1": "Install the latest with nvm: nvm install 22 && nvm use 22. System package managers often ship outdated versions.",
+        "q2": "Windows can't find node after install?",
+        "a2": "Close and reopen your terminal. The PATH needs a restart to take effect.",
+        "q3": "EACCES permission error during npm install?",
+        "a3": "Don't use sudo npm install. Switch to nvm for Node.js to avoid permission issues entirely.",
+        "q4": "Windows PowerShell blocks script execution?",
+        "a4": "Open PowerShell as Admin, run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
+      }
+    },
+    "day2": {
+      "label": "Day 2",
+      "title": "Install 3 Essential Skills",
+      "subtitle": "An AI without Skills is just a chatbot. Install Skills and it goes from \"chatbot\" to \"actual assistant.\" Install 3 today, tomorrow you'll want 30.",
+      "step1Title": "GoPlus AgentGuard — Protect Yourself First",
+      "step1Desc": "13.4% of Skills on ClawHub have security issues. Before installing anything else, get your defenses up. Environment audit + malicious Skill blocking + runtime monitoring.",
+      "step2Title": "find-skills — The Skill Finder",
+      "step2Desc": "418.6K installs — one of the most popular Skills. When you don't know what Skill to use, just ask it. No need to memorize hundreds of names.",
+      "step3Title": "Pick One You Need",
+      "step3Desc": "Trader → CoinAnk API (K-lines, ETF flows, whale tracking). News → BlockBeats (research reports, 1500+ sources). Binance user → Binance Skills Hub (7-in-1). Not sure → go with Binance, most versatile.",
+      "step4Title": "Verify Skill Security",
+      "step4Desc": "Before installing any new Skill, make this a habit: scan with AgentGuard. When in doubt, don't install — better to miss a feature than gain a vulnerability.",
+      "troubleshoot": "Troubleshooting",
+      "troubleshootItems": {
+        "q1": "npx command errors?",
+        "a1": "Make sure Node.js 18+ is installed. Check with: node -v",
+        "q2": "Skill installed but nothing happens?",
+        "a2": "You need to restart Claude Code to load new Skills.",
+        "q3": "How to find more Skills?",
+        "a3": "Three channels: 51Claw Skills Directory (152+ curated), find-skills (just ask it), ClawHub (largest marketplace — always scan with AgentGuard first)."
+      }
+    },
+    "day3": {
+      "label": "Day 3",
+      "title": "Set Up Your First Cron",
+      "subtitle": "Make your AI proactive. Cron in plain English: scheduled alarm + auto-execution. Without Cron = AI waits for you. With Cron = AI works for you.",
+      "step1Title": "Set Up Daily Price Check",
+      "step1Desc": "Prerequisites: Telegram from Day 1 + CoinAnk or Binance Skill. Just tell Claude what you want in natural language — it converts the cron expression for you.",
+      "step2Title": "More Cron Ideas",
+      "step2Desc": "Don't just check prices. ETH funding rate every 2 hours, news digest at 6 PM daily, portfolio report every Monday, whale transfer alerts daily.",
+      "step3Title": "Pair with Telegram Notifications",
+      "step3Desc": "Cron results are only useful if they reach you. If you set up Telegram in Day 1, results auto-push. Test it by asking Claude to send a message.",
+      "troubleshoot": "Troubleshooting",
+      "troubleshootItems": {
+        "q1": "Cron not running?",
+        "a1": "Make sure Claude Code stays open. For 24/7 operation, you'll need a VPS ($5-15/month).",
+        "q2": "Not receiving notifications?",
+        "a2": "Go back to Day 1 Step 5 to verify Telegram Bot setup. Tell Claude: \"Test Telegram push — send me a Hello from AI message\" to confirm the connection."
+      }
+    },
+    "week2": {
+      "label": "Week 2",
+      "title": "Advanced Configuration",
+      "subtitle": "From \"it works\" to \"it works great.\" You already have an AI that chats, has skills, and runs tasks. This week: smarter, cheaper, more powerful.",
+      "step1Title": "Customize SOUL.md — Give AI a Personality",
+      "step1Desc": "SOUL.md is your AI's character sheet. Without it, generic assistant. With it, responds to your preferences, style, and needs. Come back and tweak it over time.",
+      "step2Title": "Multi-Model Switching — Save Money",
+      "step2Desc": "Not every task needs the most expensive model. Use Sonnet ($3/M) for daily work, Haiku ($0.25/M) for Cron tasks, Opus only for deep analysis. Most people spend $5-10/month.",
+      "step3Title": "MCP — The Plain English Version",
+      "step3Desc": "AI is like a super-intelligent person locked in a windowless room. MCP opens windows. Each Skill you install opens a new window. You don't need to understand the technical details.",
+      "step4Title": "Write Your First Skill",
+      "step4Desc": "You don't need to code — let Claude do it. Describe what you want, Claude generates the code, scan with AgentGuard, set up a Cron. If you can describe it, you can build it.",
+      "troubleshoot": "Advanced Troubleshooting",
+      "troubleshootItems": {
+        "q1": "SOUL.md written but no effect?",
+        "a1": "Make sure the file is in the project root and restart Claude Code. Be specific — don't just write \"help me\", tell AI your role, preferences, and focus areas.",
+        "q2": "How to switch models?",
+        "a2": "Switch API keys and model params in Claude Code settings. Different providers use different env vars: ANTHROPIC_API_KEY, OPENAI_API_KEY, DEEPSEEK_API_KEY."
+      }
     }
   },
   "models": {

@@ -1,0 +1,52 @@
+{
+  "estimates": [
+    {
+      "level": "light",
+      "levelZh": "輕度（每天聊幾句）",
+      "levelEn": "Light (casual daily chats)",
+      "dailyTokens": "~10K",
+      "costs": {
+        "sonnet": "$0.5",
+        "haiku": "$0.05",
+        "deepseek": "$0.03",
+        "gpt54nano": "$0.05"
+      }
+    },
+    {
+      "level": "medium",
+      "levelZh": "中度（每天工作用）",
+      "levelEn": "Medium (daily work use)",
+      "dailyTokens": "~100K",
+      "costs": {
+        "sonnet": "$5",
+        "haiku": "$0.5",
+        "deepseek": "$0.3",
+        "gpt54nano": "$0.5"
+      }
+    },
+    {
+      "level": "heavy",
+      "levelZh": "重度（全天開發）",
+      "levelEn": "Heavy (all-day development)",
+      "dailyTokens": "~500K",
+      "costs": {
+        "sonnet": "$25",
+        "haiku": "$2.5",
+        "deepseek": "$1.5",
+        "gpt54nano": "$2.5"
+      }
+    }
+  ],
+  "vps": {
+    "labelZh": "VPS 費用（24 小時跑 Cron）",
+    "labelEn": "VPS cost (running Cron 24/7)",
+    "range": "$5-15/月",
+    "rangeEn": "$5-15/month",
+    "note": "如果只在自己電腦上跑，不需要 VPS",
+    "noteEn": "Not needed if running on your own machine"
+  },
+  "tip": {
+    "zh": "省錢秘訣：日常用 Sonnet，Cron 任務用 Haiku，只有需要深度分析的時候才切 Opus。大部分人每月 $5-10 就夠了。",
+    "en": "Money-saving tip: Use Sonnet for daily work, Haiku for Cron tasks, switch to Opus only for deep analysis. Most people spend $5-10/month total."
+  }
+}

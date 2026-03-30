@@ -29,11 +29,25 @@
     "models": {
       "title": "大模型排行 | 51Claw",
       "description": "接入 OpenRouter 即時數據，346+ 模型一覽"
+    },
+    "faq": {
+      "title": "常見問題 | 51Claw",
+      "description": "關於 51Claw 和 AI Skills 的常見疑問，一次解答"
+    },
+    "resources": {
+      "title": "學習資源 | 51Claw",
+      "description": "精選教學影片、文章和 GitHub 合集 — 從零開始到進階"
+    },
+    "guide": {
+      "title": "新手指南 | 51Claw",
+      "description": "跟著走，4 天上手 AI Skills 全套工作流"
     }
   },
   "nav": {
     "home": "首頁",
     "install": "安裝指南",
+    "guide": "新手指南",
+    "resources": "學習資源",
     "skills": "Skills 目錄",
     "about": "關於",
     "blog": "Blog",
@@ -160,6 +174,10 @@
     "all": "全部",
     "noResults": "找不到符合條件的 Skills",
     "noResultsHint": "試試其他關鍵字或分類",
+    "essential": "新手必裝",
+    "sortByStars": "按 Stars 排序",
+    "sortDefault": "預設排序",
+    "skillCount": "個 Skill",
     "detail": {
       "auditPass": "安全審計通過",
       "auditWarn": "安全提醒",
@@ -170,10 +188,17 @@
       "tags": "標籤",
       "installCmd": "安裝指令",
       "installNote": "安裝說明",
-      "visitLink": "前往外部連結",
+      "visitLink": "前往 GitHub",
       "relatedSkills": "相關 Skills",
       "notFound": "找不到這個 Skill",
-      "backToSkills": "返回 Skills 目錄"
+      "backToSkills": "返回 Skills 目錄",
+      "features": "功能特色",
+      "examples": "使用範例",
+      "suitableFor": "適合誰",
+      "stars": "Stars",
+      "lastUpdated": "最後更新",
+      "daysAgo": "天前",
+      "copyInstall": "複製安裝指令"
     }
   },
   "about": {
@@ -313,13 +338,18 @@
     }
   },
   "llms": {
-    "title": "模型庫 — AI 大模型 API 指南",
-    "subtitle": "主流 LLM 的 API Key 取得教學，一站搞定",
+    "title": "模型庫 — 選對模型，省對錢",
+    "subtitle": "10+ 個 AI 模型的定價、特色和推薦場景。不是最貴的就最好，選對的才重要。",
     "searchPlaceholder": "搜尋模型名稱...",
     "pricing": "定價",
     "perMillion": "/ 1M tokens",
+    "inputPrice": "輸入 $/M tokens",
+    "outputPrice": "輸出 $/M tokens",
+    "contextLength": "上下文長度",
+    "provider": "提供商",
     "free": "免費",
     "getApiKey": "API Key 取得步驟",
+    "getStarted": "開始使用",
     "visitApi": "前往 API 平台",
     "backToList": "返回模型庫",
     "notFound": "找不到這個模型",
@@ -331,6 +361,172 @@
       "closed": "閉源",
       "free": "免費額度",
       "paid": "付費"
+    },
+    "recommended": {
+      "daily": "日常首選",
+      "budget": "省錢首選",
+      "complex": "複雜任務首選",
+      "general": "通用推薦"
+    },
+    "freeTier": "有免費額度",
+    "costEstimate": {
+      "title": "月成本估算",
+      "subtitle": "不確定要花多少？三秒看懂你的月帳單。",
+      "dailyTokens": "日均 Token",
+      "perMonth": "/月",
+      "light": "輕度",
+      "lightDesc": "每天聊幾句，問問問題、查查資料。像用 Google 一樣隨手問。",
+      "medium": "中度",
+      "mediumDesc": "每天工作用，寫文案、查數據、跑 Cron。你的 AI 已經是同事了。",
+      "heavy": "重度",
+      "heavyDesc": "全天開發模式，寫代碼、建專案、多 Agent 並行。AI 是你的整個團隊。",
+      "vpsTitle": "VPS 費用（選配）",
+      "vpsDesc": "如果你想讓 AI 24 小時不間斷跑 Cron，需要一台雲端伺服器。費用大約 $5-15/月。如果只在自己電腦上用，不需要這個。"
+    },
+    "savingTips": {
+      "title": "省錢策略",
+      "tip1": "日常用 Sonnet，Cron 用 Haiku。",
+      "tip1Desc": "Sonnet 夠聰明應付 90% 的事，Haiku 跑定時任務綽綽有餘又超便宜。",
+      "tip2": "不要預設用 Opus。",
+      "tip2Desc": "只有需要深度推理（複雜代碼、長篇分析）的時候才切。大部分人用 Sonnet 就夠了。",
+      "tip3": "試試 DeepSeek。",
+      "tip3Desc": "如果你主要用中文，DeepSeek 的中文能力不輸大廠，價格只要 1/20。"
+    }
+  },
+  "resources": {
+    "title": "學習資源 — 別自己摸索，看高手怎麼玩",
+    "subtitle": "精選教學影片、文章和 GitHub 合集。從零開始到進階，有人幫你踩過坑了。",
+    "tutorials": {
+      "heading": "推薦教學",
+      "subtitle": "看別人怎麼用 — 這些教學在 X 上迴響最大，真人實測、有料有用。",
+      "reactions": "迴響",
+      "retweets": "轉發",
+      "viewOnX": "在 X 上查看"
+    },
+    "collections": {
+      "heading": "GitHub 合集",
+      "subtitle": "找到更多 Skill — 這些 GitHub 合集收錄了上千個 Skill，按需挑選。",
+      "sortNote": "按 GitHub Stars 排序，Stars 越多代表越多人覺得有用。",
+      "stars": "Stars"
+    },
+    "tags": {
+      "all": "全部",
+      "beginner": "新手入門",
+      "intermediate": "中階進修",
+      "advanced": "進階深入",
+      "video": "影片教學",
+      "cost-saving": "省錢技巧",
+      "tips": "實用技巧",
+      "collection": "合集整理",
+      "monetization": "變現方法",
+      "quick-start": "快速入門",
+      "models": "模型選擇"
+    },
+    "cta": {
+      "title": "準備好動手了？",
+      "description": "看完教學，直接開始。5 分鐘內讓你的 AI 上線。",
+      "install": "開始安裝",
+      "skills": "瀏覽 Skills"
+    }
+  },
+  "faq": {
+    "title": "常見問題",
+    "subtitle": "關於 51Claw 和 AI Skills 的常見疑問，一次解答",
+    "stillHaveQuestions": "還有其他問題？",
+    "joinCommunity": "加入社群直接問",
+    "communityDesc": "在 LINE 社群或 Telegram 群組提問，會有人幫你解答。",
+    "communityUrl": "https://line.me/ti/g2/SCwiAQSnQ2SW6fFuKcOBs0sipyzdoOJ3FepZ2Q"
+  },
+  "guide": {
+    "title": "新手 SOP 指南",
+    "subtitle": "跟著走，4 天上手 AI Skills 全套工作流",
+    "progress": "學習進度",
+    "complete": "完成！",
+    "day1": {
+      "label": "Day 1",
+      "title": "安裝 + 連 Telegram",
+      "subtitle": "你的 AI 助手，5 分鐘上線。不需要懂程式、不需要看文檔看到眼花。",
+      "step1Title": "安裝 Node.js",
+      "step1Desc": "Claude Code 跑在 Node.js 上面。你不需要知道它是什麼，只要裝好就行。",
+      "step2Title": "安裝 Claude Code",
+      "step2Desc": "三種方式，選一個就好。新手直接用一鍵安裝。",
+      "step3Title": "設定 API Key",
+      "step3Desc": "去你選的 AI 提供商那邊拿一把 Key。推薦：Anthropic Claude（送 $5）、DeepSeek（超便宜）、Google Gemini（免費額度）。",
+      "step4Title": "啟動 Claude Code",
+      "step4Desc": "進到任意專案目錄，打 claude 就能開始用。第一次啟動會生成 CLAUDE.md — 它是 AI 認識你專案的「說明書」。",
+      "step5Title": "連接 Telegram（選配但強推）",
+      "step5Desc": "讓你不用開電腦也能跟 AI 對話。設定完之後，在手機上打開 Telegram 就能直接問問題、收通知。",
+      "troubleshoot": "常見問題排除",
+      "troubleshootItems": {
+        "q1": "node -v 顯示版本太舊（v16、v18）？",
+        "a1": "用 nvm 裝最新版：nvm install 22 && nvm use 22。apt 預設版本通常太舊。",
+        "q2": "Windows 裝完後 node 指令找不到？",
+        "a2": "關掉終端機重新開。安裝完必須重啟終端讓 PATH 生效。",
+        "q3": "npm 安裝時出現 EACCES 權限錯誤？",
+        "a3": "不要用 sudo npm install。改用 nvm 安裝 Node.js 就能避免權限問題。",
+        "q4": "Windows PowerShell 攔截腳本執行？",
+        "a4": "用系統管理員開 PowerShell，跑：Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
+      }
+    },
+    "day2": {
+      "label": "Day 2",
+      "title": "裝 3 個必備 Skill",
+      "subtitle": "光有 AI 不夠，它需要技能。裝上 Skill 之後，它就能查價格、掃安全、讀新聞 — 從「會聊天的機器人」變成「真正能幹活的助手」。",
+      "step1Title": "GoPlus AgentGuard — 先保護自己",
+      "step1Desc": "ClawHub 上有 13.4% 的 Skill 存在安全問題。在你裝其他東西之前，先裝好防護。環境巡檢 + 惡意 Skill 攔截 + 動態監控。",
+      "step2Title": "find-skills — 技能搜尋器",
+      "step2Desc": "安裝量 418.6K，最多人裝的 Skill 之一。當你不知道要用什麼 Skill，直接問它。不用記住幾百個 Skill 的名字。",
+      "step3Title": "選一個你需要的 Skill",
+      "step3Desc": "交易者 → CoinAnk API（K 線、ETF 資金流、巨鯨追蹤）。想追新聞 → 律動 BlockBeats（深度研報、1500+ 信源）。幣安用戶 → Binance Skills Hub（7 合 1）。不確定就裝 Binance，功能最全。",
+      "step4Title": "驗證 Skill 安全",
+      "step4Desc": "裝任何新 Skill 之前，養成習慣：用 AgentGuard 掃一下。不確定就不裝，寧可少一個功能，不要多一個風險。",
+      "troubleshoot": "常見問題排除",
+      "troubleshootItems": {
+        "q1": "npx 指令報錯？",
+        "a1": "確認已安裝 Node.js 18+，用 node -v 檢查版本。",
+        "q2": "Skill 裝了但沒反應？",
+        "a2": "需要重啟 Claude Code 才會載入新 Skills。",
+        "q3": "怎麼找更多 Skill？",
+        "a3": "三個管道：51Claw Skills 目錄（152+ 精選）、find-skills（直接問它）、ClawHub（最大市場，記得先掃描）。"
+      }
+    },
+    "day3": {
+      "label": "Day 3",
+      "title": "設定第一個 Cron",
+      "subtitle": "讓 AI 主動幫你做事。Cron 用白話說就是「定時鬧鐘 + 自動執行」。沒有 Cron = AI 只能等你主動問，有了 Cron = AI 會主動幫你做事。",
+      "step1Title": "設定每天早上查價",
+      "step1Desc": "前置條件：已完成 Day 1 的 Telegram 設定 + 裝了 CoinAnk 或 Binance Skill。直接跟 Claude 說你要什麼，它會幫你轉換 cron 表達式。",
+      "step2Title": "更多 Cron 點子",
+      "step2Desc": "別只查價格。每 2 小時監控 ETH 資金費率、每天下午 6 點生成新聞摘要、每週一早上生成投資組合報告、每天檢查巨鯨大額轉帳。",
+      "step3Title": "搭配 Telegram 推送",
+      "step3Desc": "Cron 跑完之後，結果要能送到你手上才有用。如果 Day 1 已設好 Telegram Bot，Cron 結果會自動推送。",
+      "troubleshoot": "常見問題排除",
+      "troubleshootItems": {
+        "q1": "Cron 沒有自動執行？",
+        "a1": "確認 Claude Code 保持開啟狀態。如果要 24 小時跑，需要 VPS（$5-15/月）。",
+        "q2": "通知收不到？",
+        "a2": "回到 Day 1 步驟 5 確認 Telegram Bot 設定。跟 Claude 說「幫我測試一下 Telegram 推送，發一則 Hello from AI」確認連線。"
+      }
+    },
+    "week2": {
+      "label": "Week 2",
+      "title": "進階配置",
+      "subtitle": "從「能用」到「好用」。前三天你已經有了一個能對話、有技能、會自動幹活的 AI 助手。這週把它調教得更聰明、更省錢、更強大。",
+      "step1Title": "自訂 SOUL.md — 讓 AI 有個性",
+      "step1Desc": "SOUL.md 是 AI 的「人設」。沒有它，AI 就是個通用助手；有了它，AI 會按照你的偏好、風格、需求來回應。用一陣子後回來調整，AI 會越來越懂你。",
+      "step2Title": "多模型切換 — 省錢策略",
+      "step2Desc": "不是每個任務都需要最貴的模型。日常用 Sonnet（$3/M），Cron 用 Haiku（$0.25/M），只有需要深度分析才切 Opus。大部分人每月 $5-10 就夠了。",
+      "step3Title": "MCP 白話版",
+      "step3Desc": "AI 就像一個超級聰明的人，被關在沒有窗戶的房間裡。MCP 就是給它開窗戶。每裝一個 Skill，就是多開一扇窗。你不需要了解技術細節。",
+      "step4Title": "寫自己的第一個 Skill",
+      "step4Desc": "不需要寫程式，讓 Claude 幫你寫。描述你要什麼功能，Claude 生成代碼，用 AgentGuard 掃一下，設定 Cron 自動跑。你會說話就行。",
+      "troubleshoot": "進階疑難排解",
+      "troubleshootItems": {
+        "q1": "SOUL.md 寫了但沒效果？",
+        "a1": "確認檔案放在專案根目錄，且重啟 Claude Code。內容要具體（不要只寫「幫我做事」），告訴 AI 你的角色、偏好、關注重點。",
+        "q2": "怎麼切換模型？",
+        "a2": "在 Claude Code 設定中切換 API Key 和模型參數。不同提供商用不同的環境變數：ANTHROPIC_API_KEY、OPENAI_API_KEY、DEEPSEEK_API_KEY。"
+      }
     }
   },
   "models": {

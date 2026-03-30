@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 import blogPosts from "@/data/blog-posts.json";
 import Button from "@/components/ui/Button";
+import MarkdownRenderer from "@/components/ui/MarkdownRenderer";
 
 export default function BlogPostPage() {
   const t = useTranslations("blog");
@@ -78,8 +79,8 @@ export default function BlogPostPage() {
           <p className="text-lg leading-relaxed text-text-muted">
             {isZh ? post.excerpt.zh : post.excerpt.en}
           </p>
-          <div className="mt-8 border-t border-card-border pt-8 text-text-muted">
-            {isZh ? post.content.zh : post.content.en}
+          <div className="mt-8 border-t border-card-border pt-8">
+            <MarkdownRenderer content={isZh ? post.content.zh : post.content.en} />
           </div>
         </div>
       </div>
