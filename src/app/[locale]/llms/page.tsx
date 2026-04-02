@@ -40,7 +40,7 @@ function CostEstimateSection() {
     <section className="mt-20">
       {/* 標題 */}
       <div className="text-center">
-        <h2 className="text-gradient-claude font-heading text-2xl font-bold sm:text-3xl">
+        <h2 className="font-heading text-2xl font-bold text-foreground sm:text-3xl">
           {t("title")}
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-text-muted">
@@ -51,9 +51,9 @@ function CostEstimateSection() {
       {/* 成本表 — 手機版可橫向捲動 */}
       <div className="mt-10 overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
         <div className="min-w-[600px]">
-          <div className="overflow-hidden rounded-2xl border border-card-border">
+          <div className="overflow-hidden rounded border border-card-border">
             {/* 表頭 */}
-            <div className="grid grid-cols-6 gap-px bg-white/[0.06]">
+            <div className="grid grid-cols-6 gap-px bg-white/5">
               <div className="px-4 py-3 text-xs font-semibold text-text-muted" />
               <div className="px-4 py-3 text-xs font-semibold text-text-muted">
                 {t("dailyTokens")}
@@ -71,7 +71,7 @@ function CostEstimateSection() {
               return (
                 <div
                   key={est.level}
-                  className="grid grid-cols-6 gap-px border-t border-card-border transition-colors hover:bg-white/[0.02]"
+                  className="grid grid-cols-6 gap-px border-t border-card-border transition-colors hover:bg-white/10"
                 >
                   <div className="px-4 py-4">
                     <div className="flex items-center gap-2">
@@ -91,7 +91,7 @@ function CostEstimateSection() {
                   </div>
                   {costKeys.map((key) => (
                     <div key={key} className="flex items-center justify-center px-4 py-4">
-                      <span className="rounded-lg bg-card-bg px-3 py-1 text-sm font-semibold text-foreground">
+                      <span className="rounded bg-card-bg px-3 py-1 text-sm font-semibold text-foreground">
                         {est.costs[key]}<span className="text-[10px] text-text-muted">{t("perMonth")}</span>
                       </span>
                     </div>
@@ -104,7 +104,7 @@ function CostEstimateSection() {
       </div>
 
       {/* VPS 說明 */}
-      <div className="mt-6 rounded-xl border border-card-border bg-card-bg px-5 py-4">
+      <div className="mt-6 rounded border border-card-border bg-card-bg px-5 py-4">
         <div className="flex items-start gap-3">
           <span className="text-lg">☁️</span>
           <div>
@@ -127,7 +127,7 @@ function CostEstimateSection() {
           {([1, 2, 3] as const).map((n) => (
             <Card key={n} hoverable={false} showGradientBar={false}>
               <div>
-                <h4 className="font-heading text-sm font-bold text-primary-light">
+                <h4 className="font-heading text-sm font-medium text-primary-light">
                   {tTips(`tip${n}`)}
                 </h4>
                 <p className="mt-2 text-xs leading-relaxed text-text-muted">
@@ -181,7 +181,7 @@ export default function LlmsPage() {
 
         {/* Header */}
         <div className="text-center">
-          <h1 className="text-gradient-claude font-heading text-4xl font-bold sm:text-5xl">
+          <h1 className="font-heading text-3xl font-bold text-foreground sm:text-4xl">
             {t("title")}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-text-muted">
@@ -201,7 +201,7 @@ export default function LlmsPage() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder={t("searchPlaceholder")}
-              className="w-full rounded-xl border border-card-border bg-card-bg py-2.5 pl-10 pr-4 text-sm text-foreground placeholder-text-muted outline-none transition-colors focus:border-primary/50"
+              className="w-full rounded border border-card-border bg-card-bg py-2.5 pl-10 pr-4 text-sm text-foreground placeholder-text-muted outline-none transition-colors focus:border-primary/50"
             />
           </div>
 
@@ -210,7 +210,7 @@ export default function LlmsPage() {
               <button
                 key={val}
                 onClick={() => setTypeFilter(val)}
-                className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
+                className={`rounded px-3 py-1.5 text-xs font-medium transition-all ${
                   typeFilter === val
                     ? "bg-primary/15 text-primary-light"
                     : "bg-white/5 text-text-muted hover:bg-white/10"
@@ -224,7 +224,7 @@ export default function LlmsPage() {
               <button
                 key={val}
                 onClick={() => setFreeFilter(val)}
-                className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
+                className={`rounded px-3 py-1.5 text-xs font-medium transition-all ${
                   freeFilter === val
                     ? "bg-primary/15 text-primary-light"
                     : "bg-white/5 text-text-muted hover:bg-white/10"
@@ -238,7 +238,7 @@ export default function LlmsPage() {
 
         {/* Model Grid */}
         {filtered.length === 0 ? (
-          <div className="mt-14 flex flex-col items-center justify-center rounded-2xl border border-card-border bg-card-bg px-8 py-16 text-center">
+          <div className="mt-14 flex flex-col items-center justify-center rounded border border-card-border bg-card-bg px-8 py-16 text-center">
             <div className="text-4xl">🔍</div>
             <p className="mt-4 text-text-muted">{t("noResults")}</p>
           </div>
@@ -259,7 +259,7 @@ export default function LlmsPage() {
                   className="group block"
                 >
                   <div
-                    className="relative h-full overflow-hidden rounded-2xl border border-card-border bg-card-bg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-[0_4px_24px_rgba(232,115,74,0.08)]"
+                    className="relative h-full overflow-hidden rounded border border-card-border bg-card-bg transition-all duration-300 hover:border-primary/20"
                     style={{ animationDelay: `${Math.min(index * 60, 400)}ms` }}
                   >
                     {/* Hover accent line */}

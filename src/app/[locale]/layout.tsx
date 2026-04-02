@@ -6,6 +6,7 @@ import { Space_Grotesk, Noto_Sans_TC, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
+import AuroraBackground from "@/components/ui/AuroraBackground";
 import JsonLd from "@/components/JsonLd";
 import "../globals.css";
 
@@ -83,7 +84,7 @@ export default async function LocaleLayout({
       lang={locale}
       className={`h-full antialiased ${spaceGrotesk.variable} ${notoSansTC.variable} ${jetbrainsMono.variable}`}
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground bg-grid">
+      <body className="relative min-h-full flex flex-col bg-background text-foreground bg-grid-subtle">
         <JsonLd
           data={{
             "@context": "https://schema.org",
@@ -100,8 +101,9 @@ export default async function LocaleLayout({
           }}
         />
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <AuroraBackground />
           <Nav />
-          <main className="flex-1 pt-16 animate-page-enter">{children}</main>
+          <main className="relative z-10 flex-1 pt-16 animate-page-enter">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

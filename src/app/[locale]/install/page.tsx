@@ -34,7 +34,7 @@ function InstallMethods({
           <button
             key={key}
             onClick={() => setActive(key)}
-            className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-all duration-200 ${
+            className={`rounded px-3 py-1.5 text-xs font-medium transition-all duration-200 ${
               active === key
                 ? "bg-primary/20 text-primary-light"
                 : "bg-white/5 text-text-muted hover:text-foreground"
@@ -60,7 +60,7 @@ function AIProviders({
       {providers.map((p) => (
         <div
           key={p.envVar}
-          className="rounded-lg bg-white/5 px-3 py-2 text-xs"
+          className="rounded bg-white/5 px-3 py-2 text-xs"
         >
           <span className="font-medium text-foreground">{p.name}</span>
           <br />
@@ -182,7 +182,7 @@ export default function InstallPage() {
         <Breadcrumb currentPage={t("title")} />
         {/* Header */}
         <div className="text-center">
-          <h1 className="text-gradient-claude font-heading text-4xl font-bold sm:text-5xl">
+          <h1 className="font-heading text-3xl font-bold text-foreground sm:text-4xl">
             {t("title")}
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-text-muted">
@@ -191,7 +191,7 @@ export default function InstallPage() {
         </div>
 
         {/* System Requirements */}
-        <div className="mt-12 rounded-xl border border-card-border bg-card-bg p-6">
+        <div className="mt-12 rounded border border-card-border bg-card-bg p-6">
           <h2 className="font-heading text-lg font-semibold text-foreground">
             {sysReq.title[lang]}
           </h2>
@@ -199,7 +199,7 @@ export default function InstallPage() {
             {sysReq.items.map((item, i) => (
               <div
                 key={i}
-                className="rounded-lg bg-white/5 px-4 py-3 text-sm text-text-muted"
+                className="rounded bg-white/5 px-4 py-3 text-sm text-text-muted"
               >
                 <span className="text-primary-light">●</span> {item[lang]}
               </div>

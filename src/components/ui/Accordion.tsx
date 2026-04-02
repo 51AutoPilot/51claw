@@ -44,7 +44,7 @@ export default function Accordion({
         return (
           <div
             key={item.key}
-            className="overflow-hidden rounded-xl border border-card-border bg-card-bg transition-colors duration-200 hover:border-primary/20"
+            className="overflow-hidden rounded-lg border border-card-border bg-card-bg transition-colors duration-200 hover:border-primary/20"
           >
             <button
               onClick={() => toggle(item.key)}

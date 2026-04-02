@@ -36,21 +36,17 @@ export default function BlogPostPage() {
   }
 
   return (
-    <article className="px-4 py-24">
-      <div className="mx-auto max-w-3xl">
-        {/* 返回連結 */}
+    <article className="px-4 py-28">
+      <div className="mx-auto max-w-2xl">
         <Link
           href="/blog"
-          className="inline-flex items-center gap-2 text-sm text-text-muted transition-colors hover:text-primary-light"
+          className="inline-flex items-center gap-2 text-sm text-text-muted transition-colors hover:text-foreground"
         >
           ← {t("backToList")}
         </Link>
 
-        {/* 標題區 */}
         <header className="mt-8">
           <div className="flex items-center gap-3 text-sm text-text-muted">
-            <time>{post.date}</time>
-            <span>·</span>
             <span>
               {post.readTime} {t("readTime")}
             </span>
@@ -58,7 +54,7 @@ export default function BlogPostPage() {
             <span>{post.author}</span>
           </div>
 
-          <h1 className="mt-4 font-heading text-3xl font-bold leading-tight text-foreground sm:text-4xl">
+          <h1 className="mt-4 font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">
             {isZh ? post.title.zh : post.title.en}
           </h1>
 
@@ -66,7 +62,7 @@ export default function BlogPostPage() {
             {post.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full border border-primary/20 bg-primary/5 px-3 py-0.5 text-xs font-medium text-primary-light"
+                className="rounded bg-primary/8 px-2.5 py-0.5 text-xs text-primary-light"
               >
                 {tTags(tag)}
               </span>
@@ -74,9 +70,8 @@ export default function BlogPostPage() {
           </div>
         </header>
 
-        {/* 內容區 */}
-        <div className="mt-12 rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6 md:p-8">
-          <p className="text-lg leading-relaxed text-text-muted">
+        <div className="mt-12 rounded border border-card-border bg-card-bg p-5 sm:p-8">
+          <p className="text-base leading-relaxed text-text-muted">
             {isZh ? post.excerpt.zh : post.excerpt.en}
           </p>
           <div className="mt-8 border-t border-card-border pt-8">

@@ -1,10 +1,10 @@
 {
   "metadata": {
     "title": "HunterKit — AI Skills Hub",
-    "description": "Claude Code + OpenClaw 一站式入門指南，152+ AI Skills 任你用",
+    "description": "Claude Code 一站式入門指南，170+ AI Skills 任你用",
     "skills": {
       "title": "Skills 目錄 | HunterKit",
-      "description": "探索 152+ 精選 AI Skills — CEX 工具、鏈上操作、數據分析、安全審計"
+      "description": "探索 170+ 精選 AI Skills — CEX 工具、鏈上操作、數據分析、安全審計"
     },
     "install": {
       "title": "安裝指南 | HunterKit",
@@ -55,7 +55,8 @@
     "llms": "模型庫",
     "models": "模型排行",
     "language": "語言",
-    "toggleMenu": "切換選單"
+    "toggleMenu": "切換選單",
+    "more": "更多"
   },
   "footer": {
     "copyright": "2025-2026 HunterKit. All rights reserved.",
@@ -78,7 +79,8 @@
   },
   "home": {
     "heroTitle": "你的 AI Skills 武器庫",
-    "heroSubtitle": "Claude Code + OpenClaw 入門指南 ｜ 152+ AI Skills 大全 ｜ LLM 模型指南",
+    "heroSubtitle": "Claude Code 入門指南 ｜ 170+ AI Skills 大全 ｜ LLM 模型指南",
+    "heroSubtitleTemplate": "Claude Code 入門指南 ｜ {count}+ AI Skills 大全 ｜ LLM 模型指南",
     "ctaInstall": "開始安裝",
     "ctaSkills": "瀏覽 Skills",
     "coreFeatures": {
@@ -104,7 +106,7 @@
       }
     },
     "featuredSkills": "精選 Skills 分類",
-    "viewAllSkills": "查看全部 152+ Skills",
+    "viewAllSkills": "查看全部 170+ Skills",
     "modelRanking": {
       "title": "🔥 大模型排行",
       "source": "即時數據來自 OpenRouter",
@@ -132,7 +134,7 @@
     "subtitle": "三步搞定，從零開始設定你的 AI Skills 環境",
     "systemReq": {
       "title": "系統需求",
-      "nodeVersion": "Node.js 18+",
+      "nodeVersion": "Node.js 20+",
       "claudeDesktop": "Claude Desktop 最新版",
       "os": "macOS / Windows / Linux"
     },
@@ -262,7 +264,12 @@
       "review": "評測",
       "update": "更新",
       "tips": "技巧",
-      "deepDive": "深度解析"
+      "deepDive": "深度解析",
+      "claude-code": "Claude Code",
+      "beginner": "新手入門",
+      "prompt-engineering": "Prompt 工程",
+      "ai-workflow": "AI 工作流",
+      "mcp": "MCP"
     },
     "readTime": "分鐘閱讀",
     "noResults": "沒有符合條件的文章",
@@ -473,7 +480,7 @@
       "title": "裝 3 個必備 Skill",
       "subtitle": "光有 AI 不夠，它需要技能。裝上 Skill 之後，它就能查價格、掃安全、讀新聞 — 從「會聊天的機器人」變成「真正能幹活的助手」。",
       "step1Title": "GoPlus AgentGuard — 先保護自己",
-      "step1Desc": "ClawHub 上有 13.4% 的 Skill 存在安全問題。在你裝其他東西之前，先裝好防護。環境巡檢 + 惡意 Skill 攔截 + 動態監控。",
+      "step1Desc": "社群市場上有 13.4% 的 Skill 存在安全問題。在你裝其他東西之前，先裝好防護。環境巡檢 + 惡意 Skill 攔截 + 動態監控。",
       "step2Title": "find-skills — 技能搜尋器",
       "step2Desc": "安裝量 418.6K，最多人裝的 Skill 之一。當你不知道要用什麼 Skill，直接問它。不用記住幾百個 Skill 的名字。",
       "step3Title": "選一個你需要的 Skill",
@@ -483,11 +490,11 @@
       "troubleshoot": "常見問題排除",
       "troubleshootItems": {
         "q1": "npx 指令報錯？",
-        "a1": "確認已安裝 Node.js 18+，用 node -v 檢查版本。",
+        "a1": "確認已安裝 Node.js 20+，用 node -v 檢查版本。",
         "q2": "Skill 裝了但沒反應？",
         "a2": "需要重啟 Claude Code 才會載入新 Skills。",
         "q3": "怎麼找更多 Skill？",
-        "a3": "三個管道：HunterKit Skills 目錄（152+ 精選）、find-skills（直接問它）、ClawHub（最大市場，記得先掃描）。"
+        "a3": "兩個管道：HunterKit Skills 目錄（170+ 精選）、find-skills（直接問它，幫你搜尋社群市場的 Skills，記得先掃描）。"
       }
     },
     "day3": {

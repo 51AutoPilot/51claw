@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0F0B08;
-  --foreground: #F5E6D3;
+  --background: #0a0a0f;
+  --foreground: #ffffff;
   --primary: #E8734A;
-  --primary-light: #F09070;
-  --secondary: #D4A574;
+  --primary-light: #da7756;
+  --secondary: #06b6d4;
   --fire: #ff6b35;
   --fire-light: #fbbf24;
-  --card-bg: rgba(232, 115, 74, 0.04);
-  --card-border: rgba(232, 115, 74, 0.10);
-  --text-muted: #A09080;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-border: rgba(255, 255, 255, 0.12);
+  --text-muted: #cccccc;
   --text-accent: #E8734A;
 }
 
@@ -37,220 +37,58 @@ body {
   overflow-x: hidden;
 }
 
-/* ─── Noise texture overlay ─── */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  pointer-events: none;
-  opacity: 0.02;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-}
-
-/* ─── 背景網格裝飾 ─── */
-.bg-grid {
+/* ═══ 背景網格 — 微弱的賽博感 ═══ */
+.bg-grid-subtle {
   background-image:
-    linear-gradient(rgba(232, 115, 74, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(232, 115, 74, 0.05) 1px, transparent 1px);
-  background-size: 60px 60px;
+    linear-gradient(rgba(232, 115, 74, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(232, 115, 74, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
 }
 
-/* ─── Claude 橘色漸層文字 + glow text-shadow ─── */
-.text-gradient-claude {
-  background: linear-gradient(135deg, #E8734A 0%, #D4A574 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  filter: drop-shadow(0 0 30px rgba(232, 115, 74, 0.3)) drop-shadow(0 0 60px rgba(232, 115, 74, 0.1));
+/* ═══ Hero 專用背景 — 橘色光暈 + 網格 ═══ */
+.hero-bg {
+  background-image:
+    radial-gradient(ellipse 60% 50% at 50% 40%, rgba(232, 115, 74, 0.08) 0%, transparent 70%),
+    linear-gradient(rgba(232, 115, 74, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(232, 115, 74, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
 }
 
-/* ─── 橘色光暈效果 ─── */
-.glow-claude {
-  box-shadow: 0 0 20px rgba(232, 115, 74, 0.15), 0 0 60px rgba(232, 115, 74, 0.05);
-}
-
-/* ─── 卡片 hover 橘光邊框 ─── */
+/* ═══ 卡片系統 ═══ */
 .card-hover {
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
-    border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.3s ease,
     box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .card-hover:hover {
-  transform: translateY(-5px);
-  border-color: rgba(232, 115, 74, 0.4);
-  box-shadow: 0 0 30px rgba(232, 115, 74, 0.15), 0 12px 40px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+  border-color: rgba(232, 115, 74, 0.35);
+  box-shadow:
+    0 0 20px rgba(232, 115, 74, 0.08),
+    0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
-/* ─── 漸變分隔線 ─── */
-.gradient-line-h {
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--primary), transparent);
-}
-
-/* ─── 脈動光暈動畫 ─── */
-@keyframes pulse-glow {
-  0%, 100% {
-    opacity: 0.6;
-    transform: translate(-50%, 0) scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: translate(-50%, 0) scale(1.15);
-  }
-}
-
-@keyframes pulse-glow-secondary {
-  0%, 100% {
-    opacity: 0.4;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.8;
-    transform: scale(1.1);
-  }
-}
-
-.animate-pulse-glow {
-  animation: pulse-glow 6s ease-in-out infinite;
-}
-
-.animate-pulse-glow-secondary {
-  animation: pulse-glow-secondary 8s ease-in-out infinite;
-}
-
-/* ─── 漂浮粒子動畫 ─── */
-@keyframes float-particle {
-  0% {
-    transform: translateY(0) translateX(0);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100vh) translateX(20px);
-    opacity: 0;
-  }
-}
-
-.particle {
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  animation: float-particle linear infinite;
-  pointer-events: none;
-}
-
-/* ─── 動態網格背景 ─── */
-@keyframes grid-breathe {
-  0%, 100% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 0.6;
-  }
-}
-
-.hero-grid {
-  background-image:
-    linear-gradient(rgba(232, 115, 74, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(232, 115, 74, 0.06) 1px, transparent 1px);
-  background-size: 40px 40px;
-  animation: grid-breathe 8s ease-in-out infinite;
-}
-
-/* ─── Stats 數字 glow ─── */
-.stats-glow {
-  text-shadow: 0 0 30px rgba(232, 115, 74, 0.3), 0 0 60px rgba(232, 115, 74, 0.1);
-}
-
-/* ─── fadeIn 動畫 — Tabs 等元件用 ─── */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* ─── 頁面載入動畫 ─── */
-@keyframes pageEnter {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-page-enter {
-  animation: pageEnter 0.4s ease-out;
-}
-
-/* ─── 隱藏橫向滾動條 ─── */
-.scrollbar-none,
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.scrollbar-none::-webkit-scrollbar,
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
-/* ─── 滾動條 ─── */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0F0B08;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(232, 115, 74, 0.3);
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(232, 115, 74, 0.5);
-}
-
-/* ─── Skill 卡片 hover accent glow ─── */
+/* ═══ Skill 卡片 — 可自訂 accent 色 ═══ */
 .skill-card {
-  --card-accent: #D4A574;
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
-    box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1),
-    border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --card-accent: #da7756;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.3s ease,
+    box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .skill-card:hover {
-  transform: translateY(-5px);
-  border-color: color-mix(in srgb, var(--card-accent) 30%, transparent);
-  box-shadow: 0 8px 32px color-mix(in srgb, var(--card-accent) 12%, transparent),
-    0 4px 16px color-mix(in srgb, var(--card-accent) 8%, transparent);
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--card-accent) 35%, transparent);
+  box-shadow:
+    0 0 24px color-mix(in srgb, var(--card-accent) 10%, transparent),
+    0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
-/* ─── Button shine 動畫 ─── */
+/* ═══ 按鈕 shine 效果 — 微妙的光澤掃過 ═══ */
 @keyframes btn-shine {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
 }
 
 .btn-shine {
@@ -265,10 +103,166 @@ body::before {
   background: linear-gradient(
     105deg,
     transparent 40%,
-    rgba(255, 255, 255, 0.15) 45%,
-    rgba(255, 255, 255, 0.25) 50%,
-    rgba(255, 255, 255, 0.15) 55%,
+    rgba(255, 255, 255, 0.1) 45%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.1) 55%,
     transparent 60%
   );
-  animation: btn-shine 3s ease-in-out infinite;
+  animation: btn-shine 4s ease-in-out infinite;
+}
+
+/* ═══ 粒子動畫 ═══ */
+@keyframes float-up {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  15% { opacity: 0.6; }
+  85% { opacity: 0.6; }
+  100% {
+    transform: translateY(-100vh) translateX(15px);
+    opacity: 0;
+  }
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  animation: float-up linear infinite;
+  pointer-events: none;
+}
+
+/* ═══ 頁面進入動畫 ═══ */
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-page-enter {
+  animation: pageEnter 0.5s ease-out;
+}
+
+/* ═══ fadeIn — Tabs / 動態內容 ═══ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ═══ 統計數字 glow ═══ */
+.stats-glow {
+  text-shadow: 0 0 24px rgba(232, 115, 74, 0.25);
+}
+
+/* ═══ 滾動條 ═══ */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(232, 115, 74, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(232, 115, 74, 0.4);
+}
+
+/* ═══ 隱藏滾動條 ═══ */
+.scrollbar-none,
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar,
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* ═══ 極光 Aurora 動畫 ═══ */
+@keyframes aurora-drift-1 {
+  0%, 100% {
+    top: -10%;
+    left: -15%;
+    transform: rotate(-5deg) scale(1);
+  }
+  33% {
+    top: 5%;
+    left: 20%;
+    transform: rotate(3deg) scale(1.1);
+  }
+  66% {
+    top: -5%;
+    left: 40%;
+    transform: rotate(-2deg) scale(0.95);
+  }
+}
+
+@keyframes aurora-drift-2 {
+  0%, 100% {
+    top: 30%;
+    right: -20%;
+    left: auto;
+    transform: rotate(5deg) scale(1);
+  }
+  33% {
+    top: 10%;
+    right: 5%;
+    left: auto;
+    transform: rotate(-3deg) scale(1.15);
+  }
+  66% {
+    top: 40%;
+    right: 15%;
+    left: auto;
+    transform: rotate(2deg) scale(0.9);
+  }
+}
+
+@keyframes aurora-drift-3 {
+  0%, 100% {
+    bottom: -5%;
+    left: 10%;
+    top: auto;
+    transform: rotate(3deg) scale(1);
+  }
+  33% {
+    bottom: 15%;
+    left: 35%;
+    top: auto;
+    transform: rotate(-5deg) scale(1.1);
+  }
+  66% {
+    bottom: 5%;
+    left: 55%;
+    top: auto;
+    transform: rotate(1deg) scale(1.05);
+  }
+}
+
+/* ═══ Noise overlay — 極淡紋理增加質感 ═══ */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.015;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
 }

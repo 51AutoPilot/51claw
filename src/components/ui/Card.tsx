@@ -42,25 +42,28 @@ export default function Card({
     <div
       ref={cardRef}
       onClick={onClick}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
-      className={`group relative overflow-hidden rounded-2xl border border-card-border bg-card-bg backdrop-blur-sm ${
-        hoverable ? "card-hover cursor-pointer" : ""
+      onMouseMove={hoverable ? handleMouseMove : undefined}
+      onMouseLeave={hoverable ? handleMouseLeave : undefined}
+      className={`group relative overflow-hidden rounded-lg border border-card-border bg-card-bg backdrop-blur-sm ${
+        hoverable ? "card-hover" : ""
       } ${onClick ? "cursor-pointer" : ""} ${className}`}
     >
       {/* 滑鼠追蹤光暈 */}
-      <div
-        className="pointer-events-none absolute -inset-px rounded-2xl transition-opacity duration-300"
-        style={{
-          opacity: glowPos.visible ? 1 : 0,
-          background: `radial-gradient(400px circle at ${glowPos.x}px ${glowPos.y}px, rgba(232, 115, 74, 0.12), transparent 60%)`,
-        }}
-      />
-
-      {/* 頂部漸變光條 — hover 時亮度增強 */}
-      {showGradientBar && (
-        <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-primary/50 to-transparent transition-all duration-300 group-hover:via-primary/80" />
+      {hoverable && (
+        <div
+          className="pointer-events-none absolute -inset-px rounded-lg transition-opacity duration-500"
+          style={{
+            opacity: glowPos.visible ? 1 : 0,
+            background: `radial-gradient(350px circle at ${glowPos.x}px ${glowPos.y}px, rgba(232, 115, 74, 0.08), transparent 60%)`,
+          }}
+        />
       )}
+
+      {/* 頂部 accent 線 */}
+      {showGradientBar && (
+        <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-primary/30 to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-100" />
+      )}
+
       {header && (
         <div className="border-b border-card-border px-6 py-4">{header}</div>
       )}

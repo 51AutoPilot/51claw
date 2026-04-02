@@ -27,17 +27,17 @@ type ButtonProps = ButtonAsButton | ButtonAsLink;
 
 const variantStyles: Record<Variant, string> = {
   primary:
-    "btn-shine bg-gradient-to-r from-[#E8734A] to-[#C75B3A] text-white shadow-lg shadow-primary/20 hover:shadow-[0_0_20px_rgba(232,115,74,0.4),0_0_40px_rgba(232,115,74,0.2)] hover:brightness-110 hover:scale-105",
+    "btn-shine bg-gradient-to-r from-[#E8734A] to-[#da7756] text-white shadow-lg shadow-primary/15 hover:shadow-[0_0_24px_rgba(232,115,74,0.25)] hover:brightness-110",
   secondary:
-    "border border-card-border text-foreground hover:border-primary/50 hover:text-primary-light hover:bg-primary/5 hover:scale-105 hover:shadow-[0_0_15px_rgba(232,115,74,0.15)]",
+    "border border-card-border text-foreground hover:border-primary/40 hover:text-primary-light hover:bg-white/[0.03]",
   ghost:
     "text-text-muted hover:text-foreground hover:bg-white/5",
 };
 
 const sizeStyles: Record<Size, string> = {
-  sm: "px-4 py-1.5 text-sm rounded-lg",
-  md: "px-6 py-2.5 text-sm rounded-xl",
-  lg: "px-8 py-3 text-base rounded-xl",
+  sm: "px-4 py-1.5 text-sm rounded-md",
+  md: "px-6 py-2.5 text-sm rounded-md",
+  lg: "px-8 py-3 text-base rounded-md",
 };
 
 export default function Button({

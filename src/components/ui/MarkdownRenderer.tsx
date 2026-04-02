@@ -12,12 +12,12 @@ interface MarkdownRendererProps {
 
 const components: Components = {
   h1: ({ children }) => (
-    <h1 className="mt-10 mb-4 font-heading text-2xl font-bold text-foreground first:mt-0">
+    <h1 className="mt-10 mb-4 font-heading text-2xl font-semibold text-foreground first:mt-0">
       {children}
     </h1>
   ),
   h2: ({ children }) => (
-    <h2 className="mt-10 mb-4 border-b border-card-border pb-2 font-heading text-xl font-bold text-foreground first:mt-0">
+    <h2 className="mt-10 mb-4 border-b border-card-border pb-2 font-heading text-xl font-semibold text-foreground first:mt-0">
       {children}
     </h2>
   ),
@@ -37,7 +37,7 @@ const components: Components = {
     </p>
   ),
   strong: ({ children }) => (
-    <strong className="font-bold text-foreground">{children}</strong>
+    <strong className="font-semibold text-foreground">{children}</strong>
   ),
   em: ({ children }) => (
     <em className="italic text-text-muted">{children}</em>
@@ -86,12 +86,12 @@ const components: Components = {
     );
   },
   pre: ({ children }) => (
-    <pre className="my-4 overflow-x-auto rounded-xl bg-black/40 p-4 font-mono text-sm">
+    <pre className="my-4 overflow-x-auto rounded-lg bg-black/40 p-4 font-mono text-sm">
       {children}
     </pre>
   ),
   table: ({ children }) => (
-    <div className="my-4 overflow-x-auto rounded-lg border border-card-border">
+    <div className="my-4 overflow-x-auto rounded border border-card-border">
       <table className="w-full border-collapse text-sm">
         {children}
       </table>
@@ -121,7 +121,7 @@ const components: Components = {
     <img
       src={src}
       alt={alt || ""}
-      className="my-4 max-w-full rounded-xl"
+      className="my-4 max-w-full rounded"
       loading="lazy"
     />
   ),

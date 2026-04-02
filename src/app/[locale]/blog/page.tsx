@@ -18,15 +18,15 @@ function TagFilter({
   const tags = ["all", "tutorial", "review", "update", "tips", "deepDive"];
 
   return (
-    <div className="flex flex-wrap justify-center gap-3">
+    <div className="flex flex-wrap justify-center gap-2">
       {tags.map((tag) => (
         <button
           key={tag}
           onClick={() => onSelect(tag)}
-          className={`rounded-full px-3 py-1.5 text-xs font-medium transition-all duration-300 sm:px-4 sm:text-sm ${
+          className={`rounded px-3.5 py-1.5 text-sm transition-colors duration-200 ${
             activeTag === tag
-              ? "bg-primary text-white shadow-lg shadow-primary/20"
-              : "border border-card-border text-text-muted hover:border-primary/50 hover:text-primary-light"
+              ? "bg-primary/15 text-primary-light"
+              : "border border-card-border text-text-muted hover:text-foreground"
           }`}
         >
           {t(tag)}
@@ -46,35 +46,26 @@ function BlogCard({ post }: { post: (typeof blogPosts)[number] }) {
   return (
     <Link href={`/blog/${post.slug}`}>
       <Card className="h-full">
-        {/* 頂部漸變光條 */}
-        <div className="absolute inset-x-0 top-0 h-1 rounded-t-2xl bg-gradient-to-r from-transparent via-primary/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-
         <div className="flex flex-col gap-3">
-          {/* 日期 + 閱讀時間 */}
           <div className="flex items-center gap-3 text-xs text-text-muted">
-            <time>{post.date}</time>
-            <span>·</span>
             <span>
               {post.readTime} {t("readTime")}
             </span>
           </div>
 
-          {/* 標題 */}
-          <h3 className="font-heading text-lg font-semibold leading-tight text-foreground">
+          <h3 className="font-heading text-base font-semibold leading-tight text-foreground">
             {isZh ? post.title.zh : post.title.en}
           </h3>
 
-          {/* 摘要 */}
           <p className="text-sm leading-relaxed text-text-muted line-clamp-3">
             {isZh ? post.excerpt.zh : post.excerpt.en}
           </p>
 
-          {/* 標籤 */}
           <div className="mt-auto flex flex-wrap gap-2 pt-2">
             {post.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full border border-primary/20 bg-primary/5 px-3 py-0.5 text-xs font-medium text-primary-light"
+                className="rounded bg-primary/8 px-2.5 py-0.5 text-xs text-primary-light"
               >
                 {tTags(tag)}
               </span>
@@ -86,10 +77,8 @@ function BlogCard({ post }: { post: (typeof blogPosts)[number] }) {
   );
 }
 
-/* ─── Page ─── */
 export default function BlogPage() {
   const t = useTranslations("blog");
-  const locale = useLocale();
   const [activeTag, setActiveTag] = useState("all");
 
   const filteredPosts =
@@ -98,24 +87,21 @@ export default function BlogPage() {
       : blogPosts.filter((post) => post.tags.includes(activeTag));
 
   return (
-    <section className="px-4 py-24">
+    <section className="px-4 py-28">
       <div className="mx-auto max-w-5xl">
-        {/* 標題 */}
         <div className="text-center">
-          <h1 className="text-gradient-claude font-heading text-4xl font-bold sm:text-5xl">
+          <h1 className="font-heading text-3xl font-bold text-foreground sm:text-4xl">
             {t("title")}
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
+          <p className="mx-auto mt-4 max-w-xl text-text-muted">
             {t("subtitle")}
           </p>
         </div>
 
-        {/* 標籤篩選 */}
         <div className="mt-12">
           <TagFilter activeTag={activeTag} onSelect={setActiveTag} />
         </div>
 
-        {/* 文章列表 */}
         {filteredPosts.length > 0 ? (
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {filteredPosts.map((post) => (
@@ -123,7 +109,7 @@ export default function BlogPage() {
             ))}
           </div>
         ) : (
-          <div className="mt-20 text-center text-text-muted">
+          <div className="mt-24 text-center text-text-muted">
             {t("noResults")}
           </div>
         )}

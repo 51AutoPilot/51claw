@@ -12,7 +12,11 @@
     "description": "非英語市場最成功的 CC 教學，證明中文版的天花板很高",
     "descriptionEn": "Most successful non-English CC tutorial, proving high ceiling for localized content",
     "searchQuery": "@_guillecasaus Claude Code",
-    "tags": ["beginner", "video"]
+    "tags": [
+      "beginner",
+      "video"
+    ],
+    "url": "https://x.com/_guillecasaus"
   },
   {
     "id": "avthar-52-lessons",
@@ -27,7 +31,13 @@
     "description": "分 Beginner/Intermediate/Advanced 三層，跟我們網站結構完美對齊",
     "descriptionEn": "Split into Beginner/Intermediate/Advanced tiers, aligns perfectly with our site structure",
     "searchQuery": "@avthar 52 Lessons Claude Code",
-    "tags": ["beginner", "intermediate", "advanced", "video"]
+    "tags": [
+      "beginner",
+      "intermediate",
+      "advanced",
+      "video"
+    ],
+    "url": "https://x.com/avthar"
   },
   {
     "id": "bridgemindai-cancel-save",
@@ -42,7 +52,11 @@
     "description": "退訂/省錢教學 = 高點擊。成本控制方向的熱門教學",
     "descriptionEn": "Unsubscribe/cost-saving tutorial with high engagement. Popular cost-control content",
     "searchQuery": "@bridgemindai Claude Code unsubscribe",
-    "tags": ["cost-saving", "tips"]
+    "tags": [
+      "cost-saving",
+      "tips"
+    ],
+    "url": "https://x.com/bridgemindai"
   },
   {
     "id": "codewithimanshu-vibe-coding",
@@ -57,7 +71,11 @@
     "description": "5 個 AI 工具推薦帖，定位零經驗新手，跟我們 SOP 方向一致",
     "descriptionEn": "5 AI tools recommended for zero-experience beginners, aligns with our SOP approach",
     "searchQuery": "@codewithimanshu vibe coding",
-    "tags": ["beginner", "monetization"]
+    "tags": [
+      "beginner",
+      "monetization"
+    ],
+    "url": "https://x.com/codewithimanshu"
   },
   {
     "id": "petergyang-15min-intro",
@@ -72,7 +90,11 @@
     "description": "核心觀點：「好輸出的秘密在於設定（setup）」",
     "descriptionEn": "Core insight: 'The secret to good output is in the setup'",
     "searchQuery": "@petergyang Claude Code 15 minutes",
-    "tags": ["beginner", "quick-start"]
+    "tags": [
+      "beginner",
+      "quick-start"
+    ],
+    "url": "https://x.com/petergyang"
   },
   {
     "id": "boxmining-minimax-save",
@@ -87,7 +109,11 @@
     "description": "教用便宜模型跑 CC 的教學，省錢方向很受歡迎",
     "descriptionEn": "Tutorial on running CC with cheap models, cost-saving content is very popular",
     "searchQuery": "@boxmining Claude Code Minimax",
-    "tags": ["cost-saving", "models"]
+    "tags": [
+      "cost-saving",
+      "models"
+    ],
+    "url": "https://x.com/boxmining"
   },
   {
     "id": "vasuman-eyad-intermediate",
@@ -102,7 +128,10 @@
     "description": "「vibe-code like a pro」進階版，適合已入門的用戶",
     "descriptionEn": "'Vibe-code like a pro' advanced edition, for users past the basics",
     "searchQuery": "@vasuman @Eyad Claude Code intermediate",
-    "tags": ["intermediate"]
+    "tags": [
+      "intermediate"
+    ],
+    "url": "https://x.com/vasuman"
   },
   {
     "id": "arceyul-claude-cowork",
@@ -117,7 +146,11 @@
     "description": "包含 Claude Cowork 介紹，西語社群持續活躍",
     "descriptionEn": "Includes Claude Cowork intro, Spanish community stays active",
     "searchQuery": "@arceyul Claude Code tutorial",
-    "tags": ["beginner", "video"]
+    "tags": [
+      "beginner",
+      "video"
+    ],
+    "url": "https://x.com/arceyul"
   },
   {
     "id": "petergyang-20-tips",
@@ -132,7 +165,11 @@
     "description": "進階入門教學（接續 15 分鐘版本），教 20 個實用技巧",
     "descriptionEn": "Advanced beginner tutorial (follows 15-min version), 20 practical tips",
     "searchQuery": "@petergyang Claude Code 20 tips",
-    "tags": ["beginner", "tips"]
+    "tags": [
+      "beginner",
+      "tips"
+    ],
+    "url": "https://x.com/petergyang"
   },
   {
     "id": "alliekmiller-beginner-collection",
@@ -147,7 +184,11 @@
     "description": "官方教學 + 快速入門 + Cowork 教學整理",
     "descriptionEn": "Official tutorials + quick start + Cowork tutorial roundup",
     "searchQuery": "@alliekmiller Claude Code beginner",
-    "tags": ["beginner", "collection"]
+    "tags": [
+      "beginner",
+      "collection"
+    ],
+    "url": "https://x.com/alliekmiller"
   },
   {
     "id": "aisuperdomain-oc-cc",
@@ -162,6 +203,10 @@
     "description": "中文社群少見的實用教學，OC 當指揮官、CC 當工人",
     "descriptionEn": "Rare practical Chinese tutorial, OC as commander + CC as worker to cut token costs",
     "searchQuery": "@AISuperDomain OpenClaw Claude Code",
-    "tags": ["cost-saving", "advanced"]
+    "tags": [
+      "cost-saving",
+      "advanced"
+    ],
+    "url": "https://x.com/AISuperDomain"
   }
 ]

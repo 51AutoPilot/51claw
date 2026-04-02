@@ -54,35 +54,13 @@
             "en": "Install Claude Code"
           },
           "description": {
-            "zh": "三種安裝方式任選一種。新手建議用一鍵安裝。",
-            "en": "Choose one of three installation methods. One-click install is recommended for beginners."
+            "zh": "用 npm 一行指令安裝。",
+            "en": "Install with one npm command."
           },
-          "installMethods": {
-            "oneClick": {
-              "label": {
-                "zh": "一鍵安裝",
-                "en": "One-Click"
-              },
-              "code": "curl -fsSL https://raw.githubusercontent.com/anthropics/claude-code/main/install.sh | bash"
-            },
-            "npm": {
-              "label": {
-                "zh": "npm 安裝",
-                "en": "npm"
-              },
-              "code": "npm install -g @anthropic-ai/claude-code"
-            },
-            "docker": {
-              "label": {
-                "zh": "Docker",
-                "en": "Docker"
-              },
-              "code": "docker pull anthropic/claude-code\ndocker run -it anthropic/claude-code"
-            }
-          },
+          "code": "npm install -g @anthropic-ai/claude-code\n\n# 驗證安裝\nclaude --version",
           "note": {
-            "zh": "npm 方式遇到權限問題可用 sudo，或改用 nvm 避免權限問題。",
-            "en": "If npm gives permission errors, use sudo or switch to nvm to avoid permission issues."
+            "zh": "遇到權限問題可改用 nvm 安裝 Node.js，避免需要 sudo。",
+            "en": "If you get permission errors, install Node.js via nvm to avoid needing sudo."
           }
         },
         {
@@ -151,8 +129,8 @@
           },
           "code": "# 安裝單個 Skill\nclaude mcp add skill-name\n\n# 範例：安裝 Binance Skills Hub\nclaude mcp add binance-skills-hub",
           "note": {
-            "zh": "到 HunterKit 的 Skills 目錄（/skills）查看全部 152+ 可用的 Skills，有分類和搜尋。",
-            "en": "Visit HunterKit's Skills directory (/skills) to browse all 152+ available Skills with categories and search."
+            "zh": "到 HunterKit 的 Skills 目錄（/skills）查看全部 170+ 可用的 Skills，有分類和搜尋。",
+            "en": "Visit HunterKit's Skills directory (/skills) to browse all 170+ available Skills with categories and search."
           }
         },
         {
@@ -199,32 +177,10 @@
             "en": "Install Claude Code"
           },
           "description": {
-            "zh": "打開 PowerShell 或 Windows Terminal，三種方式任選。",
-            "en": "Open PowerShell or Windows Terminal, choose one of three methods."
+            "zh": "打開 PowerShell 或 Windows Terminal，用 npm 安裝。",
+            "en": "Open PowerShell or Windows Terminal and install via npm."
           },
-          "installMethods": {
-            "oneClick": {
-              "label": {
-                "zh": "一鍵安裝",
-                "en": "One-Click"
-              },
-              "code": "irm https://raw.githubusercontent.com/anthropics/claude-code/main/install.ps1 | iex"
-            },
-            "npm": {
-              "label": {
-                "zh": "npm 安裝",
-                "en": "npm"
-              },
-              "code": "npm install -g @anthropic-ai/claude-code"
-            },
-            "docker": {
-              "label": {
-                "zh": "Docker",
-                "en": "Docker"
-              },
-              "code": "docker pull anthropic/claude-code\ndocker run -it anthropic/claude-code"
-            }
-          },
+          "code": "npm install -g @anthropic-ai/claude-code\n\n# 驗證安裝\nclaude --version",
           "note": {
             "zh": "遇到權限問題，用系統管理員身分開啟終端機。",
             "en": "If you get permission errors, run the terminal as Administrator."
@@ -341,35 +297,13 @@
             "en": "Install Claude Code"
           },
           "description": {
-            "zh": "三種安裝方式，新手建議一鍵安裝。",
-            "en": "Three installation methods. One-click is recommended for beginners."
+            "zh": "用 npm 一行指令安裝。",
+            "en": "Install with one npm command."
           },
-          "installMethods": {
-            "oneClick": {
-              "label": {
-                "zh": "一鍵安裝",
-                "en": "One-Click"
-              },
-              "code": "curl -fsSL https://raw.githubusercontent.com/anthropics/claude-code/main/install.sh | bash"
-            },
-            "npm": {
-              "label": {
-                "zh": "npm 安裝",
-                "en": "npm"
-              },
-              "code": "npm install -g @anthropic-ai/claude-code"
-            },
-            "docker": {
-              "label": {
-                "zh": "Docker",
-                "en": "Docker"
-              },
-              "code": "docker pull anthropic/claude-code\ndocker run -it anthropic/claude-code"
-            }
-          },
+          "code": "npm install -g @anthropic-ai/claude-code\n\n# 驗證安裝\nclaude --version",
           "note": {
-            "zh": "遇到 EACCES 權限錯誤，不要用 sudo npm。改用 nvm 或修正 npm 權限。",
-            "en": "If you get EACCES errors, don't use sudo npm. Use nvm or fix npm permissions instead."
+            "zh": "遇到 EACCES 權限錯誤，不要用 sudo npm。改用 nvm 安裝 Node.js 避免權限問題。",
+            "en": "If you get EACCES errors, don't use sudo npm. Install Node.js via nvm to avoid permission issues."
           }
         },
         {

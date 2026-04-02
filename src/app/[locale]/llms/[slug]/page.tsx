@@ -34,7 +34,7 @@ export default function LlmDetailPage() {
 
         {/* Hero */}
         <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
-          <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl border border-card-border bg-card-bg text-4xl">
+          <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded border border-card-border bg-card-bg text-4xl">
             {model.icon}
           </div>
           <div className="flex-1 min-w-0">
@@ -42,7 +42,7 @@ export default function LlmDetailPage() {
               <h1 className="font-heading text-3xl font-bold text-foreground sm:text-4xl">
                 {model.name}
               </h1>
-              <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-text-muted">
+              <span className="rounded-full bg-white/5 px-3 py-1 text-xs font-medium text-text-muted">
                 {model.provider}
               </span>
             </div>
@@ -57,7 +57,7 @@ export default function LlmDetailPage() {
           {features.map((f) => (
             <span
               key={f}
-              className="rounded-lg bg-primary/10 px-3 py-1.5 text-sm font-medium text-primary-light"
+              className="rounded bg-primary/10 px-3 py-1.5 text-sm font-medium text-primary-light"
             >
               {f}
             </span>
@@ -66,7 +66,7 @@ export default function LlmDetailPage() {
 
         {/* Pricing + Context Info */}
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="rounded-xl border border-card-border bg-card-bg px-5 py-4">
+          <div className="rounded border border-card-border bg-card-bg px-5 py-4">
             <div className="text-xs font-medium uppercase tracking-wider text-text-muted">
               Input {t("pricing")}
             </div>
@@ -82,7 +82,7 @@ export default function LlmDetailPage() {
               )}
             </div>
           </div>
-          <div className="rounded-xl border border-card-border bg-card-bg px-5 py-4">
+          <div className="rounded border border-card-border bg-card-bg px-5 py-4">
             <div className="text-xs font-medium uppercase tracking-wider text-text-muted">
               Output {t("pricing")}
             </div>
@@ -98,7 +98,7 @@ export default function LlmDetailPage() {
               )}
             </div>
           </div>
-          <div className="rounded-xl border border-card-border bg-card-bg px-5 py-4">
+          <div className="rounded border border-card-border bg-card-bg px-5 py-4">
             <div className="text-xs font-medium uppercase tracking-wider text-text-muted">
               Context Window
             </div>
@@ -120,7 +120,7 @@ export default function LlmDetailPage() {
             {steps.map((step, i) => (
               <li
                 key={i}
-                className="flex gap-4 rounded-xl border border-card-border bg-card-bg px-5 py-4"
+                className="flex gap-4 rounded border border-card-border bg-card-bg px-5 py-4"
               >
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/20 text-sm font-bold text-primary-light">
                   {i + 1}

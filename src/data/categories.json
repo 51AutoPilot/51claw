@@ -6,7 +6,7 @@
     "icon": "🏦",
     "description": "Official exchange tools and wallet integrations",
     "descriptionZh": "官方交易所工具與錢包整合",
-    "count": 7
+    "count": 8
   },
   {
     "id": "news",
@@ -24,7 +24,7 @@
     "icon": "⛓️",
     "description": "DeFi protocols, wallets, and blockchain development",
     "descriptionZh": "DeFi 協議、錢包與區塊鏈開發",
-    "count": 15
+    "count": 16
   },
   {
     "id": "analytics",
@@ -60,7 +60,7 @@
     "icon": "🎨",
     "description": "Design systems, UI/UX frameworks, and React best practices",
     "descriptionZh": "設計系統、UI/UX 框架與 React 最佳實踐",
-    "count": 10
+    "count": 11
   },
   {
     "id": "devtools",
@@ -69,7 +69,7 @@
     "icon": "🔧",
     "description": "Slash commands, workflows, linters, and dev productivity",
     "descriptionZh": "斜線指令、工作流、Linter 與開發提速",
-    "count": 14
+    "count": 15
   },
   {
     "id": "multiagent",
@@ -78,7 +78,7 @@
     "icon": "🤖",
     "description": "Multi-agent coordination, orchestration, and frameworks",
     "descriptionZh": "多 Agent 協調、編排與框架",
-    "count": 13
+    "count": 15
   },
   {
     "id": "cloud",
@@ -105,7 +105,7 @@
     "icon": "🎬",
     "description": "Video, music, image generation, and TTS",
     "descriptionZh": "影片、音樂、圖片生成與語音合成",
-    "count": 9
+    "count": 10
   },
   {
     "id": "marketing",
@@ -123,6 +123,6 @@
     "icon": "💼",
     "description": "Office tools, communication, search, MCP servers, and utilities",
     "descriptionZh": "辦公工具、通訊、搜尋、MCP 與實用工具",
-    "count": 39
+    "count": 40
   }
 ]

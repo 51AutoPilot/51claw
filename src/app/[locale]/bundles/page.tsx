@@ -19,9 +19,9 @@ function BundleCard({ bundle }: { bundle: (typeof bundlesData)[number] }) {
     .filter(Boolean);
 
   return (
-    <div className="rounded-2xl border border-card-border bg-card-bg transition-all duration-300 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+    <div className="rounded border border-card-border bg-card-bg transition-all duration-300 hover:border-primary/20">
       {/* 頂部漸變光條 */}
-      <div className="h-1 rounded-t-2xl bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
+      <div className="h-1 rounded-t bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
 
       <div className="p-5 sm:p-8">
         {/* Icon + 標題 */}
@@ -104,7 +104,7 @@ export default function BundlesPage() {
       <div className="mx-auto max-w-5xl">
         {/* 標題 */}
         <div className="text-center">
-          <h1 className="text-gradient-claude font-heading text-4xl font-bold sm:text-5xl">
+          <h1 className="font-heading text-3xl font-bold text-foreground sm:text-4xl">
             {t("title")}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">

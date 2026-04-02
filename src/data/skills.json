@@ -535,7 +535,7 @@
     "icon": "📡",
     "url": "",
     "isFree": true,
-    "installCmd": "clawhub install opennews-mcp",
+    "installCmd": "claude mcp add opennews-mcp",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
@@ -1370,7 +1370,7 @@
     "icon": "🤖",
     "url": "https://github.com/Minara-AI/skills",
     "isFree": true,
-    "installCmd": "clawhub install minara",
+    "installCmd": "claude mcp add minara",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
@@ -1581,7 +1581,7 @@
     "icon": "🛡️",
     "url": "https://gopluslabs.io",
     "isFree": true,
-    "installCmd": "clawhub install agentguard",
+    "installCmd": "claude mcp add agentguard",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
@@ -1648,7 +1648,7 @@
     "icon": "🔒",
     "url": "https://slowmist.com",
     "isFree": true,
-    "installCmd": "clawhub install slowmist-agent-security",
+    "installCmd": "claude mcp add slowmist-agent-security",
     "installCount": null,
     "source": "官方",
     "isOfficial": false,
@@ -3772,8 +3772,8 @@
     "suitableFor": "軟體工程師、想要結構化 AI 開發流程的人",
     "suitableForEn": "Software engineers who want structured AI development workflows",
     "isEssential": false,
-    "stars": 122712,
-    "lastUpdated": "2026-03-29"
+    "stars": 129965,
+    "lastUpdated": "2026-04-01"
   },
   {
     "id": "claude-squad",
@@ -4195,8 +4195,8 @@
     "id": "find-skills",
     "name": "Find Skills",
     "nameZh": "技能探索",
-    "description": "ClawHub official skill discovery engine — auto search, evaluate, and recommend from 13K+ skills",
-    "descriptionZh": "ClawHub 官方 Skill 發現引擎，自動搜尋／評估／推薦 13K+ 技能",
+    "description": "社群市場 official skill discovery engine — auto search, evaluate, and recommend from 13K+ skills",
+    "descriptionZh": "社群市場 官方 Skill 發現引擎，自動搜尋／評估／推薦 13K+ 技能",
     "category": "productivity",
     "tags": [
       "discovery",
@@ -4213,11 +4213,11 @@
       "官方"
     ],
     "icon": "🔍",
-    "url": "https://clawhub.com/find-skills",
+    "url": "",
     "isFree": true,
-    "installCmd": "npx clawhub install find-skills",
+    "installCmd": "claude mcp add find-skills",
     "installCount": null,
-    "source": "ClawHub 官方",
+    "source": "社群",
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
@@ -4225,8 +4225,8 @@
       {
         "name": "Skill 搜尋",
         "nameEn": "Skill Search",
-        "desc": "按關鍵詞搜尋 ClawHub 市集和社群",
-        "descEn": "Search ClawHub marketplace and community by keywords"
+        "desc": "按關鍵詞搜尋 社群市場 市集和社群",
+        "descEn": "Search 社群市場 marketplace and community by keywords"
       },
       {
         "name": "智能推薦",
@@ -4247,7 +4247,7 @@
         "descEn": "Show install count, stars, update frequency metrics"
       }
     ],
-    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。",
+    "installNote": "需要 Node.js 18+。執行 claude mcp add 指令即可安裝。重啟 Claude Code 後生效。社群市場 生態 Skill。",
     "examples": [
       "我想查 BTC 的價格，有什麼 Skill 可以用？",
       "幫我找一個做影片的 Skill",
@@ -4272,8 +4272,8 @@
     "id": "self-improving-agent",
     "name": "Self-Improving Agent",
     "nameZh": "Self-Improving Agent",
-    "description": "Self-evolving engine — error logging → learning tracking → memory enhancement. Top-starred on ClawHub",
-    "descriptionZh": "自我進化引擎：錯誤記錄→學習追蹤→記憶提升，ClawHub 最高星數項目",
+    "description": "Self-evolving engine — error logging → learning tracking → memory enhancement. Top-starred on 社群市場",
+    "descriptionZh": "自我進化引擎：錯誤記錄→學習追蹤→記憶提升，社群市場 最高星數項目",
     "category": "devtools",
     "tags": [
       "self-improving",
@@ -4288,11 +4288,11 @@
       "Agent"
     ],
     "icon": "🧠",
-    "url": "https://clawhub.com/self-improving-agent",
+    "url": "",
     "isFree": true,
-    "installCmd": "npx clawhub install self-improving-agent",
+    "installCmd": "claude mcp add self-improving-agent",
     "installCount": null,
-    "source": "ClawHub 社群",
+    "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
@@ -4328,7 +4328,7 @@
         "descEn": "Agent capabilities improve autonomously over time"
       }
     ],
-    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。",
+    "installNote": "需要 Node.js 18+。執行 claude mcp add 指令即可安裝。重啟 Claude Code 後生效。社群市場 生態 Skill。",
     "examples": [
       "幫我用 Self-Improving Agent 自動偵測和記錄工作中的錯誤",
       "幫我用 Self-Improving Agent 把修正方式和教訓存入 .learnings/",
@@ -4367,11 +4367,11 @@
       "代碼搜尋"
     ],
     "icon": "🐙",
-    "url": "https://clawhub.com/github",
+    "url": "",
     "isFree": true,
-    "installCmd": "npx clawhub install github",
+    "installCmd": "claude mcp add github",
     "installCount": null,
-    "source": "ClawHub",
+    "source": "社群",
     "isOfficial": false,
     "verdict": "pass",
     "warning": null,
@@ -4401,7 +4401,7 @@
         "descEn": "Cross-repository code and file search"
       }
     ],
-    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。",
+    "installNote": "需要 Node.js 18+。執行 claude mcp add 指令即可安裝。重啟 Claude Code 後生效。社群市場 生態 Skill。",
     "examples": [
       "幫我用 GitHub 建立、搜尋、fork 倉庫",
       "幫我用 GitHub 建立、更新、查詢 Issue 和標籤",
@@ -4519,11 +4519,11 @@
       "網址"
     ],
     "icon": "📝",
-    "url": "https://clawhub.com/summarize",
+    "url": "",
     "isFree": true,
-    "installCmd": "npx clawhub install summarize",
+    "installCmd": "claude mcp add summarize",
     "installCount": null,
-    "source": "ClawHub 官方",
+    "source": "社群",
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
@@ -4547,7 +4547,7 @@
         "descEn": "Single command operation"
       }
     ],
-    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。",
+    "installNote": "需要 Node.js 18+。執行 claude mcp add 指令即可安裝。重啟 Claude Code 後生效。社群市場 生態 Skill。",
     "examples": [
       "幫我自動化這個工作流程",
       "搜尋相關的工具和資源",
@@ -9130,7 +9130,7 @@
     "icon": "🧾",
     "url": "https://veryfi.com",
     "isFree": true,
-    "installCmd": "npx clawhub install veryfi-ocr",
+    "installCmd": "claude mcp add veryfi-ocr",
     "installCount": null,
     "source": "Veryfi 官方",
     "isOfficial": true,
@@ -9156,7 +9156,7 @@
         "descEn": "Second-level processing"
       }
     ],
-    "installNote": "clawhub install veryfi-ocr",
+    "installNote": "claude mcp add veryfi-ocr",
     "examples": [
       "幫我自動化這個工作流程",
       "搜尋相關的工具和資源",
@@ -10562,11 +10562,11 @@
       "文件"
     ],
     "icon": "📧",
-    "url": "https://clawhub.com/gog",
+    "url": "",
     "isFree": true,
-    "installCmd": "npx clawhub install gog",
+    "installCmd": "claude mcp add gog",
     "installCount": null,
-    "source": "ClawHub 社群",
+    "source": "社群",
     "isOfficial": false,
     "verdict": "warn",
     "warning": "可讀取/傳送 Email 和存取 Google Drive，使用前請確認 OAuth 授權範圍",
@@ -10590,7 +10590,7 @@
         "descEn": "Office productivity boost"
       }
     ],
-    "installNote": "需要 Node.js 18+。執行 npx clawhub install 指令即可安裝。重啟 Claude Code 後生效。ClawHub 生態 Skill。",
+    "installNote": "需要 Node.js 18+。執行 claude mcp add 指令即可安裝。重啟 Claude Code 後生效。社群市場 生態 Skill。",
     "examples": [
       "幫我自動化這個工作流程",
       "搜尋相關的工具和資源",
@@ -10736,8 +10736,8 @@
     "suitableFor": "進階開發者、想讓 CC 並行工作的人",
     "suitableForEn": "Advanced developers who want Claude Code to work in parallel",
     "isEssential": false,
-    "stars": 15976,
-    "lastUpdated": "2026-03-29"
+    "stars": 20545,
+    "lastUpdated": "2026-04-01"
   },
   {
     "id": "last30days-skill",
@@ -10793,8 +10793,8 @@
     "suitableFor": "研究員、內容創作者、想快速掌握趨勢的人",
     "suitableForEn": "Researchers, content creators, and trend watchers",
     "isEssential": false,
-    "stars": 15214,
-    "lastUpdated": "2026-03-29"
+    "stars": 17230,
+    "lastUpdated": "2026-04-01"
   },
   {
     "id": "mailclaw",
@@ -10838,8 +10838,8 @@
       {
         "name": "AI Agent Skill",
         "nameEn": "AI Agent Skill",
-        "desc": "Claude Code / OpenClaw 可直接操作郵件",
-        "descEn": "Claude Code / OpenClaw can directly manage emails"
+        "desc": "Claude Code 可直接操作郵件",
+        "descEn": "Claude Code can directly manage emails"
       }
     ],
     "installNote": "需要自己的域名和 Cloudflare 帳號。完全自托管，隱私性高。",
@@ -11053,8 +11053,8 @@
     "suitableFor": "需要做簡報、文檔、架構圖的人",
     "suitableForEn": "Users who need presentations, documentation, and architecture diagrams",
     "isEssential": false,
-    "stars": 7036,
-    "lastUpdated": "2026-03-29"
+    "stars": 7109,
+    "lastUpdated": "2026-04-01"
   },
   {
     "id": "spec-kit",
@@ -11141,7 +11141,7 @@
     "isFree": true,
     "installCmd": "內建（不需額外安裝）",
     "installCount": null,
-    "source": "OpenClaw 官方",
+    "source": "社群",
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
@@ -11159,7 +11159,7 @@
         "descEn": "Auto capture web screenshots"
       }
     ],
-    "installNote": "OpenClaw 內建功能，不需額外安裝。",
+    "installNote": "Claude Code 內建功能，不需額外安裝。",
     "examples": [
       "打開 coinmarketcap.com 幫我查前 10 名的幣",
       "自動填寫這個表單",
@@ -11198,9 +11198,9 @@
     "icon": "📱",
     "url": "",
     "isFree": true,
-    "installCmd": "內建（openclaw init 時設定）",
+    "installCmd": "內建（claude 初始化 時設定）",
     "installCount": null,
-    "source": "OpenClaw 官方",
+    "source": "社群",
     "isOfficial": true,
     "verdict": "pass",
     "warning": null,
@@ -11218,7 +11218,7 @@
         "descEn": "Auto push notifications with Cron"
       }
     ],
-    "installNote": "OpenClaw 內建功能，openclaw init 時設定。",
+    "installNote": "Claude Code 內建功能，claude 初始化 時設定。",
     "examples": [
       "在 Telegram 裡直接跟 AI 對話",
       "設定一個 cron 每天早上 9 點推送新聞摘要到 TG",
@@ -11229,8 +11229,8 @@
       "Set up a cron to push daily news summary to TG at 9am",
       "Have AI notify me of BTC price changes via TG"
     ],
-    "suitableFor": "所有 OpenClaw 用戶 — 這是最基本的互動介面",
-    "suitableForEn": "All OpenClaw users — the most basic interaction interface",
+    "suitableFor": "所有 Claude Code 用戶 — 這是最基本的互動介面",
+    "suitableForEn": "All Claude Code users — the most basic interaction interface",
     "isEssential": false,
     "stars": null,
     "lastUpdated": null
@@ -11255,7 +11255,7 @@
     "icon": "🧬",
     "url": "",
     "isFree": true,
-    "installCmd": "clawhub install capability-evolver",
+    "installCmd": "claude mcp add capability-evolver",
     "installCount": null,
     "source": "社群",
     "isOfficial": false,
@@ -11275,7 +11275,7 @@
         "descEn": "User confirmation before applying changes"
       }
     ],
-    "installNote": "從 ClawHub 安裝。建議新手用 --review 模式。",
+    "installNote": "從 社群市場 安裝。建議新手用 --review 模式。",
     "examples": [
       "/evolve（一鍵執行自我進化）",
       "分析我最近的錯誤模式，找出改進方向",
@@ -11343,8 +11343,8 @@
       "Check BTC price every 2 hours, notify me if it drops more than 5%",
       "Generate a portfolio report every Monday"
     ],
-    "suitableFor": "所有人！Cron 是 OpenClaw 最強大的功能之一",
-    "suitableForEn": "Everyone! Cron is one of OpenClaw most powerful features",
+    "suitableFor": "所有人！Cron 是 Claude Code 最強大的功能之一",
+    "suitableForEn": "Everyone! Cron is one of Claude Code most powerful features",
     "isEssential": true,
     "stars": null,
     "lastUpdated": null
@@ -11528,18 +11528,18 @@
   },
   {
     "id": "openclaw-cc",
-    "name": "OpenClaw 調用 Claude Code",
-    "nameZh": "OpenClaw 調用 Claude Code",
-    "description": "Call Claude Code directly from OpenClaw — save 80% tokens by using OC as commander and CC as worker.",
-    "descriptionZh": "在 OpenClaw 裡直接叫 Claude Code 幹活，節省 80% Token。",
+    "name": "多模型 Token 省錢技巧",
+    "nameZh": "多模型 Token 省錢技巧",
+    "description": "Call Claude Code directly from Claude Code — save 80% tokens by using OC as commander and CC as worker.",
+    "descriptionZh": "在 Claude Code 裡直接叫 Claude Code 幹活，節省 80% Token。",
     "category": "multiagent",
     "tags": [
-      "openclaw",
+      "multi-model",
       "claude-code",
       "token-saving"
     ],
     "tagsZh": [
-      "OpenClaw",
+      "多模型",
       "Claude Code",
       "省錢"
     ],
@@ -11560,7 +11560,7 @@
         "descEn": "Use OC as commander, CC as worker — save 80% tokens"
       }
     ],
-    "installNote": "AISuperDomain 教學。需要同時安裝 OpenClaw 和 Claude Code。",
+    "installNote": "AISuperDomain 教學。需要同時安裝 Claude Code 和 Claude Code。",
     "examples": [
       "用 Claude Code 幫我重構這個文件",
       "叫 Claude Code 跑一下測試",
@@ -11576,5 +11576,491 @@
     "isEssential": false,
     "stars": null,
     "lastUpdated": null
+  },
+  {
+    "id": "weex-trader",
+    "name": "WEEX Trader Skill",
+    "nameZh": "WEEX 交易 Skill",
+    "description": "AI trading skill for WEEX exchange, compatible with Codex/Claude Code/Claude Code.",
+    "descriptionZh": "WEEX 官方 AI 交易 Skill，兼容 Codex / Claude Code / Claude Code。",
+    "category": "cex",
+    "tags": [
+      "trading"
+    ],
+    "tagsZh": [
+      "交易"
+    ],
+    "icon": "📈",
+    "url": "https://github.com/weex-labs/weex-trader-skill",
+    "isFree": true,
+    "installCmd": "npx skills add https://github.com/weex-labs/weex-trader-skill",
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": [
+      {
+        "name": "合約交易",
+        "nameEn": "Futures Trading",
+        "desc": "永續合約報價與交易",
+        "descEn": "Perpetual futures quotes and trading"
+      },
+      {
+        "name": "現貨交易",
+        "nameEn": "Spot Trading",
+        "desc": "現貨買賣操作",
+        "descEn": "Spot buy/sell operations"
+      },
+      {
+        "name": "持倉管理",
+        "nameEn": "Position Management",
+        "desc": "查看持倉和盈虧",
+        "descEn": "View positions and PnL"
+      }
+    ],
+    "installNote": "需要 WEEX 帳號與 API Key。",
+    "examples": [
+      "查看 BTC/USDT 永續合約的最新報價",
+      "幫我在 WEEX 上做多 ETH，倉位 100 USDT",
+      "查看我的 WEEX 持倉和盈虧"
+    ],
+    "examplesEn": [
+      "Check BTC/USDT perpetual contract latest price",
+      "Go long on ETH with 100 USDT on WEEX",
+      "View my WEEX positions and PnL"
+    ],
+    "suitableFor": "WEEX 用戶、想用 AI 自動交易的人",
+    "suitableForEn": "WEEX users who want AI-powered trading",
+    "isEssential": false,
+    "stars": 1,
+    "lastUpdated": "2026-03-27"
+  },
+  {
+    "id": "injective-agent",
+    "name": "Injective Agent Skills",
+    "nameZh": "Injective Agent Skills",
+    "description": "On-chain agentic skills for Injective — swap, trade, DeFi operations.",
+    "descriptionZh": "鏈上 agentic skills，支持 Injective 鏈上的 swap、交易、DeFi 操作。",
+    "category": "onchain",
+    "tags": [
+      "trading",
+      "defi"
+    ],
+    "tagsZh": [
+      "交易",
+      "DeFi"
+    ],
+    "icon": "💉",
+    "url": "",
+    "isFree": true,
+    "installCmd": "",
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": "GitHub link 待確認，透過 Injective 官方頁面接入。",
+    "features": [
+      {
+        "name": "Swap",
+        "nameEn": "Swap",
+        "desc": "在 Injective 上代幣兑換",
+        "descEn": "Token swap on Injective"
+      },
+      {
+        "name": "Staking",
+        "nameEn": "Staking",
+        "desc": "查詢 INJ staking APR",
+        "descEn": "Check INJ staking APR"
+      },
+      {
+        "name": "持倉查詢",
+        "nameEn": "Portfolio",
+        "desc": "查看鏈上持倉",
+        "descEn": "View on-chain positions"
+      }
+    ],
+    "installNote": "透過 Injective 官方 Skill 頁面接入（支持 Claude Code/Claude Code/Codex）。",
+    "examples": [
+      "在 Injective 上用 INJ 換 USDT",
+      "查看我的 Injective 鏈上持倉",
+      "查詢 INJ 目前的 staking APR"
+    ],
+    "examplesEn": [
+      "Swap INJ for USDT on Injective",
+      "View my Injective on-chain positions",
+      "Check current INJ staking APR"
+    ],
+    "suitableFor": "Injective 生態用戶",
+    "suitableForEn": "Injective ecosystem users",
+    "isEssential": false,
+    "stars": null,
+    "lastUpdated": "2026-03-28"
+  },
+  {
+    "id": "ai-website-cloner",
+    "name": "AI Website Cloner",
+    "nameZh": "AI 網站複製器",
+    "description": "Clone any website with one command — screenshot, extract design tokens, download assets, rebuild.",
+    "descriptionZh": "一句指令複製任何網站 — 截圖、提取設計 token、下載素材、重建。",
+    "category": "frontend",
+    "tags": [
+      "frontend",
+      "design"
+    ],
+    "tagsZh": [
+      "前端",
+      "設計"
+    ],
+    "icon": "🧬",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "isFree": true,
+    "installCmd": "npx skills add https://github.com/ai-website-cloner-template/ai-website-cloner",
+    "installCount": null,
+    "source": "社區",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": [
+      {
+        "name": "一鍵複製",
+        "nameEn": "One-click Clone",
+        "desc": "截圖 + 提取設計 + 重建",
+        "descEn": "Screenshot + extract design + rebuild"
+      },
+      {
+        "name": "設計提取",
+        "nameEn": "Design Extraction",
+        "desc": "自動提取顏色、字體、間距",
+        "descEn": "Auto-extract colors, fonts, spacing"
+      },
+      {
+        "name": "素材下載",
+        "nameEn": "Asset Download",
+        "desc": "下載圖片和圖標",
+        "descEn": "Download images and icons"
+      }
+    ],
+    "installNote": "",
+    "examples": [
+      "/clone-website https://stripe.com",
+      "複製這個網站的設計風格",
+      "幫我仿造一個跟這個 landing page 一樣的頁面"
+    ],
+    "examplesEn": [
+      "/clone-website https://stripe.com",
+      "Clone this website design style",
+      "Build a page that looks like this landing page"
+    ],
+    "suitableFor": "前端開發者、想快速複製網站設計的人",
+    "suitableForEn": "Frontend developers who want to quickly clone website designs",
+    "isEssential": false,
+    "stars": 6894,
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "id": "scrapling-skill",
+    "name": "Web Scraping Skill (scrapling)",
+    "nameZh": "Web Scraping Skill（scrapling）",
+    "description": "Web scraping inside Claude Code — auto fetcher selection, Cloudflare bypass, site patterns.",
+    "descriptionZh": "Claude Code 內建 web scraping — 抓取、解析、結構化網頁數據，支持 Cloudflare 繞過。",
+    "category": "devtools",
+    "tags": [
+      "scraping",
+      "data"
+    ],
+    "tagsZh": [
+      "爬蟲",
+      "數據"
+    ],
+    "icon": "🕷️",
+    "url": "https://github.com/Cedriccmh/claude-code-skill-scrapling",
+    "isFree": true,
+    "installCmd": "npx skills add https://github.com/Cedriccmh/claude-code-skill-scrapling",
+    "installCount": null,
+    "source": "社區",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": [
+      {
+        "name": "自動抓取",
+        "nameEn": "Auto Scraping",
+        "desc": "自動選擇最佳 Fetcher",
+        "descEn": "Auto-select best fetcher"
+      },
+      {
+        "name": "Cloudflare 繞過",
+        "nameEn": "Cloudflare Bypass",
+        "desc": "繞過 Cloudflare 保護",
+        "descEn": "Bypass Cloudflare protection"
+      },
+      {
+        "name": "結構化數據",
+        "nameEn": "Structured Data",
+        "desc": "解析網頁為結構化資料",
+        "descEn": "Parse web pages into structured data"
+      }
+    ],
+    "installNote": "",
+    "examples": [
+      "抓取這個網頁上所有的價格資訊",
+      "把這個產品列表頁的數據整理成表格",
+      "定期抓取這個頁面的更新"
+    ],
+    "examplesEn": [
+      "Scrape all pricing info from this webpage",
+      "Organize product listing data into a table",
+      "Periodically scrape updates from this page"
+    ],
+    "suitableFor": "需要爬蟲/數據採集的人",
+    "suitableForEn": "Users who need web scraping and data collection",
+    "isEssential": false,
+    "stars": 192,
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "id": "sync-lipsync",
+    "name": "sync. MCP Server",
+    "nameZh": "sync. 唇形同步 MCP",
+    "description": "AI lipsync video generation — create lipsynced videos, manage assets, track renders.",
+    "descriptionZh": "AI 唇形同步影片生成 — 生成 lipsynced videos、管理素材、追蹤 render。",
+    "category": "media",
+    "tags": [
+      "video",
+      "ai"
+    ],
+    "tagsZh": [
+      "影片",
+      "AI"
+    ],
+    "icon": "🎬",
+    "url": "https://github.com/synchronicity-labs/mcp-server",
+    "isFree": true,
+    "installCmd": "",
+    "installCount": null,
+    "source": "官方",
+    "isOfficial": true,
+    "verdict": "pass",
+    "warning": null,
+    "features": [
+      {
+        "name": "唇形同步",
+        "nameEn": "Lipsync",
+        "desc": "AI 生成唇形同步影片",
+        "descEn": "AI-generated lipsync videos"
+      },
+      {
+        "name": "素材管理",
+        "nameEn": "Asset Management",
+        "desc": "管理影片素材庫",
+        "descEn": "Manage video asset library"
+      },
+      {
+        "name": "Render 追蹤",
+        "nameEn": "Render Tracking",
+        "desc": "追蹤渲染進度",
+        "descEn": "Track render progress"
+      }
+    ],
+    "installNote": "MCP server 安裝，詳見 https://go.sync.so/MCP",
+    "examples": [
+      "用這段音檔生成一個唇形同步影片",
+      "管理我的 lipsync 素材庫",
+      "追蹤目前 render 的進度"
+    ],
+    "examplesEn": [
+      "Generate a lipsync video from this audio",
+      "Manage my lipsync asset library",
+      "Track current render progress"
+    ],
+    "suitableFor": "影片創作者、行銷團隊",
+    "suitableForEn": "Video creators, marketing teams",
+    "isEssential": false,
+    "stars": 1,
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "id": "wechat-autopublish",
+    "name": "WeChat AutoPublish Skill",
+    "nameZh": "公眾號全流程自動化 Skill（Ray Wang 版）",
+    "description": "Full WeChat article automation — trending topics, SEO writing, AI images, formatting, draft push.",
+    "descriptionZh": "全流程一句話搞定：熱點抓取、選題評分、框架生成、寫作、SEO 優化、AI 配圖、排版、推送草稿箱。",
+    "category": "productivity",
+    "tags": [
+      "content",
+      "automation"
+    ],
+    "tagsZh": [
+      "內容",
+      "自動化"
+    ],
+    "icon": "📱",
+    "url": "",
+    "isFree": true,
+    "installCmd": "",
+    "installCount": null,
+    "source": "社區",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": "GitHub link 待確認。",
+    "features": [
+      {
+        "name": "熱點抓取",
+        "nameEn": "Trending Topics",
+        "desc": "自動抓取熱門話題",
+        "descEn": "Auto-fetch trending topics"
+      },
+      {
+        "name": "SEO 寫作",
+        "nameEn": "SEO Writing",
+        "desc": "基於搜索數據優化文章",
+        "descEn": "Optimize articles based on search data"
+      },
+      {
+        "name": "去 AI 痕跡",
+        "nameEn": "De-AI Writing",
+        "desc": "去除 AI 生成感",
+        "descEn": "Remove AI-generated feel"
+      }
+    ],
+    "installNote": "開源，由 @wangray（Ray Wang）開發。中文生態單一 Skill 發布最高迴響（923❤ 225RT）。",
+    "examples": [
+      "幫我寫一篇今天加密市場熱點的公眾號文章",
+      "用去 AI 痕跡模式寫作，SEO 優先",
+      "自動生成配圖並排版"
+    ],
+    "examplesEn": [
+      "Write a WeChat article about today crypto market trends",
+      "Write in de-AI mode with SEO priority",
+      "Auto-generate images and format"
+    ],
+    "suitableFor": "公眾號運營者、內容創作者、自媒體",
+    "suitableForEn": "WeChat public account operators, content creators",
+    "isEssential": false,
+    "stars": null,
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "id": "weclaw",
+    "name": "WeClaw",
+    "nameZh": "WeClaw（微信多 Agent 災備）",
+    "description": "Connect multiple AI agents via WeChat ClawBot — switch between Claude Code, Claude Code, remote restart.",
+    "descriptionZh": "通過微信 ClawBot 連接多個 Agent（Claude Code、Claude Code 等），隨時切換，作為多重災備方案。",
+    "category": "multiagent",
+    "tags": [
+      "wechat",
+      "agent"
+    ],
+    "tagsZh": [
+      "微信",
+      "Agent"
+    ],
+    "icon": "💬",
+    "url": "https://github.com/fastclaw-ai/weclaw",
+    "isFree": true,
+    "installCmd": "",
+    "installCount": null,
+    "source": "社區",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": [
+      {
+        "name": "多 Agent 連接",
+        "nameEn": "Multi-Agent Connect",
+        "desc": "微信連接 CC、OC 等多個 Agent",
+        "descEn": "Connect CC, OC and other agents via WeChat"
+      },
+      {
+        "name": "遠程重啟",
+        "nameEn": "Remote Restart",
+        "desc": "微信遠程重啟 Claude Code",
+        "descEn": "Remote restart Claude Code via WeChat"
+      },
+      {
+        "name": "災備切換",
+        "nameEn": "Failover Switch",
+        "desc": "Agent 掛了可即時切換",
+        "descEn": "Instant switch when agent goes down"
+      }
+    ],
+    "installNote": "",
+    "examples": [
+      "（在微信 ClawBot 中）/cc 切到 Claude Code",
+      "幫我重啟 Claude Code",
+      "切回 Claude Code 主 session"
+    ],
+    "examplesEn": [
+      "(In WeChat ClawBot) /cc switch to Claude Code",
+      "Restart Claude Code for me",
+      "Switch back to main Claude Code session"
+    ],
+    "suitableFor": "微信重度用戶、需要遠程管理多 Agent 的人",
+    "suitableForEn": "WeChat power users who need remote multi-agent management",
+    "isEssential": false,
+    "stars": 1045,
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "id": "tmux-bridge-mcp",
+    "name": "tmux-bridge MCP",
+    "nameZh": "tmux-bridge MCP（跨 Agent 終端協作）",
+    "description": "Cross-pane AI agent communication via tmux — lets Claude Code, Codex, Gemini, Kimi CLI talk to each other.",
+    "descriptionZh": "讓 Claude Code、Codex、Gemini、Kimi 讀彼此的終端並通過 MCP 協調。",
+    "category": "multiagent",
+    "tags": [
+      "tmux",
+      "agent",
+      "mcp"
+    ],
+    "tagsZh": [
+      "tmux",
+      "Agent",
+      "MCP"
+    ],
+    "icon": "🔗",
+    "url": "https://github.com/howardpen9/tmux-bridge-mcp",
+    "isFree": true,
+    "installCmd": "npx tmux-bridge-mcp setup",
+    "installCount": null,
+    "source": "社區",
+    "isOfficial": false,
+    "verdict": "pass",
+    "warning": null,
+    "features": [
+      {
+        "name": "跨 Agent 通訊",
+        "nameEn": "Cross-Agent Communication",
+        "desc": "不同 AI 工具通過 tmux 溝通",
+        "descEn": "Different AI tools communicate via tmux"
+      },
+      {
+        "name": "終端讀取",
+        "nameEn": "Terminal Reading",
+        "desc": "讀取其他 agent 的終端輸出",
+        "descEn": "Read other agent terminal output"
+      },
+      {
+        "name": "MCP 標準",
+        "nameEn": "MCP Standard",
+        "desc": "標準 MCP 協議",
+        "descEn": "Standard MCP protocol"
+      }
+    ],
+    "installNote": "",
+    "examples": [
+      "讓 Codex 和 Claude Code 在不同 tmux 窗格協作",
+      "查看其他 agent 的終端輸出"
+    ],
+    "examplesEn": [
+      "Have Codex and Claude Code collaborate in different tmux panes",
+      "View other agent terminal output"
+    ],
+    "suitableFor": "多 agent 進階用戶、想讓不同 AI 工具協作的人",
+    "suitableForEn": "Advanced multi-agent users who want different AI tools to collaborate",
+    "isEssential": false,
+    "stars": 10,
+    "lastUpdated": "2026-03-30"
   }
 ]

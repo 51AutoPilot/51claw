@@ -1,10 +1,10 @@
 {
   "metadata": {
     "title": "HunterKit — AI Skills Hub",
-    "description": "Your one-stop guide to Claude Code + OpenClaw — 152+ AI Skills at your fingertips",
+    "description": "Your one-stop guide to Claude Code — 170+ AI Skills at your fingertips",
     "skills": {
       "title": "Skills Directory | HunterKit",
-      "description": "Explore 152+ curated AI Skills — CEX tools, on-chain ops, analytics, and security"
+      "description": "Explore 170+ curated AI Skills — CEX tools, on-chain ops, analytics, and security"
     },
     "install": {
       "title": "Installation Guide | HunterKit",
@@ -55,7 +55,8 @@
     "llms": "Model Hub",
     "models": "Rankings",
     "language": "Language",
-    "toggleMenu": "Toggle menu"
+    "toggleMenu": "Toggle menu",
+    "more": "More"
   },
   "footer": {
     "copyright": "2025-2026 HunterKit. All rights reserved.",
@@ -78,7 +79,8 @@
   },
   "home": {
     "heroTitle": "Your AI Skills Arsenal",
-    "heroSubtitle": "Claude Code + OpenClaw Guide ｜ 152+ AI Skills Directory ｜ LLM Model Guide",
+    "heroSubtitle": "Claude Code Guide ｜ 170+ AI Skills Directory ｜ LLM Model Guide",
+    "heroSubtitleTemplate": "Claude Code Guide ｜ {count}+ AI Skills Directory ｜ LLM Model Guide",
     "ctaInstall": "Get Started",
     "ctaSkills": "Browse Skills",
     "coreFeatures": {
@@ -104,7 +106,7 @@
       }
     },
     "featuredSkills": "Featured Skills Categories",
-    "viewAllSkills": "View All 152+ Skills",
+    "viewAllSkills": "View All 170+ Skills",
     "modelRanking": {
       "title": "🔥 Model Rankings",
       "source": "Real-time data from OpenRouter",
@@ -132,7 +134,7 @@
     "subtitle": "Three steps to set up your AI Skills environment from scratch",
     "systemReq": {
       "title": "System Requirements",
-      "nodeVersion": "Node.js 18+",
+      "nodeVersion": "Node.js 20+",
       "claudeDesktop": "Claude Desktop (latest)",
       "os": "macOS / Windows / Linux"
     },
@@ -262,7 +264,12 @@
       "review": "Review",
       "update": "Update",
       "tips": "Tips",
-      "deepDive": "Deep Dive"
+      "deepDive": "Deep Dive",
+      "claude-code": "Claude Code",
+      "beginner": "Beginner",
+      "prompt-engineering": "Prompt Engineering",
+      "ai-workflow": "AI Workflow",
+      "mcp": "MCP"
     },
     "readTime": "min read",
     "noResults": "No articles match your criteria",
@@ -473,7 +480,7 @@
       "title": "Install 3 Essential Skills",
       "subtitle": "An AI without Skills is just a chatbot. Install Skills and it goes from \"chatbot\" to \"actual assistant.\" Install 3 today, tomorrow you'll want 30.",
       "step1Title": "GoPlus AgentGuard — Protect Yourself First",
-      "step1Desc": "13.4% of Skills on ClawHub have security issues. Before installing anything else, get your defenses up. Environment audit + malicious Skill blocking + runtime monitoring.",
+      "step1Desc": "13.4% of community Skills have security issues. Before installing anything else, get your defenses up. Environment audit + malicious Skill blocking + runtime monitoring.",
       "step2Title": "find-skills — The Skill Finder",
       "step2Desc": "418.6K installs — one of the most popular Skills. When you don't know what Skill to use, just ask it. No need to memorize hundreds of names.",
       "step3Title": "Pick One You Need",
@@ -483,11 +490,11 @@
       "troubleshoot": "Troubleshooting",
       "troubleshootItems": {
         "q1": "npx command errors?",
-        "a1": "Make sure Node.js 18+ is installed. Check with: node -v",
+        "a1": "Make sure Node.js 20+ is installed. Check with: node -v",
         "q2": "Skill installed but nothing happens?",
         "a2": "You need to restart Claude Code to load new Skills.",
         "q3": "How to find more Skills?",
-        "a3": "Three channels: HunterKit Skills Directory (152+ curated), find-skills (just ask it), ClawHub (largest marketplace — always scan with AgentGuard first)."
+        "a3": "Two channels: HunterKit Skills Directory (170+ curated), find-skills (just ask it — searches the community marketplace, always scan with AgentGuard first)."
       }
     },
     "day3": {

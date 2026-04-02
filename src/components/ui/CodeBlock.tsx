@@ -25,7 +25,7 @@ export default function CodeBlock({
 
   return (
     <div
-      className={`group relative overflow-hidden rounded-xl border border-card-border bg-[#0d0d14] ${className}`}
+      className={`group relative overflow-hidden rounded-lg border border-card-border bg-[#0d0d14] ${className}`}
     >
       {/* Header bar */}
       <div className="flex items-center justify-between border-b border-card-border px-4 py-2">
